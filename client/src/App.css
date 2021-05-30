@@ -1,0 +1,386 @@
+@font-face {
+  font-family: Nunito;
+  src: url(./font/Nunito-Light.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(131, 131, 131);
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(48, 48, 48);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(32, 32, 32);
+}
+
+h1 {
+  font-weight: bolder;
+}
+/* .font-weight-bold{
+    font-family: 'Nunito', sans-serif;
+  } */
+input[type="email"] {
+  border-radius: 50px;
+  height: 45px;
+}
+.A {
+  margin-left: -105px;
+  font-weight: 800;
+}
+.btn {
+  border-radius: 50px;
+  height: 45px;
+  padding-top: 10px;
+  box-shadow: 1px 1px 1px 1px #c0bebe;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #e43c5c;
+}
+.btn:hover {
+  background-color: #e61e43;
+  color: white;
+}
+.border-danger {
+  background-color: white;
+  border-width: 1.7px 1.7px 1.7px 1.7px;
+}
+.navbar {
+  height: 80px;
+  position: sticky;
+  display: flex;
+  top: 0;
+  z-index: 999;
+}
+.navbar.active {
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+  position: fixed;
+  width: 100%;
+}
+/* #head {
+  transition: all 0.5s;
+  z-index: 999;
+  padding: 20px 0;
+} */
+#hero {
+  /* background-image: url("./images/car.gif"); */
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  position: relative;
+  width: 100%;
+  z-index: -1;
+  height: 100vh;
+}
+.all {
+  background: rgba(0, 0, 0, 0.6);
+  /* z-index: -999; */
+}
+.back {
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  /* z-index: -999; */
+}
+#hero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: -15;
+  left: 0;
+  right: 0;
+}
+.B.active {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* @media (min-width: 100px) {
+  #hero{
+background-attachment: fixed;
+  }
+} */
+.navbar-brand {
+  font-size: 40px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+  color: #cfcedb;
+}
+
+.menu_active {
+  border-bottom: 2px solid #e43c5c;
+}
+
+.hello {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: #e43c5c;
+  line-height: 40px;
+  color: black;
+  transition: transform 0.7s ease-in-out;
+}
+.hello:hover {
+  background-color: #e61e43;
+  transform: rotate(360deg);
+}
+.hello1 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: rgb(252, 221, 226);
+  line-height: 48px;
+  color: #e43c5c;
+  cursor: pointer;
+}
+.hello1:hover {
+  background-color: #e61e43;
+  color: white;
+}
+
+/* .menu_active1{
+  background: #e43c5c;
+  color: #e43c5c;
+} */
+.nav-link:hover {
+  border-bottom: 2px solid #e61e43;
+  /* transition: all 0.2s ease-in-out 0s; */
+}
+.text-warning:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+li {
+  color: #333333;
+}
+li:hover {
+  cursor: pointer;
+  color: #e61e43;
+}
+.hey {
+  min-width: 400px;
+}
+.down {
+  background-color: #dfdede;
+  padding-bottom: 65px;
+  /* height: 10vh; */
+  height: auto;
+}
+.tag {
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+  background-color: rgb(252, 221, 226);
+  color: #e43c5c;
+  font-weight: bolder;
+  font-size: 17px;
+}
+.fshadow {
+  box-shadow: 0px 0px 5px 5px gainsboro;
+}
+.close {
+  cursor: pointer;
+}
+
+.C {
+  --bs-gutter-x: 0rem;
+  border-radius: 2px;
+}
+.D {
+  margin-top: 140px;
+  padding-left: 15px;
+}
+.E {
+  margin-top: 62px;
+  padding-left: 15px;
+}
+.smallcard {
+  /* box-shadow: 2px 0 35px 0 rgb(68 88 144 / 12%);
+  border: none;
+  border-radius: none; */
+  font-size: 15px;
+}
+.smallcard:hover {
+  color: #e61e43;
+}
+
+.cardhover {
+  /* padding: 60px 30px; */
+  /* position: relative;
+  overflow: hidden;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+  text-align: center; */
+  z-index: 1;
+  /* box-shadow: 2px 0 35px 0 rgb(68 88 144 / 12%); */
+  
+  border-radius: 8px;
+  border: none;
+}
+
+.cardhover::before {
+  content: "";
+  position: absolute;
+  background: #fdeff2;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 100%;
+  transition: all 0.4s;
+  z-index: -1;
+  color: white;
+}
+.cardhover:hover {
+  color: white;
+}
+.cardhover:hover::before {
+  background: #e43c5c;
+  top: 0;
+}
+.col-auto {
+  margin-top: -10px;
+}
+.line {
+  font-size: 12px;
+}
+.map {
+  height: 400px;
+}
+.carscard img {
+  position: relative;
+  top: 0;
+  transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.carscard:hover img {
+  top: -30px;
+}
+.carscard {
+  margin-bottom: 30px;
+  overflow: hidden;
+  border: none;
+  color: black;
+}
+.fa-arrow-circle-right {
+  font-size: 60px;
+  font-weight: 400;
+}
+.arrow2 {
+  opacity: 0;
+  position: absolute;
+  left: 2%;
+  right: 2%;
+  top: 2%;
+  bottom: 24%;
+  transition: all ease-in-out 0.3s;
+  background: rgba(0, 0, 0, 0.6);
+}
+.effects:hover .arrow2{
+  opacity: 1;
+}
+.effects{
+  box-shadow:  0 -19px 19px 2px rgba(0,0,0,0.1)!important;
+}
+.arrow {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all ease-in-out 0.3s;
+  background: rgba(0, 0, 0, 0.6);
+}
+.carscard:hover .arrow {
+  opacity: 1;
+}
+
+.details {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -50px;
+  /* z-index: 3; */
+  transition: all ease-in-out 0.3s;
+  background: #e43c5c;
+  padding: 12px 20px;
+}
+.carscard:hover .details {
+  opacity: 1;
+  bottom: 0;
+  color: white;
+}
+.carsection li {
+  cursor: pointer;
+  display: inline-block;
+  transition: all ease-in-out 0.3s;
+  background: #ede9e9;
+  border-radius: 50px;
+}
+.carsection li:hover,
+.carsection li.filter-active {
+  color: #fff;
+  background: #e43c5c;
+}
+ul {
+  padding-left: 0px;
+}
+
+/* -----------card-open------------- */
+.popup {
+  height: 300px;
+}
+.modal-fullscreen {
+  height: fit-content;
+}
+/* .interior{
+  height: 550px;
+}
+.color{
+  height: 550px;
+} */
+.imgH {
+  height: 600px;
+}
+.rate {
+  padding-top: -2px;
+}
+.ratethiscar {
+  background-color: rgb(202, 198, 198);
+  color: black;
+}
+.slick-prev:before,
+.slick-next:before {
+  content: "<";
+  background-color: black;
+  padding-top: 4px;
+  padding-bottom: -1px;
+  /* padding-left: 0px; */
+  padding-right: 1px;
+  border-radius: 50px;
+}
+.slick-prev:before {
+  margin-right: 60px;
+}
+.sliderRate {
+  margin-top: -11px;
+}
+.fasize{
+  font-size: 60px;
+}
+.facar{
+  font-size: 50px;
+}
+/* .facar{
+  font-size: 50px;
+} */
+
