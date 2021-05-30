@@ -5,9 +5,9 @@ const bcrypt = require("bcrypt");
 require("./model/conn");
 const User = require("./model/userSchema");
 
-// router.get("/", (req, res) => {
-//   res.send("hello");
-// });
+router.get("/", (req, res) => {
+  res.send("hello");
+});
 // import home from "../src/Home"
 router.post("/SignUp", async (req, res) => {
   const { fname, lname, email, phone, password, cpassword } = req.body;
