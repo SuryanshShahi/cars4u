@@ -96,7 +96,7 @@ function Navbar() {
     } else {
       window.alert("Signin Successful");
       console.log("Signin Successful");
-      history.push("modal");
+      history.push("/");
       
     }
   };
