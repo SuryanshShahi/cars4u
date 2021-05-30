@@ -384,3 +384,41 @@ ul {
   font-size: 50px;
 } */
 
+.tagline{
+  position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 15px;
+}
+.tagline h1{
+  font-size: 48px;
+}
+.hero-container h1{
+  padding: 10px 30px;
+  font-size: 26px;
+  margin-bottom: 30px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.tagline a{
+  border-width: 2px;
+  /* line-height: 1; */
+  background-color: transparent;
+  border-color: white;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 8px 30px 9px 30px;
+  transition: 0.5s;
+}
+.tagline a:hover{
+  background-color: #e43c5c;
+  font-weight: 400;
+  border-color: #e43c5c;
+}

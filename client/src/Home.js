@@ -60,7 +60,7 @@ function Home() {
     autoplaySpeed: 0,
   };
   return (
-    <section id="header" className="pb-5 bg-white">
+    <section id="cars4u" className="pb-5 bg-white">
       <div className="container py-5">
         <h1 className="text-center">
           <strong className="tag px-4 py-1">CARS4U</strong>

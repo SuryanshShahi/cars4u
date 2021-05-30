@@ -97,7 +97,6 @@ function Navbar() {
       window.alert("Signin Successful");
       console.log("Signin Successful");
       history.push("/");
-      
     }
   };
 
@@ -138,8 +137,8 @@ function Navbar() {
                 }
               >
                 <li className="nav-item text-decoration-none px-3 py-2">
-                  <NavLink 
-                  method="GET"
+                  <NavLink
+                    method="GET"
                     activeClassName="menu_active"
                     exact
                     className="nav-link active"
@@ -160,7 +159,6 @@ function Navbar() {
                 </li>
                 <li className="nav-item text-decoration-none px-3 py-2">
                   <NavLink
-                  
                     activeClassName="menu_active"
                     className="nav-link text-white"
                     to="/about"
@@ -175,6 +173,15 @@ function Navbar() {
                     to="/contact"
                   >
                     Contact
+                  </NavLink>
+                </li>
+                <li className="nav-item text-decoration-none px-3 py-2">
+                  <NavLink
+                    activeClassName="menu_active"
+                    className="nav-link text-white"
+                    to="/contact"
+                  >
+                    Compare Cars
                   </NavLink>
                 </li>
 
@@ -417,7 +424,18 @@ function Navbar() {
           <video autoPlay loop muted className="w-100 back">
             <source src={car} className="hero" />
           </video>
-          <div class="hero-container position-absolute"></div>
+        </div>
+        <div className="tagline">
+          <div class="hero-container">
+            <h1 className="text-white">Welcome To CARS4U</h1>
+          </div>
+          <h1 className="text-white font-weight-bolder">
+            WE DELIVER WHAT WE PROMISE
+          </h1>
+          <h4 className="text-white pt-1">
+            Think smart, feel positive, and drive extraordinary.
+          </h4>
+          <a href="#cars4u" className="btn shadow-none text-white mt-5">TAKE A RIDE</a>
         </div>
       </div>
     </section>
@@ -425,3 +443,5 @@ function Navbar() {
 }
 
 export default Navbar;
+
+// <h1 className="text-white">Ask before you borrow it.</h1>
