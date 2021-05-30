@@ -2,13 +2,13 @@ const express = require("express");
 const router = express.Router();
 const bcrypt = require("bcrypt");
 
-require("./model/conn");
+require("./db/conn");
 const User = require("./model/userSchema");
 
 router.get("/", (req, res) => {
   res.send("hello");
 });
-// import home from "../src/Home"
+
 router.post("/SignUp", async (req, res) => {
   const { fname, lname, email, phone, password, cpassword } = req.body;
   if (!fname || !lname || !email || !phone || !password || !cpassword) {
