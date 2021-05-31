@@ -68,7 +68,7 @@ function Home() {
         <h2 className="text-center font-weight-bold py-4">
           Recommended Cars For You
         </h2>
-        <div className="container bg-secondary card shadow border-0">
+        <div className="container bg-secondary card shadow border-0 bg-white">
           <Slider {...settings}>
             {slide.map((elem) => {
               const { id, name, image, description, price, rate } = elem;
