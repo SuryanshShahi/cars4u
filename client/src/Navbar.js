@@ -9,7 +9,7 @@ function Navbar() {
   const [B, setHeader] = useState(false);
 
   const changeBackground = () => {
-    if (window.scrollY >= 750) {
+    if (window.scrollY >= 150) {
       setNavbar(true);
       setHeader(true);
     } else {
@@ -179,7 +179,7 @@ function Navbar() {
                   <NavLink
                     activeClassName="menu_active"
                     className="nav-link text-white"
-                    to="/contact"
+                    to="/compare"
                   >
                     Compare Cars
                   </NavLink>
@@ -435,7 +435,9 @@ function Navbar() {
           <h4 className="text-white pt-1">
             Think smart, feel positive, and drive extraordinary.
           </h4>
-          <a href="#cars4u" className="btn shadow-none text-white mt-5">TAKE A RIDE</a>
+          
+          <a href="/#cars4u" className="btn shadow-none text-white mt-5">TAKE A RIDE</a>
+          
         </div>
       </div>
     </section>

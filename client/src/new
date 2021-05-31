@@ -1,0 +1,86 @@
+
+                    <div className="col-6">
+                      <div className="card">
+                        <div className="row">
+                          <div className="col-lg-6 col-md-4 col-sm-6 col-12 pb-4">
+                            <NavLink
+                              to="/"
+                              className="card text-center  carscard text-decoration-none"
+                              data-target="#mymodal3"
+                              data-toggle="modal"
+                              onClick={() => filterImg(id)}
+                            >
+                              <img
+                                src={image}
+                                alt="menuPic"
+                                className="img-fluid"
+                              />
+                              <div className="arrow py-5">
+                                <div className="fa fa-arrow-circle-right text-white px-auto py-5"></div>
+                              </div>
+                              <div className="details">
+                                <div className="row">
+                                  <h6 className="pt-2">Rating:</h6>
+                                  <div className="col-12 d-flex justify-content-center">
+                                    <StarsRating
+                                      count={5}
+                                      // onChange={ratingChanged}
+                                      size={26}
+                                      value={rate}
+                                      edit={false}
+                                      color2={"#ffd700"}
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <div className="">
+                                <h5 className="font-weight-bolder mt-2 text-dark">
+                                  {name}
+                                </h5>
+                                <h6>{price}</h6>
+                              </div>
+                            </NavLink>
+                          </div>
+                          <div className="col-lg-6 col-md-4 col-sm-6 col-12 pb-4">
+                            <NavLink
+                              to="/"
+                              className="card text-center  carscard text-decoration-none"
+                              data-target="#mymodal3"
+                              data-toggle="modal"
+                              onClick={() => filterImg(id)}
+                            >
+                              <img
+                                src={image}
+                                alt="menuPic"
+                                className="img-fluid"
+                              />
+                              <div className="arrow py-5">
+                                <div className="fa fa-arrow-circle-right text-white px-auto py-5"></div>
+                              </div>
+                              <div className="details">
+                                <div className="row">
+                                  <h6 className="pt-2">Rating:</h6>
+                                  <div className="col-12 d-flex justify-content-center">
+                                    <StarsRating
+                                      count={5}
+                                      // onChange={ratingChanged}
+                                      size={26}
+                                      value={rate}
+                                      edit={false}
+                                      color2={"#ffd700"}
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <div className="">
+                                <h5 className="font-weight-bolder mt-2 text-dark">
+                                  {name}
+                                </h5>
+                                <h6>{price}</h6>
+                              </div>
+                            </NavLink>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>

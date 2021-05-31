@@ -11,6 +11,7 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import "./App.css";
 import Footer from "./Footer";
 import ClipLoader from "react-spinners/ClipLoader";
+import Compare from "./Compare";
 
 
 const App = () => {
@@ -36,6 +37,7 @@ const App = () => {
               <Route exact path="/about" component={About} />
               <Route exact path="/service" component={Service} />
               <Route exact path="/contact" component={Contact} />
+              <Route exact path="/compare" component={Compare} />
 
               <Redirect to="/" />
             </Switch>

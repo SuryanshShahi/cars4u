@@ -68,7 +68,8 @@ function Home() {
         <h2 className="text-center font-weight-bold py-4">
           Recommended Cars For You
         </h2>
-        <div className="container bg-secondary card shadow border-0 bg-white">
+        <div className="container bg-secondary card shadow border-0">
+        <div className="container bg-white">
           <Slider {...settings}>
             {slide.map((elem) => {
               const { id, name, image, description, price, rate } = elem;
@@ -81,7 +82,7 @@ function Home() {
                   onClick={() => filterImg(id)}
                 >
                   <div className="card px-2 py-2 border-0 shadow rounded-0 effects">
-                    <img src={image} alt="menupic1" className="img-fluid " />
+                    <img src={image} alt="menupic1" className="img-fluid" />
                     <div className="arrow2 py-5 justify-content-center d-flex">
                       <div className="fa fa-arrow-circle-right text-white py-5"></div>
                     </div>
@@ -113,6 +114,7 @@ function Home() {
               );
             })}
           </Slider>
+        </div>
         </div>
       </div>
 
@@ -180,7 +182,7 @@ function Home() {
                   onClick={() => filterImg(id)}
                 >
                   <img src={image} alt="menuPic" className="img-fluid" />
-                  <div className="arrow py-5">
+                  <div className="arrow py-lg-5">
                     <div className="fa fa-arrow-circle-right text-white px-auto py-5"></div>
                   </div>
                   <div className="details">
@@ -639,6 +641,7 @@ function Home() {
       <div className="container py-5 ">
         <h2 className="text-center font-weight-bold py-4">Popular Brands</h2>
         <div className="container card border-0 shadow bg-secondary">
+        <div className="container bg-white">
           <Slider {...setting}>
             {logo.map((elem) => {
               const { image2, logoname } = elem;
@@ -660,6 +663,7 @@ function Home() {
               );
             })}
           </Slider>
+        </div>
         </div>
       </div>
 
