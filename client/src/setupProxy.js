@@ -8,8 +8,6 @@ module.exports = function (app) {
       changeOrigin: true,
     })
   );
-};
-module.exports = function (app) {
   app.use(
     "/SignIn",
     createProxyMiddleware({
@@ -18,5 +16,13 @@ module.exports = function (app) {
     })
   );
 };
+// module.exports = function (app) {
+//   app.use(
+//     "/SignIn",
+//     createProxyMiddleware({
+//       target: "http://localhost:5000",
+//       changeOrigin: true,
+//     })
+//   );
+// };
 
-// hello
