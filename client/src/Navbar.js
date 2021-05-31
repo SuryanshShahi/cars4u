@@ -90,12 +90,12 @@ function Navbar() {
     });
 
     const data = res.json();
-    if (res.status === 400 || !data) {
-      window.alert("Invalid Credentials");
-      console.log("Invalid Credentials");
-    } else {
+    if (res.status === 201) {
       window.alert("Signin Successful");
       console.log("Signin Successful");
+    } else {
+      window.alert("Invalid Credentials");
+      console.log("Invalid Credentials");
       history.push("/");
     }
   };
