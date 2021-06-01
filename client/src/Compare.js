@@ -8,17 +8,16 @@ function CompareCars() {
   window.scroll(0, 770);
   window.onload = Compare;
 
-  const [img, setImage] = useState(Compare);
+  const [Compares, setCompare] = useState(Compare);
   const filterImg = (id) => {
     const updatedImg = Compare.filter((curElem) => {
       if (curElem.id == id) {
         return curElem.id;
       }
     });
-    setImage(updatedImg);
+    setCompare(updatedImg);
   };
 
-  
   const ratingChanged = (newRating) => {
     console.log(newRating);
   };
@@ -45,7 +44,7 @@ function CompareCars() {
 
           <div className="menu-items card border-0 shadow px-4 py-4 mt-4">
             <div className="row">
-              {img.map((elem) => {
+              {Compare.map((elem) => {
                 const { id, name, image, image1, description, price, rate } =
                   elem;
                 return (
@@ -140,235 +139,196 @@ function CompareCars() {
           </div>
         </div>
       </div>
-    
-    
-
-
 
       <div className="modal fade " id="mymodal4">
-      <div className="modal-dialog modal-fullscreen">
-        <div className="modal-content bg-white">
-          {Compare.map((elem) => {
-            const {
-              id,
-              name,
-              name1,
-              image,
-              image1,
-              heading,
-              description,
-              price,
-              link,
-              exterior,
-              interior,
-              interior1,
-              interior2,
-              interior3,
-              interior4,
-              color1,
-              color2,
-              color3,
-              specification,
-              Engine,
-              specification2,
-              seat,
-              feature,
-              feature2,
-              BHP,
-              topFeatures,
-              rate,
-            } = elem;
+        <div className="modal-dialog modal-fullscreen">
+          <div className="modal-content modalcompare">
+            {Compares.map((elem) => {
+              const {
+                id,
+                name,
+                name1,
+                price,
+                price1,
+                image,
+                image1,
+                description,
+                fuel,
+                specification,
+                Engine,
+                suspension,
+                dimension,
+                comfort,
+                interior,
+                exterior,
+                safety,
+                entertainment,
+                warranty,
+              } = elem;
 
-            return (
-              <div className="">
-                <div className="modal-header">
-                  <h1>
-                    CARS
-                    <span className="text-danger font-weight-bolder">4U</span>
-                  </h1>
-                  <div className="close pr-5 pt-4" data-dismiss="modal">
-                    &times;
-                  </div>
-                </div>
-                <h4 className="text-center my-4 font-weight-bold">
-                  Welcome to{" "}
-                  <span className="text-danger font-weight-bold">CARS4U</span>
-                </h4>
-                <div className="container-fluid ">
-                  <div className="card border-0 shadow px-5 my-4">
-                    
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                 
-                  </div>
-                  </div>
-                  <div className="container-fluid">
-                  <div className="card border-0 shadow px-5 my-5 py-4">
-                    
-                    <h2 className="font-weight-bold">{name} Vs {name1}</h2>
-                    <h5>{description}</h5>
-                 
-                  </div>
-                </div>
-                <div className="container-fluid">
-                  <div className="row">
-                    <div className="col-lg-12 col-md-12 col-12 pb-4">
-                      <div className="card border-0 shadow py-4 px-4">
-                      <h4 className="font-weight-bold px-4">Basic Information</h4>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                      </div>
-                      <div className="card border-0 shadow py-4 my-4 px-4">
-                      <h4 className="font-weight-bold px-4">Engine and Transmission</h4>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                      </div>
-                      <div className="card border-0 shadow py-4 my-4 px-4">
-                      <h4 className="font-weight-bold px-4">Fuel & Performance</h4>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                      </div>
-                      <div className="card border-0 shadow py-4 my-4 px-4">
-                      <h4 className="font-weight-bold px-4">Suspension, Steering & Brakes</h4>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                      </div>
-                      <div className="card border-0 shadow py-4 my-4 px-4">
-                      <h4 className="font-weight-bold px-4">Dimensions & Capacity</h4>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                      </div>
-                      <div className="card border-0 shadow py-4 my-4 px-4">
-                      <h4 className="font-weight-bold px-4">Comfort & Convenience</h4>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                      </div>
-                      <div className="card border-0 shadow py-4 my-4 px-4">
-                      <h4 className="font-weight-bold px-4"> Interior</h4>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                      </div>
-                      <div className="card border-0 shadow py-4 my-4 px-4">
-                      <h4 className="font-weight-bold px-4"> Exterior</h4>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                      </div>
-                      <div className="card border-0 shadow py-4 my-4 px-4">
-                      <h4 className="font-weight-bold px-4"> Safety</h4>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                      </div>
-                      <div className="card border-0 shadow py-4 my-4 px-4">
-                      <h4 className="font-weight-bold px-4"> Entertainment & Communication</h4>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                      </div>
-                      <div className="card border-0 shadow py-4 my-4 px-4">
-                      <h4 className="font-weight-bold px-4">Warranty</h4>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                      </div>
-                    </div>
-               
-                    
-                      <div className="card border-0 shadow py-4 my-4 mx-3 px-4">
-                      <h3 className="font-weight-bold px-4">Pros and Cons</h3>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                      </div>
-                      </div>
-              
-
+              return (
+                <div className="">
+                  <div className="modal-header">
+                    <h1>
+                      CARS
+                      <span className="text-danger font-weight-bolder">4U</span>
+                    </h1>
+                    <div className="close pr-5 pt-4" data-dismiss="modal">
+                      &times;
                     </div>
                   </div>
-                
-            );
-          })}
+                  <h4 className="text-center my-4 font-weight-bold">
+                    Welcome to{" "}
+                    <span className="text-danger font-weight-bold">CARS4U</span>
+                  </h4>
+                  <div className="container-fluid ">
+                    <div className="card border-0 shadow px-5 my-4">
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                      <br></br>
+                    </div>
+                  </div>
+                  <div className="container">
+                    <div className="card border-0 shadow-sm px-5 my-5 py-4">
+                      <h2 className="font-weight-bold">
+                        {name} Vs {name1}
+                      </h2>
+                      <h5>{description}</h5>
+                    </div>
+                  </div>
+                  <div className="container">
+                    <div className="row">
+                      <div className="col-lg-12 col-md-12 col-12 pb-4">
+                        <div className="card border-0 shadow-sm py-4 px-4">
+                          <h4 className="font-weight-bold"></h4>
+
+                          <div className="container-fluid">
+                            <div className="row">
+                              <div className="col-4">
+                                <h5 className="font-weight-bold">
+                                  {" "}
+                                  Basic Information
+                                </h5>
+                              </div>
+                              <div className="col-4">
+                                <h5 className="text-center font-weight-bold">
+                                  RXZ EASY-R AMT Dual Tone
+                                </h5>
+                              </div>
+                              <div className="col-4">
+                                <h5 className="text-center font-weight-bold float-right">
+                                  ZXI AMT 1.2
+                                </h5>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div className="container-fluid py-3">
+                            <div className="">{specification}</div>
+                          </div>
+                        </div>
+                        <div className="card border-0 shadow-sm py-4 my-4 px-4">
+                          <h4 className="font-weight-bold">
+                            Engine and Transmission
+                          </h4>
+
+                          <div className="container-fluid py-3">
+                            <div className="">{Engine}</div>
+                          </div>
+                        </div>
+                        <div className="card border-0 shadow-sm py-4 my-4 px-4">
+                          <h4 className="font-weight-bold">
+                            Fuel & Performance
+                          </h4>
+                          <div className="container-fluid py-3">
+                            <div className="">{fuel}</div>
+                          </div>
+                        </div>
+                        <div className="card border-0 shadow-sm py-4 my-4 px-4">
+                          <h4 className="font-weight-bold">
+                            Suspension, Steering & Brakes
+                          </h4>
+                          <div className="container-fluid py-3">
+                            <div className="">{suspension}</div>
+                          </div>
+                        </div>
+                        <div className="card border-0 shadow-sm py-4 my-4 px-4">
+                          <h4 className="font-weight-bold">
+                            Dimensions & Capacity
+                          </h4>
+                          <div className="container-fluid py-3">
+                            <div className="">{dimension}</div>
+                          </div>
+                        </div>
+                        <div className="card border-0 shadow-sm py-4 my-4 px-4">
+                          <h4 className="font-weight-bold">
+                            Comfort & Convenience
+                          </h4>
+                          <div className="container-fluid py-3">
+                            <div className="">{comfort}</div>
+                          </div>
+                        </div>
+                        <div className="card border-0 shadow-sm py-4 my-4 px-4">
+                          <h4 className="font-weight-bold"> Interior</h4>
+                          <div className="container-fluid py-3">
+                            <div className="">{interior}</div>
+                          </div>
+                        </div>
+                        <div className="card border-0 shadow-sm py-4 my-4 px-4">
+                          <h4 className="font-weight-bold"> Exterior</h4>
+                          <div className="container-fluid py-3">
+                            <div className="">{exterior}</div>
+                          </div>
+                        </div>
+                        <div className="card border-0 shadow-sm py-4 my-4 px-4">
+                          <h4 className="font-weight-bold"> Safety</h4>
+                          <div className="container-fluid py-3">
+                            <div className="">{safety}</div>
+                          </div>
+                        </div>
+                        <div className="card border-0 shadow-sm py-4 my-4 px-4">
+                          <h4 className="font-weight-bold">
+                            {" "}
+                            Entertainment & Communication
+                          </h4>
+                          <div className="container-fluid py-3">
+                            <div className="">{entertainment}</div>
+                          </div>
+                        </div>
+                        <div className="card border-0 shadow-sm py-4 my-4 px-4">
+                          <h4 className="font-weight-bold">Warranty</h4>
+                          <div className="container-fluid py-3">
+                            <div className="">{warranty}</div>
+                          </div>
+                        </div>
+
+                        <div className="card border-0 shadow-sm py-4 my-4  px-4">
+                          <h3 className="font-weight-bold">Pros and Cons</h3>
+                          <br></br>
+                          <br></br>
+                          <br></br>
+                          <br></br>
+                          <br></br>
+                          <br></br>
+                          <br></br>
+                          <br></br>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
-    </div>
-    
-    
     </section>
   );
 }

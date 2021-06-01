@@ -476,3 +476,11 @@ ul {
 .rateback {
   background-color: #58c6bb;
 }
+
+.modalcompare{
+  background-color: #f8f8f8;
+}
+.basicinfo{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}

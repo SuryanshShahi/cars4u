@@ -1,86 +1,51 @@
+ <div className="container-fluid py-3">
+                            <div className="row">
+                              <div className="col-4">
+                                <hr className="text-success mt-2"></hr>
+                                <h6 className="">Engine Type</h6>
+                                <hr className="text-success mt-3"></hr>
+                                <h6 className="">Displacement (cc)</h6>
+                                <hr className="text-success mt-3"></hr>
+                                <h6 className="">Max Power (bhp@rpm)</h6>
+                                <hr className="text-success mt-3"></hr>
+                                <h6 className="">Max Torque (nm@rpm)</h6>
+                                <hr className="text-success mt-3"></hr>
+                              </div>
 
-                    <div className="col-6">
-                      <div className="card">
-                        <div className="row">
-                          <div className="col-lg-6 col-md-4 col-sm-6 col-12 pb-4">
-                            <NavLink
-                              to="/"
-                              className="card text-center  carscard text-decoration-none"
-                              data-target="#mymodal3"
-                              data-toggle="modal"
-                              onClick={() => filterImg(id)}
-                            >
-                              <img
-                                src={image}
-                                alt="menuPic"
-                                className="img-fluid"
-                              />
-                              <div className="arrow py-5">
-                                <div className="fa fa-arrow-circle-right text-white px-auto py-5"></div>
-                              </div>
-                              <div className="details">
-                                <div className="row">
-                                  <h6 className="pt-2">Rating:</h6>
-                                  <div className="col-12 d-flex justify-content-center">
-                                    <StarsRating
-                                      count={5}
-                                      // onChange={ratingChanged}
-                                      size={26}
-                                      value={rate}
-                                      edit={false}
-                                      color2={"#ffd700"}
-                                    />
-                                  </div>
-                                </div>
-                              </div>
-                              <div className="">
-                                <h5 className="font-weight-bolder mt-2 text-dark">
-                                  {name}
-                                </h5>
-                                <h6>{price}</h6>
-                              </div>
-                            </NavLink>
+                              <div className="col-4">{Engine}</div>
+                              <div className="col-4">{Engine1}</div>
+                            </div>
                           </div>
-                          <div className="col-lg-6 col-md-4 col-sm-6 col-12 pb-4">
-                            <NavLink
-                              to="/"
-                              className="card text-center  carscard text-decoration-none"
-                              data-target="#mymodal3"
-                              data-toggle="modal"
-                              onClick={() => filterImg(id)}
-                            >
-                              <img
-                                src={image}
-                                alt="menuPic"
-                                className="img-fluid"
-                              />
-                              <div className="arrow py-5">
-                                <div className="fa fa-arrow-circle-right text-white px-auto py-5"></div>
-                              </div>
-                              <div className="details">
-                                <div className="row">
-                                  <h6 className="pt-2">Rating:</h6>
-                                  <div className="col-12 d-flex justify-content-center">
-                                    <StarsRating
-                                      count={5}
-                                      // onChange={ratingChanged}
-                                      size={26}
-                                      value={rate}
-                                      edit={false}
-                                      color2={"#ffd700"}
-                                    />
-                                  </div>
-                                </div>
-                              </div>
-                              <div className="">
-                                <h5 className="font-weight-bolder mt-2 text-dark">
-                                  {name}
-                                </h5>
-                                <h6>{price}</h6>
-                              </div>
-                            </NavLink>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+
+
+
+
+
+
+                          <div className="row"> 
+            <div className="col-12">
+            <h6 className="float-left">Engine Type</h6>
+            <h6 className="float-right">K12M Petrol Engine</h6>
+            <div className="justify-content-center d-flex">
+            <h6 className="text-center">1.0L Petrol Engine</h6>
+            </div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-12">
+            <h6 className="float-left">Displacement (cc)</h6>
+            <h6 className="float-right">1197</h6>
+            <h6 className="justify-content-center d-flex">999</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-12">
+            <h6 className="float-left">Max Power (bhp@rpm)</h6>
+            <h6 className="float-right">81.80bhp@6000rpm</h6>
+            <h6 className="justify-content-center d-flex">71bhp@6250rpm</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-12">
+            <h6 className="float-left">Max Torque (nm@rpm)</h6>
+            <h6 className="float-right">113Nm@4200rpm</h6>
+            <h6 className="justify-content-center d-flex">96Nm@3500rpm</h6>
+            </div>
+            </div>
