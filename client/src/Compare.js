@@ -2,12 +2,13 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import StarsRating from "stars-rating";
 import Compare from "./Data/CompareCars";
-import web from "./images/bhp.png";
+import Menu from "./Data/Menu"
 
 function CompareCars() {
   window.scroll(0, 770);
   window.onload = Compare;
 
+  const [items, setItems] = useState(Menu);
   const [Compares, setCompare] = useState(Compare);
   const filterImg = (id) => {
     const updatedImg = Compare.filter((curElem) => {
@@ -18,13 +19,22 @@ function CompareCars() {
     setCompare(updatedImg);
   };
 
+  // const filterImg1 = (id) => {
+  //   const updatedItems = Menu.filter((curElem) => {
+  //     if (curElem.id === id){
+  //       return curElem.id;
+  //     }
+  //   });
+  //   setItems(updatedItems);
+  // };
+
   const ratingChanged = (newRating) => {
     console.log(newRating);
   };
 
   return (
     <section id="compare">
-      <div className="bg-white py-5">
+      <div className=" py-5">
         <div className="container ">
           <h1 className="text-center">
             <strong className="tag px-4 py-1">COMPARE CARS</strong>
@@ -45,7 +55,7 @@ function CompareCars() {
           <div className="menu-items card border-0 shadow px-4 py-4 mt-4">
             <div className="row">
               {Compare.map((elem) => {
-                const { id, name, image, image1, description, price, rate } =
+                const { id, name, name1, price, price1, image, image1, description, rate } =
                   elem;
                 return (
                   <div className="col-lg-6 col-md-12 col-sm-12 col-12">
@@ -102,9 +112,9 @@ function CompareCars() {
                             <div className="row rateback gx-0">
                               <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                 <div className="card-body float-lg-left text-dark font-weight-bold justify-content-sm-center d-flex">
-                                  {name}
+                                  {name1}
                                   <br></br>
-                                  {price}
+                                  {price1}
                                 </div>
                               </div>
                               <div className="col-lg-6 col-md-12 col-sm-12 col-12 rateback">
@@ -148,6 +158,7 @@ function CompareCars() {
                 id,
                 name,
                 name1,
+                rate,
                 price,
                 price1,
                 image,
@@ -164,6 +175,8 @@ function CompareCars() {
                 safety,
                 entertainment,
                 warranty,
+                Pros,
+                Cons
               } = elem;
 
               return (
@@ -181,19 +194,107 @@ function CompareCars() {
                     Welcome to{" "}
                     <span className="text-danger font-weight-bold">CARS4U</span>
                   </h4>
-                  <div className="container-fluid ">
-                    <div className="card border-0 shadow px-5 my-4">
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
-                      <br></br>
+                  <div className="container-fluid">
+                    <div className="card border-0 shadow px-5 my-4 w-100">
+                    
+                    <div className="container">
+                        <div className="row py-4">
+              
+                        <div className="col-lg-5 col-md-5 col-sm-5 col-5 ">
+                          
+                          <NavLink
+                          to="/"
+                          className="text-decoration-none text-dark"
+                          data-target="#mymodal4"
+                          data-toggle="modal"
+                          onClick={() => filterImg(id)}
+                        >
+                              <div className="card comparecard shadow text-center border-0 text-decoration-none">
+                              <img
+                                src={image}
+                                alt="menuPic"
+                                className="img-fluid position-relative"
+                              />
+                             
+                              
+                                <div className="arrow3 ">
+                                  <div className="fa fa-arrow-circle-right text-white text-center comparearrow"></div>
+                                </div>
+                              
+                              <div className="row rateback gx-0">
+                                <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                                  <div className="card-body text-dark font-weight-bold justify-content-sm-center d-flex">
+                                    {name}
+                                    <br></br>
+                                    {price}
+                                  </div>
+                                </div>
+                                <div className="col-lg-6 col-md-12 col-sm-12 col-12 ">
+                                  <h6 className="font-weight-bold text-dark justify-content-center d-flex mt-lg-3">
+                                    Rating:
+                                  </h6>
+                                  <StarsRating
+                                    className=" sliderRate justify-content-center d-flex"
+                                    count={5}
+                                    // onChange={ratingChanged}
+                                    size={26}
+                                    value={rate}
+                                    edit={false}
+                                    color2={"#ffd700"}
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                            </NavLink>
+                         
+                          </div>
+                       
+                          <div className="col-lg-2 col-md-2 col-sm-2 col-2 justify-content-center d-flex">
+                            <div className=" vsicon justify-content-center d-flex align-items-center">
+                              <h1 className="text-white vs px-2 py-2">Vs</h1>
+                            </div>
+                          </div>
+                          <div className="col-lg-5 col-md-5 col-sm-5 col-5">
+                            <div className="card shadow comparecard text-center border-0 text-decoration-none">
+                              <img
+                                src={image1}
+                                alt="menuPic"
+                                className="img-fluid"
+                              />
+                              <div className="arrow3 ">
+                                <div className="fa fa-arrow-circle-right text-white text-center comparearrow"></div>
+                              </div>
+                              <div className="row rateback gx-0">
+                                <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                                  <div className="card-body text-dark font-weight-bold justify-content-sm-center d-flex">
+                                    {name1}
+                                    <br></br>
+                                    {price1}
+                                  </div>
+                                </div>
+                                <div className="col-lg-6 col-md-12 col-sm-12 col-12 rateback">
+                                  <h6 className="font-weight-bold justify-content-center text-dark d-flex mt-lg-3">
+                                    Rating:
+                                  </h6>
+                                  <StarsRating
+                                    className=" sliderRate justify-content-center d-flex"
+                                    count={5}
+                                    // onChange={ratingChanged}
+                                    size={26}
+                                    value={rate}
+                                    edit={false}
+                                    color2={"#ffd700"}
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                
                     </div>
+                    
                   </div>
                   <div className="container">
                     <div className="card border-0 shadow-sm px-5 my-5 py-4">
@@ -311,14 +412,10 @@ function CompareCars() {
 
                         <div className="card border-0 shadow-sm py-4 my-4  px-4">
                           <h3 className="font-weight-bold">Pros and Cons</h3>
-                          <br></br>
-                          <br></br>
-                          <br></br>
-                          <br></br>
-                          <br></br>
-                          <br></br>
-                          <br></br>
-                          <br></br>
+                          <div className="container-fluid py-3">
+                          <div className="text-success">{Pros}</div>
+                          <div className="text-danger">{Cons}</div>
+                        </div>
                         </div>
                       </div>
                     </div>
@@ -329,6 +426,7 @@ function CompareCars() {
           </div>
         </div>
       </div>
+      
     </section>
   );
 }

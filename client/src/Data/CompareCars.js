@@ -84,9 +84,9 @@ const CompareCars=[
             <div className="col-4">
             <h6 className="float-left">Displacement (cc)</h6></div>
             <div className="col-4">
-            <h6 className="text-center">1197</h6></div>
+            <h6 className="text-center">999</h6></div>
             <div className="col-4">
-            <h6 className="float-right">999</h6>
+            <h6 className="float-right">1197</h6>
             </div>
             <hr className="text-success mt-2"></hr>
             <div className="col-4">
@@ -116,7 +116,7 @@ const CompareCars=[
             <div className="col-4">
             <h6 className="text-center">Petrol</h6></div>
             <div className="col-4">
-            <h6 className="float-right">K12M Petrol Engine</h6>
+            <h6 className="float-right">Petrol</h6>
             </div>
             <hr className="text-success mt-2"></hr>
             <div className="col-4">
@@ -131,7 +131,7 @@ const CompareCars=[
             <div className="col-4">
             <h6 className="float-left">Mileage (ARAI)</h6></div>
             <div className="col-4">
-            <h6 className="text-center">71bhp@6250rpm</h6></div>
+            <h6 className="text-center">18.2 kmpl</h6></div>
             <div className="col-4">
             <h6 className="float-right">20.52 kmpl</h6>
             </div>
@@ -456,266 +456,2902 @@ const CompareCars=[
             </div>
             </div>
         ],
-
-    },
-    
+        Pros:[
+            <div className="row">
+            <div className="col-6">
+            <h4 className="font-weight-bold">Renault Triber</h4>
+            <div className="container-fluid">
+            <ul>
+            <li>Practicality: Apart from modular seating, features like a cooled central glovebox, separate air vents for second row as well as third row, and loads of cubby holes make it a practical car.</li>
+            <li>Boot space: A capacity of 625 litres with five seats can put even compact sedans to shame.</li>
+            <li>Modular seating: Triber can be turned into a two-seater, four seater, five-seater, six-seater or even a seven-seater vehicle. Its middle row can also slide forward and backwards.</li>
+            <li>Looks: While looks are subjective, Renault should be given credit for designing a sub-4m MPV that doesn’t look awkward from any angle.</li>
+            <li>Available with an AMT automatic as well.</li>
+            <li>Soon to be launched with a turbocharged petrol engine.</li>
+            </ul>
+            </div>
+            </div>
+            <div className="col-6">
+            <h4 className="font-weight-bold">Maruti Wagon R</h4>
+            <div className="container-fluid">
+            <ul>
+            <li>Easy ingress and egress: Entering into and exiting from the WagonR is easy as you don’t have to bend much.</li>
+            <li>Spacious cabin: The increase in exterior dimensions and wheelbase has resulted in more space inside the cabin.</li>
+            <li>Cavernous boot: 341-litre boot space is maximum in its segment. In fact, it’s comparable or even bigger than cars from a segment above. Can fit 3-4 medium size bags easily. The rear seat is also 60:40 split, adding more versatility.</li>
+            <li>AMT with both engines: The option of AMT ups the convenience quotient in an already easy to drive car. Available in V and Z variants, and with both the engines.</li>
+            <li>Safer: ABS standard, dual front airbags available as option on all variants. The new platform is also stronger than the one before.</li>
+            </ul>
+            </div>
+            </div>
+            </div>
+        ],
+        Cons:[
+            <div className="row">
+            <div className="col-6">
+            <h4 className="font-weight-bold">Maruti Baleno</h4>
+            <div className="container-fluid">
+            <ul>
+            <li>Engine: The 1.0-litre engine that puts out 72PS of maximum power might feel underpowered with a full load of passengers.</li>
+            <li>No diesel engine option: A practical car like the Triber begs to be driven over long distances. Buyers with such a requirement might miss the option of a frugal diesel engine.</li>
+            <li>Missing features: No automatic climate control, steering-mounted audio controls, alloy wheels or foglamps.</li>
+            </ul>
+            </div>
+            </div>
+            <div className="col-6">
+            <h4 className="font-weight-bold">Toyota Glanza</h4>
+            <div className="container-fluid">
+            <ul>
+            <li>Plastic quality: Quality of materials in the cabin could've been better. Consistency in quality is also a concern.</li>
+            <li>Spongy brakes: There could have been better pedal response.</li>
+            <li>Missing features: Adjustable rear headrests, height adjustable driver’s seat, rear parking camera and alloy wheels should have been on offer, at least on the top variant.</li>
+            <li>Weak cabin insulation: NVH levels aren't the best - a lot of engine noise creeps into the cabin.</li>
+            </ul>
+            </div>
+            </div>
+            </div>
+        ]
+    }, 
     {
         id:2,
         rate:"4.5",
-        image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Seltos/6226/1619864569028/front-left-side-47.jpg?tr=w-456",
+        image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Creta/6775/1584360708758/front-left-side-47.jpg?tr=w-456",
         image1:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Seltos/6226/1619864569028/front-left-side-47.jpg?tr=w-456",
-        name:"Kia Seltos",
+        name:"Hyundai Creta",
+        name1:"Kia Seltos",
         category:"suv",
-        price:"₹9.95 - 17.65 Lakh*",
-        description:<p>The Kia Seltos has 1 Diesel Engine and 3 Petrol Engine on offer. The Diesel engine is 1493 cc while the Petrol engine is 1497 cc and 1498 cc and 1353 cc . It is available with the Manual & Automatic transmission. Depending upon the variant and fuel type the Seltos has a mileage of 16.1 to 20.8 kmpl. The Seltos is a 5 seater and has length of 4315mm, width of 1800mm and a wheelbase of 2610mm.<br></br>Latest Update: Kia has launched the updated Seltos.
-        <br></br>
-        <b>Kia Seltos Price:</b> The 2021 Seltos is priced between Rs 9.95 lakh and Rs 17.85 lakh (ex-showroom).
-        <br></br>
-        <b>Kia Seltos Variants:</b> It is offered in two trims: Tech (HT) Line and GT Line. While the former has five variants (HTE, HTK, HTK+, HTX, and HTX+), the latter has only two [GTX(O) and GTX+].
-        <br></br>
-        <b>Kia Seltos Seating Capacity:</b> The Seltos can seat up to five people.
-        <br></br>
-        <b>Kia Seltos Powertrains:</b> It comes with three engine options: 1.5-litre petrol (115PS/144Nm), 1.4-litre turbocharged petrol (140PS/242Nm), and 1.5-litre diesel (115PS/250Nm). A 6-speed manual gearbox is offered as standard with all three engines. It also gets optional automatic transmissions: a 7-speed DCT (1.4-litre turbo-petrol), a CVT (1.5-litre petrol), and a 6-speed torque converter unit (1.5-litre diesel). The 1.5-litre petrol engine also gets a 6-speed iMT (clutchless manual) gearbox.
-        <br></br>
-        Kia claims a fuel efficiency of 16.5kmpl for the petrol-manual and 16.8kmpl for the petrol-CVT variants. The diesel-manual’s claimed fuel efficiency figure stands at 21kmpl, while the 6-speed AT’s stands at 18kmpl. The 1.4-litre turbo-petrol, paired with the DCT, offers a claimed mileage of 16.5kmpl, while the manual returns 16.1kmpl.
-        <br></br>
-        <b>Kia Seltos Features:</b> The Seltos packs a 10.25-inch touchscreen infotainment system along with Kia's UVO connected car technology, an air purifier, ambient lighting, and an 8-inch head-up display. It also gets ventilated front seats, a power-adjustable driver’s seat, a 7-inch multi-information display, an 8-speaker Bose sound system, and a sunroof. It comes with smartwatch connectivity, smart-key remote engine start, and a 'Hello Kia' wake up command as well.
-        <br></br>
-        <b>Kia Seltos Safety:</b> It gets up to six airbags, ABS with EBD, brake assist, emergency stop signal, vehicle stability management (VSM), electronic stability control (ESC), and hill assist control (HAC).</p>,
-        exterior:"https://stimg.cardekho.com/images/feelthecar360view/Exterior/Kia/Kia-Seltos/1563185539/Exterior.html?hotSpotNonApp=yes",
-        interior:"https://stimg.cardekho.com/images/feelthecar360view/Interior/Kia/Kia-Seltos/1581665713/Interior.html?hotSpotNonApp=yes",
-        interior1:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Kia/Seltos/6226/1619864686803/steering-wheel-54.jpg",
-        interior2:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Kia/Seltos/6226/1619864686803/ac-controls-151.jpg",
-        interior3:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Kia/Seltos/6226/1619864686803/infotainment-system-main-menu-183.jpg",
-        interior4:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Kia/Seltos/6226/1619864686803/front-air-vents-144.jpg",
-        color1:"https://stimg.cardekho.com/images/car-images/930x620/Kia/Seltos/6226/1595843473689/232_intense-red-aurora-black-pearl_b51829.jpg",
-        color2:"https://stimg.cardekho.com/images/car-images/930x620/Kia/Seltos/6226/1595843473689/231_steel-Silve-punchy-Orange_949395.jpg",
-        color3:"https://stimg.cardekho.com/images/car-images/930x620/Kia/Seltos/6226/1595843473689/226_Aurora-Black-Pearl_343638.jpg",
-        Engine:"1353cc-1498cc",
-        seat:"5",
-        BHP:"113.4-138.08 Bhp",
+        price:"₹9.99-17.70 Lakh*",
+        price1:"₹9.95-17.65 Lakh*",
+        description:<p>Should you buy Hyundai Creta or Kia Seltos? Find out which car is best for you - compare the two models on the basis of their Price, Size, Space, Boot Space, Service cost, Mileage, Features, Colours and other specs. Hyundai Creta price starts at Rs 9.99 Lakh ex-showroom for E (Petrol) and Kia Seltos price starts Rs 9.95 Lakh ex-showroom for HTE G (Petrol). Creta has 1497 cc (Petrol top model) engine, while Seltos has 1498 cc (Petrol top model) engine. As far as mileage is concerned, the Creta has a mileage of 21.4 kmpl (Diesel top model) and the Seltos has a mileage of 20.8 kmpl (Diesel top model).</p>,
         specification:  [
             <div className="row"> 
-                        <div>ARAI Mileage<h6 className="float-right ">17.8 kmpl</h6></div><hr className="text-success mt-2"></hr>
-                        <div>Engine Displacement (cc)<h6 className="float-right ">1493</h6></div><hr className="text-success mt-2"></hr>
-                        <div>Max Torque (nm@rpm)<h6 className="float-right ">250nm@1500-2750rpm</h6></div><hr className="text-success mt-2"></hr>
-                        <div>TransmissionType<h6 className="float-right ">Automatic</h6></div><hr className="text-success mt-2"></hr>
-                        <div>Fuel Tank Capacity<h6 className="float-right ">50.0</h6></div><hr className="text-success mt-2"></hr>
-                        <div>Service Cost (Avg. of 5 years)<h6 className="float-right ">₹4,628</h6></div><hr className="text-success mt-2"></hr>
-                        </div>
-                        ],
-        specification2:  [
-            <div className="row"> 
-            <div>Fuel Type<h6 className="float-right ">Diesel</h6></div><hr className="text-success mt-2"></hr>
-            <div>Max Power (bhp@rpm)<h6 className="float-right ">113.4bhp@4000rpm</h6></div><hr className="text-success mt-2"></hr>
-            <div>Seating Capacity<h6 className="float-right ">5</h6></div><hr className="text-success mt-2"></hr>
-            <div>Boot Space (Litres)<h6 className="float-right ">433</h6></div><hr className="text-success mt-2"></hr>
-            <div>Body Type<h6 className="float-right ">SUV</h6></div><hr className="text-success mt-2"></hr>
-            </div>    
-               ],
-
-
-        feature:  [
-            <div className="row"> 
-            <h6 className="">Power Steering</h6><hr className="text-success mt-2"></hr>
-            <h6 className="">Anti Lock Braking System</h6><hr className="text-success mt-2"></hr>
-            <h6 className="">Driver Airbag</h6><hr className="text-success mt-2"></hr>
-            <h6 className="">Fog Lights - Front</h6><hr className="text-success mt-2"></hr>
-            <h6 className="">Automatic Climate Control</h6><hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">On Road Price</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">₹20,89,717*</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">₹20,74,399</h6>
             </div>
-                 ],
-        
-         feature2:  [
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Offers & Discount</h6></div>
+            <div className="col-4 text-center">
+            <h6 className="text-center">1 Offer</h6>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none" >View now</NavLink>
+            </div>
+            <div className="col-4 ">
+            <h6 className="float-right">1 Offer</h6>
+            <br></br><NavLink to="/compare" data-dismiss="modal" className="text-decoration-none float-right">Check Now</NavLink>
             
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Finance Available (EMI)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">₹39,774</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">₹40,326</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Insurance</h6></div>
+            <div className="col-4 text-center">
+            <h6 className="">₹76,591</h6>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none">Creta Insurance</NavLink>
+            </div>
+            <div className="col-4">
+            <h6 className="float-right">₹64,294</h6><br></br>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none float-right" >Seltos Insurance</NavLink>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Service Cost (Avg. of 5 years)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">₹3,790</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">₹4,628</h6>
+            </div>
+            </div>
+            ],
+   
+        Engine:  [
             <div className="row"> 
-            <h6 className="">Power Windows Front</h6><hr className="text-success mt-2"></hr>
-            <h6 className="">Air Conditioner</h6><hr className="text-success mt-2"></hr>
-            <h6 className="">Passenger Airbag</h6><hr className="text-success mt-2"></hr>
-            <h6 className="">Alloy Wheels</h6><hr className="text-success mt-2"></hr>
-            </div>   
+            <div className="col-4">
+            <h6 className="float-left">Engine Type</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">1.5L CRDi Diesel</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">1.5L CRDi VGT</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Displacement (cc)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">1493</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">1493</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Fast Charging</h6></div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Max Power (bhp@rpm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">113.42bhp@4000rpm</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">113.4bhp@4000rpm</h6>
+            </div>
+            </div>
+         
+            
+                 ],
+
+        fuel:  [ 
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Fuel Type</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">Diesel</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">Diesel</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Mileage (City)</h6></div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Mileage (ARAI)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">18.5 kmpl</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">17.8 kmpl</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Fuel Tank Capacity</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">50.0 (Litres)</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">50.0 (Litres)</h6>
+            </div>
+            </div>  
            ],
-
-        topFeatures:[
-        <div className="row">    
-        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Windows Front</h7></div>
-        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Air Conditioner</h7></div>
-        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Steering</h7></div>
-        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Anti Lock Braking System</h7></div>
-        <a href="#more" className="col-12 py-3 text-center text-decoration-none"><b>+6 more</b></a>
-        </div>
+      
+        suspension:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Front Suspension</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">MacPherson Strut with Coil Spring</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">McPherson Strut & Coil Spring</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Rear Suspension</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">Coupled Torsion Beam Axle</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">Coupled Torsion Beam Axle with Coil Spring</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Steering Type</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">Power</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">Electric</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Steering Column</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">Tilt</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">Tilt & Telescopic</h6>
+            </div>
+            </div>
         ],
+   
+        dimension:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Length (mm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">4300</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">4315</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Width (mm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">1790</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">1760</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Height (mm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">1635</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">1645</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Ground Clearance Unladen (mm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">-</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">190</h6>
+            </div>
+            </div>
+        ],
+       
+        comfort:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Power Steering</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Power Windows Front</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Power Windows Rear</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Power Boot</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success text-center"></div>
+            </div>
+            <div className="col-4">
+            <h6 className="float-right">-</h6>
+            </div>
+            </div>
+        ],
+  
+        interior:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Tachometer</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Electronic Multi Tripmeter</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Leather Seats</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            </div>
+
+        ],
+ 
+        exterior:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Available Colors</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Body Type</h6>
+            </div>
+            <div className="col-4 text-center">
+            <h6 className="">SUV</h6>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none">All SUV Cars</NavLink> 
+            </div>
+            <div className="col-4">
+            <h6 className="float-right">SUV</h6><br></br>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none float-right">All SUV Cars</NavLink> 
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Adjustable Headlights</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            </div>
+  
+        ],
+   
+        safety:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Anti Lock Braking System</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Brake Assist</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Central Locking</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Power Door Locks</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            </div>
+        ],
+   
+        entertainment:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Cd Player</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Cd Changer</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Dvd Player</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Radio</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            </div>
+
+        ],
+
+        warranty:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Introduction Date</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Warranty Time</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Warranty Distance</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            </div>
+        ],
+
     },
-    // {
-    //     id:3,
-    //     rate:"4.5",
-    //     image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Seltos/6226/1619864569028/front-left-side-47.jpg?tr=w-456",
-    //     image1:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Seltos/6226/1619864569028/front-left-side-47.jpg?tr=w-456",
-    //     name:"Kia Seltos",
-    //     category:"suv",
-    //     price:"₹9.95 - 17.65 Lakh*",
-    //     description:<p>The Kia Seltos has 1 Diesel Engine and 3 Petrol Engine on offer. The Diesel engine is 1493 cc while the Petrol engine is 1497 cc and 1498 cc and 1353 cc . It is available with the Manual & Automatic transmission. Depending upon the variant and fuel type the Seltos has a mileage of 16.1 to 20.8 kmpl. The Seltos is a 5 seater and has length of 4315mm, width of 1800mm and a wheelbase of 2610mm.<br></br>Latest Update: Kia has launched the updated Seltos.
-    //     <br></br>
-    //     <b>Kia Seltos Price:</b> The 2021 Seltos is priced between Rs 9.95 lakh and Rs 17.85 lakh (ex-showroom).
-    //     <br></br>
-    //     <b>Kia Seltos Variants:</b> It is offered in two trims: Tech (HT) Line and GT Line. While the former has five variants (HTE, HTK, HTK+, HTX, and HTX+), the latter has only two [GTX(O) and GTX+].
-    //     <br></br>
-    //     <b>Kia Seltos Seating Capacity:</b> The Seltos can seat up to five people.
-    //     <br></br>
-    //     <b>Kia Seltos Powertrains:</b> It comes with three engine options: 1.5-litre petrol (115PS/144Nm), 1.4-litre turbocharged petrol (140PS/242Nm), and 1.5-litre diesel (115PS/250Nm). A 6-speed manual gearbox is offered as standard with all three engines. It also gets optional automatic transmissions: a 7-speed DCT (1.4-litre turbo-petrol), a CVT (1.5-litre petrol), and a 6-speed torque converter unit (1.5-litre diesel). The 1.5-litre petrol engine also gets a 6-speed iMT (clutchless manual) gearbox.
-    //     <br></br>
-    //     Kia claims a fuel efficiency of 16.5kmpl for the petrol-manual and 16.8kmpl for the petrol-CVT variants. The diesel-manual’s claimed fuel efficiency figure stands at 21kmpl, while the 6-speed AT’s stands at 18kmpl. The 1.4-litre turbo-petrol, paired with the DCT, offers a claimed mileage of 16.5kmpl, while the manual returns 16.1kmpl.
-    //     <br></br>
-    //     <b>Kia Seltos Features:</b> The Seltos packs a 10.25-inch touchscreen infotainment system along with Kia's UVO connected car technology, an air purifier, ambient lighting, and an 8-inch head-up display. It also gets ventilated front seats, a power-adjustable driver’s seat, a 7-inch multi-information display, an 8-speaker Bose sound system, and a sunroof. It comes with smartwatch connectivity, smart-key remote engine start, and a 'Hello Kia' wake up command as well.
-    //     <br></br>
-    //     <b>Kia Seltos Safety:</b> It gets up to six airbags, ABS with EBD, brake assist, emergency stop signal, vehicle stability management (VSM), electronic stability control (ESC), and hill assist control (HAC).</p>,
-    //     exterior:"https://stimg.cardekho.com/images/feelthecar360view/Exterior/Kia/Kia-Seltos/1563185539/Exterior.html?hotSpotNonApp=yes",
-    //     interior:"https://stimg.cardekho.com/images/feelthecar360view/Interior/Kia/Kia-Seltos/1581665713/Interior.html?hotSpotNonApp=yes",
-    //     interior1:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Kia/Seltos/6226/1619864686803/steering-wheel-54.jpg",
-    //     interior2:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Kia/Seltos/6226/1619864686803/ac-controls-151.jpg",
-    //     interior3:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Kia/Seltos/6226/1619864686803/infotainment-system-main-menu-183.jpg",
-    //     interior4:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Kia/Seltos/6226/1619864686803/front-air-vents-144.jpg",
-    //     color1:"https://stimg.cardekho.com/images/car-images/930x620/Kia/Seltos/6226/1595843473689/232_intense-red-aurora-black-pearl_b51829.jpg",
-    //     color2:"https://stimg.cardekho.com/images/car-images/930x620/Kia/Seltos/6226/1595843473689/231_steel-Silve-punchy-Orange_949395.jpg",
-    //     color3:"https://stimg.cardekho.com/images/car-images/930x620/Kia/Seltos/6226/1595843473689/226_Aurora-Black-Pearl_343638.jpg",
-    //     Engine:"1353cc-1498cc",
-    //     seat:"5",
-    //     BHP:"113.4-138.08 Bhp",
-    //     specification:  [
-    //         <div className="row"> 
-    //                     <div>ARAI Mileage<h6 className="float-right ">17.8 kmpl</h6></div><hr className="text-success mt-2"></hr>
-    //                     <div>Engine Displacement (cc)<h6 className="float-right ">1493</h6></div><hr className="text-success mt-2"></hr>
-    //                     <div>Max Torque (nm@rpm)<h6 className="float-right ">250nm@1500-2750rpm</h6></div><hr className="text-success mt-2"></hr>
-    //                     <div>TransmissionType<h6 className="float-right ">Automatic</h6></div><hr className="text-success mt-2"></hr>
-    //                     <div>Fuel Tank Capacity<h6 className="float-right ">50.0</h6></div><hr className="text-success mt-2"></hr>
-    //                     <div>Service Cost (Avg. of 5 years)<h6 className="float-right ">₹4,628</h6></div><hr className="text-success mt-2"></hr>
-    //                     </div>
-    //                     ],
-    //     specification2:  [
-    //         <div className="row"> 
-    //         <div>Fuel Type<h6 className="float-right ">Diesel</h6></div><hr className="text-success mt-2"></hr>
-    //         <div>Max Power (bhp@rpm)<h6 className="float-right ">113.4bhp@4000rpm</h6></div><hr className="text-success mt-2"></hr>
-    //         <div>Seating Capacity<h6 className="float-right ">5</h6></div><hr className="text-success mt-2"></hr>
-    //         <div>Boot Space (Litres)<h6 className="float-right ">433</h6></div><hr className="text-success mt-2"></hr>
-    //         <div>Body Type<h6 className="float-right ">SUV</h6></div><hr className="text-success mt-2"></hr>
-    //         </div>    
-    //            ],
-
-
-    //     feature:  [
-    //         <div className="row"> 
-    //         <h6 className="">Power Steering</h6><hr className="text-success mt-2"></hr>
-    //         <h6 className="">Anti Lock Braking System<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
-    //         <h6 className="">Driver Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
-    //         <h6 className="">Fog Lights - Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
-    //         <h6 className="">Automatic Climate Control<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
-    //         </div>
-    //              ],
-        
-    //      feature2:  [
+    {
+        id:3,
+        rate:"4.5",
+        image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Seltos/6226/1619864569028/front-left-side-47.jpg?tr=w-456",
+        image1:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Sonet/7256/1619865764843/front-left-side-47.jpg?imwidth=420&impolicy=resize",
+        name:"Kia Seltos",
+        name1:"Kia Sonet",
+        category:"suv",
+        price:"₹9.95-17.65 Lakh*",
+        price1:"₹6.79 - 13.35 Lakh*",
+        description:<p>Should you buy Kia Seltos or Kia Sonet? Find out which car is best for you - compare the two models on the basis of their Price, Size, Space, Boot Space, Service cost, Mileage, Features, Colours and other specs. Kia Seltos price starts at Rs 9.95 Lakh ex-showroom for HTE G (Petrol) and Kia Sonet price starts Rs 6.79 Lakh ex-showroom for 1.2 HTE (Petrol). Seltos has 1498 cc (Petrol top model) engine, while Sonet has 1498 cc (Diesel top model) engine. As far as mileage is concerned, the Seltos has a mileage of 20.8 kmpl (Diesel top model) and the Sonet has a mileage of 24.1 kmpl (Diesel top model).</p>,
+        specification:  [
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">On Road Price</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">₹20,74,399*</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">₹15,72,706</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Offers & Discount</h6></div>
+            <div className="col-4 text-center">
+            <h6 className="text-center">1 Offer</h6>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none" >View now</NavLink>
+            </div>
+            <div className="col-4 ">
+            <h6 className="float-right">1 Offer</h6>
+            <br></br><NavLink to="/compare" data-dismiss="modal" className="text-decoration-none float-right">Check Now</NavLink>
             
-    //         <div className="row"> 
-    //         <h6 className="">Power Windows Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
-    //         <h6 className="">Air Conditioner<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
-    //         <h6 className="">Passenger Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
-    //         <h6 className="">Alloy Wheels<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
-    //         </div>   
-    //        ],
-
-    //     topFeatures:[
-    //     <div className="row">    
-    //     <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Windows Front</h7></div>
-    //     <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Air Conditioner</h7></div>
-    //     <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Steering</h7></div>
-    //     <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Anti Lock Braking System</h7></div>
-    //     <a href="#more" className="col-12 py-3 text-center text-decoration-none"><b>+6 more</b></a>
-    //     </div>
-    //     ],
-    // },
-    // {
-    //     id:4,
-    //     rate:"4.5",
-    //     image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Seltos/6226/1619864569028/front-left-side-47.jpg?tr=w-456",
-    //     image1:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Seltos/6226/1619864569028/front-left-side-47.jpg?tr=w-456",
-    //     name:"Kia Seltos",
-    //     category:"suv",
-    //     price:"₹9.95 - 17.65 Lakh*",
-    //     description:<p>The Kia Seltos has 1 Diesel Engine and 3 Petrol Engine on offer. The Diesel engine is 1493 cc while the Petrol engine is 1497 cc and 1498 cc and 1353 cc . It is available with the Manual & Automatic transmission. Depending upon the variant and fuel type the Seltos has a mileage of 16.1 to 20.8 kmpl. The Seltos is a 5 seater and has length of 4315mm, width of 1800mm and a wheelbase of 2610mm.<br></br>Latest Update: Kia has launched the updated Seltos.
-    //     <br></br>
-    //     <b>Kia Seltos Price:</b> The 2021 Seltos is priced between Rs 9.95 lakh and Rs 17.85 lakh (ex-showroom).
-    //     <br></br>
-    //     <b>Kia Seltos Variants:</b> It is offered in two trims: Tech (HT) Line and GT Line. While the former has five variants (HTE, HTK, HTK+, HTX, and HTX+), the latter has only two [GTX(O) and GTX+].
-    //     <br></br>
-    //     <b>Kia Seltos Seating Capacity:</b> The Seltos can seat up to five people.
-    //     <br></br>
-    //     <b>Kia Seltos Powertrains:</b> It comes with three engine options: 1.5-litre petrol (115PS/144Nm), 1.4-litre turbocharged petrol (140PS/242Nm), and 1.5-litre diesel (115PS/250Nm). A 6-speed manual gearbox is offered as standard with all three engines. It also gets optional automatic transmissions: a 7-speed DCT (1.4-litre turbo-petrol), a CVT (1.5-litre petrol), and a 6-speed torque converter unit (1.5-litre diesel). The 1.5-litre petrol engine also gets a 6-speed iMT (clutchless manual) gearbox.
-    //     <br></br>
-    //     Kia claims a fuel efficiency of 16.5kmpl for the petrol-manual and 16.8kmpl for the petrol-CVT variants. The diesel-manual’s claimed fuel efficiency figure stands at 21kmpl, while the 6-speed AT’s stands at 18kmpl. The 1.4-litre turbo-petrol, paired with the DCT, offers a claimed mileage of 16.5kmpl, while the manual returns 16.1kmpl.
-    //     <br></br>
-    //     <b>Kia Seltos Features:</b> The Seltos packs a 10.25-inch touchscreen infotainment system along with Kia's UVO connected car technology, an air purifier, ambient lighting, and an 8-inch head-up display. It also gets ventilated front seats, a power-adjustable driver’s seat, a 7-inch multi-information display, an 8-speaker Bose sound system, and a sunroof. It comes with smartwatch connectivity, smart-key remote engine start, and a 'Hello Kia' wake up command as well.
-    //     <br></br>
-    //     <b>Kia Seltos Safety:</b> It gets up to six airbags, ABS with EBD, brake assist, emergency stop signal, vehicle stability management (VSM), electronic stability control (ESC), and hill assist control (HAC).</p>,
-    //     exterior:"https://stimg.cardekho.com/images/feelthecar360view/Exterior/Kia/Kia-Seltos/1563185539/Exterior.html?hotSpotNonApp=yes",
-    //     interior:"https://stimg.cardekho.com/images/feelthecar360view/Interior/Kia/Kia-Seltos/1581665713/Interior.html?hotSpotNonApp=yes",
-    //     interior1:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Kia/Seltos/6226/1619864686803/steering-wheel-54.jpg",
-    //     interior2:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Kia/Seltos/6226/1619864686803/ac-controls-151.jpg",
-    //     interior3:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Kia/Seltos/6226/1619864686803/infotainment-system-main-menu-183.jpg",
-    //     interior4:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Kia/Seltos/6226/1619864686803/front-air-vents-144.jpg",
-    //     color1:"https://stimg.cardekho.com/images/car-images/930x620/Kia/Seltos/6226/1595843473689/232_intense-red-aurora-black-pearl_b51829.jpg",
-    //     color2:"https://stimg.cardekho.com/images/car-images/930x620/Kia/Seltos/6226/1595843473689/231_steel-Silve-punchy-Orange_949395.jpg",
-    //     color3:"https://stimg.cardekho.com/images/car-images/930x620/Kia/Seltos/6226/1595843473689/226_Aurora-Black-Pearl_343638.jpg",
-    //     Engine:"1353cc-1498cc",
-    //     seat:"5",
-    //     BHP:"113.4-138.08 Bhp",
-    //     specification:  [
-    //         <div className="row"> 
-    //                     <div>ARAI Mileage<h6 className="float-right ">17.8 kmpl</h6></div><hr className="text-success mt-2"></hr>
-    //                     <div>Engine Displacement (cc)<h6 className="float-right ">1493</h6></div><hr className="text-success mt-2"></hr>
-    //                     <div>Max Torque (nm@rpm)<h6 className="float-right ">250nm@1500-2750rpm</h6></div><hr className="text-success mt-2"></hr>
-    //                     <div>TransmissionType<h6 className="float-right ">Automatic</h6></div><hr className="text-success mt-2"></hr>
-    //                     <div>Fuel Tank Capacity<h6 className="float-right ">50.0</h6></div><hr className="text-success mt-2"></hr>
-    //                     <div>Service Cost (Avg. of 5 years)<h6 className="float-right ">₹4,628</h6></div><hr className="text-success mt-2"></hr>
-    //                     </div>
-    //                     ],
-    //     specification2:  [
-    //         <div className="row"> 
-    //         <div>Fuel Type<h6 className="float-right ">Diesel</h6></div><hr className="text-success mt-2"></hr>
-    //         <div>Max Power (bhp@rpm)<h6 className="float-right ">113.4bhp@4000rpm</h6></div><hr className="text-success mt-2"></hr>
-    //         <div>Seating Capacity<h6 className="float-right ">5</h6></div><hr className="text-success mt-2"></hr>
-    //         <div>Boot Space (Litres)<h6 className="float-right ">433</h6></div><hr className="text-success mt-2"></hr>
-    //         <div>Body Type<h6 className="float-right ">SUV</h6></div><hr className="text-success mt-2"></hr>
-    //         </div>    
-    //            ],
-
-
-    //     feature:  [
-    //         <div className="row"> 
-    //         <h6 className="">Power Steering<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
-    //         <h6 className="">Anti Lock Braking System<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
-    //         <h6 className="">Driver Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
-    //         <h6 className="">Fog Lights - Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
-    //         <h6 className="">Automatic Climate Control<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
-    //         </div>
-    //              ],
-        
-    //      feature2:  [
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Finance Available (EMI)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">₹40,326</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">₹30,705</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Insurance</h6></div>
+            <div className="col-4 text-center">
+            <h6 className="">₹64,294</h6>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none">Seltos Insurance</NavLink>
+            </div>
+            <div className="col-4">
+            <h6 className="float-right">₹50,651</h6><br></br>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none float-right" >Sonet Insurance</NavLink>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Service Cost (Avg. of 5 years)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">₹4,628</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">₹3,980</h6>
+            </div>
+            </div>
+            ],
+   
+        Engine:  [
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Engine Type</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">1.5L CRDi VGT</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">1.5L CRDi VGT</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Displacement (cc)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">1493</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">1493</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Fast Charging</h6></div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Max Power (bhp@rpm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">113.4bhp@4000rpm</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">113.42bhp@4000rpm</h6>
+            </div>
+            </div>
+         
             
-    //         <div className="row"> 
-    //         <h6 className="">Power Windows Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
-    //         <h6 className="">Air Conditioner<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
-    //         <h6 className="">Passenger Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
-    //         <h6 className="">Alloy Wheels<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
-    //         </div>   
-    //        ],
+                 ],
 
-    //     topFeatures:[
-    //     <div className="row">    
-    //     <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Windows Front</h7></div>
-    //     <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Air Conditioner</h7></div>
-    //     <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Steering</h7></div>
-    //     <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Anti Lock Braking System</h7></div>
-    //     <a href="#more" className="col-12 py-3 text-center text-decoration-none"><b>+6 more</b></a>
-    //     </div>
-    //     ],
-    // },
+        fuel:  [ 
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Fuel Type</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">Diesel</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">Diesel</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Mileage (City)</h6></div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Mileage (ARAI)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">17.8 kmpl</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">19.0 kmpl</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Fuel Tank Capacity</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">50.0 (Litres)</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">45.0 (Litres)</h6>
+            </div>
+            </div>  
+           ],
+      
+        suspension:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Front Suspension</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">MacPherson Strut & Coil Spring</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">McPherson Strut with Coil Spring</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Rear Suspension</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">Coupled Torsion Beam Axle</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">Coupled Torsion Beam Axle with Coil Spring</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Steering Type</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">Electric</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">Electric</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Steering Column</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">Tilt & Telescopic</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">Tilt </h6>
+            </div>
+            </div>
+        ],
+   
+        dimension:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Length (mm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">4315</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">3995</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Width (mm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">1800</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">1790</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Height (mm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">1645</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">1642</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Ground Clearance Unladen (mm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">190</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">-</h6>
+            </div>
+            </div>
+        ],
+       
+        comfort:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Power Steering</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Power Windows Front</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Power Windows Rear</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Power folding 3rd Row Seat</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger text-center"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            </div>
+        ],
+  
+        interior:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Tachometer</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Electronic Multi Tripmeter</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Leather Seats</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            </div>
+
+        ],
+ 
+        exterior:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Available Colors</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Body Type</h6>
+            </div>
+            <div className="col-4 text-center">
+            <h6 className="">SUV</h6>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none">All SUV Cars</NavLink> 
+            </div>
+            <div className="col-4">
+            <h6 className="float-right">SUV</h6><br></br>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none float-right">All SUV Cars</NavLink> 
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Adjustable Headlights</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            </div>
+  
+        ],
+   
+        safety:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Anti Lock Braking System</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Brake Assist</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Central Locking</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Power Door Locks</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            </div>
+        ],
+   
+        entertainment:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Cd Player</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Cd Changer</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Dvd Player</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Radio</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            </div>
+
+        ],
+
+        warranty:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Introduction Date</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Warranty Time</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Warranty Distance</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            </div>
+        ],
+
+    },
+    {
+        id:4,
+        rate:"4.5",
+        image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Nissan/Magnite/8127/1608191740345/front-left-side-47.jpg?tr=w-456",
+        image1:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Renault/Kiger/8361/1615378654259/front-left-side-47.jpg?tr=w-456",
+        name:"Nissan Magnite",
+        name1:"Renault Kiger",
+        category:"suv",
+        price:"₹5.59-10.00 Lakh*",
+        price1:"₹5.45-9.75 Lakh*",
+        description:<p>Should you buy Nissan Magnite or Renault Kiger? Find out which car is best for you - compare the two models on the basis of their Price, Size, Space, Boot Space, Service cost, Mileage, Features, Colours and other specs. Nissan Magnite price starts at Rs 5.59 Lakh ex-showroom for XE (Petrol) and Renault Kiger price starts Rs 5.45 Lakh ex-showroom for RXE (Petrol). Magnite has 999 cc (Petrol top model) engine, while Kiger has 999 cc (Petrol top model) engine. As far as mileage is concerned, the Magnite has a mileage of 20.0 kmpl (Petrol top model) and the Kiger has a mileage of - (Petrol top model).</p>,
+        specification:  [
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">On Road Price</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">₹11,42,588*</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">₹10,84,962</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Offers & Discount</h6></div>
+            <div className="col-4 text-center">
+            <h6 className="text-center">1 Offer</h6>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none" >View now</NavLink>
+            </div>
+            <div className="col-4 ">
+            <h6 className="float-right">1 Offer</h6>
+            <br></br><NavLink to="/compare" data-dismiss="modal" className="text-decoration-none float-right">Check Now</NavLink>
+            
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Finance Available (EMI)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">₹21,753</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">₹20,661</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Insurance</h6></div>
+            <div className="col-4 text-center">
+            <h6 className="">₹42,588</h6>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none">Magnite Insurance</NavLink>
+            </div>
+            <div className="col-4">
+            <h6 className="float-right">₹41,712</h6><br></br>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none float-right" >Kiger Insurance</NavLink>
+            </div>
+            </div>
+            
+            ],
+   
+        Engine:  [
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Engine Type</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">HRA0 1.0 TURBO PETROL</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">1.0 L Turbocharged</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Displacement (cc)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">999</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">999</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Fast Charging</h6></div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Max Power (bhp@rpm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">98.63bhp@5000rpm</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">98.63bhp@4000rpm</h6>
+            </div>
+            </div>
+         
+            
+                 ],
+
+        fuel:  [ 
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Fuel Type</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">Petrol</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">Petrol</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Mileage (City)</h6></div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Mileage (ARAI)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">17.7 kmpl</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">-</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Fuel Tank Capacity</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">40.0 (Litres)</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">40.0 (Litres)</h6>
+            </div>
+            </div>  
+           ],
+      
+        suspension:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Front Suspension</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">Mac Pherson strut with Lower Transverse link</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">Mac Pherson strut with Lower Transverse link</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Rear Suspension</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">Twin tube telescopic shock absorber</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">Twist beam suspension with coil spring</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Steering Type</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">Electronic</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">Electric</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Steering Column</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">Tilt</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">Tilt </h6>
+            </div>
+            </div>
+        ],
+   
+        dimension:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Length (mm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">3994</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">3991</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Width (mm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">1758</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">1750</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Height (mm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">1572</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">1605</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Ground Clearance Unladen (mm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">-</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">205</h6>
+            </div>
+            </div>
+        ],
+       
+        comfort:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Power Steering</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Power Windows Front</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Power Windows Rear</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Power Boot</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger text-center"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            </div>
+        ],
+  
+        interior:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Tachometer</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Electronic Multi Tripmeter</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Leather Seats</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            </div>
+
+        ],
+ 
+        exterior:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Available Colors</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Body Type</h6>
+            </div>
+            <div className="col-4 text-center">
+            <h6 className="">SUV</h6>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none">All SUV Cars</NavLink> 
+            </div>
+            <div className="col-4">
+            <h6 className="float-right">SUV</h6><br></br>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none float-right">All SUV Cars</NavLink> 
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Adjustable Headlights</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            </div>
+  
+        ],
+   
+        safety:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Anti Lock Braking System</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Brake Assist</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Central Locking</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Power Door Locks</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            </div>
+        ],
+   
+        entertainment:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Cd Player</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Cd Changer</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Dvd Player</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Radio</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            </div>
+
+        ],
+
+        warranty:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Introduction Date</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Warranty Time</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Warranty Distance</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            </div>
+        ],
+        Pros:[
+            <div className="row">
+            <div className="col-6">
+            <h4 className="font-weight-bold">Nissan Magnite</h4>
+            <div className="container-fluid">
+            <ul>
+            <li>Smartly designed sub-compact SUV. Very well proportioned</li>
+            <li>Spacious and practical cabin. A good SUV for the family</li>
+            <li>Comfortable ride quality. Bad roads can be tackled with confidence</li>
+            <li>Turbo petrol engine offers good driveability and punch. Zipping through traffic and executing overtakes is easy</li>
+            <li>Good features list: 7-inch digital instrument cluster, 8-inch touchscreen with wireless Android Auto/Apple CarPlay support, JBL music system, 360-degree camera, connected car tech and more.</li>
+            </ul>
+            </div>
+            </div>
+            <div className="col-6">
+            <h4 className="font-weight-bold">Renault Kiger</h4>
+            <div className="container-fluid">
+            <ul>
+            <li>Quirky design stands out. Especially in loud colours like red and blue.</li>
+            <li>Super spacious cabin makes it a genuine family car.</li>
+            <li>405-litre boot is the largest in its class.</li>
+            <li>Well-tuned suspension feels at home tackling bad road conditions.</li>
+            <li>Two automatic options for varying budgets.</li>
+            </ul>
+            </div>
+            </div>
+            </div>
+        ],
+        Cons:[
+            <div className="row">
+            <div className="col-6">
+            <h4 className="font-weight-bold">Maruti Baleno</h4>
+            <div className="container-fluid">
+            <ul>
+            <li>Fitment quality is decent but not premium. Doesn’t feel as rich inside as a Sonet/Venue/XUV300.</li>
+            <li>Not an exciting or fun to drive car, even with the turbo petrol engine</li>
+            <li>No diesel engine option</li>
+            <li>Nissan’s sales and service network is currently lagging behind the competition</li>
+            </ul>
+            </div>
+            </div>
+            <div className="col-6">
+            <h4 className="font-weight-bold">Toyota Glanza</h4>
+            <div className="container-fluid">
+            <ul>
+            <li>Interior design looks plain and the cabin could do with livelier colours.</li>
+            <li>Feel good features are reserved just for the top RxZ trim</li>
+            <li>Cabin insulation could be better</li>
+            </ul>
+            </div>
+            </div>
+            </div>
+        ]
+    },
+    {
+        id:5,
+        rate:"4.5",
+        image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Baleno/6778/1615985070703/front-left-side-47.jpg?tr=w-456",
+        image1:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Mercedes-Benz/GLA/7269/1621948227508/front-left-side-47.jpg?tr=w-456",
+        name:"Maruti Baleno",
+        name1:"Mercedes-Benz GLA",
+        category:"suv",
+        price:"₹5.98-9.30 Lakh*",
+        price1:"₹42.10-57.28 Lakh*",
+        description:<p>Should you buy Maruti Baleno or Mercedes-Benz GLA? Find out which car is best for you - compare the two models on the basis of their Price, Size, Space, Boot Space, Service cost, Mileage, Features, Colours and other specs. Maruti Baleno price starts at Rs 5.98 Lakh ex-showroom for Sigma (Petrol) and Mercedes-Benz GLA price starts Rs 42.10 Lakh ex-showroom for 200 (Petrol). Baleno has 1197 cc (Petrol top model) engine, while GLA has 1991 cc (Petrol top model) engine. As far as mileage is concerned, the Baleno has a mileage of 23.87 kmpl (Petrol top model) and the GLA has a mileage of - (Petrol top model).</p>,
+        specification:  [
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">On Road Price</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">₹10,35,839*</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">₹66,07,096*</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Offers & Discount</h6></div>
+            <div className="col-4 text-center">
+            <h6 className="text-center">1 Offer</h6>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none" >View now</NavLink>
+            </div>
+            <div className="col-4 ">
+            <div className="fa fa-times text-danger float-right"></div>
+            
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Finance Available (EMI)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">₹20,235</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">₹1,25,752</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Insurance</h6></div>
+            <div className="col-4 text-center">
+            <h6 className="">₹34,409</h6>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none">Baleno Insurance</NavLink>
+            </div>
+            <div className="col-4">
+            <h6 className="float-right">₹2,49,016</h6><br></br>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none float-right" >GLA Insurance</NavLink>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Service Cost (Avg. of 5 years)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">₹3,656</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">-</h6>
+            </div>
+            </div>
+            ],
+   
+        Engine:  [
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Engine Type</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">1.2L VVT Engine</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">-</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Displacement (cc)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">1197</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">1991</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Fast Charging</h6></div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Max Power (bhp@rpm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">81.80bhp@4000rpm</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">301.73bhp@4000rpm</h6>
+            </div>
+            </div>
+         
+            
+                 ],
+
+        fuel:  [ 
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Fuel Type</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">Petrol</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">Petrol</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Mileage (City)</h6></div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Mileage (ARAI)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">19.56 kmpl</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">-</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Fuel Tank Capacity</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">37.0 (Litres)</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">NA</h6>
+            </div>
+            </div>  
+           ],
+      
+        suspension:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Front Suspension</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">MacPherson Strut</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">-</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Rear Suspension</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">Torsion Beam</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">-</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Steering Type</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">Electric</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">-</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Steering Column</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">Tilt & Telescopic</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">- </h6>
+            </div>
+            </div>
+        ],
+   
+        dimension:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Length (mm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">3995</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">4436</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Width (mm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">1745</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">2020</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Height (mm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">1510</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">1588</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Ground Clearance Unladen (mm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">170</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">-</h6>
+            </div>
+            </div>
+        ],
+       
+        comfort:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Power Steering</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Power Windows Front</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Power Windows Rear</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Power Boot</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success text-center"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            </div>
+        ],
+  
+        interior:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Tachometer</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Electronic Multi Tripmeter</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Leather Seats</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            </div>
+
+        ],
+ 
+        exterior:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Available Colors</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Body Type</h6>
+            </div>
+            <div className="col-4 text-center">
+            <h6 className="">Hatchback</h6>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none">All Hatchback Cars</NavLink> 
+            </div>
+            <div className="col-4">
+            <h6 className="float-right">SUV</h6><br></br>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none float-right">All SUV Cars</NavLink> 
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Adjustable Headlights</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            </div>
+  
+        ],
+   
+        safety:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Anti Lock Braking System</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Brake Assist</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Central Locking</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Power Door Locks</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            </div>
+        ],
+   
+        entertainment:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Cd Player</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Cd Changer</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Dvd Player</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Radio</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            </div>
+
+        ],
+
+        warranty:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Introduction Date</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Warranty Time</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Warranty Distance</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            </div>
+        ],
+
+    },
+    {
+        id:6,
+        rate:"4.5",
+        image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Baleno/6778/1615985070703/front-left-side-47.jpg?tr=w-456",
+        image1:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Toyota/Toyota-Glanza/6902/1559807182519/front-left-side-47.jpg?tr=w-456",
+        name:"Maruti Baleno",
+        name1:"Toyota Glanza",
+        category:"suv",
+        price:"₹5.98-9.30 Lakh*",
+        price1:"₹7.34-9.30 Lakh*",
+        description:<p>Should you buy Maruti Baleno or Toyota Glanza? Find out which car is best for you - compare the two models on the basis of their Price, Size, Space, Boot Space, Service cost, Mileage, Features, Colours and other specs. Maruti Baleno price starts at Rs 5.98 Lakh ex-showroom for Sigma (Petrol) and Toyota Glanza price starts Rs 7.34 Lakh ex-showroom for G (Petrol). Baleno has 1197 cc (Petrol top model) engine, while Glanza has 1197 cc (Petrol top model) engine. As far as mileage is concerned, the Baleno has a mileage of 23.87 kmpl (Petrol top model) and the Glanza has a mileage of 23.87 kmpl (Petrol top model).</p>,
+        specification:  [
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">On Road Price</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">₹10,35,839*</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">₹10,36,508*</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Offers & Discount</h6></div>
+            <div className="col-4 text-center">
+            <h6 className="text-center">1 Offer</h6>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none" >View now</NavLink>
+            </div>
+            <div className="col-4">
+            <h6 className="float-right">1 Offer</h6>
+            <br></br><NavLink to="/compare" data-dismiss="modal" className="text-decoration-none float-right">Check Now</NavLink>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Finance Available (EMI)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">₹20,235</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">₹20,646</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Insurance</h6></div>
+            <div className="col-4 text-center">
+            <h6 className="">₹34,409</h6>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none">Baleno Insurance</NavLink>
+            </div>
+            <div className="col-4">
+            <h6 className="float-right">₹40,508</h6><br></br>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none float-right" >Glanza Insurance</NavLink>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Service Cost (Avg. of 5 years)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">₹3,656</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">₹3,416</h6>
+            </div>
+            </div>
+            ],
+   
+        Engine:  [
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Engine Type</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">1.2L VVT Engine</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">Petrol Engine</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Displacement (cc)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">1197</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">1197</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Fast Charging</h6></div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Max Power (bhp@rpm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">81.80bhp@4000rpm</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">81.80bhp@4000rpm</h6>
+            </div>
+            </div>
+         
+            
+                 ],
+
+        fuel:  [ 
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Fuel Type</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">Petrol</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">Petrol</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Mileage (City)</h6></div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Mileage (ARAI)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">19.56 kmpl</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">19.56 kmpl</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Fuel Tank Capacity</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">37.0 (Litres)</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">37.0 (Litres)</h6>
+            </div>
+            </div>  
+           ],
+      
+        suspension:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Front Suspension</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">MacPherson Strut</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">MacPherson Strut</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Rear Suspension</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">Torsion Beam</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">Torsion Beam</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Steering Type</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">Electric</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">Electric</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Steering Column</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">Tilt & Telescopic</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">Tilt & Telescopic</h6>
+            </div>
+            </div>
+        ],
+   
+        dimension:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Length (mm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">3995</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">3995</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Width (mm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">1745</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">1745</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Height (mm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">1510</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">1510</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Ground Clearance Unladen (mm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">170</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">-</h6>
+            </div>
+            </div>
+        ],
+       
+        comfort:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Power Steering</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Power Windows Front</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Power Windows Rear</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Power Boot</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success text-center"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            </div>
+        ],
+  
+        interior:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Tachometer</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Electronic Multi Tripmeter</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Leather Seats</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            </div>
+
+        ],
+ 
+        exterior:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Available Colors</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Body Type</h6>
+            </div>
+            <div className="col-4 text-center">
+            <h6 className="">Hatchback</h6>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none">All Hatchback Cars</NavLink> 
+            </div>
+            <div className="col-4">
+            <h6 className="float-right">Hatchback</h6><br></br>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none float-right">All Hatchback Cars</NavLink> 
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Adjustable Headlights</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            </div>
+  
+        ],
+   
+        safety:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Anti Lock Braking System</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Brake Assist</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Central Locking</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Power Door Locks</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            </div>
+        ],
+   
+        entertainment:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Cd Player</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Cd Changer</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Dvd Player</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Radio</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            </div>
+
+        ],
+
+        warranty:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Introduction Date</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Warranty Time</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Warranty Distance</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            </div>
+        ],
+        Pros:[
+            <div className="row">
+            <div className="col-6">
+            <h4 className="font-weight-bold">Maruti Baleno</h4>
+            <div className="container-fluid">
+            <ul>
+            <li>LED projector headlamps from Delta variant onwards. LEDs usually offer better visibility than halogens or bi-xenon units.</li>
+            <li>Automatic climate control from Delta variant onwards. unlike a manual AC, automatic climate control allows the user to maintain a set temperature inside the cabin as per their needs.</li>
+            <li>ISOFIX child seat anchors are standard across the range. This lets you attach a child seat on the back seat of the hatchback to offer kids below the age of 10 better safety.</li>
+            </ul>
+            </div>
+            </div>
+            <div className="col-6">
+            <h4 className="font-weight-bold">Toyota Glanza</h4>
+            <div className="container-fluid">
+            <ul>
+            <li>Apart from dual airbags, ABS with EBD, rear parking camera, the Glanza gets ISOFIX as standard across the range.</li>
+            <li>Gets plenty of standard features like LED projector headlamps, 16-inch alloy wheels, 7-inch touchscreen and push button start/stop.</li>
+            <li>Comes with a 3-year/1 lakh km standard warranty as well as a 5-year/2,20,000km extended warranty.</li>
+            <li>All engine and transmission options available from the base variant itself.</li>
+            </ul>
+            </div>
+            </div>
+            </div>  
+        ],
+        Cons:[
+            <div className="row">
+            <div className="col-6">
+            <h4 className="font-weight-bold">Maruti Baleno</h4>
+            <div className="container-fluid">
+            <ul>
+            <li>LED projector headlamps from Delta variant onwards. LEDs usually offer better visibility than halogens or bi-xenon units.</li>
+            <li>Automatic climate control from Delta variant onwards. unlike a manual AC, automatic climate control allows the user to maintain a set temperature inside the cabin as per their needs.</li>
+            <li>ISOFIX child seat anchors are standard across the range. This lets you attach a child seat on the back seat of the hatchback to offer kids below the age of 10 better safety.</li>
+            </ul>
+            </div>
+            </div>
+            <div className="col-6">
+            <h4 className="font-weight-bold">Toyota Glanza</h4>
+            <div className="container-fluid">
+            <ul>
+            <li>Apart from dual airbags, ABS with EBD, rear parking camera, the Glanza gets ISOFIX as standard across the range.</li>
+            <li>Gets plenty of standard features like LED projector headlamps, 16-inch alloy wheels, 7-inch touchscreen and push button start/stop.</li>
+            <li>Comes with a 3-year/1 lakh km standard warranty as well as a 5-year/2,20,000km extended warranty.</li>
+            <li>All engine and transmission options available from the base variant itself.</li>
+            </ul>
+            </div>
+            </div>
+            </div>
+            
+        ]
+    },
+    {
+        id:7,
+        rate:"4.5",
+        image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Swift/8378/1614747593719/front-left-side-47.jpg?imwidth=420&impolicy=resize",
+        image1:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Tiago/7381/1617960171816/front-left-side-47.jpg?tr=w-456",
+        name:"Maruti Swift",
+        name1:"Tata Tiago",
+        category:"suv",
+        price:"₹5.73-8.41 Lakh*",
+        price1:"₹4.99-6.95 Lakh*",
+        description:<p>Should you buy Maruti Swift or Tata Tiago? Find out which car is best for you - compare the two models on the basis of their Price, Size, Space, Boot Space, Service cost, Mileage, Features, Colours and other specs. Maruti Swift price starts at Rs 5.73 Lakh ex-showroom for LXI (Petrol) and Tata Tiago price starts Rs 4.99 Lakh ex-showroom for XE (Petrol). Swift has 1197 cc (Petrol top model) engine, while Tiago has 1199 cc (Petrol top model) engine. As far as mileage is concerned, the Swift has a mileage of 23.76 kmpl (Petrol top model) and the Tiago has a mileage of 23.84 kmpl (Petrol top model).</p>,
+        specification:  [
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">On Road Price</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">₹9,43,017*</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">₹7,83,231#*</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Offers & Discount</h6></div>
+            <div className="col-4 text-center">
+            <h6 className="text-center">1 Offer</h6>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none" >View now</NavLink>
+            </div>
+            <div className="col-4">
+            <h6 className="float-right">1 Offer</h6>
+            <br></br><NavLink to="/compare" data-dismiss="modal" className="text-decoration-none float-right">Check Now</NavLink>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Finance Available (EMI)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">₹18,504</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">₹15,616</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Insurance</h6></div>
+            <div className="col-4 text-center">
+            <h6 className="">₹34,953</h6>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none">Swift Insurance</NavLink>
+            </div>
+            <div className="col-4">
+            <h6 className="float-right">₹30,168</h6><br></br>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none float-right" >Tiago Insurance</NavLink>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Service Cost (Avg. of 5 years)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">₹4,703</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">₹5,297</h6>
+            </div>
+            </div>
+            ],
+   
+        Engine:  [
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Engine Type</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">K series Dual Jet</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">1.2L Revotron</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Displacement (cc)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">1197</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">1199</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Fast Charging</h6></div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <h6 className="float-right">-</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Max Power (bhp@rpm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">81.50bhp@4000rpm</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">84.48bhp@4000rpm</h6>
+            </div>
+            </div>
+         
+            
+                 ],
+
+        fuel:  [ 
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Fuel Type</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">Petrol</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">Petrol</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Mileage (City)</h6></div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <h6 className="float-right">16.04 kmpl</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Mileage (ARAI)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">23.76 kmpl</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">23.84 kmpl</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Fuel Tank Capacity</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">37.0 (Litres)</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">35.0 (Litres)</h6>
+            </div>
+            </div>  
+           ],
+      
+        suspension:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Front Suspension</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">MacPherson Strut</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">Independent, Lower wishbone, McPherson (dual path) strut type</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Rear Suspension</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">Torsion Beam</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">Twist beam with coil spring mounted on hydraulic shocks</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Steering Type</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">Electric</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">Electric</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Steering Column</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">Tilt</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">Tilt</h6>
+            </div>
+            </div>
+        ],
+   
+        dimension:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Length (mm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">3845</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">3765</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Width (mm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">1735</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">1677</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Height (mm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">1530</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">1535</h6>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Ground Clearance Unladen (mm)</h6></div>
+            <div className="col-4">
+            <h6 className="text-center">-</h6></div>
+            <div className="col-4">
+            <h6 className="float-right">170</h6>
+            </div>
+            </div>
+        ],
+       
+        comfort:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Power Steering</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Power Windows Front</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Power Windows Rear</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Power Boot</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success text-center"></div>
+            </div>
+            <div className="col-4">
+            <h6 className="float-right">-</h6>
+            </div>
+            </div>
+        ],
+  
+        interior:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Tachometer</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Electronic Multi Tripmeter</h6>
+            </div>
+            <div className="col-4 text-center">
+            <h6 className="float-left">-</h6>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Leather Seats</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            </div>
+
+        ],
+ 
+        exterior:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Available Colors</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Body Type</h6>
+            </div>
+            <div className="col-4 text-center">
+            <h6 className="">Hatchback</h6>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none">All Hatchback Cars</NavLink> 
+            </div>
+            <div className="col-4">
+            <h6 className="float-right">Hatchback</h6><br></br>
+            <NavLink to="/compare" data-dismiss="modal" className="text-decoration-none float-right">All Hatchback Cars</NavLink> 
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Adjustable Headlights</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            </div>
+  
+        ],
+   
+        safety:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Anti Lock Braking System</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Brake Assist</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Central Locking</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Power Door Locks</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            </div>
+        ],
+   
+        entertainment:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Cd Player</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Cd Changer</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Dvd Player</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Radio</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-check text-success"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-check text-success float-right"></div>
+            </div>
+            </div>
+
+        ],
+
+        warranty:[
+            <div className="row"> 
+            <div className="col-4">
+            <h6 className="float-left">Introduction Date</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Warranty Time</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger "></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            <hr className="text-success mt-2"></hr>
+            <div className="col-4">
+            <h6 className="float-left">Warranty Distance</h6>
+            </div>
+            <div className="col-4 text-center">
+            <div className="fa fa-times text-danger"></div>
+            </div>
+            <div className="col-4">
+            <div className="fa fa-times text-danger float-right"></div>
+            </div>
+            </div>
+        ],
+        Pros:[
+            <div className="row">
+            <div className="col-6">
+            <h4 className="font-weight-bold">Maruti Baleno</h4>
+            <div className="container-fluid">
+            <ul>
+            <li>Funky styling still gets attention. Lots of modification potential too!</li>
+            <li>Playful chassis and steering makes it quite a hoot to drive.</li>
+            <li>New features such as cruise control and coloured MID make it a better package.</li>
+            </ul>
+            </div>
+            </div>
+            <div className="col-6">
+            <h4 className="font-weight-bold">Toyota Glanza</h4>
+            <div className="container-fluid">
+            <ul>
+            <li>Probably the best looking hatchback of the lot</li>
+            <li>Build quality is impressive</li>
+            <li>4-stars in Global NCAP speaks highly about safety</li>
+            <li>Segment above features</li>
+            </ul>
+            </div>
+            </div>
+            </div>  
+        ],
+        Cons:[
+            <div className="row">
+            <div className="col-6">
+            <h4 className="font-weight-bold">Maruti Baleno</h4>
+            <div className="container-fluid">
+            <ul>
+            <li>Pricing is woefully close to the Baleno, a car that offers more space and better quality.</li>
+            <li>No significant design changes. Doesn’t look like a new model.</li>
+            <li>New safety features are limited to the AMT variant.</li>
+            </ul>
+            </div>
+            </div>
+            <div className="col-6">
+            <h4 className="font-weight-bold">Toyota Glanza</h4>
+            <div className="container-fluid">
+            <ul>
+            <li>3-pot Engine is not the most refined in the segment</li>
+            <li>AMT transmission is slow to shift</li>
+            <li>Plastic starts to rattle in some models</li>
+            </ul>
+            </div>
+            </div>
+            </div>
+            
+        ]
+    },
+    
 ]
 export default CompareCars;

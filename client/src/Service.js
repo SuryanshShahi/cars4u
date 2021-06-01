@@ -6,7 +6,7 @@ function Service() {
   window.onload = Service;
   return (
     <section id="service">
-      <div className="bg-white pt-5">
+      <div className=" pt-5">
         <div className="container">
           <h1 className="text-center">
             <strong className="tag px-4 py-1">SERVICES</strong>

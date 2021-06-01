@@ -5,7 +5,7 @@ function About() {
   window.onload = About;
   return (
     <section id="about">
-      <div className="bg-white pt-5">
+      <div className="pt-5">
         <div className="container ">
           <h1 className="text-center">
             <strong className="tag px-4 py-1">ABOUT</strong>

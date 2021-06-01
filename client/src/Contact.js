@@ -6,7 +6,7 @@ function Contact() {
   window.onload = Contact;
   return (
     <section  id="contact">
-    <div className="bg-white pt-5">
+    <div className=" pt-5">
       <div className="container w-50 hey h-100 mt-2">
         <h2 className="text-center">
           <strong className="tag px-4 py-1">CONTACT</strong>

@@ -60,7 +60,7 @@ function Home() {
     autoplaySpeed: 0,
   };
   return (
-    <section id="cars4u" className="pb-5 bg-white">
+    <section id="cars4u" className="pb-5">
       <div className="container py-5">
         <h1 className="text-center">
           <strong className="tag px-4 py-1">CARS4U</strong>
@@ -79,7 +79,7 @@ function Home() {
                   className="text-decoration-none text-dark"
                   data-target="#mymodal3"
                   data-toggle="modal"
-                  onClick={() => filterImg(id)}
+                  onClick={() => filterImg(21)}
                 >
                   <div className="card px-2 py-2 border-0 shadow rounded-0 effects">
                     <img src={image} alt="menupic1" className="img-fluid" />

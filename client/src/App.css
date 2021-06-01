@@ -11,6 +11,21 @@
   scroll-behavior: smooth;
   /* transition: 0.5s; */
 }
+#cars4u {
+  background-color: #eee;
+}
+#service {
+  background-color: #eee;
+}
+#about {
+  background-color: #eee;
+}
+#contact {
+  background-color: #eee;
+}
+#compare {
+  background-color: #eee;
+}
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -163,10 +178,10 @@ background-attachment: fixed;
   cursor: pointer;
   text-decoration: underline;
 }
-li {
+.fshadow li {
   color: #333333;
 }
-li:hover {
+.fshadow li:hover {
   cursor: pointer;
   color: #e61e43;
 }
