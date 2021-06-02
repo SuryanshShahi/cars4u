@@ -49,14 +49,19 @@ function Footer() {
         <div className="container-fluid down px-lg-5"><br></br>
         <div className="float-lg-left float-sm-left px-lg-5 font-weight-bold d-flex justify-content-center">© Copyright. All Rights Reserved<br></br>
         Designed by "..."</div>
-        <div className="float-lg-right float-sm-right px-lg-5 d-flex justify-content-center pt-3 pt-lg-0 pt-md-0 pt-sm-0">
+        <div className="float-lg-right float-sm-right px-lg-5 px-md-5 px-sm-5 d-flex justify-content-center pt-3 pt-lg-0 pt-md-0 pt-sm-0">
           <a href="/" className="fa fa-facebook text-decoration-none mx-lg-2 mx-md-2 mx-1 fa-lg hello text-white text-center "></a>
           <a href="https://github.com/SuryanshShahi" className="fa fa-github text-decoration-none mx-lg-2 mx-md-2 mx-1 fa-lg hello text-white text-center"></a>
           <a href="https://twitter.com/SuryanshShahi12" className="fa fa-twitter text-decoration-none mx-lg-2 mx-md-2 mx-1 fa-lg hello text-white text-center"></a>
           <a href="https://www.instagram.com/suryansh_shahi/" className="fa fa-instagram text-decoration-none mx-lg-2 mx-md-2 mx-1 fa-lg hello text-white text-center"></a>
           <a href="https://www.linkedin.com/in/suryansh-shahi-42b34b177/" className="fa fa-linkedin text-decoration-none mx-lg-2 mx-md-2 mx-1 fa-lg hello text-white text-center"></a>
-        </div>
-        </div>
+
+        
+          </div>
+
+       
+          </div>
+        
         
       </footer>
     </section>

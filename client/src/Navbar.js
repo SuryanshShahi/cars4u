@@ -7,14 +7,17 @@ import car from "./images/car.mp4";
 function Navbar() {
   const [navbar, setNavbar] = useState(false);
   const [B, setHeader] = useState(false);
+  const [back, setBack] = useState(false);
 
   const changeBackground = () => {
     if (window.scrollY >= 150) {
       setNavbar(true);
       setHeader(true);
+      setBack(true);
     } else {
       setNavbar(false);
       setHeader(false);
+      setBack(false);
     }
   };
   window.addEventListener("scroll", changeBackground);
@@ -425,7 +428,7 @@ function Navbar() {
             <source src={car} className="hero" />
           </video>
         </div>
-        <div className="tagline">
+        <div className="tagline" id="tagline">
           <div class="hero-container">
             <h1 className="text-white">Welcome To CARS4U</h1>
           </div>
@@ -435,10 +438,21 @@ function Navbar() {
           <h4 className="text-white pt-1">
             Think smart, feel positive, and drive extraordinary.
           </h4>
-          
-          <a href="/#cars4u" className="btn shadow-none text-white mt-5">TAKE A RIDE</a>
-          
+
+          <a href="/#cars4u" className="btn shadow-none text-white mt-5">
+            TAKE A RIDE
+          </a>
         </div>
+      </div>
+      <div className="backtotop container-fluid justify-content-end d-flex">
+        <a
+          href="#tagline"
+          className={
+            back
+              ? "back active fa fa-arrow-up position-absolute text-decoration-none hello text-white text-center"
+              : "back fa fa-arrow-up position-absolute text-decoration-none hello text-white text-center d-none"
+          }
+        ></a>
       </div>
     </section>
   );

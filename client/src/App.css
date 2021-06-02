@@ -520,3 +520,15 @@ ul {
   overflow-y: overlay;
 }
 
+.backtotop{
+position:fixed;
+float: right;
+z-index: 1;
+top: 92%;
+/* bottom: 0%;
+left: 93.5%; */
+}
+.back.active{
+  display: block;
+
+}
