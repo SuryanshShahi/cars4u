@@ -387,18 +387,7 @@ background-attachment: fixed;
   bottom: 0;
   color: white;
 }
-.carsection li {
-  cursor: pointer;
-  display: inline-block;
-  transition: all ease-in-out 0.3s;
-  background: #d3d2d2;
-  border-radius: 50px;
-}
-.carsection li:hover,
-.carsection li.filter-active {
-  color: #fff;
-  background: #e43c5c;
-}
+
 
 ul {
   padding-left: 0px;
@@ -506,3 +495,28 @@ ul {
   color: black;
   border-bottom: 2.5px solid #e43c5c;
 }
+/* .hometab.active{
+  color: black;
+  background-color: #e43c5c;
+  background-size: cover;
+} */
+
+.hometab {
+  cursor: pointer;
+  display: inline-block;
+  transition: all ease-in-out 0.3s;
+  background: #d3d2d2;
+  color: black;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 50px;
+}
+.hometab:hover,
+.hometab.active {
+  color: #fff;
+  background: #e43c5c;
+}
+.modal{
+  overflow-y: overlay;
+}
+

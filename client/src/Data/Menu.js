@@ -1650,7 +1650,7 @@ const Menu=[
         interior2:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Renault/Triber/8399/1615356732096/door-view-of-driver-seat-51.jpg",
         interior3:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Renault/Triber/8399/1615356732096/interior-image-211.jpg",
         interior4:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Renault/Triber/8399/1615356732096/glovebox-130.jpg",
-        color1:"https://stimg.cardekho.com/images/car-images/930x620/Kia/Seltos/6226/1595843473689/232_intense-red-aurora-black-pearl_b51829.jpg",
+        color1:"https://stimg.cardekho.com/images/car-images/930x620/Renault/Renault-Triber/6213/1566887941437/Color_204ca3.jpg",
         color2:"https://stimg.cardekho.com/images/car-images/930x620/Renault/Renault-Triber/6213/1566887941437/Color_c82330.jpg",
         color3:"https://stimg.cardekho.com/images/car-images/930x620/Renault/Renault-Triber/6213/1566887941437/Color_caccce.jpg",
         Engine:"999cc",
@@ -2144,6 +2144,40 @@ const Menu=[
         name: "Mercedes-Benz A-Class Limousine",
         category: "luxury",
         price: "₹39.90-56.24 Lakh*",
+        rate:"4.5"
+      },
+      {
+        id: 38,
+        image:
+          "https://stimg.cardekho.com/images/carexteriorimages/630x420/Toyota/Toyota-Glanza/6902/1559807182519/front-left-side-47.jpg?tr=w-456",
+        name: "Toyota Glanza",
+        category: "hatch",
+        price: "₹7.34-9.30 Lakh*",
+        rate:"4.5"
+      },
+      {
+        id: 39,
+        name:"Nissan Magnite",
+        category: "suv",
+        rate:"4.5",
+        image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Nissan/Magnite/8127/1608191740345/front-left-side-47.jpg?tr=w-456",
+        price:"₹5.59-10.00 Lakh*",
+
+      },
+      {
+        id: 40,
+        image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Renault/Kiger/8361/1615378654259/front-left-side-47.jpg?tr=w-456",
+        name: "Renault Kiger",
+        category: "suv",
+        price: "₹5.45-9.75 Lakh*",
+        rate:"4.5"
+      },
+      {
+        id:41,
+        image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Grand-i10-Nios/7091/Hyundai-Grand-i10-Nios-Sportz/1583742828294/front-left-side-47.jpg?tr=w-456",
+        name:"Hyundai Grand i10 Nios",
+        category:"hatch",
+        price:"₹5.23-8.45 Lakh*",
         rate:"4.5"
       },
 ]

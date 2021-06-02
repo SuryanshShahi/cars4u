@@ -1,15 +1,38 @@
-<div className="container">
-                          <ul className="nav nav-tabs">
-                            <li className="active"><a data-toggle="tab" href="#home">Home</a></li>
-                            <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
-                            </ul>
-                            <div className="tab-content">
-                            <div id="home" className="tab-pane fade in active">
-                            <div className="text-success">{Pros}</div>
-                            </div>
-                            <div id="menu1" className="tab-pane fade">
-                            <div className="text-danger">{Cons}</div>
-                            </div>
-                          
-                          </div>
-                        </div>
+<ul id="nav-filters">
+                <li
+                  className="filter-active px-3 mb-3 mx-2"
+                  onClick={() => setItems(Menu)}
+                >
+                  All
+                </li>
+                <li
+                  className="mx-2 px-3 mb-3"
+                  onClick={() => filterItem("hatch")}
+                >
+                  HATCHBACK
+                </li>
+                <li
+                  className="mx-2 px-3 mb-3"
+                  onClick={() => filterItem("sedan")}
+                >
+                  SEDAN
+                </li>
+                <li
+                  className="mx-2 px-3 mb-3"
+                  onClick={() => filterItem("suv")}
+                >
+                  SUV
+                </li>
+                <li
+                  className="mx-2 px-3 mb-3"
+                  onClick={() => filterItem("muv")}
+                >
+                  MUV
+                </li>
+                <li
+                  className="mx-2 px-3 mb-3"
+                  onClick={() => filterItem("luxury")}
+                >
+                  LUXURY
+                </li>
+              </ul>

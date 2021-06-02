@@ -69,52 +69,52 @@ function Home() {
           Recommended Cars For You
         </h2>
         <div className="container bg-secondary card shadow border-0">
-        <div className="container bg-white">
-          <Slider {...settings}>
-            {slide.map((elem) => {
-              const { id, name, image, description, price, rate } = elem;
-              return (
-                <NavLink
-                  to="/"
-                  className="text-decoration-none text-dark"
-                  data-target="#mymodal3"
-                  data-toggle="modal"
-                  onClick={() => filterImg(id)}
-                >
-                  <div className="card px-2 py-2 border-0 shadow rounded-0 effects">
-                    <img src={image} alt="menupic1" className="img-fluid" />
-                    <div className="arrow2 py-5 justify-content-center d-flex">
-                      <div className="fa fa-arrow-circle-right text-white py-5"></div>
-                    </div>
-                    <div className="row">
-                      <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-                        <div className="card-body float-lg-left font-weight-bold justify-content-sm-center d-flex">
-                          {name}
-                          <br></br>
-                          {price}
+          <div className="container bg-white">
+            <Slider {...settings}>
+              {slide.map((elem) => {
+                const { id, name, image, description, price, rate } = elem;
+                return (
+                  <NavLink
+                    to="/"
+                    className="text-decoration-none text-dark"
+                    data-target="#mymodal3"
+                    data-toggle="modal"
+                    onClick={() => filterImg(id)}
+                  >
+                    <div className="card px-2 py-2 border-0 shadow rounded-0 effects">
+                      <img src={image} alt="menupic1" className="img-fluid" />
+                      <div className="arrow2 py-5 justify-content-center d-flex">
+                        <div className="fa fa-arrow-circle-right text-white py-5"></div>
+                      </div>
+                      <div className="row">
+                        <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                          <div className="card-body float-lg-left font-weight-bold justify-content-sm-center d-flex">
+                            {name}
+                            <br></br>
+                            {price}
+                          </div>
+                        </div>
+                        <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                          <h6 className="font-weight-bold justify-content-center d-flex mt-3">
+                            Rating:
+                          </h6>
+                          <StarsRating
+                            className="float-lg-right pr-3 sliderRate justify-content-center d-flex"
+                            count={5}
+                            // onChange={ratingChanged}
+                            size={26}
+                            value={rate}
+                            edit={false}
+                            color2={"#ffd700"}
+                          />
                         </div>
                       </div>
-                      <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-                        <h6 className="font-weight-bold justify-content-center d-flex mt-3">
-                          Rating:
-                        </h6>
-                        <StarsRating
-                          className="float-lg-right pr-3 sliderRate justify-content-center d-flex"
-                          count={5}
-                          // onChange={ratingChanged}
-                          size={26}
-                          value={rate}
-                          edit={false}
-                          color2={"#ffd700"}
-                        />
-                      </div>
                     </div>
-                  </div>
-                </NavLink>
-              );
-            })}
-          </Slider>
-        </div>
+                  </NavLink>
+                );
+              })}
+            </Slider>
+          </div>
         </div>
       </div>
 
@@ -123,44 +123,68 @@ function Home() {
           <h2 className="text-center font-weight-bold">
             The Most Searched Cars
           </h2>
-          <div class="row pt-4 justify-content-sm-center d-flex">
+          <div class="row pt-4 justify-content-sm-center d-flex pb-4">
             <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center d-flex">
-              <ul id="nav-filters">
-                <li
-                  className="filter-active px-3 mb-3 mx-2"
-                  onClick={() => setItems(Menu)}
-                >
-                  All
+              <ul className="nav nav-tabs">
+                <li className="active" onClick={() => setItems(Menu)}>
+                  <a
+                    className="active px-3  hometab text-decoration-none"
+                    type="button"
+                    data-toggle="tab"
+                    href="#all"
+                  >
+                    All
+                  </a>
                 </li>
-                <li
-                  className="mx-2 px-3 mb-3"
-                  onClick={() => filterItem("hatch")}
-                >
-                  HATCHBACK
+                <li onClick={() => filterItem("hatch")}>
+                  <a
+                    className="mx-3 px-3  hometab text-decoration-none"
+                    type="button"
+                    data-toggle="tab"
+                    href="#hatch"
+                  >
+                    Hatchback
+                  </a>
                 </li>
-                <li
-                  className="mx-2 px-3 mb-3"
-                  onClick={() => filterItem("sedan")}
-                >
-                  SEDAN
+                <li onClick={() => filterItem("sedan")}>
+                  <a
+                    className="mx-3 px-3  hometab text-decoration-none"
+                    type="button"
+                    data-toggle="tab"
+                    href="#sedan"
+                  >
+                    Sedan
+                  </a>
                 </li>
-                <li
-                  className="mx-2 px-3 mb-3"
-                  onClick={() => filterItem("suv")}
-                >
-                  SUV
+                <li onClick={() => filterItem("suv")}>
+                  <a
+                    className="mx-3 px-3  hometab text-decoration-none"
+                    type="button"
+                    data-toggle="tab"
+                    href="#suv"
+                  >
+                    SUV
+                  </a>
                 </li>
-                <li
-                  className="mx-2 px-3 mb-3"
-                  onClick={() => filterItem("muv")}
-                >
-                  MUV
+                <li onClick={() => filterItem("muv")}>
+                  <a
+                    className="mx-3 px-3  hometab text-decoration-none"
+                    type="button"
+                    data-toggle="tab"
+                    href="#muv"
+                  >
+                    MUV
+                  </a>
                 </li>
-                <li
-                  className="mx-2 px-3 mb-3"
-                  onClick={() => filterItem("luxury")}
-                >
-                  LUXURY
+                <li onClick={() => filterItem("luxury")}>
+                  <a
+                    className="mx-3 px-3  hometab text-decoration-none"
+                    type="button"
+                    data-toggle="tab"
+                    href="#luxury"
+                  >
+                    LUXURY
+                  </a>
                 </li>
               </ul>
             </div>
@@ -641,29 +665,29 @@ function Home() {
       <div className="container py-5 ">
         <h2 className="text-center font-weight-bold py-4">Popular Brands</h2>
         <div className="container card border-0 shadow bg-secondary">
-        <div className="container bg-white">
-          <Slider {...setting}>
-            {logo.map((elem) => {
-              const { image2, logoname } = elem;
-              return (
-                // <div className="card px-1 py-2  ">
-                <div className="col-2 py-4 card border-0 shadow-sm rounded-0">
-                  <div className="text-center">
-                    <img
-                      src={image2}
-                      alt="menupic"
-                      className="img-fluid pl-lg-4"
-                    />
-                  </div>
+          <div className="container bg-white">
+            <Slider {...setting}>
+              {logo.map((elem) => {
+                const { image2, logoname } = elem;
+                return (
+                  // <div className="card px-1 py-2  ">
+                  <div className="col-2 py-4 card border-0 shadow-sm rounded-0">
+                    <div className="text-center">
+                      <img
+                        src={image2}
+                        alt="menupic"
+                        className="img-fluid pl-lg-4"
+                      />
+                    </div>
 
-                  <h6 className="text-center pt-3 font-weight-bold">
-                    {logoname}
-                  </h6>
-                </div>
-              );
-            })}
-          </Slider>
-        </div>
+                    <h6 className="text-center pt-3 font-weight-bold">
+                      {logoname}
+                    </h6>
+                  </div>
+                );
+              })}
+            </Slider>
+          </div>
         </div>
       </div>
 
@@ -719,9 +743,10 @@ function Home() {
         </div>
       </div>
 
-
       <div className="Upcoming py-5">
-        <h2 className="text-center font-weight-bold pt-5 pb-4">Upcoming Cars</h2>
+        <h2 className="text-center font-weight-bold pt-5 pb-4">
+          Upcoming Cars
+        </h2>
         <div className="container bg-secondary card shadow border-0">
           <div className="container bg-white">
             <Slider {...settings}>
@@ -771,8 +796,7 @@ function Home() {
           </div>
         </div>
       </div>
-
-          </section>
+    </section>
   );
 }
 

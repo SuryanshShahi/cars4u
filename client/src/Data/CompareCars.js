@@ -2,7 +2,8 @@ import { NavLink } from "react-router-dom"
 
 const CompareCars=[
     {
-        id:1,
+        id:21,
+        id1:28,
         rate:"4.5",
         image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Renault/Triber/7418/1580113966019/front-left-side-47.jpg?tr=w-456",
         image1:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Maruti-Wagon-R/6741/1564746908438/front-left-side-47.jpg?tr=w-456",
@@ -512,7 +513,8 @@ const CompareCars=[
         ]
     }, 
     {
-        id:2,
+        id:14,
+        id1:32,
         rate:"4.5",
         image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Creta/6775/1584360708758/front-left-side-47.jpg?tr=w-456",
         image1:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Seltos/6226/1619864569028/front-left-side-47.jpg?tr=w-456",
@@ -962,7 +964,8 @@ const CompareCars=[
 
     },
     {
-        id:3,
+        id:32,
+        id1:33,
         rate:"4.5",
         image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Seltos/6226/1619864569028/front-left-side-47.jpg?tr=w-456",
         image1:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Sonet/7256/1619865764843/front-left-side-47.jpg?imwidth=420&impolicy=resize",
@@ -1412,7 +1415,8 @@ const CompareCars=[
 
     },
     {
-        id:4,
+        id:26,
+        id1:38,
         rate:"4.5",
         image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Baleno/6778/1615985070703/front-left-side-47.jpg?tr=w-456",
         image1:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Toyota/Toyota-Glanza/6902/1559807182519/front-left-side-47.jpg?tr=w-456",
@@ -1910,9 +1914,9 @@ const CompareCars=[
             
         ]
     },
-   
     {
-        id:5,
+        id:26,
+        id1:30,
         rate:"4.5",
         image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Baleno/6778/1615985070703/front-left-side-47.jpg?tr=w-456",
         image1:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Mercedes-Benz/GLA/7269/1621948227508/front-left-side-47.jpg?tr=w-456",
@@ -2360,9 +2364,9 @@ const CompareCars=[
         ],
 
     },
-  
     {
-        id:7,
+        id:24,
+        id1:29,
         rate:"4.5",
         image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Swift/8378/1614747593719/front-left-side-47.jpg?imwidth=420&impolicy=resize",
         image1:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Tiago/7381/1617960171816/front-left-side-47.jpg?tr=w-456",
@@ -2860,7 +2864,8 @@ const CompareCars=[
         ]
     },
     {
-        id:6,
+        id:39,
+        id1:40,
         rate:"4.5",
         image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Nissan/Magnite/8127/1608191740345/front-left-side-47.jpg?tr=w-456",
         image1:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Renault/Kiger/8361/1615378654259/front-left-side-47.jpg?tr=w-456",
@@ -3354,8 +3359,9 @@ const CompareCars=[
             </div>
         ]
     },
-    {
-        id:8,
+    {  
+        id1:21,
+        id:41,
         rate:"4.5",
         image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Renault/Triber/7418/1580113966019/front-left-side-47.jpg?tr=w-456",
         image1:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Grand-i10-Nios/7091/Hyundai-Grand-i10-Nios-Sportz/1583742828294/front-left-side-47.jpg?tr=w-456",

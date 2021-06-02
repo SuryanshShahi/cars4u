@@ -3,11 +3,16 @@ import { NavLink } from "react-router-dom";
 import StarsRating from "stars-rating";
 import Compare from "./Data/CompareCars";
 import Menu from "./Data/Menu"
+import web from "./images/seat.png";
+import web1 from "./images/bhp.png";
+import web2 from "./images/engine.png";
+import web3 from "./images/thumb.png";
 
 function CompareCars() {
   window.scroll(0, 770);
   window.onload = Compare;
 
+  const [img, setImage] = useState(Menu);
   const [items, setItems] = useState(Menu);
   const [Compares, setCompare] = useState(Compare);
   const filterImg = (id) => {
@@ -19,14 +24,23 @@ function CompareCars() {
     setCompare(updatedImg);
   };
 
-  // const filterImg1 = (id) => {
-  //   const updatedItems = Menu.filter((curElem) => {
-  //     if (curElem.id === id){
-  //       return curElem.id;
-  //     }
-  //   });
-  //   setItems(updatedItems);
-  // };
+  const filterImg1 = (id) => {
+    const updatedImg = Menu.filter((curElem) => {
+      if (curElem.id == id) {
+        return curElem.id;
+      }
+    });
+    setImage(updatedImg);
+  };
+  const filterImg2 = (id1) => {
+    const updatedImg = Menu.filter((curElem) => {
+      if (curElem.id == id1) {
+        return curElem.id;
+      }
+    });
+    setImage(updatedImg);
+  };
+
 
   const ratingChanged = (newRating) => {
     console.log(newRating);
@@ -34,6 +48,458 @@ function CompareCars() {
 
   return (
     <section id="compare">
+    
+    <div className="modal fade " id="mymodal3">
+    <div className="modal-dialog modal-fullscreen">
+      <div className="modal-content modalcompare">
+        {img.map((elem) => {
+          const {
+            id,
+            name,
+            image,
+            heading,
+            description,
+            price,
+            link,
+            exterior,
+            interior,
+            interior1,
+            interior2,
+            interior3,
+            interior4,
+            color1,
+            color2,
+            color3,
+            specification,
+            Engine,
+            specification2,
+            seat,
+            feature,
+            feature2,
+            BHP,
+            topFeatures,
+            rate,
+          } = elem;
+
+          return (
+            <div className="">
+              <div className="modal-header">
+                <h1>
+                  CARS
+                  <span className="text-danger font-weight-bolder">4U</span>
+                </h1>
+                <div className="close pr-5 pt-4" data-dismiss="modal" data-target="#mymodal4" data-toggle="modal">
+                  &times;
+                </div>
+              </div>
+              <h4 className="text-center my-4 font-weight-bold">
+                Welcome to{" "}
+                <span className="text-danger font-weight-bold">CARS4U</span>
+              </h4>
+              <div className="container-fluid popup">
+                <div className="card border-0 shadow ">
+                  <div className="row ">
+                    <div className="col-lg-6 col-md-6 col-6 d-flex justify-content-center">
+                      <img
+                        src={image}
+                        alt="menupic"
+                        className="img-fluid popup"
+                      />
+                    </div>
+
+                    <div className="col-lg-6 col-md-6 col-6">
+                      <div className="modal-body">
+                        <h5>
+                          <strong>{name}</strong>
+                        </h5>
+                        <h5>
+                          <strong>{price}</strong>
+                        </h5>
+                        <div className="row">
+                          <div className="col-lg-3 col-md-12 col-sm-12 col-12">
+                            <div className="star">
+                              <StarsRating
+                                className="d-inline"
+                                count={5}
+                                // onChange={ratingChanged}
+                                size={26}
+                                value={rate}
+                                edit={false}
+                                color2={"#ffa236"}
+                              />
+                            </div>
+                            <div className="pt-2">
+                              <h6 className="d-inline pl-2 pr-2">
+                                {rate}/5
+                              </h6>
+                            </div>
+                          </div>
+                          <div className="col-lg-9 col-md-12 col-sm-12 col-12 pt-2">
+                            <a
+                              href="#rate"
+                              className="px-1 text-decoration-none ratethiscar "
+                            >
+                              <b>Rate This Car</b>
+                            </a>
+                          </div>
+                        </div>
+
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <NavLink
+                          to="/"
+                          className="btn border-danger shadow-none"
+                          data-target="#mymodal3"
+                          data-toggle="modal"
+                          data-dismiss="modal"
+                        >
+                          View Latest Offer
+                        </NavLink>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="container-fluid py-5">
+                <div className="row">
+                  <div className="col-lg-7 col-md-12 col-12 pb-4">
+                    <div className="card border-0 shadow py-4">
+                      <h7 className="px-2 py-2">
+                        <strong>Exterior</strong>
+                      </h7>
+
+                      <div className="exterior">
+                        <video autoPlay loop muted>
+                          <source src={exterior} />
+                          <source src={interior} />
+                        </video>
+                      </div>
+                      <h7 className="px-2 py-2">
+                        <strong>Interior</strong>
+                      </h7>
+                      <div className="interior">
+                        <div
+                          id="carouselExampleIndicators"
+                          className="carousel slide"
+                          data-ride="carousel"
+                        >
+                          <ol className="carousel-indicators">
+                            <li
+                              data-target="#carouselExampleIndicators"
+                              data-slide-to="0"
+                              className="active"
+                            ></li>
+                            <li
+                              data-target="#carouselExampleIndicators"
+                              data-slide-to="1"
+                            ></li>
+                            <li
+                              data-target="#carouselExampleIndicators"
+                              data-slide-to="2"
+                            ></li>
+                            <li
+                              data-target="#carouselExampleIndicators"
+                              data-slide-to="3"
+                            ></li>
+                          </ol>
+                          <div className="carousel-inner">
+                            <div className="carousel-item active">
+                              <img
+                                className="d-block w-100 img-fluid imgH"
+                                src={interior3}
+                                alt="menupic"
+                              />
+                            </div>
+                            <div className="carousel-item">
+                              <img
+                                className="d-block w-100 img-fluid imgH"
+                                src={interior1}
+                                alt="menupic"
+                              />
+                            </div>
+                            <div className="carousel-item">
+                              <img
+                                className="d-block w-100 img-fluid imgH"
+                                src={interior2}
+                                alt="menupic"
+                              />
+                            </div>
+                            <div className="carousel-item">
+                              <img
+                                className="d-block w-100 img-fluid imgH"
+                                src={interior4}
+                                alt="menupic"
+                              />
+                            </div>
+                          </div>
+                          <a
+                            className="carousel-control-prev"
+                            href="#carouselExampleIndicators"
+                            role="button"
+                            data-slide="prev"
+                          >
+                            <span
+                              className="carousel-control-prev-icon"
+                              aria-hidden="true"
+                            ></span>
+                          </a>
+                          <a
+                            className="carousel-control-next"
+                            href="#carouselExampleIndicators"
+                            role="button"
+                            data-slide="next"
+                          >
+                            <span
+                              className="carousel-control-next-icon"
+                              aria-hidden="true"
+                            ></span>
+                          </a>
+                        </div>
+                      </div>
+                      <h7 className="px-2 py-2">
+                        <strong>Colors</strong>
+                      </h7>
+                      <div className="color">
+                        <div
+                          id="carouselExampleIndicators2"
+                          className="carousel slide"
+                          data-ride="carousel"
+                        >
+                          <ol className="carousel-indicators">
+                            <li
+                              data-target="#carouselExampleIndicators2"
+                              data-slide-to="0"
+                              className="active"
+                            ></li>
+                            <li
+                              data-target="#carouselExampleIndicators2"
+                              data-slide-to="1"
+                            ></li>
+                            <li
+                              data-target="#carouselExampleIndicators2"
+                              data-slide-to="2"
+                            ></li>
+                          </ol>
+                          <div className="carousel-inner">
+                            <div className="carousel-item active">
+                              <img
+                                className="d-block w-100 img-fluid imgH"
+                                src={color1}
+                                alt="menupic"
+                              />
+                            </div>
+                            <div className="carousel-item">
+                              <img
+                                className="d-block w-100 img-fluid imgH"
+                                src={color2}
+                                alt="menupic"
+                              />
+                            </div>
+                            <div className="carousel-item">
+                              <img
+                                className="d-block w-100 img-fluid imgH"
+                                src={color3}
+                                alt="menupic"
+                              />
+                            </div>
+                          </div>
+                          <a
+                            className="carousel-control-prev"
+                            href="#carouselExampleIndicators2"
+                            role="button"
+                            data-slide="prev"
+                          >
+                            <span
+                              className="carousel-control-prev-icon btn-dark"
+                              aria-hidden="true"
+                            ></span>
+                          </a>
+                          <a
+                            className="carousel-control-next"
+                            href="#carouselExampleIndicators2"
+                            role="button"
+                            data-slide="next"
+                          >
+                            <span
+                              className="carousel-control-next-icon btn-dark"
+                              aria-hidden="true"
+                            ></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-5 col-md-12 col-12">
+                    <div className="card border-0 shadow">
+                      <div className="container py-4">
+                        <h4>
+                          <strong>{name} Specs, Features and Price</strong>
+                        </h4>
+                        {description}
+
+                        <div className="row py-4">
+                          <h4>
+                            <strong>Key Specs of {name}</strong>
+                          </h4>
+
+                          <div className="col-4 py-4 pl-4">
+                            <div className="row">
+                              <div className="col-5">
+                                <img src={web2} className="img-fluid"></img>
+                              </div>
+                              <div className="col-7">
+                                <h6>
+                                  <strong>
+                                    Engine<br></br>
+                                    {Engine}
+                                  </strong>
+                                </h6>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-4 py-4 pl-4">
+                            <div className="row">
+                              <div className="col-4 py-2 pl-3">
+                                <img src={web1} className="img-fluid"></img>
+                              </div>
+                              <div className="col-8">
+                                <h7>
+                                  <strong>
+                                    BHP<br></br>
+                                    {BHP}
+                                  </strong>
+                                </h7>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-4 py-4 pl-4">
+                            <div className="row">
+                              <div className="col-5">
+                                <img src={web} className="img-fluid"></img>
+                              </div>
+                              <div className="col-7">
+                                <h6>
+                                  <strong>
+                                    Seating Capacity<br></br>
+                                    {seat}
+                                  </strong>
+                                </h6>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-12">
+                            <div className="row">
+                              <div className="col-2">
+                                <img
+                                  src={web3}
+                                  className="img-fluid px-2 py-2"
+                                ></img>
+                              </div>
+                              <div className="col-10 py-4">
+                                <h6>
+                                  <strong>Top Features</strong>
+                                </h6>
+                              </div>
+                            </div>
+                            <div className="row">
+                              <h6>{topFeatures}</h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="card border-0 shadow mt-4 py-4">
+                  <div className="container-fluid">
+                    <h4>
+                      <strong>Key Specification of {name}</strong>
+                    </h4>
+                    <br></br>
+                    <div className="row">
+                      <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div className="container px-lg-5">
+                          {specification}
+                        </div>
+                      </div>
+
+                      <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div className="container px-lg-5">
+                          {specification2}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="container-fluid py-5" id="more">
+                    <h4>
+                      <strong>Key Features of {name}</strong>
+                    </h4>
+                    <br></br>
+                    <div className="row">
+                      <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div className="container px-lg-5">{feature}</div>
+                      </div>
+
+                      <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div className="container px-lg-5">{feature2}</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <h4 className=" justify-content-center d-flex font-weight-bold">
+                      Rate This Car
+                    </h4>
+                    <div className="rating justify-content-center d-flex">
+                      <div id="rate" className="star">
+                        <StarsRating
+                          count={5}
+                          onChange={ratingChanged}
+                          size={50}
+                          // value={rate}
+                          // edit={false}
+                          color2={"#ffa236"}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <div className=" py-5">
         <div className="container ">
           <h1 className="text-center">
@@ -55,7 +521,7 @@ function CompareCars() {
           <div className="menu-items card border-0 shadow px-4 py-4 mt-4">
             <div className="row">
               {Compare.map((elem) => {
-                const { id, name, name1, price, price1, image, image1, description, rate } =
+                const { id, id1, name, name1, price, price1, image, image1, description, rate } =
                   elem;
                 return (
                   <div className="col-lg-6 col-md-12 col-sm-12 col-12">
@@ -156,6 +622,7 @@ function CompareCars() {
             {Compares.map((elem) => {
               const {
                 id,
+                id1,
                 name,
                 name1,
                 rate,
@@ -205,9 +672,10 @@ function CompareCars() {
                           <NavLink
                           to="/"
                           className="text-decoration-none text-dark"
-                          data-target="#mymodal4"
+                          data-target="#mymodal3"
                           data-toggle="modal"
-                          onClick={() => filterImg(id)}
+                          data-dismiss="modal"
+                          onClick={() => filterImg1(id)}
                         >
                               <div className="card comparecard shadow text-center border-0 text-decoration-none">
                               <img
@@ -255,7 +723,15 @@ function CompareCars() {
                             </div>
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <div className="card shadow comparecard text-center border-0 text-decoration-none">
+                          <NavLink
+                          to="/"
+                          className="text-decoration-none text-dark"
+                          data-target="#mymodal3"
+                          data-toggle="modal"
+                          data-dismiss="modal"
+                          onClick={() => filterImg2(id1)}
+                        >  
+                          <div className="card shadow comparecard text-center border-0 text-decoration-none">
                               <img
                                 src={image1}
                                 alt="menuPic"
@@ -288,6 +764,7 @@ function CompareCars() {
                                 </div>
                               </div>
                             </div>
+                            </NavLink>
                           </div>
                           
                         </div>
