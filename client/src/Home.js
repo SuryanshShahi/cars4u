@@ -79,7 +79,7 @@ function Home() {
                   className="text-decoration-none text-dark"
                   data-target="#mymodal3"
                   data-toggle="modal"
-                  onClick={() => filterImg(21)}
+                  onClick={() => filterImg(id)}
                 >
                   <div className="card px-2 py-2 border-0 shadow rounded-0 effects">
                     <img src={image} alt="menupic1" className="img-fluid" />
