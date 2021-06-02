@@ -68,7 +68,7 @@ function CompareCars() {
                     >
                       <div className="row rowspace gx-1">
                         <div className="col-lg-6 col-md-6 col-sm-6 col-6 ">
-                          <div className="card text-center border-0 text-decoration-none">
+                          <div className="card text-center border-0 text-decoration-none ">
                             <img
                               src={image}
                               alt="menuPic"
@@ -413,8 +413,20 @@ function CompareCars() {
                         <div className="card border-0 shadow-sm py-4 my-4  px-4">
                           <h3 className="font-weight-bold">Pros and Cons</h3>
                           <div className="container-fluid py-3">
-                          <div className="text-success">{Pros}</div>
-                          <div className="text-danger">{Cons}</div>
+                          <div className="container">
+                          <ul className="nav nav-tabs">
+                            <li className="active"><a className="active font-weight-bolder px-2 py-2 tab rounded-0 text-decoration-none" type="button" data-toggle="tab" href="#pros">Pros</a></li>
+                            <li><a className="mx-3 font-weight-bolder px-2 py-2 tab rounded-0 text-decoration-none" type="button" data-toggle="tab" href="#cons">Cons</a></li>
+                          </ul>
+                          <div className="tab-content">
+                            <div id="pros" className="active tab-pane fade in ">
+                            <div className="text-success py-4">{Pros}</div>
+                            </div>
+                            <div id="cons" className="tab-pane fade">
+                            <div className="text-danger py-4">{Cons}</div>
+                            </div>
+                            </div>
+                        </div>
                         </div>
                         </div>
                       </div>

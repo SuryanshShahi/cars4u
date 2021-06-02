@@ -215,7 +215,7 @@ function Home() {
 
       <div className="modal fade " id="mymodal3">
         <div className="modal-dialog modal-fullscreen">
-          <div className="modal-content bg-white">
+          <div className="modal-content modalcompare">
             {img.map((elem) => {
               const {
                 id,
@@ -684,7 +684,7 @@ function Home() {
                   >
                     <div className="card px-2 py-2 border-0 shadow rounded-0 effects d-flex">
                       <img src={image} alt="menupic1" className="img-fluid " />
-                      <div className="arrow2 py-5 justify-content-center d-flex">
+                      <div className="arrow2 py-5 justify-content-center align-items-center d-flex">
                         <div className="fa fa-arrow-circle-right text-white py-5"></div>
                       </div>
                       <div className="row">

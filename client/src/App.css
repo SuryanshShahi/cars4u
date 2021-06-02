@@ -11,6 +11,7 @@
   scroll-behavior: smooth;
   /* transition: 0.5s; */
 }
+
 #cars4u {
   background-color: #eee;
 }
@@ -294,6 +295,7 @@ background-attachment: fixed;
   top: 0;
   transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
   cursor: pointer;
+  /* background-color: #58c6bb; */
 }
 
 .comparecard:hover {
@@ -320,7 +322,7 @@ background-attachment: fixed;
   left: 2%;
   right: 2%;
   top: 2%;
-  bottom: 24%;
+  bottom: 0;
   transition: all ease-in-out 0.3s;
   background: rgba(0, 0, 0, 0.6);
 }
@@ -389,7 +391,7 @@ background-attachment: fixed;
   cursor: pointer;
   display: inline-block;
   transition: all ease-in-out 0.3s;
-  background: #ede9e9;
+  background: #d3d2d2;
   border-radius: 50px;
 }
 .carsection li:hover,
@@ -397,6 +399,7 @@ background-attachment: fixed;
   color: #fff;
   background: #e43c5c;
 }
+
 ul {
   padding-left: 0px;
 }
@@ -498,4 +501,8 @@ ul {
 .basicinfo{
   padding-top: 12px;
   padding-bottom: 12px;
+}
+.tab.active{
+  color: black;
+  border-bottom: 2.5px solid #e43c5c;
 }

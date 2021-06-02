@@ -7,7 +7,7 @@ const CompareCars=[
         image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Renault/Triber/7418/1580113966019/front-left-side-47.jpg?tr=w-456",
         image1:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Maruti-Wagon-R/6741/1564746908438/front-left-side-47.jpg?tr=w-456",
         name:"Renault Triber",
-        name1:"Maruti Wagon R",
+        name1:"Maruti Wagonr",
         category:"suv",
         price:"₹5.30-7.82 Lakh*",
         price1:"₹4.80 - 6.33 Lakh*",

@@ -1,51 +1,15 @@
- <div className="container-fluid py-3">
-                            <div className="row">
-                              <div className="col-4">
-                                <hr className="text-success mt-2"></hr>
-                                <h6 className="">Engine Type</h6>
-                                <hr className="text-success mt-3"></hr>
-                                <h6 className="">Displacement (cc)</h6>
-                                <hr className="text-success mt-3"></hr>
-                                <h6 className="">Max Power (bhp@rpm)</h6>
-                                <hr className="text-success mt-3"></hr>
-                                <h6 className="">Max Torque (nm@rpm)</h6>
-                                <hr className="text-success mt-3"></hr>
-                              </div>
-
-                              <div className="col-4">{Engine}</div>
-                              <div className="col-4">{Engine1}</div>
+<div className="container">
+                          <ul className="nav nav-tabs">
+                            <li className="active"><a data-toggle="tab" href="#home">Home</a></li>
+                            <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+                            </ul>
+                            <div className="tab-content">
+                            <div id="home" className="tab-pane fade in active">
+                            <div className="text-success">{Pros}</div>
                             </div>
+                            <div id="menu1" className="tab-pane fade">
+                            <div className="text-danger">{Cons}</div>
+                            </div>
+                          
                           </div>
-
-
-
-
-
-
-                          <div className="row"> 
-            <div className="col-12">
-            <h6 className="float-left">Engine Type</h6>
-            <h6 className="float-right">K12M Petrol Engine</h6>
-            <div className="justify-content-center d-flex">
-            <h6 className="text-center">1.0L Petrol Engine</h6>
-            </div>
-            </div>
-            <hr className="text-success mt-2"></hr>
-            <div className="col-12">
-            <h6 className="float-left">Displacement (cc)</h6>
-            <h6 className="float-right">1197</h6>
-            <h6 className="justify-content-center d-flex">999</h6>
-            </div>
-            <hr className="text-success mt-2"></hr>
-            <div className="col-12">
-            <h6 className="float-left">Max Power (bhp@rpm)</h6>
-            <h6 className="float-right">81.80bhp@6000rpm</h6>
-            <h6 className="justify-content-center d-flex">71bhp@6250rpm</h6>
-            </div>
-            <hr className="text-success mt-2"></hr>
-            <div className="col-12">
-            <h6 className="float-left">Max Torque (nm@rpm)</h6>
-            <h6 className="float-right">113Nm@4200rpm</h6>
-            <h6 className="justify-content-center d-flex">96Nm@3500rpm</h6>
-            </div>
-            </div>
+                        </div>
