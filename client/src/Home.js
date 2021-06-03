@@ -126,11 +126,11 @@ function Home() {
           <div className="container-fluid">
             <div className="menu-items container card border-0 shadow px-4 pb-4 ">
               <div class="row gx-5 rounded-top bg-dark tabbg mb-4">
-                <div class="col-lg-12 col-md-12 col-sm-12 py-4 justify-content-center d-flex">
-                  <ul className="nav nav-tabs">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <ul className="nav nav-tabs justify-content-center d-flex">
                     <li className="active" onClick={() => setItems(Menu)}>
                       <a
-                        className="active px-3 hometab text-decoration-none"
+                        className="active px-3 mt-4 hometab text-decoration-none"
                         type="button"
                         data-toggle="tab"
                         href="#all"
@@ -140,7 +140,7 @@ function Home() {
                     </li>
                     <li onClick={() => filterItem("hatch")}>
                       <a
-                        className="mx-3 px-3 hometab text-decoration-none"
+                        className="mx-3 px-3 mt-4 hometab text-decoration-none"
                         type="button"
                         data-toggle="tab"
                         href="#hatch"
@@ -150,7 +150,7 @@ function Home() {
                     </li>
                     <li onClick={() => filterItem("sedan")}>
                       <a
-                        className="mx-3 px-3 hometab text-decoration-none"
+                        className="mx-3 px-3 mt-4 hometab text-decoration-none"
                         type="button"
                         data-toggle="tab"
                         href="#sedan"
@@ -160,7 +160,7 @@ function Home() {
                     </li>
                     <li onClick={() => filterItem("suv")}>
                       <a
-                        className="mx-3 px-3 hometab text-decoration-none"
+                        className="mx-3 px-3 mt-4 hometab text-decoration-none"
                         type="button"
                         data-toggle="tab"
                         href="#suv"
@@ -170,7 +170,7 @@ function Home() {
                     </li>
                     <li onClick={() => filterItem("muv")}>
                       <a
-                        className="mx-3 px-3 hometab text-decoration-none"
+                        className="mx-3 px-3 mt-4 hometab text-decoration-none"
                         type="button"
                         data-toggle="tab"
                         href="#muv"
@@ -180,7 +180,7 @@ function Home() {
                     </li>
                     <li onClick={() => filterItem("luxury")}>
                       <a
-                        className="mx-3 px-3 hometab text-decoration-none"
+                        className="mx-3 px-3 my-4 hometab text-decoration-none"
                         type="button"
                         data-toggle="tab"
                         href="#luxury"
@@ -224,10 +224,12 @@ function Home() {
                           </div>
                         </div>
                         <div className="">
-                          <h5 className="font-weight-bolder mt-2 text-dark">
-                            {name}
-                          </h5>
-                          <h6>{price}</h6>
+                          <div className="font-weight-bolder my-2 text-dark">
+                            <b>{name}</b>
+                            <br></br>
+                            {price}
+                          </div>
+                          
                         </div>
                       </NavLink>
                     </div>
