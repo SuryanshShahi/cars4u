@@ -1,38 +1,26 @@
-<ul id="nav-filters">
-                <li
-                  className="filter-active px-3 mb-3 mx-2"
-                  onClick={() => setItems(Menu)}
-                >
-                  All
-                </li>
-                <li
-                  className="mx-2 px-3 mb-3"
-                  onClick={() => filterItem("hatch")}
-                >
-                  HATCHBACK
-                </li>
-                <li
-                  className="mx-2 px-3 mb-3"
-                  onClick={() => filterItem("sedan")}
-                >
-                  SEDAN
-                </li>
-                <li
-                  className="mx-2 px-3 mb-3"
-                  onClick={() => filterItem("suv")}
-                >
-                  SUV
-                </li>
-                <li
-                  className="mx-2 px-3 mb-3"
-                  onClick={() => filterItem("muv")}
-                >
-                  MUV
-                </li>
-                <li
-                  className="mx-2 px-3 mb-3"
-                  onClick={() => filterItem("luxury")}
-                >
-                  LUXURY
-                </li>
-              </ul>
+    "client": "cd client && npm start",
+    "dev": "concurrently \"nodemon app.js\" \"npm run client\""
+
+
+
+
+    const createProxyMiddleware = require("http-proxy-middleware");
+
+module.exports = function (app) {
+  app.use(
+    "/SignUp",
+    createProxyMiddleware({
+      target: "http://localhost:5000",
+      changeOrigin: true,
+    })
+  );
+  app.use(
+    "/SignIn",
+    createProxyMiddleware({
+      target: "http://localhost:5000",
+      changeOrigin: true,
+    })
+  );
+};
+
+
