@@ -161,6 +161,7 @@ background-attachment: fixed;
   background-color: rgb(252, 221, 226);
   line-height: 48px;
   color: #e43c5c;
+  transition: 0.7s;
   cursor: pointer;
 }
 .hello1:hover {
@@ -288,6 +289,7 @@ background-attachment: fixed;
   margin-bottom: 30px;
   overflow: hidden;
   border: none;
+  box-shadow: 1px 2px 5px 0px #aaaaaa;
   color: black;
   background-color: #58c6bb;
 }

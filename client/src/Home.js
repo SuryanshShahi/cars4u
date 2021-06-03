@@ -199,7 +199,7 @@ function Home() {
                     <div className="col-lg-4 col-md-4 col-sm-6 col-12">
                       <NavLink
                         to="/"
-                        className="card text-center shadow-sm carscard text-decoration-none"
+                        className="card text-center carscard text-decoration-none"
                         data-target="#mymodal3"
                         data-toggle="modal"
                         onClick={() => filterImg(id)}
