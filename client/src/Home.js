@@ -123,12 +123,14 @@ function Home() {
           <h2 className="text-center font-weight-bold">
             The Most Searched Cars
           </h2>
-          <div class="row pt-4 justify-content-sm-center d-flex pb-4">
-            <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center d-flex">
+          <div className="container-fluid">
+      <div className="menu-items container card border-0 shadow px-4 pb-4 ">
+          <div class="row  tabbg">
+            <div class="col-lg-12 col-md-12 col-sm-12 py-4 justify-content-center d-flex">
               <ul className="nav nav-tabs">
                 <li className="active" onClick={() => setItems(Menu)}>
                   <a
-                    className="active px-3  hometab text-decoration-none"
+                    className="active px-3 hometab text-decoration-none"
                     type="button"
                     data-toggle="tab"
                     href="#all"
@@ -138,7 +140,7 @@ function Home() {
                 </li>
                 <li onClick={() => filterItem("hatch")}>
                   <a
-                    className="mx-3 px-3  hometab text-decoration-none"
+                    className="mx-3 px-3 hometab text-decoration-none"
                     type="button"
                     data-toggle="tab"
                     href="#hatch"
@@ -148,7 +150,7 @@ function Home() {
                 </li>
                 <li onClick={() => filterItem("sedan")}>
                   <a
-                    className="mx-3 px-3  hometab text-decoration-none"
+                    className="mx-3 px-3 hometab text-decoration-none"
                     type="button"
                     data-toggle="tab"
                     href="#sedan"
@@ -158,7 +160,7 @@ function Home() {
                 </li>
                 <li onClick={() => filterItem("suv")}>
                   <a
-                    className="mx-3 px-3  hometab text-decoration-none"
+                    className="mx-3 px-3 hometab text-decoration-none"
                     type="button"
                     data-toggle="tab"
                     href="#suv"
@@ -168,7 +170,7 @@ function Home() {
                 </li>
                 <li onClick={() => filterItem("muv")}>
                   <a
-                    className="mx-3 px-3  hometab text-decoration-none"
+                    className="mx-3 px-3 hometab text-decoration-none"
                     type="button"
                     data-toggle="tab"
                     href="#muv"
@@ -178,7 +180,7 @@ function Home() {
                 </li>
                 <li onClick={() => filterItem("luxury")}>
                   <a
-                    className="mx-3 px-3  hometab text-decoration-none"
+                    className="mx-3 px-3 hometab text-decoration-none"
                     type="button"
                     data-toggle="tab"
                     href="#luxury"
@@ -189,15 +191,13 @@ function Home() {
               </ul>
             </div>
           </div>
-        </div>
-      </div>
+      
 
-      <div className="menu-items container card border-0 shadow px-4 py-5">
-        <div className="row">
+        <div className="row menu-items1">
           {items.map((elem) => {
             const { id, name, image, description, price, rate } = elem;
             return (
-              <div className="col-lg-4 col-md-4 col-sm-6 col-12 pb-4">
+              <div className="col-lg-4 col-md-4 col-sm-6 col-12 pb-4 ">
                 <NavLink
                   to="/"
                   className="card text-center shadow-sm carscard text-decoration-none"
@@ -235,6 +235,9 @@ function Home() {
             );
           })}
         </div>
+      </div>
+      </div>
+      </div>
       </div>
 
       <div className="modal fade " id="mymodal3">
