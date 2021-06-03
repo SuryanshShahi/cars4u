@@ -88,7 +88,7 @@ function CompareCars() {
                   CARS
                   <span className="text-danger font-weight-bolder">4U</span>
                 </h1>
-                <div className="close pr-5 pt-4" data-dismiss="modal" data-target="#mymodal4" data-toggle="modal">
+                <div className="close pr-lg-2 mr-lg-1 pr-md-4 pr-sm-4 pr-4 pt-4" data-dismiss="modal" data-target="#mymodal4" data-toggle="modal">
                   &times;
                 </div>
               </div>
@@ -653,7 +653,7 @@ function CompareCars() {
                       CARS
                       <span className="text-danger font-weight-bolder">4U</span>
                     </h1>
-                    <div className="close pr-5 pt-4" data-dismiss="modal">
+                    <div className="close pr-lg-2 mr-lg-1 pr-md-4 pr-sm-4 pr-4 pt-4" data-dismiss="modal">
                       &times;
                     </div>
                   </div>

@@ -541,3 +541,6 @@ left: 93.5%; */
   width: fit-content; */
   overflow: auto;
 }
+.nav-tabs {
+  border-bottom: none;
+}

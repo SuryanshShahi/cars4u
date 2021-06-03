@@ -120,124 +120,123 @@ function Home() {
 
       <div id="carsection" className="carsection">
         <div class="container pt-5">
-          <h2 className="text-center font-weight-bold">
+          <h2 className="text-center font-weight-bold pb-2">
             The Most Searched Cars
           </h2>
           <div className="container-fluid">
-      <div className="menu-items container card border-0 shadow px-4 pb-4 ">
-          <div class="row  tabbg">
-            <div class="col-lg-12 col-md-12 col-sm-12 py-4 justify-content-center d-flex">
-              <ul className="nav nav-tabs">
-                <li className="active" onClick={() => setItems(Menu)}>
-                  <a
-                    className="active px-3 hometab text-decoration-none"
-                    type="button"
-                    data-toggle="tab"
-                    href="#all"
-                  >
-                    All
-                  </a>
-                </li>
-                <li onClick={() => filterItem("hatch")}>
-                  <a
-                    className="mx-3 px-3 hometab text-decoration-none"
-                    type="button"
-                    data-toggle="tab"
-                    href="#hatch"
-                  >
-                    Hatchback
-                  </a>
-                </li>
-                <li onClick={() => filterItem("sedan")}>
-                  <a
-                    className="mx-3 px-3 hometab text-decoration-none"
-                    type="button"
-                    data-toggle="tab"
-                    href="#sedan"
-                  >
-                    Sedan
-                  </a>
-                </li>
-                <li onClick={() => filterItem("suv")}>
-                  <a
-                    className="mx-3 px-3 hometab text-decoration-none"
-                    type="button"
-                    data-toggle="tab"
-                    href="#suv"
-                  >
-                    SUV
-                  </a>
-                </li>
-                <li onClick={() => filterItem("muv")}>
-                  <a
-                    className="mx-3 px-3 hometab text-decoration-none"
-                    type="button"
-                    data-toggle="tab"
-                    href="#muv"
-                  >
-                    MUV
-                  </a>
-                </li>
-                <li onClick={() => filterItem("luxury")}>
-                  <a
-                    className="mx-3 px-3 hometab text-decoration-none"
-                    type="button"
-                    data-toggle="tab"
-                    href="#luxury"
-                  >
-                    LUXURY
-                  </a>
-                </li>
-              </ul>
+            <div className="menu-items container card border-0 shadow px-4 pb-4 ">
+              <div class="row gx-5 rounded-top bg-dark tabbg mb-4">
+                <div class="col-lg-12 col-md-12 col-sm-12 py-4 justify-content-center d-flex">
+                  <ul className="nav nav-tabs">
+                    <li className="active" onClick={() => setItems(Menu)}>
+                      <a
+                        className="active px-3 hometab text-decoration-none"
+                        type="button"
+                        data-toggle="tab"
+                        href="#all"
+                      >
+                        All
+                      </a>
+                    </li>
+                    <li onClick={() => filterItem("hatch")}>
+                      <a
+                        className="mx-3 px-3 hometab text-decoration-none"
+                        type="button"
+                        data-toggle="tab"
+                        href="#hatch"
+                      >
+                        Hatchback
+                      </a>
+                    </li>
+                    <li onClick={() => filterItem("sedan")}>
+                      <a
+                        className="mx-3 px-3 hometab text-decoration-none"
+                        type="button"
+                        data-toggle="tab"
+                        href="#sedan"
+                      >
+                        Sedan
+                      </a>
+                    </li>
+                    <li onClick={() => filterItem("suv")}>
+                      <a
+                        className="mx-3 px-3 hometab text-decoration-none"
+                        type="button"
+                        data-toggle="tab"
+                        href="#suv"
+                      >
+                        SUV
+                      </a>
+                    </li>
+                    <li onClick={() => filterItem("muv")}>
+                      <a
+                        className="mx-3 px-3 hometab text-decoration-none"
+                        type="button"
+                        data-toggle="tab"
+                        href="#muv"
+                      >
+                        MUV
+                      </a>
+                    </li>
+                    <li onClick={() => filterItem("luxury")}>
+                      <a
+                        className="mx-3 px-3 hometab text-decoration-none"
+                        type="button"
+                        data-toggle="tab"
+                        href="#luxury"
+                      >
+                        LUXURY
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="row menu-items1">
+                {items.map((elem) => {
+                  const { id, name, image, description, price, rate } = elem;
+                  return (
+                    <div className="col-lg-4 col-md-4 col-sm-6 col-12">
+                      <NavLink
+                        to="/"
+                        className="card text-center shadow-sm carscard text-decoration-none"
+                        data-target="#mymodal3"
+                        data-toggle="modal"
+                        onClick={() => filterImg(id)}
+                      >
+                        <img src={image} alt="menuPic" className="img-fluid" />
+                        <div className="arrow py-lg-5">
+                          <div className="fa fa-arrow-circle-right text-white px-auto py-5"></div>
+                        </div>
+                        <div className="details">
+                          <div className="row">
+                            <h6 className="pt-2">Rating:</h6>
+                            <div className="col-12 d-flex justify-content-center">
+                              <StarsRating
+                                count={5}
+                                // onChange={ratingChanged}
+                                size={26}
+                                value={rate}
+                                edit={false}
+                                color2={"#ffd700"}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="">
+                          <h5 className="font-weight-bolder mt-2 text-dark">
+                            {name}
+                          </h5>
+                          <h6>{price}</h6>
+                        </div>
+                      </NavLink>
+                    </div>
+                  );
+                })}
+              </div>
             </div>
           </div>
-      
-
-        <div className="row menu-items1">
-          {items.map((elem) => {
-            const { id, name, image, description, price, rate } = elem;
-            return (
-              <div className="col-lg-4 col-md-4 col-sm-6 col-12 pb-4 ">
-                <NavLink
-                  to="/"
-                  className="card text-center shadow-sm carscard text-decoration-none"
-                  data-target="#mymodal3"
-                  data-toggle="modal"
-                  onClick={() => filterImg(id)}
-                >
-                  <img src={image} alt="menuPic" className="img-fluid" />
-                  <div className="arrow py-lg-5">
-                    <div className="fa fa-arrow-circle-right text-white px-auto py-5"></div>
-                  </div>
-                  <div className="details">
-                    <div className="row">
-                      <h6 className="pt-2">Rating:</h6>
-                      <div className="col-12 d-flex justify-content-center">
-                        <StarsRating
-                          count={5}
-                          // onChange={ratingChanged}
-                          size={26}
-                          value={rate}
-                          edit={false}
-                          color2={"#ffd700"}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="">
-                    <h5 className="font-weight-bolder mt-2 text-dark">
-                      {name}
-                    </h5>
-                    <h6>{price}</h6>
-                  </div>
-                </NavLink>
-              </div>
-            );
-          })}
         </div>
-      </div>
-      </div>
-      </div>
       </div>
 
       <div className="modal fade " id="mymodal3">
@@ -279,7 +278,10 @@ function Home() {
                       CARS
                       <span className="text-danger font-weight-bolder">4U</span>
                     </h1>
-                    <div className="close pr-5 pt-4" data-dismiss="modal">
+                    <div
+                      className="close pr-lg-2 mr-lg-1 pr-md-4 pr-sm-4 pr-4 pt-4 "
+                      data-dismiss="modal"
+                    >
                       &times;
                     </div>
                   </div>
