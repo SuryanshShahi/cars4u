@@ -890,7 +890,7 @@ function CompareCars() {
                         <div className="card border-0 shadow-sm py-4 my-4  px-4">
                           <h3 className="font-weight-bold">Pros and Cons</h3>
                           <div className="container-fluid py-3">
-                          <div className="container">
+                        
                           <ul className="nav nav-tabs">
                             <li className="active"><a className="active font-weight-bolder px-2 py-2 tab rounded-0 text-decoration-none" type="button" data-toggle="tab" href="#pros">Pros</a></li>
                             <li><a className="mx-3 font-weight-bolder px-2 py-2 tab rounded-0 text-decoration-none" type="button" data-toggle="tab" href="#cons">Cons</a></li>
@@ -903,7 +903,7 @@ function CompareCars() {
                             <div className="text-danger py-4">{Cons}</div>
                             </div>
                             </div>
-                        </div>
+       
                         </div>
                         </div>
                       </div>

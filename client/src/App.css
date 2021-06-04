@@ -422,7 +422,6 @@ ul {
 }
 .slick-prev:before,
 .slick-next:before {
-  content: "<";
   background-color: black;
   padding-top: 4px;
   padding-bottom: -1px;
@@ -442,9 +441,6 @@ ul {
 .facar {
   font-size: 50px;
 }
-/* .facar{
-  font-size: 50px;
-} */
 
 .tagline {
   position: absolute;

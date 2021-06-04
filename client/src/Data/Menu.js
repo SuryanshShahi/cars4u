@@ -2044,8 +2044,79 @@ const Menu=[
         image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Baleno/6778/1615985070703/front-left-side-47.jpg?tr=w-456",
         name:"Maruti Baleno",
         category:"hatch",
-        price:"₹5.98 - 9.30 Lakh*",
-        description:"baad me likhenge"
+        price:"₹5.98-9.30 Lakh*",
+        description:<p>The Maruti Baleno has 1 Petrol Engine on offer. The Petrol engine is 1197 cc . It is available with the Manual & Automatic transmission. Depending upon the variant and fuel type the Baleno has a mileage of 19.56 to 23.87 kmpl. The Baleno is a 5 seater and has length of 3995mm, width of 1745mm and a wheelbase of 2520mm.<br></br>Maruti Baleno Price: Maruti has priced the Baleno from Rs 5.98 lakh to Rs 9.30 lakh (ex-showroom Delhi).
+<br></br>
+        Maruti Baleno Variants: It is available in four trims: Sigma, Delta, Zeta, and Alpha.
+        <br></br>
+        Maruti Baleno Powertrain: It comes equipped with a 1.2-litre petrol engine (83PS/113Nm), mated to either a 5-speed MT or a CVT. The hatchback also gets a 1.2-litre Dualjet petrol engine with mild-hybrid tech (90PS/113Nm) paired with a 5-speed MT. Maruti claims a mileage of 21.01kmpl for the petrol-manual variants, while those with the CVT return 19.56kmpl. On the other hand, the mild-hybrid powertrain offers a claimed fuel efficiency of 23.87kmpl.
+        <br></br>
+        Maruti Baleno Features: The Maruti Baleno is packed with features, including LED projector headlamps, a rearview camera, 16-inch alloy wheels, a 7-inch touchscreen infotainment system with Apple CarPlay and Android Auto, auto climate control, push-button stop/start, and keyless entry.
+        <br></br>
+        Maruti Baleno Safety: Standard safety features include rear parking sensors, ABS with EBD, ISOFIX child seat anchors, and dual front airbags across all variants.</p>,
+        exterior:"https://stimg.cardekho.com/images/feelthecar360view/Exterior/Maruti/Maruti-Baleno/1578049168 /Exterior.html?hotSpotNonApp=yes",
+        interior:"https://stimg.cardekho.com/images/feelthecar360view/Interior/Maruti/Maruti-Baleno/1549979029/Interior.html?hotSpotNonApp=yes",
+        interior1:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Maruti/Baleno/6778/1615985207322/dashboard-59.jpg",
+        interior2:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Maruti/Baleno/6778/1615985207322/seats-(aerial-view)-53.jpg",
+        interior3:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Maruti/Baleno/6778/1615985207322/rear-seats-52.jpg",
+        interior4:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Maruti/Baleno/6778/1615985207322/interior-image-211.jpg",
+        color1:"https://stimg.cardekho.com/images/car-images/930x620/Maruti/Maruti-Baleno/6780/1548846303769/222_Pearl-Arctic-White_e7e7e7.jpg",
+        color2:"https://stimg.cardekho.com/images/car-images/930x620/Maruti/Maruti-Baleno/6780/1548846303769/224_Pearl-Phoenix-red_ff1000.jpg",
+        color3:"https://stimg.cardekho.com/images/car-images/930x620/Maruti/Maruti-Baleno/6780/1548846303769/221_Nexa-Blue_0f1e3d.jpg",
+        Engine:"1197cc",
+        seat:"5",
+        BHP:"81.8-88.5 Bhp",
+        specification:  [
+            <div className="row"> 
+                        <div>ARAI Mileage<h6 className="float-right ">19.56 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>City Mileage<h6 className="float-right ">12.6 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Engine Displacement (cc)<h6 className="float-right ">1197</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Max Torque (nm@rpm)<h6 className="float-right ">171.62nm@1500-4000rpm</h6></div><hr className="text-success mt-2"></hr>
+                        <div>TransmissionType<h6 className="float-right ">Automatic</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Fuel Tank Capacity<h6 className="float-right ">37.0</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Service Cost (Avg. of 5 years)<h6 className="float-right ">₹3,656</h6></div><hr className="text-success mt-2"></hr>
+                        </div>
+                        ],
+        specification2:  [
+            <div className="row"> 
+            <div>Fuel Type<h6 className="float-right ">Petrol</h6></div><hr className="text-success mt-2"></hr>
+            <div>Max Power (bhp@rpm)<h6 className="float-right ">113Nm@4200rpm</h6></div><hr className="text-success mt-2"></hr>
+            <div>Seating Capacity<h6 className="float-right ">5</h6></div><hr className="text-success mt-2"></hr>
+            <div>Boot Space (Litres)<h6 className="float-right ">311</h6></div><hr className="text-success mt-2"></hr>
+            <div>Body Type<h6 className="float-right ">Hatchback</h6></div><hr className="text-success mt-2"></hr>
+            </div>    
+               ],
+
+
+        feature:  [
+            <div className="row"> 
+            <h6 className="">Power Steering<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Anti Lock Braking System<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Driver Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Fog Lights - Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Automatic Climate Control<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>
+                 ],
+        
+         feature2:  [
+            
+            <div className="row"> 
+            <h6 className="">Power Windows Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Air Conditioner<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Passenger Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Alloy Wheels<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>   
+           ],
+
+        topFeatures:[
+        <div className="row">    
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Windows Front</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Air Conditioner</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Steering</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Anti Lock Braking System</h7></div>
+        <a href="#more" className="col-12 py-3 text-center text-decoration-none"><b>+6 more</b></a>
+        </div>
+        ],
     },
     {
         id:27,
@@ -2054,7 +2125,80 @@ const Menu=[
         name:"Tata Altroz",
         category:"hatch",
         price:"₹5.79 - 9.55 Lakh*",
-        description:"baad me likhenge"
+        description:<p>The Tata Altroz has 1 Diesel Engine and 1 Petrol Engine on offer. The Diesel engine is 1497 cc while the Petrol engine is 1199 cc . It is available with the Manual transmission. Depending upon the variant and fuel type the Altroz has a mileage of . The Altroz is a 5 seater and has length of 3990mm, width of 1755mm and a wheelbase of 2501mm.<br></br>Latest Update: Tata has hiked the prices of the Altroz by up to Rs 20,400.
+        <br></br>
+        Tata Altroz Price: The Altroz is priced from Rs 5.79 lakh to Rs 9.55 lakh (ex-showroom Delhi).
+        <br></br>
+        Tata Altroz Variants: It is available in seven variants: XE, XM, XM+, XT, XZ, XZ (O), and XZ+.
+        <br></br>
+        Tata Altroz Powertrains: The Altroz comes with three engine options: a 1.2-litre naturally aspirated petrol, a 1.2-litre turbo-petrol, and a 1.5-litre diesel. Their output figures stand at 86PS/113Nm, 110PS/140Nm, and 90PS/200Nm respectively. All three engines are offered with a 5-speed manual gearbox as standard, while a 7-speed DCT automatic is expected to be introduced later.
+        <br></br>
+        Tata Altroz Features: It is equipped with a 7-inch touchscreen infotainment system, connected car tech with 27 features, 70+ Hinglish (English+Hindi) voice commands, semi-digital instrument cluster, ambient lighting, steering-mounted audio controls, and cruise control. The Altroz also offers various customisation options.
+        <br></br>
+        Tata Altroz Safety: Standard safety net includes dual front airbags, ISOFIX child seat anchors, and rear parking sensors.</p>,
+        exterior:"https://stimg.cardekho.com/images/feelthecar360view/Exterior/Tata/Tata-Altroz/1578048156/Exterior.html?hotSpotNonApp=yes",
+        interior:"https://stimg.cardekho.com/images/feelthecar360view/Interior/Tata/Tata-Altroz/Interior.html?hotSpotNonApp=yes",
+        interior1:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Tata/Altroz/7247/1578643864942/airbags-94.jpg",
+        interior2:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Tata/Altroz/7247/1578643864942/seats-(aerial-view)-53.jpg",
+        interior3:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Tata/Altroz/7247/1578643864942/dashboard-59.jpg",
+        interior4:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Tata/Altroz/7250/1594616030515/ignition-start-stop-button-142.jpg",
+        color1:"https://stimg.cardekho.com/images/car-images/930x620/Tata/Altroz/7247/1614334136082/221_high-street-gold_ccbf9c.jpg",
+        color2:"https://stimg.cardekho.com/images/car-images/930x620/Tata/Altroz/7247/1614334136082/223_downtown-red_da303e.jpg",
+        color3:"https://stimg.cardekho.com/images/car-images/930x620/Tata/Altroz/7247/1614334136082/226_harbour-blue_014380.jpg",
+        Engine:"1199cc-1497cc",
+        seat:"5",
+        BHP:"84.88-108.49 Bhp",
+        specification:  [
+            <div className="row"> 
+            <div>ARAI Mileage<h6 className="float-right ">25.11 kmpl</h6></div><hr className="text-success mt-2"></hr>
+            <div>City Mileage<h6 className="float-right ">12.6 kmpl</h6></div><hr className="text-success mt-2"></hr>
+            <div>Engine Displacement (cc)<h6 className="float-right ">1497</h6></div><hr className="text-success mt-2"></hr>
+            <div>Max Torque (nm@rpm)<h6 className="float-right ">200Nm@1250-3000rpm</h6></div><hr className="text-success mt-2"></hr>
+            <div>TransmissionType<h6 className="float-right ">Manual</h6></div><hr className="text-success mt-2"></hr>
+            <div>Fuel Tank Capacity<h6 className="float-right ">37.0</h6></div><hr className="text-success mt-2"></hr>
+            <div>Service Cost (Avg. of 5 years)<h6 className="float-right ">₹2,882</h6></div><hr className="text-success mt-2"></hr>
+            </div>
+                        ],
+        specification2:  [
+            <div className="row"> 
+            <div>Fuel Type<h6 className="float-right ">Diesel</h6></div><hr className="text-success mt-2"></hr>
+            <div>Max Power (bhp@rpm)<h6 className="float-right ">88.77bhp@4000rpm</h6></div><hr className="text-success mt-2"></hr>
+            <div>Seating Capacity<h6 className="float-right ">5</h6></div><hr className="text-success mt-2"></hr>
+            <div>Boot Space (Litres)<h6 className="float-right ">345</h6></div><hr className="text-success mt-2"></hr>
+            <div>Body Type<h6 className="float-right ">Hatchback</h6></div><hr className="text-success mt-2"></hr>
+            </div>    
+               ],
+
+
+        feature:  [
+            <div className="row"> 
+            <h6 className="">Power Steering<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Anti Lock Braking System<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Driver Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Fog Lights - Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Automatic Climate Control<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>
+                 ],
+        
+         feature2:  [
+            
+            <div className="row"> 
+            <h6 className="">Power Windows Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Air Conditioner<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Passenger Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Alloy Wheels<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>   
+           ],
+
+        topFeatures:[
+        <div className="row">    
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Windows Front</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Air Conditioner</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Steering</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Anti Lock Braking System</h7></div>
+        <a href="#more" className="col-12 py-3 text-center text-decoration-none"><b>+6 more</b></a>
+        </div>
+        ],
     },
     {
         id:28,
@@ -2063,7 +2207,70 @@ const Menu=[
         name:"Maruti Wagon R",
         category:"hatch",
         price:"₹4.80 - 6.33 Lakh*",
-        description:"baad me likhenge"
+        description:"baad me likhenge",
+        description:"baad me likhenge",
+        exterior:"https://stimg.cardekho.com/images/feelthecar360view/Exterior/Hyundai/Hyundai-i20/160587400/Exterior.html?hotSpotNonApp=yes",
+        interior1:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/steering-position-adjustments-141.jpg",
+        interior2:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/door-view-of-driver-seat-51.jpg",
+        interior3:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/ignition-start-stop-button-142.jpg",
+        interior4:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/airbags-94.jpg",
+        color1:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/226_fiery-red-black-roof_ba0104.jpg",
+        color2:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/224_polar-white-black-roof_babdc5.jpg",
+        color3:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/223_starry-night_192237.jpg",
+        Engine:"998cc-1493cc",
+        seat:"5",
+        BHP:"81.86-118.36 Bhp",
+        specification:  [
+            <div className="row"> 
+                        <div>ARAI Mileage<h6 className="float-right ">20.28 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>City Mileage<h6 className="float-right ">12.6 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Engine Displacement (cc)<h6 className="float-right ">998</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Max Torque (nm@rpm)<h6 className="float-right ">171.62nm@1500-4000rpm</h6></div><hr className="text-success mt-2"></hr>
+                        <div>TransmissionType<h6 className="float-right ">Automatic</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Fuel Tank Capacity<h6 className="float-right ">37.0</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Service Cost (Avg. of 5 years)<h6 className="float-right ">₹2,882</h6></div><hr className="text-success mt-2"></hr>
+                        </div>
+                        ],
+        specification2:  [
+            <div className="row"> 
+            <div>Fuel Type<h6 className="float-right ">Petrol</h6></div><hr className="text-success mt-2"></hr>
+            <div>Max Power (bhp@rpm)<h6 className="float-right ">118.36bhp@6000rpm</h6></div><hr className="text-success mt-2"></hr>
+            <div>Seating Capacity<h6 className="float-right ">5</h6></div><hr className="text-success mt-2"></hr>
+            <div>Boot Space (Litres)<h6 className="float-right ">311</h6></div><hr className="text-success mt-2"></hr>
+            <div>Body Type<h6 className="float-right ">hatchback</h6></div><hr className="text-success mt-2"></hr>
+            </div>    
+               ],
+
+
+        feature:  [
+            <div className="row"> 
+            <h6 className="">Power Steering<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Anti Lock Braking System<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Driver Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Fog Lights - Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Automatic Climate Control<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>
+                 ],
+        
+         feature2:  [
+            
+            <div className="row"> 
+            <h6 className="">Power Windows Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Air Conditioner<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Passenger Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Alloy Wheels<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>   
+           ],
+
+        topFeatures:[
+        <div className="row">    
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Windows Front</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Air Conditioner</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Steering</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Anti Lock Braking System</h7></div>
+        <a href="#more" className="col-12 py-3 text-center text-decoration-none"><b>+6 more</b></a>
+        </div>
+        ],
     },
     {
         id:29,
@@ -2072,7 +2279,70 @@ const Menu=[
         name:"Tata Tiago",
         category:"hatch",
         price:"₹4.99 - 6.95 Lakh*",
-        description:"baad me likhenge"
+        description:"baad me likhenge",
+        description:"baad me likhenge",
+        exterior:"https://stimg.cardekho.com/images/feelthecar360view/Exterior/Hyundai/Hyundai-i20/160587400/Exterior.html?hotSpotNonApp=yes",
+        interior1:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/steering-position-adjustments-141.jpg",
+        interior2:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/door-view-of-driver-seat-51.jpg",
+        interior3:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/ignition-start-stop-button-142.jpg",
+        interior4:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/airbags-94.jpg",
+        color1:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/226_fiery-red-black-roof_ba0104.jpg",
+        color2:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/224_polar-white-black-roof_babdc5.jpg",
+        color3:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/223_starry-night_192237.jpg",
+        Engine:"998cc-1493cc",
+        seat:"5",
+        BHP:"81.86-118.36 Bhp",
+        specification:  [
+            <div className="row"> 
+                        <div>ARAI Mileage<h6 className="float-right ">20.28 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>City Mileage<h6 className="float-right ">12.6 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Engine Displacement (cc)<h6 className="float-right ">998</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Max Torque (nm@rpm)<h6 className="float-right ">171.62nm@1500-4000rpm</h6></div><hr className="text-success mt-2"></hr>
+                        <div>TransmissionType<h6 className="float-right ">Automatic</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Fuel Tank Capacity<h6 className="float-right ">37.0</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Service Cost (Avg. of 5 years)<h6 className="float-right ">₹2,882</h6></div><hr className="text-success mt-2"></hr>
+                        </div>
+                        ],
+        specification2:  [
+            <div className="row"> 
+            <div>Fuel Type<h6 className="float-right ">Petrol</h6></div><hr className="text-success mt-2"></hr>
+            <div>Max Power (bhp@rpm)<h6 className="float-right ">118.36bhp@6000rpm</h6></div><hr className="text-success mt-2"></hr>
+            <div>Seating Capacity<h6 className="float-right ">5</h6></div><hr className="text-success mt-2"></hr>
+            <div>Boot Space (Litres)<h6 className="float-right ">311</h6></div><hr className="text-success mt-2"></hr>
+            <div>Body Type<h6 className="float-right ">hatchback</h6></div><hr className="text-success mt-2"></hr>
+            </div>    
+               ],
+
+
+        feature:  [
+            <div className="row"> 
+            <h6 className="">Power Steering<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Anti Lock Braking System<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Driver Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Fog Lights - Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Automatic Climate Control<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>
+                 ],
+        
+         feature2:  [
+            
+            <div className="row"> 
+            <h6 className="">Power Windows Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Air Conditioner<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Passenger Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Alloy Wheels<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>   
+           ],
+
+        topFeatures:[
+        <div className="row">    
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Windows Front</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Air Conditioner</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Steering</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Anti Lock Braking System</h7></div>
+        <a href="#more" className="col-12 py-3 text-center text-decoration-none"><b>+6 more</b></a>
+        </div>
+        ],
     }, 
     {
         id: 30,
@@ -2081,8 +2351,71 @@ const Menu=[
         name: "Mercedes-Benz GLA",
         category: "luxury",
         price: "₹42.10-57.28 Lakh*",
-        rate:"4.5"
-      },
+        rate:"4.5",
+    description:"baad me likhenge",
+        exterior:"https://stimg.cardekho.com/images/feelthecar360view/Exterior/Hyundai/Hyundai-i20/160587400/Exterior.html?hotSpotNonApp=yes",
+        interior1:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/steering-position-adjustments-141.jpg",
+        interior2:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/door-view-of-driver-seat-51.jpg",
+        interior3:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/ignition-start-stop-button-142.jpg",
+        interior4:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/airbags-94.jpg",
+        color1:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/226_fiery-red-black-roof_ba0104.jpg",
+        color2:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/224_polar-white-black-roof_babdc5.jpg",
+        color3:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/223_starry-night_192237.jpg",
+        Engine:"998cc-1493cc",
+        seat:"5",
+        BHP:"81.86-118.36 Bhp",
+        specification:  [
+            <div className="row"> 
+                        <div>ARAI Mileage<h6 className="float-right ">20.28 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>City Mileage<h6 className="float-right ">12.6 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Engine Displacement (cc)<h6 className="float-right ">998</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Max Torque (nm@rpm)<h6 className="float-right ">171.62nm@1500-4000rpm</h6></div><hr className="text-success mt-2"></hr>
+                        <div>TransmissionType<h6 className="float-right ">Automatic</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Fuel Tank Capacity<h6 className="float-right ">37.0</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Service Cost (Avg. of 5 years)<h6 className="float-right ">₹2,882</h6></div><hr className="text-success mt-2"></hr>
+                        </div>
+                        ],
+        specification2:  [
+            <div className="row"> 
+            <div>Fuel Type<h6 className="float-right ">Petrol</h6></div><hr className="text-success mt-2"></hr>
+            <div>Max Power (bhp@rpm)<h6 className="float-right ">118.36bhp@6000rpm</h6></div><hr className="text-success mt-2"></hr>
+            <div>Seating Capacity<h6 className="float-right ">5</h6></div><hr className="text-success mt-2"></hr>
+            <div>Boot Space (Litres)<h6 className="float-right ">311</h6></div><hr className="text-success mt-2"></hr>
+            <div>Body Type<h6 className="float-right ">hatchback</h6></div><hr className="text-success mt-2"></hr>
+            </div>    
+               ],
+
+
+        feature:  [
+            <div className="row"> 
+            <h6 className="">Power Steering<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Anti Lock Braking System<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Driver Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Fog Lights - Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Automatic Climate Control<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>
+                 ],
+        
+         feature2:  [
+            
+            <div className="row"> 
+            <h6 className="">Power Windows Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Air Conditioner<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Passenger Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Alloy Wheels<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>   
+           ],
+
+        topFeatures:[
+        <div className="row">    
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Windows Front</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Air Conditioner</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Steering</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Anti Lock Braking System</h7></div>
+        <a href="#more" className="col-12 py-3 text-center text-decoration-none"><b>+6 more</b></a>
+        </div>
+        ],    
+    },
       {
         id: 31,
         image:
@@ -2090,8 +2423,71 @@ const Menu=[
         name: "Isuzu D-Max",
         category: "luxury",
         price: "₹16.98-24.49 Lakh**",
-        rate:"4.5"
-      },
+        rate:"4.5",
+    description:"baad me likhenge",
+        exterior:"https://stimg.cardekho.com/images/feelthecar360view/Exterior/Hyundai/Hyundai-i20/160587400/Exterior.html?hotSpotNonApp=yes",
+        interior1:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/steering-position-adjustments-141.jpg",
+        interior2:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/door-view-of-driver-seat-51.jpg",
+        interior3:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/ignition-start-stop-button-142.jpg",
+        interior4:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/airbags-94.jpg",
+        color1:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/226_fiery-red-black-roof_ba0104.jpg",
+        color2:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/224_polar-white-black-roof_babdc5.jpg",
+        color3:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/223_starry-night_192237.jpg",
+        Engine:"998cc-1493cc",
+        seat:"5",
+        BHP:"81.86-118.36 Bhp",
+        specification:  [
+            <div className="row"> 
+                        <div>ARAI Mileage<h6 className="float-right ">20.28 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>City Mileage<h6 className="float-right ">12.6 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Engine Displacement (cc)<h6 className="float-right ">998</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Max Torque (nm@rpm)<h6 className="float-right ">171.62nm@1500-4000rpm</h6></div><hr className="text-success mt-2"></hr>
+                        <div>TransmissionType<h6 className="float-right ">Automatic</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Fuel Tank Capacity<h6 className="float-right ">37.0</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Service Cost (Avg. of 5 years)<h6 className="float-right ">₹2,882</h6></div><hr className="text-success mt-2"></hr>
+                        </div>
+                        ],
+        specification2:  [
+            <div className="row"> 
+            <div>Fuel Type<h6 className="float-right ">Petrol</h6></div><hr className="text-success mt-2"></hr>
+            <div>Max Power (bhp@rpm)<h6 className="float-right ">118.36bhp@6000rpm</h6></div><hr className="text-success mt-2"></hr>
+            <div>Seating Capacity<h6 className="float-right ">5</h6></div><hr className="text-success mt-2"></hr>
+            <div>Boot Space (Litres)<h6 className="float-right ">311</h6></div><hr className="text-success mt-2"></hr>
+            <div>Body Type<h6 className="float-right ">hatchback</h6></div><hr className="text-success mt-2"></hr>
+            </div>    
+               ],
+
+
+        feature:  [
+            <div className="row"> 
+            <h6 className="">Power Steering<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Anti Lock Braking System<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Driver Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Fog Lights - Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Automatic Climate Control<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>
+                 ],
+        
+         feature2:  [
+            
+            <div className="row"> 
+            <h6 className="">Power Windows Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Air Conditioner<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Passenger Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Alloy Wheels<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>   
+           ],
+
+        topFeatures:[
+        <div className="row">    
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Windows Front</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Air Conditioner</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Steering</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Anti Lock Braking System</h7></div>
+        <a href="#more" className="col-12 py-3 text-center text-decoration-none"><b>+6 more</b></a>
+        </div>
+        ],    
+    },
       {
         id: 32,
         image:
@@ -2099,8 +2495,71 @@ const Menu=[
         name: "Kia Seltos HTK Plus iMT",
         category: "luxury",
         price: "₹12.19 Lakh*",
-        rate:"4.5"
-      },
+        rate:"4.5",
+    description:"baad me likhenge",
+        exterior:"https://stimg.cardekho.com/images/feelthecar360view/Exterior/Hyundai/Hyundai-i20/160587400/Exterior.html?hotSpotNonApp=yes",
+        interior1:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/steering-position-adjustments-141.jpg",
+        interior2:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/door-view-of-driver-seat-51.jpg",
+        interior3:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/ignition-start-stop-button-142.jpg",
+        interior4:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/airbags-94.jpg",
+        color1:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/226_fiery-red-black-roof_ba0104.jpg",
+        color2:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/224_polar-white-black-roof_babdc5.jpg",
+        color3:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/223_starry-night_192237.jpg",
+        Engine:"998cc-1493cc",
+        seat:"5",
+        BHP:"81.86-118.36 Bhp",
+        specification:  [
+            <div className="row"> 
+                        <div>ARAI Mileage<h6 className="float-right ">20.28 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>City Mileage<h6 className="float-right ">12.6 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Engine Displacement (cc)<h6 className="float-right ">998</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Max Torque (nm@rpm)<h6 className="float-right ">171.62nm@1500-4000rpm</h6></div><hr className="text-success mt-2"></hr>
+                        <div>TransmissionType<h6 className="float-right ">Automatic</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Fuel Tank Capacity<h6 className="float-right ">37.0</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Service Cost (Avg. of 5 years)<h6 className="float-right ">₹2,882</h6></div><hr className="text-success mt-2"></hr>
+                        </div>
+                        ],
+        specification2:  [
+            <div className="row"> 
+            <div>Fuel Type<h6 className="float-right ">Petrol</h6></div><hr className="text-success mt-2"></hr>
+            <div>Max Power (bhp@rpm)<h6 className="float-right ">118.36bhp@6000rpm</h6></div><hr className="text-success mt-2"></hr>
+            <div>Seating Capacity<h6 className="float-right ">5</h6></div><hr className="text-success mt-2"></hr>
+            <div>Boot Space (Litres)<h6 className="float-right ">311</h6></div><hr className="text-success mt-2"></hr>
+            <div>Body Type<h6 className="float-right ">hatchback</h6></div><hr className="text-success mt-2"></hr>
+            </div>    
+               ],
+
+
+        feature:  [
+            <div className="row"> 
+            <h6 className="">Power Steering<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Anti Lock Braking System<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Driver Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Fog Lights - Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Automatic Climate Control<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>
+                 ],
+        
+         feature2:  [
+            
+            <div className="row"> 
+            <h6 className="">Power Windows Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Air Conditioner<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Passenger Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Alloy Wheels<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>   
+           ],
+
+        topFeatures:[
+        <div className="row">    
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Windows Front</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Air Conditioner</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Steering</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Anti Lock Braking System</h7></div>
+        <a href="#more" className="col-12 py-3 text-center text-decoration-none"><b>+6 more</b></a>
+        </div>
+        ],    
+    },
       {
         id: 33,
         image:
@@ -2108,8 +2567,71 @@ const Menu=[
         name: "Kia Sonet 1.5 HTX Diesel AT",
         category: "luxury",
         price: "₹11.29 Lakh*",
-        rate:"4.5"
-      },
+        rate:"4.5",
+    description:"baad me likhenge",
+        exterior:"https://stimg.cardekho.com/images/feelthecar360view/Exterior/Hyundai/Hyundai-i20/160587400/Exterior.html?hotSpotNonApp=yes",
+        interior1:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/steering-position-adjustments-141.jpg",
+        interior2:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/door-view-of-driver-seat-51.jpg",
+        interior3:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/ignition-start-stop-button-142.jpg",
+        interior4:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/airbags-94.jpg",
+        color1:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/226_fiery-red-black-roof_ba0104.jpg",
+        color2:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/224_polar-white-black-roof_babdc5.jpg",
+        color3:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/223_starry-night_192237.jpg",
+        Engine:"998cc-1493cc",
+        seat:"5",
+        BHP:"81.86-118.36 Bhp",
+        specification:  [
+            <div className="row"> 
+                        <div>ARAI Mileage<h6 className="float-right ">20.28 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>City Mileage<h6 className="float-right ">12.6 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Engine Displacement (cc)<h6 className="float-right ">998</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Max Torque (nm@rpm)<h6 className="float-right ">171.62nm@1500-4000rpm</h6></div><hr className="text-success mt-2"></hr>
+                        <div>TransmissionType<h6 className="float-right ">Automatic</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Fuel Tank Capacity<h6 className="float-right ">37.0</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Service Cost (Avg. of 5 years)<h6 className="float-right ">₹2,882</h6></div><hr className="text-success mt-2"></hr>
+                        </div>
+                        ],
+        specification2:  [
+            <div className="row"> 
+            <div>Fuel Type<h6 className="float-right ">Petrol</h6></div><hr className="text-success mt-2"></hr>
+            <div>Max Power (bhp@rpm)<h6 className="float-right ">118.36bhp@6000rpm</h6></div><hr className="text-success mt-2"></hr>
+            <div>Seating Capacity<h6 className="float-right ">5</h6></div><hr className="text-success mt-2"></hr>
+            <div>Boot Space (Litres)<h6 className="float-right ">311</h6></div><hr className="text-success mt-2"></hr>
+            <div>Body Type<h6 className="float-right ">hatchback</h6></div><hr className="text-success mt-2"></hr>
+            </div>    
+               ],
+
+
+        feature:  [
+            <div className="row"> 
+            <h6 className="">Power Steering<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Anti Lock Braking System<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Driver Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Fog Lights - Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Automatic Climate Control<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>
+                 ],
+        
+         feature2:  [
+            
+            <div className="row"> 
+            <h6 className="">Power Windows Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Air Conditioner<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Passenger Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Alloy Wheels<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>   
+           ],
+
+        topFeatures:[
+        <div className="row">    
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Windows Front</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Air Conditioner</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Steering</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Anti Lock Braking System</h7></div>
+        <a href="#more" className="col-12 py-3 text-center text-decoration-none"><b>+6 more</b></a>
+        </div>
+        ],    
+    },
       {
         id: 34,
         image:
@@ -2117,8 +2639,71 @@ const Menu=[
         name: "Isuzu MU-X",
         category: "luxury",
         price: "₹33.23-35.19 Lakh*",
-        rate:"4.5"
-      },
+        rate:"4.5",
+    description:"baad me likhenge",
+        exterior:"https://stimg.cardekho.com/images/feelthecar360view/Exterior/Hyundai/Hyundai-i20/160587400/Exterior.html?hotSpotNonApp=yes",
+        interior1:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/steering-position-adjustments-141.jpg",
+        interior2:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/door-view-of-driver-seat-51.jpg",
+        interior3:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/ignition-start-stop-button-142.jpg",
+        interior4:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/airbags-94.jpg",
+        color1:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/226_fiery-red-black-roof_ba0104.jpg",
+        color2:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/224_polar-white-black-roof_babdc5.jpg",
+        color3:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/223_starry-night_192237.jpg",
+        Engine:"998cc-1493cc",
+        seat:"5",
+        BHP:"81.86-118.36 Bhp",
+        specification:  [
+            <div className="row"> 
+                        <div>ARAI Mileage<h6 className="float-right ">20.28 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>City Mileage<h6 className="float-right ">12.6 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Engine Displacement (cc)<h6 className="float-right ">998</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Max Torque (nm@rpm)<h6 className="float-right ">171.62nm@1500-4000rpm</h6></div><hr className="text-success mt-2"></hr>
+                        <div>TransmissionType<h6 className="float-right ">Automatic</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Fuel Tank Capacity<h6 className="float-right ">37.0</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Service Cost (Avg. of 5 years)<h6 className="float-right ">₹2,882</h6></div><hr className="text-success mt-2"></hr>
+                        </div>
+                        ],
+        specification2:  [
+            <div className="row"> 
+            <div>Fuel Type<h6 className="float-right ">Petrol</h6></div><hr className="text-success mt-2"></hr>
+            <div>Max Power (bhp@rpm)<h6 className="float-right ">118.36bhp@6000rpm</h6></div><hr className="text-success mt-2"></hr>
+            <div>Seating Capacity<h6 className="float-right ">5</h6></div><hr className="text-success mt-2"></hr>
+            <div>Boot Space (Litres)<h6 className="float-right ">311</h6></div><hr className="text-success mt-2"></hr>
+            <div>Body Type<h6 className="float-right ">hatchback</h6></div><hr className="text-success mt-2"></hr>
+            </div>    
+               ],
+
+
+        feature:  [
+            <div className="row"> 
+            <h6 className="">Power Steering<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Anti Lock Braking System<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Driver Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Fog Lights - Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Automatic Climate Control<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>
+                 ],
+        
+         feature2:  [
+            
+            <div className="row"> 
+            <h6 className="">Power Windows Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Air Conditioner<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Passenger Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Alloy Wheels<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>   
+           ],
+
+        topFeatures:[
+        <div className="row">    
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Windows Front</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Air Conditioner</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Steering</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Anti Lock Braking System</h7></div>
+        <a href="#more" className="col-12 py-3 text-center text-decoration-none"><b>+6 more</b></a>
+        </div>
+        ],    
+    },
       {
         id: 35,
         image:
@@ -2126,8 +2711,71 @@ const Menu=[
         name: "BMW 6 Series",
         category: "luxury",
         price: "₹67.90-77.90 Lakh*",
-        rate:"4.5"
-      },
+        rate:"4.5",
+    description:"baad me likhenge",
+        exterior:"https://stimg.cardekho.com/images/feelthecar360view/Exterior/Hyundai/Hyundai-i20/160587400/Exterior.html?hotSpotNonApp=yes",
+        interior1:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/steering-position-adjustments-141.jpg",
+        interior2:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/door-view-of-driver-seat-51.jpg",
+        interior3:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/ignition-start-stop-button-142.jpg",
+        interior4:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/airbags-94.jpg",
+        color1:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/226_fiery-red-black-roof_ba0104.jpg",
+        color2:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/224_polar-white-black-roof_babdc5.jpg",
+        color3:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/223_starry-night_192237.jpg",
+        Engine:"998cc-1493cc",
+        seat:"5",
+        BHP:"81.86-118.36 Bhp",
+        specification:  [
+            <div className="row"> 
+                        <div>ARAI Mileage<h6 className="float-right ">20.28 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>City Mileage<h6 className="float-right ">12.6 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Engine Displacement (cc)<h6 className="float-right ">998</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Max Torque (nm@rpm)<h6 className="float-right ">171.62nm@1500-4000rpm</h6></div><hr className="text-success mt-2"></hr>
+                        <div>TransmissionType<h6 className="float-right ">Automatic</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Fuel Tank Capacity<h6 className="float-right ">37.0</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Service Cost (Avg. of 5 years)<h6 className="float-right ">₹2,882</h6></div><hr className="text-success mt-2"></hr>
+                        </div>
+                        ],
+        specification2:  [
+            <div className="row"> 
+            <div>Fuel Type<h6 className="float-right ">Petrol</h6></div><hr className="text-success mt-2"></hr>
+            <div>Max Power (bhp@rpm)<h6 className="float-right ">118.36bhp@6000rpm</h6></div><hr className="text-success mt-2"></hr>
+            <div>Seating Capacity<h6 className="float-right ">5</h6></div><hr className="text-success mt-2"></hr>
+            <div>Boot Space (Litres)<h6 className="float-right ">311</h6></div><hr className="text-success mt-2"></hr>
+            <div>Body Type<h6 className="float-right ">hatchback</h6></div><hr className="text-success mt-2"></hr>
+            </div>    
+               ],
+
+
+        feature:  [
+            <div className="row"> 
+            <h6 className="">Power Steering<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Anti Lock Braking System<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Driver Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Fog Lights - Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Automatic Climate Control<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>
+                 ],
+        
+         feature2:  [
+            
+            <div className="row"> 
+            <h6 className="">Power Windows Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Air Conditioner<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Passenger Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Alloy Wheels<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>   
+           ],
+
+        topFeatures:[
+        <div className="row">    
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Windows Front</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Air Conditioner</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Steering</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Anti Lock Braking System</h7></div>
+        <a href="#more" className="col-12 py-3 text-center text-decoration-none"><b>+6 more</b></a>
+        </div>
+        ],    
+    },
       {
         id: 36,
         image:
@@ -2135,8 +2783,71 @@ const Menu=[
         name: "Citroen C5 Aircross",
         category: "luxury",
         price: "₹29.90-31.90 Lakh*",
-        rate:"4.5"
-      },
+        rate:"4.5",
+    description:"baad me likhenge",
+        exterior:"https://stimg.cardekho.com/images/feelthecar360view/Exterior/Hyundai/Hyundai-i20/160587400/Exterior.html?hotSpotNonApp=yes",
+        interior1:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/steering-position-adjustments-141.jpg",
+        interior2:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/door-view-of-driver-seat-51.jpg",
+        interior3:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/ignition-start-stop-button-142.jpg",
+        interior4:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/airbags-94.jpg",
+        color1:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/226_fiery-red-black-roof_ba0104.jpg",
+        color2:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/224_polar-white-black-roof_babdc5.jpg",
+        color3:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/223_starry-night_192237.jpg",
+        Engine:"998cc-1493cc",
+        seat:"5",
+        BHP:"81.86-118.36 Bhp",
+        specification:  [
+            <div className="row"> 
+                        <div>ARAI Mileage<h6 className="float-right ">20.28 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>City Mileage<h6 className="float-right ">12.6 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Engine Displacement (cc)<h6 className="float-right ">998</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Max Torque (nm@rpm)<h6 className="float-right ">171.62nm@1500-4000rpm</h6></div><hr className="text-success mt-2"></hr>
+                        <div>TransmissionType<h6 className="float-right ">Automatic</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Fuel Tank Capacity<h6 className="float-right ">37.0</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Service Cost (Avg. of 5 years)<h6 className="float-right ">₹2,882</h6></div><hr className="text-success mt-2"></hr>
+                        </div>
+                        ],
+        specification2:  [
+            <div className="row"> 
+            <div>Fuel Type<h6 className="float-right ">Petrol</h6></div><hr className="text-success mt-2"></hr>
+            <div>Max Power (bhp@rpm)<h6 className="float-right ">118.36bhp@6000rpm</h6></div><hr className="text-success mt-2"></hr>
+            <div>Seating Capacity<h6 className="float-right ">5</h6></div><hr className="text-success mt-2"></hr>
+            <div>Boot Space (Litres)<h6 className="float-right ">311</h6></div><hr className="text-success mt-2"></hr>
+            <div>Body Type<h6 className="float-right ">hatchback</h6></div><hr className="text-success mt-2"></hr>
+            </div>    
+               ],
+
+
+        feature:  [
+            <div className="row"> 
+            <h6 className="">Power Steering<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Anti Lock Braking System<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Driver Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Fog Lights - Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Automatic Climate Control<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>
+                 ],
+        
+         feature2:  [
+            
+            <div className="row"> 
+            <h6 className="">Power Windows Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Air Conditioner<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Passenger Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Alloy Wheels<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>   
+           ],
+
+        topFeatures:[
+        <div className="row">    
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Windows Front</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Air Conditioner</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Steering</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Anti Lock Braking System</h7></div>
+        <a href="#more" className="col-12 py-3 text-center text-decoration-none"><b>+6 more</b></a>
+        </div>
+        ],    
+    },
       {
         id: 37,
         image:
@@ -2144,8 +2855,71 @@ const Menu=[
         name: "Mercedes-Benz A-Class Limousine",
         category: "luxury",
         price: "₹39.90-56.24 Lakh*",
-        rate:"4.5"
-      },
+        rate:"4.5",
+    description:"baad me likhenge",
+        exterior:"https://stimg.cardekho.com/images/feelthecar360view/Exterior/Hyundai/Hyundai-i20/160587400/Exterior.html?hotSpotNonApp=yes",
+        interior1:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/steering-position-adjustments-141.jpg",
+        interior2:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/door-view-of-driver-seat-51.jpg",
+        interior3:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/ignition-start-stop-button-142.jpg",
+        interior4:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/airbags-94.jpg",
+        color1:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/226_fiery-red-black-roof_ba0104.jpg",
+        color2:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/224_polar-white-black-roof_babdc5.jpg",
+        color3:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/223_starry-night_192237.jpg",
+        Engine:"998cc-1493cc",
+        seat:"5",
+        BHP:"81.86-118.36 Bhp",
+        specification:  [
+            <div className="row"> 
+                        <div>ARAI Mileage<h6 className="float-right ">20.28 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>City Mileage<h6 className="float-right ">12.6 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Engine Displacement (cc)<h6 className="float-right ">998</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Max Torque (nm@rpm)<h6 className="float-right ">171.62nm@1500-4000rpm</h6></div><hr className="text-success mt-2"></hr>
+                        <div>TransmissionType<h6 className="float-right ">Automatic</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Fuel Tank Capacity<h6 className="float-right ">37.0</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Service Cost (Avg. of 5 years)<h6 className="float-right ">₹2,882</h6></div><hr className="text-success mt-2"></hr>
+                        </div>
+                        ],
+        specification2:  [
+            <div className="row"> 
+            <div>Fuel Type<h6 className="float-right ">Petrol</h6></div><hr className="text-success mt-2"></hr>
+            <div>Max Power (bhp@rpm)<h6 className="float-right ">118.36bhp@6000rpm</h6></div><hr className="text-success mt-2"></hr>
+            <div>Seating Capacity<h6 className="float-right ">5</h6></div><hr className="text-success mt-2"></hr>
+            <div>Boot Space (Litres)<h6 className="float-right ">311</h6></div><hr className="text-success mt-2"></hr>
+            <div>Body Type<h6 className="float-right ">hatchback</h6></div><hr className="text-success mt-2"></hr>
+            </div>    
+               ],
+
+
+        feature:  [
+            <div className="row"> 
+            <h6 className="">Power Steering<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Anti Lock Braking System<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Driver Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Fog Lights - Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Automatic Climate Control<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>
+                 ],
+        
+         feature2:  [
+            
+            <div className="row"> 
+            <h6 className="">Power Windows Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Air Conditioner<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Passenger Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Alloy Wheels<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>   
+           ],
+
+        topFeatures:[
+        <div className="row">    
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Windows Front</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Air Conditioner</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Steering</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Anti Lock Braking System</h7></div>
+        <a href="#more" className="col-12 py-3 text-center text-decoration-none"><b>+6 more</b></a>
+        </div>
+        ],    
+    },
       {
         id: 38,
         image:
@@ -2153,13 +2927,140 @@ const Menu=[
         name: "Toyota Glanza",
         category: "hatch",
         price: "₹7.34-9.30 Lakh*",
-        rate:"4.5"
-      },
+        rate:"4.5",
+    description:"baad me likhenge",
+        exterior:"https://stimg.cardekho.com/images/feelthecar360view/Exterior/Hyundai/Hyundai-i20/160587400/Exterior.html?hotSpotNonApp=yes",
+        interior1:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/steering-position-adjustments-141.jpg",
+        interior2:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/door-view-of-driver-seat-51.jpg",
+        interior3:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/ignition-start-stop-button-142.jpg",
+        interior4:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/airbags-94.jpg",
+        color1:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/226_fiery-red-black-roof_ba0104.jpg",
+        color2:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/224_polar-white-black-roof_babdc5.jpg",
+        color3:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/223_starry-night_192237.jpg",
+        Engine:"998cc-1493cc",
+        seat:"5",
+        BHP:"81.86-118.36 Bhp",
+        specification:  [
+            <div className="row"> 
+                        <div>ARAI Mileage<h6 className="float-right ">20.28 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>City Mileage<h6 className="float-right ">12.6 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Engine Displacement (cc)<h6 className="float-right ">998</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Max Torque (nm@rpm)<h6 className="float-right ">171.62nm@1500-4000rpm</h6></div><hr className="text-success mt-2"></hr>
+                        <div>TransmissionType<h6 className="float-right ">Automatic</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Fuel Tank Capacity<h6 className="float-right ">37.0</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Service Cost (Avg. of 5 years)<h6 className="float-right ">₹2,882</h6></div><hr className="text-success mt-2"></hr>
+                        </div>
+                        ],
+        specification2:  [
+            <div className="row"> 
+            <div>Fuel Type<h6 className="float-right ">Petrol</h6></div><hr className="text-success mt-2"></hr>
+            <div>Max Power (bhp@rpm)<h6 className="float-right ">118.36bhp@6000rpm</h6></div><hr className="text-success mt-2"></hr>
+            <div>Seating Capacity<h6 className="float-right ">5</h6></div><hr className="text-success mt-2"></hr>
+            <div>Boot Space (Litres)<h6 className="float-right ">311</h6></div><hr className="text-success mt-2"></hr>
+            <div>Body Type<h6 className="float-right ">hatchback</h6></div><hr className="text-success mt-2"></hr>
+            </div>    
+               ],
+
+
+        feature:  [
+            <div className="row"> 
+            <h6 className="">Power Steering<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Anti Lock Braking System<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Driver Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Fog Lights - Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Automatic Climate Control<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>
+                 ],
+        
+         feature2:  [
+            
+            <div className="row"> 
+            <h6 className="">Power Windows Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Air Conditioner<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Passenger Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Alloy Wheels<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>   
+           ],
+
+        topFeatures:[
+        <div className="row">    
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Windows Front</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Air Conditioner</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Steering</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Anti Lock Braking System</h7></div>
+        <a href="#more" className="col-12 py-3 text-center text-decoration-none"><b>+6 more</b></a>
+        </div>
+        ],    
+    },
       {
         id: 39,
         name:"Nissan Magnite",
         category: "suv",
         rate:"4.5",
+        description:"baad me likhenge",
+        exterior:"https://stimg.cardekho.com/images/feelthecar360view/Exterior/Hyundai/Hyundai-i20/160587400/Exterior.html?hotSpotNonApp=yes",
+        interior1:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/steering-position-adjustments-141.jpg",
+        interior2:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/door-view-of-driver-seat-51.jpg",
+        interior3:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/ignition-start-stop-button-142.jpg",
+        interior4:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/airbags-94.jpg",
+        color1:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/226_fiery-red-black-roof_ba0104.jpg",
+        color2:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/224_polar-white-black-roof_babdc5.jpg",
+        color3:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/223_starry-night_192237.jpg",
+        Engine:"998cc-1493cc",
+        seat:"5",
+        BHP:"81.86-118.36 Bhp",
+        specification:  [
+            <div className="row"> 
+                        <div>ARAI Mileage<h6 className="float-right ">20.28 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>City Mileage<h6 className="float-right ">12.6 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Engine Displacement (cc)<h6 className="float-right ">998</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Max Torque (nm@rpm)<h6 className="float-right ">171.62nm@1500-4000rpm</h6></div><hr className="text-success mt-2"></hr>
+                        <div>TransmissionType<h6 className="float-right ">Automatic</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Fuel Tank Capacity<h6 className="float-right ">37.0</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Service Cost (Avg. of 5 years)<h6 className="float-right ">₹2,882</h6></div><hr className="text-success mt-2"></hr>
+                        </div>
+                        ],
+        specification2:  [
+            <div className="row"> 
+            <div>Fuel Type<h6 className="float-right ">Petrol</h6></div><hr className="text-success mt-2"></hr>
+            <div>Max Power (bhp@rpm)<h6 className="float-right ">118.36bhp@6000rpm</h6></div><hr className="text-success mt-2"></hr>
+            <div>Seating Capacity<h6 className="float-right ">5</h6></div><hr className="text-success mt-2"></hr>
+            <div>Boot Space (Litres)<h6 className="float-right ">311</h6></div><hr className="text-success mt-2"></hr>
+            <div>Body Type<h6 className="float-right ">hatchback</h6></div><hr className="text-success mt-2"></hr>
+            </div>    
+               ],
+
+
+        feature:  [
+            <div className="row"> 
+            <h6 className="">Power Steering<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Anti Lock Braking System<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Driver Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Fog Lights - Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Automatic Climate Control<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>
+                 ],
+        
+         feature2:  [
+            
+            <div className="row"> 
+            <h6 className="">Power Windows Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Air Conditioner<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Passenger Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Alloy Wheels<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>   
+           ],
+
+        topFeatures:[
+        <div className="row">    
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Windows Front</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Air Conditioner</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Steering</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Anti Lock Braking System</h7></div>
+        <a href="#more" className="col-12 py-3 text-center text-decoration-none"><b>+6 more</b></a>
+        </div>
+        ],
+
         image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Nissan/Magnite/8127/1608191740345/front-left-side-47.jpg?tr=w-456",
         price:"₹5.59-10.00 Lakh*",
 
@@ -2170,15 +3071,141 @@ const Menu=[
         name: "Renault Kiger",
         category: "suv",
         price: "₹5.45-9.75 Lakh*",
-        rate:"4.5"
-      },
+        rate:"4.5",
+    description:"baad me likhenge",
+        exterior:"https://stimg.cardekho.com/images/feelthecar360view/Exterior/Hyundai/Hyundai-i20/160587400/Exterior.html?hotSpotNonApp=yes",
+        interior1:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/steering-position-adjustments-141.jpg",
+        interior2:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/door-view-of-driver-seat-51.jpg",
+        interior3:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/ignition-start-stop-button-142.jpg",
+        interior4:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/airbags-94.jpg",
+        color1:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/226_fiery-red-black-roof_ba0104.jpg",
+        color2:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/224_polar-white-black-roof_babdc5.jpg",
+        color3:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/223_starry-night_192237.jpg",
+        Engine:"998cc-1493cc",
+        seat:"5",
+        BHP:"81.86-118.36 Bhp",
+        specification:  [
+            <div className="row"> 
+                        <div>ARAI Mileage<h6 className="float-right ">20.28 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>City Mileage<h6 className="float-right ">12.6 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Engine Displacement (cc)<h6 className="float-right ">998</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Max Torque (nm@rpm)<h6 className="float-right ">171.62nm@1500-4000rpm</h6></div><hr className="text-success mt-2"></hr>
+                        <div>TransmissionType<h6 className="float-right ">Automatic</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Fuel Tank Capacity<h6 className="float-right ">37.0</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Service Cost (Avg. of 5 years)<h6 className="float-right ">₹2,882</h6></div><hr className="text-success mt-2"></hr>
+                        </div>
+                        ],
+        specification2:  [
+            <div className="row"> 
+            <div>Fuel Type<h6 className="float-right ">Petrol</h6></div><hr className="text-success mt-2"></hr>
+            <div>Max Power (bhp@rpm)<h6 className="float-right ">118.36bhp@6000rpm</h6></div><hr className="text-success mt-2"></hr>
+            <div>Seating Capacity<h6 className="float-right ">5</h6></div><hr className="text-success mt-2"></hr>
+            <div>Boot Space (Litres)<h6 className="float-right ">311</h6></div><hr className="text-success mt-2"></hr>
+            <div>Body Type<h6 className="float-right ">hatchback</h6></div><hr className="text-success mt-2"></hr>
+            </div>    
+               ],
+
+
+        feature:  [
+            <div className="row"> 
+            <h6 className="">Power Steering<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Anti Lock Braking System<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Driver Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Fog Lights - Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Automatic Climate Control<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>
+                 ],
+        
+         feature2:  [
+            
+            <div className="row"> 
+            <h6 className="">Power Windows Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Air Conditioner<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Passenger Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Alloy Wheels<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>   
+           ],
+
+        topFeatures:[
+        <div className="row">    
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Windows Front</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Air Conditioner</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Steering</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Anti Lock Braking System</h7></div>
+        <a href="#more" className="col-12 py-3 text-center text-decoration-none"><b>+6 more</b></a>
+        </div>
+        ],    
+    },
       {
         id:41,
         image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Grand-i10-Nios/7091/Hyundai-Grand-i10-Nios-Sportz/1583742828294/front-left-side-47.jpg?tr=w-456",
         name:"Hyundai Grand i10 Nios",
         category:"hatch",
         price:"₹5.23-8.45 Lakh*",
-        rate:"4.5"
-      },
+        rate:"4.5",
+    description:"baad me likhenge",
+        exterior:"https://stimg.cardekho.com/images/feelthecar360view/Exterior/Hyundai/Hyundai-i20/160587400/Exterior.html?hotSpotNonApp=yes",
+        interior1:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/steering-position-adjustments-141.jpg",
+        interior2:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/door-view-of-driver-seat-51.jpg",
+        interior3:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/ignition-start-stop-button-142.jpg",
+        interior4:"https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/airbags-94.jpg",
+        color1:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/226_fiery-red-black-roof_ba0104.jpg",
+        color2:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/224_polar-white-black-roof_babdc5.jpg",
+        color3:"https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/223_starry-night_192237.jpg",
+        Engine:"998cc-1493cc",
+        seat:"5",
+        BHP:"81.86-118.36 Bhp",
+        specification:  [
+            <div className="row"> 
+                        <div>ARAI Mileage<h6 className="float-right ">20.28 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>City Mileage<h6 className="float-right ">12.6 kmpl</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Engine Displacement (cc)<h6 className="float-right ">998</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Max Torque (nm@rpm)<h6 className="float-right ">171.62nm@1500-4000rpm</h6></div><hr className="text-success mt-2"></hr>
+                        <div>TransmissionType<h6 className="float-right ">Automatic</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Fuel Tank Capacity<h6 className="float-right ">37.0</h6></div><hr className="text-success mt-2"></hr>
+                        <div>Service Cost (Avg. of 5 years)<h6 className="float-right ">₹2,882</h6></div><hr className="text-success mt-2"></hr>
+                        </div>
+                        ],
+        specification2:  [
+            <div className="row"> 
+            <div>Fuel Type<h6 className="float-right ">Petrol</h6></div><hr className="text-success mt-2"></hr>
+            <div>Max Power (bhp@rpm)<h6 className="float-right ">118.36bhp@6000rpm</h6></div><hr className="text-success mt-2"></hr>
+            <div>Seating Capacity<h6 className="float-right ">5</h6></div><hr className="text-success mt-2"></hr>
+            <div>Boot Space (Litres)<h6 className="float-right ">311</h6></div><hr className="text-success mt-2"></hr>
+            <div>Body Type<h6 className="float-right ">hatchback</h6></div><hr className="text-success mt-2"></hr>
+            </div>    
+               ],
+
+
+        feature:  [
+            <div className="row"> 
+            <h6 className="">Power Steering<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Anti Lock Braking System<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Driver Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Fog Lights - Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Automatic Climate Control<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>
+                 ],
+        
+         feature2:  [
+            
+            <div className="row"> 
+            <h6 className="">Power Windows Front<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Air Conditioner<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Passenger Airbag<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            <h6 className="">Alloy Wheels<div className="fa fa-check text-success float-right "></div></h6><hr className="text-success mt-2"></hr>
+            </div>   
+           ],
+
+        topFeatures:[
+        <div className="row">    
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Windows Front</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Air Conditioner</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Power Steering</h7></div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">&nbsp;&nbsp;<h7 className="text-dark font-weight-bold">Anti Lock Braking System</h7></div>
+        <a href="#more" className="col-12 py-3 text-center text-decoration-none"><b>+6 more</b></a>
+        </div>
+        ],    
+    },
 ]
 export default Menu;
