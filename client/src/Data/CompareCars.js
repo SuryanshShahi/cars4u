@@ -489,7 +489,7 @@ const CompareCars=[
         Cons:[
             <div className="row">
             <div className="col-6">
-            <h4 className="font-weight-bold">Maruti Baleno</h4>
+            <h4 className="font-weight-bold">Renault Triber</h4>
             <div className="container-fluid">
             <ul>
             <li>Engine: The 1.0-litre engine that puts out 72PS of maximum power might feel underpowered with a full load of passengers.</li>
@@ -499,7 +499,7 @@ const CompareCars=[
             </div>
             </div>
             <div className="col-6">
-            <h4 className="font-weight-bold">Toyota Glanza</h4>
+            <h4 className="font-weight-bold">Maruti Wagon R</h4>
             <div className="container-fluid">
             <ul>
             <li>Plastic quality: Quality of materials in the cabin could've been better. Consistency in quality is also a concern.</li>
@@ -514,7 +514,7 @@ const CompareCars=[
     }, 
     {
         id:14,
-        id1:32,
+        id1:15,
         rate:"4.5",
         image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Creta/6775/1584360708758/front-left-side-47.jpg?tr=w-456",
         image1:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Seltos/6226/1619864569028/front-left-side-47.jpg?tr=w-456",
@@ -964,8 +964,8 @@ const CompareCars=[
 
     },
     {
-        id:32,
-        id1:33,
+        id:15,
+        id1:32,
         rate:"4.5",
         image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Seltos/6226/1619864569028/front-left-side-47.jpg?tr=w-456",
         image1:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Sonet/7256/1619865764843/front-left-side-47.jpg?imwidth=420&impolicy=resize",
@@ -1416,7 +1416,7 @@ const CompareCars=[
     },
     {
         id:26,
-        id1:38,
+        id1:37,
         rate:"4.5",
         image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Baleno/6778/1615985070703/front-left-side-47.jpg?tr=w-456",
         image1:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Toyota/Toyota-Glanza/6902/1559807182519/front-left-side-47.jpg?tr=w-456",
@@ -1915,7 +1915,7 @@ const CompareCars=[
         ]
     },
     {
-        id:26,
+        id:42,
         id1:30,
         rate:"4.5",
         image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Baleno/6778/1615985070703/front-left-side-47.jpg?tr=w-456",
@@ -2815,7 +2815,7 @@ const CompareCars=[
         Pros:[
             <div className="row">
             <div className="col-6">
-            <h4 className="font-weight-bold">Maruti Baleno</h4>
+            <h4 className="font-weight-bold">Maruti Swift</h4>
             <div className="container-fluid">
             <ul>
             <li>Funky styling still gets attention. Lots of modification potential too!</li>
@@ -2825,7 +2825,7 @@ const CompareCars=[
             </div>
             </div>
             <div className="col-6">
-            <h4 className="font-weight-bold">Toyota Glanza</h4>
+            <h4 className="font-weight-bold">Tata Tiago</h4>
             <div className="container-fluid">
             <ul>
             <li>Probably the best looking hatchback of the lot</li>
@@ -2840,7 +2840,7 @@ const CompareCars=[
         Cons:[
             <div className="row">
             <div className="col-6">
-            <h4 className="font-weight-bold">Maruti Baleno</h4>
+            <h4 className="font-weight-bold">Maruti Swift</h4>
             <div className="container-fluid">
             <ul>
             <li>Pricing is woefully close to the Baleno, a car that offers more space and better quality.</li>
@@ -2850,7 +2850,7 @@ const CompareCars=[
             </div>
             </div>
             <div className="col-6">
-            <h4 className="font-weight-bold">Toyota Glanza</h4>
+            <h4 className="font-weight-bold">Tata Tiago</h4>
             <div className="container-fluid">
             <ul>
             <li>3-pot Engine is not the most refined in the segment</li>
@@ -2864,8 +2864,8 @@ const CompareCars=[
         ]
     },
     {
-        id:39,
-        id1:40,
+        id:38,
+        id1:39,
         rate:"4.5",
         image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Nissan/Magnite/8127/1608191740345/front-left-side-47.jpg?tr=w-456",
         image1:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Renault/Kiger/8361/1615378654259/front-left-side-47.jpg?tr=w-456",
@@ -2873,7 +2873,7 @@ const CompareCars=[
         name1:"Renault Kiger",
         category:"suv",
         price:"₹5.59-10.00 Lakh*",
-        price1:"₹5.45-9.75 Lakh*",
+        price1:"₹5.64-10.08 Lakh*",
         description:<p>Should you buy Nissan Magnite or Renault Kiger? Find out which car is best for you - compare the two models on the basis of their Price, Size, Space, Boot Space, Service cost, Mileage, Features, Colours and other specs. Nissan Magnite price starts at Rs 5.59 Lakh ex-showroom for XE (Petrol) and Renault Kiger price starts Rs 5.45 Lakh ex-showroom for RXE (Petrol). Magnite has 999 cc (Petrol top model) engine, while Kiger has 999 cc (Petrol top model) engine. As far as mileage is concerned, the Magnite has a mileage of 20.0 kmpl (Petrol top model) and the Kiger has a mileage of - (Petrol top model).</p>,
         specification:  [
             <div className="row"> 
@@ -3360,8 +3360,8 @@ const CompareCars=[
         ]
     },
     {  
-        id1:21,
         id:41,
+        id1:40,
         rate:"4.5",
         image:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Renault/Triber/7418/1580113966019/front-left-side-47.jpg?tr=w-456",
         image1:"https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Grand-i10-Nios/7091/Hyundai-Grand-i10-Nios-Sportz/1583742828294/front-left-side-47.jpg?tr=w-456",
