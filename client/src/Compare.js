@@ -534,7 +534,7 @@ function CompareCars() {
                     >
                       <div className="row rowspace gx-1">
                         <div className="col-lg-6 col-md-6 col-sm-6 col-6 ">
-                          <div className="card text-center border-0 text-decoration-none ">
+                          <div className="card cardH text-center border-0 text-decoration-none ">
                             <img
                               src={image}
                               alt="menuPic"
@@ -568,7 +568,7 @@ function CompareCars() {
                         </div>
 
                         <div className="col-lg-6 col-md-6 col-sm-6 col-6 ">
-                          <div className="card text-center border-0 text-decoration-none">
+                          <div className="card cardH text-center border-0 text-decoration-none">
                             <img
                               src={image1}
                               alt="menuPic"
@@ -896,7 +896,7 @@ function CompareCars() {
                             <li><a className="mx-3 font-weight-bolder px-2 py-2 tab rounded-0 text-decoration-none" type="button" data-toggle="tab" href="#cons">Cons</a></li>
                           </ul>
                           <div className="tab-content">
-                            <div id="pros" className="active tab-pane fade in ">
+                            <div id="pros" className="active tab-pane">
                             <div className="text-success py-4">{Pros}</div>
                             </div>
                             <div id="cons" className="tab-pane fade">

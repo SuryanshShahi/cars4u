@@ -82,9 +82,7 @@ input[type="email"] {
 }
 .navbar.active {
   background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
-  /* border-bottom: 2px white; */
-  /* position: fixed;
-  width: 100%; */
+
 }
 /* .fixed-top{
   transition: 0.5s;
@@ -543,4 +541,8 @@ left: 93.5%; */
 }
 .nav-tabs {
   border-bottom: none;
+}
+.cardH.card{
+  min-height: 312px;
+  max-height: 312px;
 }

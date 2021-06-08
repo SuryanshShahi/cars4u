@@ -345,12 +345,12 @@ function Home() {
                             <br></br>
                             <NavLink
                               to="/"
-                              className="btn border-danger shadow-none"
+                              className=""
                               data-target="#mymodal3"
                               data-toggle="modal"
                               data-dismiss="modal"
                             >
-                              View Latest Offer
+                              <div className="btn border-danger shadow-none px-auto py-auto">View Latest Offer</div>
                             </NavLink>
                           </div>
                         </div>
