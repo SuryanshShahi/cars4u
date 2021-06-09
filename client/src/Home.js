@@ -14,8 +14,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import StarsRating from "stars-rating";
 import Upcoming from "./Data/Upcoming";
+import swal from "sweetalert";
+
 
 function Home() {
+  window.scroll(0, 770);
+
   const [items, setItems] = useState(Menu);
   const [slide] = useState(Slide);
   const [logo] = useState(Logo);

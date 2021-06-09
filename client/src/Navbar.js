@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { NavLink, useHistory } from "react-router-dom";
 import web from "./images/img1.gif";
 import car from "./images/car.mp4";
+import swal from "sweetalert";
 
 function Navbar() {
   const [navbar, setNavbar] = useState(false);
@@ -59,20 +60,31 @@ function Navbar() {
     const data = await res.json();
     // if (res.status === 422 || !data) {
     if (res.status === 422 || !data) {
-      window.alert("All fields are mandatory");
+      swal("Oops", "All fields are mandatory", "warning", {
+        timer: 2200,
+        buttons: false,
+      });
       console.log("All fields are mandatory");
     } else if (res.status === 409) {
-      window.alert("Email already exists");
+      swal("Oops", "Email already exists", "warning", {
+        timer: 2200,
+        buttons: false,
+      });
       console.log("Email already exists");
     } else if (res.status === 401) {
-      window.alert("Password Didn't Match");
+      swal("Oops", "Password Didn't Match", "error", {
+        timer: 2200,
+        buttons: false,
+      });
       console.log("Password Didn't Match");
     } else if (res.status === 201) {
-      window.alert("SignUp Successful");
+      swal("", "SignUp Successful", "success", { timer: 2200, buttons: false });
       console.log("SignUp Successful");
-      history.push("/");
     } else {
-      window.alert("Invalid Credentials");
+      swal("", "Invalid Credentials!", "error", {
+        timer: 2200,
+        buttons: false,
+      });
       console.log("Invalid Credentials");
     }
   };
@@ -94,12 +106,15 @@ function Navbar() {
 
     const data = res.json();
     if (res.status === 201) {
-      window.alert("Signin Successful");
+      swal("", "Signin Successful", "success", { timer: 2200, buttons: false });
       console.log("Signin Successful");
-    } else {
-      window.alert("Invalid Credentials");
-      console.log("Invalid Credentials");
       history.push("/");
+    } else {
+      swal("", "Invalid Credentials!", "error", {
+        timer: 2200,
+        buttons: false,
+      });
+      console.log("Invalid Credentials");
     }
   };
 
@@ -439,9 +454,9 @@ function Navbar() {
             Think smart, feel positive, and drive extraordinary.
           </h4>
 
-          <a href="/#cars4u" className="btn shadow-none text-white mt-5">
+          <NavLink to="/" className="btn shadow-none text-white mt-5">
             TAKE A RIDE
-          </a>
+          </NavLink>
         </div>
       </div>
       <div className="backtotop container-fluid justify-content-end d-flex">
