@@ -5,6 +5,7 @@ const bcrypt = require("bcrypt");
 require("./db/conn");
 const User = require("./model/userSchema");
 
+var nodemailer = require("nodemailer");
 
 router.post("/SignUp", async (req, res) => {
   const { fname, lname, email, phone, password, cpassword } = req.body;
@@ -29,6 +30,35 @@ router.post("/SignUp", async (req, res) => {
 
       await user.save();
       res.status(201).json({ message: "user registered successfully" });
+
+      var transporter = nodemailer.createTransport({
+        service: "gmail",
+        auth: {
+          user: process.env.EMAIL,
+          pass: process.env.PASS,
+        },
+      });
+
+      var mailOptions = {
+        from: process.env.EMAIL,
+        to: email,
+        subject: "Thank You",
+        text: `Your donation of ₹520 has been recieved`,
+        attachments: [
+          {
+            filename: "new.txt",
+            path: "./client/src/new",
+          },
+        ],
+      };
+
+      transporter.sendMail(mailOptions, function (error, info) {
+        if (error) {
+          console.log(error);
+        } else {
+          console.log("Email sent: " + info.response);
+        }
+      });
     }
   } catch (err) {
     console.log(err);
@@ -51,7 +81,7 @@ router.post("/SignIn", async (req, res) => {
       } else {
         res.status(201).json({ message: "login successful" });
       }
-    } else{
+    } else {
       res.status(400).json({ message: "Invalid Credentials" });
     }
   } catch (err) {

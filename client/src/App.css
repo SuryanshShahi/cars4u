@@ -546,3 +546,8 @@ left: 93.5%; */
   min-height: 312px;
   max-height: 312px;
 }
+.swal-text {
+  font-weight: bolder;
+  font-size: 20px;
+  color: rgb(44, 43, 43);
+}
