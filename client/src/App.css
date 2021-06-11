@@ -551,3 +551,12 @@ left: 93.5%; */
   font-size: 20px;
   color: rgb(44, 43, 43);
 }
+.animatedarrow{
+  width: 80px;
+  position: absolute;
+  /* left: 50%; */
+  top: 84%;
+  z-index: 1;
+  border-radius: 100px;
+  background-color: rgba(0, 0, 0, 0.6);
+}

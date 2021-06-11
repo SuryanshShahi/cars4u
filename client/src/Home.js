@@ -18,8 +18,7 @@ import swal from "sweetalert";
 
 
 function Home() {
-  // window.scroll(0, 770);
-  // window.onload = Home;
+  window.scroll(0, 770);
 
   const [items, setItems] = useState(Menu);
   const [slide] = useState(Slide);
@@ -138,7 +137,7 @@ function Home() {
                         className="active px-3 mt-4 hometab text-decoration-none"
                         type="button"
                         data-toggle="tab"
-                        // href="#all"
+                        href="#all"
                       >
                         All
                       </a>
@@ -240,7 +239,10 @@ function Home() {
                     </div>
                   );
                 })}
+                <div className="justify-content-center d-flex align-items-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Arrows_down_animated.gif" className="px-1 py-3 animatedarrow img-fluid"></img>
               </div>
+            </div>
             </div>
           </div>
         </div>

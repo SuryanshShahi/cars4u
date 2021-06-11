@@ -108,7 +108,7 @@ function Navbar() {
     if (res.status === 201) {
       swal("", "Signin Successful", "success", { timer: 2200, buttons: false });
       console.log("Signin Successful");
-      history.push("/");
+      history.push("/home");
     } else {
       swal("", "Invalid Credentials!", "error", {
         timer: 2200,
@@ -212,7 +212,7 @@ function Navbar() {
                   ></NavLink>
                   <NavLink
                     to="/"
-                    className="fa fa-user text-decoration-none mx-lg-3 mx-md-3 mx-3 fa-lg text-warning py-3 px-1"
+                    className="fa fa-registered text-decoration-none mx-lg-3 mx-md-3 mx-3 fa-lg text-warning py-3 px-1"
                     data-target="#mymodal2"
                     data-toggle="modal"
                   ></NavLink>
