@@ -56,7 +56,21 @@ input[type="email"] {
   margin-left: -105px;
   font-weight: 800;
 }
-.btn {
+.signin{
+  background: transparent;
+  height: 45px;
+  font-size: 17px;
+  color: #f1bf19;
+  transition: 0.5s;
+}
+ .signin:hover{
+background-color: #9F6000;
+color: white;
+}
+.btn{
+  border-radius: 50px;
+}
+.subscribe.btn {
   border-radius: 50px;
   height: 45px;
   padding-top: 10px;
@@ -65,7 +79,7 @@ input[type="email"] {
   font-size: 17px;
   background-color: #e43c5c;
 }
-.btn:hover {
+.subscribe.btn:hover {
   background-color: #e61e43;
   color: white;
 }
@@ -552,11 +566,11 @@ left: 93.5%; */
   color: rgb(44, 43, 43);
 }
 .animatedarrow{
-  width: 80px;
+  width: 60px;
   position: absolute;
   /* left: 50%; */
-  top: 84%;
-  z-index: 1;
+  top: 90%;
+  z-index: 999;
   border-radius: 100px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.733);
 }

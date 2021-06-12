@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import swal from "sweetalert";
 import "./App.css";
 
 function Footer() {
@@ -37,9 +38,9 @@ function Footer() {
               <br></br>
               <input type="email" className="form-control d-inline position-relative" placeholder="Enter Email"></input>
               
-              <NavLink className="btn px-lg-4 px-auto py-2 text-white position-absolute d-inline A" to="/service">
+              <div className="subscribe btn px-lg-4 px-auto py-2 text-white position-absolute d-inline A" onClick={()=>swal("","Email Registered","success",{button:false,timer:2000}) }>
               Subscribe
-              </NavLink>
+              </div>
             </div>
           </div>
           <br></br>

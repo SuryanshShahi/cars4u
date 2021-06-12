@@ -16,10 +16,7 @@ import StarsRating from "stars-rating";
 import Upcoming from "./Data/Upcoming";
 import swal from "sweetalert";
 
-
 function Home() {
-  window.scroll(0, 770);
-
   const [items, setItems] = useState(Menu);
   const [slide] = useState(Slide);
   const [logo] = useState(Logo);
@@ -132,62 +129,68 @@ function Home() {
               <div class="row gx-5 rounded-top bg-dark tabbg mb-4">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                   <ul className="nav nav-tabs justify-content-center d-flex">
-                    <li className="active" onClick={() => setItems(Menu)}>
+                    <li className="active">
                       <a
                         className="active px-3 mt-4 hometab text-decoration-none"
                         type="button"
                         data-toggle="tab"
                         href="#all"
+                        onClick={() => setItems(Menu)}
                       >
                         All
                       </a>
                     </li>
-                    <li onClick={() => filterItem("hatch")}>
+                    <li>
                       <a
                         className="mx-3 px-3 mt-4 hometab text-decoration-none"
                         type="button"
                         data-toggle="tab"
                         href="#hatch"
+                        onClick={() => filterItem("hatch")}
                       >
                         Hatchback
                       </a>
                     </li>
-                    <li onClick={() => filterItem("sedan")}>
+                    <li>
                       <a
                         className="mx-3 px-3 mt-4 hometab text-decoration-none"
                         type="button"
                         data-toggle="tab"
                         href="#sedan"
+                        onClick={() => filterItem("sedan")}
                       >
                         Sedan
                       </a>
                     </li>
-                    <li onClick={() => filterItem("suv")}>
+                    <li>
                       <a
                         className="mx-3 px-3 mt-4 hometab text-decoration-none"
                         type="button"
                         data-toggle="tab"
                         href="#suv"
+                        onClick={() => filterItem("suv")}
                       >
                         SUV
                       </a>
                     </li>
-                    <li onClick={() => filterItem("muv")}>
+                    <li>
                       <a
                         className="mx-3 px-3 mt-4 hometab text-decoration-none"
                         type="button"
                         data-toggle="tab"
                         href="#muv"
+                        onClick={() => filterItem("muv")}
                       >
                         MUV
                       </a>
                     </li>
-                    <li onClick={() => filterItem("luxury")}>
+                    <li>
                       <a
                         className="mx-3 px-3 my-4 hometab text-decoration-none"
                         type="button"
                         data-toggle="tab"
                         href="#luxury"
+                        onClick={() => filterItem("luxury")}
                       >
                         LUXURY
                       </a>
@@ -233,16 +236,19 @@ function Home() {
                             <br></br>
                             {price}
                           </div>
-                          
                         </div>
                       </NavLink>
                     </div>
                   );
                 })}
+
                 <div className="justify-content-center d-flex align-items-center">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Arrows_down_animated.gif" className="px-1 py-3 animatedarrow img-fluid"></img>
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Arrows_down_animated.gif"
+                    className="px-1 py-2 animatedarrow img-fluid"
+                  ></img>
+                </div>
               </div>
-            </div>
             </div>
           </div>
         </div>
@@ -357,7 +363,9 @@ function Home() {
                               data-toggle="modal"
                               data-dismiss="modal"
                             >
-                              <div className="btn border-danger shadow-none px-auto py-auto">View Latest Offer</div>
+                              <div className="btn border-danger shadow-none px-auto py-auto">
+                                View Latest Offer
+                              </div>
                             </NavLink>
                           </div>
                         </div>

@@ -39,7 +39,7 @@ const App = () => {
               <Route exact path="/contact" component={Contact} />
               <Route exact path="/compare" component={Compare} />
 
-              <Redirect to="/" />
+              
             </Switch>
             <Footer />
           </div>

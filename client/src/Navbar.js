@@ -6,19 +6,26 @@ import car from "./images/car.mp4";
 import swal from "sweetalert";
 
 function Navbar() {
+  const down=()=>{
+    window.scrollTo(0, 770);
+  }
+  
   const [navbar, setNavbar] = useState(false);
   const [B, setHeader] = useState(false);
   const [back, setBack] = useState(false);
+  const [signin, setSignin] = useState(false);
 
   const changeBackground = () => {
     if (window.scrollY >= 150) {
       setNavbar(true);
       setHeader(true);
       setBack(true);
+      setSignin(true);
     } else {
       setNavbar(false);
       setHeader(false);
       setBack(false);
+      setSignin(false);
     }
   };
   window.addEventListener("scroll", changeBackground);
@@ -203,20 +210,29 @@ function Navbar() {
                   </NavLink>
                 </li>
 
-                <div className="text-center">
+                <li className="text-center py-1">
                   <NavLink
                     to="/"
-                    className="fa fa-sign-in text-decoration-none mx-lg-3 mx-md-3 mx-3 fa-lg text-warning py-3 px-1"
+                    
+                    className={
+                      signin
+                        ? "signin active text-decoration-none mx-lg-3 mx-md-3 mx-3 fa-lg btn rounded shadow-none pt-3 border-warning"
+                        : "signin text-decoration-none mx-lg-3 mx-md-3 mx-3 fa-lg text-white btn btn-w rounded shadow-none bg-transparent pt-3"
+                    }
                     data-target="#mymodal"
                     data-toggle="modal"
-                  ></NavLink>
+                  >LogIn</NavLink>
                   <NavLink
                     to="/"
-                    className="fa fa-registered text-decoration-none mx-lg-3 mx-md-3 mx-3 fa-lg text-warning py-3 px-1"
+                    className={
+                      signin
+                        ? "signin active text-decoration-none mx-lg-3 mx-md-3 mx-3 fa-lg btn rounded shadow-none pt-3 border-warning"
+                        : "signin text-decoration-none mx-lg-3 mx-md-3 mx-3 fa-lg text-white btn btn-w rounded shadow-none bg-transparent pt-3"
+                    }
                     data-target="#mymodal2"
                     data-toggle="modal"
-                  ></NavLink>
-                </div>
+                  >SignUp</NavLink>
+                </li>
               </ul>
             </div>
           </div>
@@ -454,7 +470,7 @@ function Navbar() {
             Think smart, feel positive, and drive extraordinary.
           </h4>
 
-          <NavLink to="/" className="btn shadow-none text-white mt-5">
+          <NavLink to="/" onClick={down} className="btn shadow-none text-white mt-5">
             TAKE A RIDE
           </NavLink>
         </div>
