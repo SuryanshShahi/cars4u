@@ -30,6 +30,13 @@
 ::-webkit-scrollbar {
   width: 10px;
 }
+.list::-webkit-scrollbar {
+  width: 7px;
+}
+.menu-items1::-webkit-scrollbar {
+  width: 7px;
+}
+
 ::-webkit-scrollbar-track {
   background: rgb(131, 131, 131);
   border-radius: 15px;
@@ -512,7 +519,7 @@ ul {
 .modalcompare {
   background-color: #f8f8f8;
 }
-.modal-backdrop{
+.modal-backdrop {
   position: unset;
 }
 .basicinfo {
@@ -599,17 +606,18 @@ left: 93.5%; */
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-.overlay h1 {
-  padding-top: 20vh;
+.overlay h2 {
+  padding-top: 15vh;
 }
-.search {
+.search.form-control {
   outline: none;
   display: block;
-  border-radius: 50px;
-  /* position: fixed; */
-  border-color: maroon;
+  border-radius: 70px;
+  border-color: #ff002f86;
+  /* border-color: rgba(202, 7, 7, 0.616); */
   background-color: rgba(156, 152, 152, 0.6);
-  border-width: 5px;
+  border-width: 7px;
+  box-shadow: 0px 0px 7px 1px rgb(94, 92, 92);
 }
 .closesearch {
   display: block;
@@ -618,13 +626,22 @@ left: 93.5%; */
   z-index: 999 !important;
   cursor: pointer;
 }
-.list{
+.list {
   overflow-y: scroll;
 }
-.list li:hover{
-background-color: rgba(255, 255, 255, 0.356);
-cursor: pointer;
+.list li:hover {
+  background-color: rgba(255, 255, 255, 0.356);
+  cursor: pointer;
+  font-size: 20px;
+  border-left: 2px solid #e43c5c;
+  color: #ffc400;
 }
-/* .modal{
-  z-index: 999 !important;
-} */
+
+.list li {
+  cursor: pointer;
+  font-size: 19px;
+  color: white;
+}
+.searchlist{
+  height: 40vh;
+}

@@ -16,6 +16,8 @@ function Navbar() {
     window.scrollTo(0, 770);
   };
 
+  const [heading, setHeading] = useState("");
+  const [searchTerm, setSearchTerm] = useState("");
   const [navbar, setNavbar] = useState(false);
   const [B, setHeader] = useState(false);
   const [back, setBack] = useState(false);
@@ -131,7 +133,6 @@ function Navbar() {
     }
   };
 
-  const [heading, setHeading] = useState("");
   const [items, setItems] = useState(Menu);
   const filterImg = (id) => {
     const updatedImg = Menu.filter((curElem) => {
@@ -141,17 +142,24 @@ function Navbar() {
     });
     setItems(updatedImg);
   };
+  const filterImg1 = (id) => {
+    const updatedImg = Menu.filter((curElem) => {
+      return curElem.id;
+    });
+    setItems(updatedImg);
+  };
 
   const changeHeading = (e) => {
     setHeading(e.target.value);
+    setSearchTerm(e.target.value);
   };
+
   const display = () => {
     document.getElementById("myOverlay").style.display = "block";
   };
   const close = () => {
     document.getElementById("myOverlay").style.display = "none";
   };
-
 
   const ratingChanged = (newRating) => {
     console.log(newRating);
@@ -528,34 +536,43 @@ function Navbar() {
           >
             &times;
           </div>
-
-          <h1 className="text-white justify-content-center align-content-center d-flex pb-3">
+          <h1 className="text-center text-white">Search <span className="text-danger font-weight-bolder"> Cars</span></h1>
+          <h2 className="text-white justify-content-center align-content-center d-flex pb-3">
             {heading}
-          </h1>
+          </h2>
           <div className="justify-content-center align-content-center d-flex">
             <input
               type="text"
               placeholder="Search.."
-              className="w-75 search py-3 text-white px-4 position-relative"
+              className="w-75 search form-control py-3 text-white px-4 position-relative"
               onChange={changeHeading}
-              value={heading}
             />
           </div>
-          <div className=" h-25 list w-75 container rounded pl-4 bg-dark">
-            {items.map((elem) => {
-              const { id, name, image, description, price, rate } = elem;
-              return (
-                <NavLink
-                  to="/"
-                  className="text-decoration-none"
-                  data-target="#mymodal5"
-                  data-toggle="modal"
-                  onClick={() => filterImg(id)}
-                >
-                  <li className="text-white">{name}</li>
-                </NavLink>
-              );
-            })}
+          <div className="list w-75 container searchlist rounded mt-3 pl-4 bg-transparent">
+            {items
+              .filter((elem) => {
+                if (searchTerm == "") {
+                  return elem;
+                } else if (
+                  elem.name.toLowerCase().includes(searchTerm.toLowerCase())
+                ) {
+                  return elem;
+                }
+              })
+              .map((elem) => {
+                const { id, name } = elem;
+                return (
+                  <NavLink
+                    to="/"
+                    className="text-decoration-none"
+                    data-target="#mymodal5"
+                    data-toggle="modal"
+                    onClick={() => filterImg(id)}
+                  >
+                    <li className=" name py-1 pl-2">{name}</li>
+                  </NavLink>
+                );
+              })}
           </div>
 
           <div className="modal fade " id="mymodal5">
@@ -602,6 +619,7 @@ function Navbar() {
                         <div
                           className="close pr-lg-2 mr-lg-1 pr-md-4 pr-sm-4 pr-4 pt-4 "
                           data-dismiss="modal"
+                          onClick={(e) => filterImg1(e.target.id)}
                         >
                           &times;
                         </div>
@@ -669,7 +687,10 @@ function Navbar() {
                                   className=""
                                   data-dismiss="modal"
                                 >
-                                  <div className="btn border-danger shadow-none px-auto py-auto">
+                                  <div
+                                    className="btn border-danger shadow-none px-auto py-auto"
+                                    onClick={(e) => filterImg1(e.target.id)}
+                                  >
                                     View Latest Offer
                                   </div>
                                 </NavLink>
@@ -998,6 +1019,7 @@ function Navbar() {
                             <div
                               className="btn btn-primary"
                               data-dismiss="modal"
+                              onClick={(e) => filterImg1(e.target.id)}
                             >
                               Close
                             </div>

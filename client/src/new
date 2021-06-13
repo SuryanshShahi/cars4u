@@ -1058,3 +1058,22 @@ const ratingChanged = (newRating) => {
 export default Navbar;
 
 // <h1 className="text-white">Ask before you borrow it.</h1>
+
+
+
+
+
+
+
+
+
+
+.filter((val)=>{
+              if(searchTerm==""){
+                return val
+              }
+                else if (val.name.toLowerCase().includes(searchTerm.toLowerCase())){
+
+                }
+              }
+            )
