@@ -73,7 +73,6 @@ function Navbar() {
       }),
     });
     const data = await res.json();
-    // if (res.status === 422 || !data) {
     if (res.status === 422 || !data) {
       swal("Oops", "All fields are mandatory", "warning", {
         timer: 2200,
@@ -157,8 +156,12 @@ function Navbar() {
   const display = () => {
     document.getElementById("myOverlay").style.display = "block";
   };
+  const show = () => {
+    document.getElementById("show").style.display = "block";
+  };
   const close = () => {
     document.getElementById("myOverlay").style.display = "none";
+    document.getElementById("show").style.display = "none";
   };
 
   const ratingChanged = (newRating) => {
@@ -536,43 +539,54 @@ function Navbar() {
           >
             &times;
           </div>
-          <h1 className="text-center text-white">Search <span className="text-danger font-weight-bolder"> Cars</span></h1>
+          <h1 className="text-center text-white">
+            Search <span className="text-danger font-weight-bolder"> Cars</span>
+          </h1>
           <h2 className="text-white justify-content-center align-content-center d-flex pb-3">
             {heading}
           </h2>
-          <div className="justify-content-center align-content-center d-flex">
-            <input
-              type="text"
-              placeholder="Search.."
-              className="w-75 search form-control py-3 text-white px-4 position-relative"
-              onChange={changeHeading}
-            />
-          </div>
-          <div className="w-75 container searchlist rounded mt-3 pl-4 bg-transparent">
-            {items
-              .filter((elem) => {
-                if (searchTerm == "") {
-                  return elem;
-                } else if (
-                  elem.name.toLowerCase().includes(searchTerm.toLowerCase())
-                ) {
-                  return elem;
-                }
-              })
-              .map((elem) => {
-                const { id, name } = elem;
-                return (
-                  <NavLink
-                    to="/"
-                    className="text-decoration-none"
-                    data-target="#mymodal5"
-                    data-toggle="modal"
-                    onClick={() => filterImg(id)}
-                  >
-                    <li className=" name py-1 pl-2">{name}</li>
-                  </NavLink>
-                );
-              })}
+          <div className="mr-4">
+            <div className="justify-content-center searchbox align-content-center d-flex">
+              <input
+                type="text"
+                placeholder="Search.."
+                className=" search ml-5 form-control px-4 text-white position-relative"
+                onClick={show}
+                onChange={changeHeading}
+              />
+              <div className="justify-content-end d-flex pr-4">
+                <div className="fa fa-search searchbtn text-white font-weight-light position-absolute"></div>
+              </div>
+            </div>
+            <div
+              className="w-75 container pr-4 searchlist rounded mt-3 pl-4 bg-transparent"
+              id="show"
+            >
+              {items
+                .filter((elem) => {
+                  if (searchTerm == "") {
+                    return elem;
+                  } else if (
+                    elem.name.toLowerCase().includes(searchTerm.toLowerCase())
+                  ) {
+                    return elem;
+                  }
+                })
+                .map((elem) => {
+                  const { id, name } = elem;
+                  return (
+                    <NavLink
+                      to="/"
+                      className="text-decoration-none"
+                      data-target="#mymodal5"
+                      data-toggle="modal"
+                      onClick={() => filterImg(id)}
+                    >
+                      <li className=" name py-1 pl-2">{name}</li>
+                    </NavLink>
+                  );
+                })}
+            </div>
           </div>
 
           <div className="modal fade " id="mymodal5">
@@ -699,7 +713,7 @@ function Navbar() {
                           </div>
                         </div>
                       </div>
-                      <div className="container-fluid py-5">
+                      <div className="container-fluid pt-5">
                         <div className="row">
                           <div className="col-lg-7 col-md-12 col-12 pb-4">
                             <div className="card border-0 shadow py-4">
@@ -1016,12 +1030,16 @@ function Navbar() {
                                 />
                               </div>
                             </div>
-                            <div
-                              className="btn btn-primary"
-                              data-dismiss="modal"
-                              onClick={(e) => filterImg1(e.target.id)}
-                            >
-                              Close
+                          </div>
+                        </div>
+                        <div className="text-center py-3">
+                          <div
+                            className="btn btn-danger w-75"
+                            data-dismiss="modal"
+                            onClick={(e) => filterImg1(e.target.id)}
+                          >
+                            <div className="justify-content-center align-content-center d-flex py-2 fa fa-sign-out fa-md">
+                              &nbsp;Go Back
                             </div>
                           </div>
                         </div>

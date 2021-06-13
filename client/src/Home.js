@@ -14,7 +14,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import StarsRating from "stars-rating";
 import Upcoming from "./Data/Upcoming";
-import swal from "sweetalert";
+
 
 function Home() {
   const [items, setItems] = useState(Menu);
@@ -372,7 +372,7 @@ function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="container-fluid py-5">
+                  <div className="container-fluid pt-5">
                     <div className="row">
                       <div className="col-lg-7 col-md-12 col-12 pb-4">
                         <div className="card border-0 shadow py-4">
@@ -380,11 +380,16 @@ function Home() {
                             <strong>Exterior</strong>
                           </h7>
 
-                          <div className="exterior">
+                          <div className="exterior w-100">
                             <video autoPlay loop muted>
-                              <source src={exterior} />
+                              <source src={exterior} type="video/mp4"/>
                               <source src={interior} />
+                              
                             </video>
+                            
+                           
+
+                         
                           </div>
                           <h7 className="px-2 py-2">
                             <strong>Interior</strong>
@@ -675,6 +680,13 @@ function Home() {
                           </div>
                         </div>
                       </div>
+                    </div>
+                    <div className="text-center py-3">
+                    <div className="btn btn-danger w-75"
+                      data-dismiss="modal"
+                    >
+                      <div className="justify-content-center align-content-center d-flex py-2 fa fa-sign-out fa-md">&nbsp;Go Back</div>
+                    </div>
                     </div>
                   </div>
                 </div>
