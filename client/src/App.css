@@ -30,8 +30,8 @@
 ::-webkit-scrollbar {
   width: 10px;
 }
-.list::-webkit-scrollbar {
-  width: 7px;
+.searchlist::-webkit-scrollbar {
+  width: 6px;
 }
 .menu-items1::-webkit-scrollbar {
   width: 7px;
@@ -98,6 +98,11 @@ input[type="email"] {
 .subscribe.btn:hover {
   background-color: #e61e43;
   color: white;
+}
+.btn.view:hover {
+  background-color: #e61e43;
+  color: white;
+  transition: 0.5s;
 }
 .forbtn.btn:hover {
   background-color: #e61e43;
@@ -626,10 +631,7 @@ left: 93.5%; */
   z-index: 999 !important;
   cursor: pointer;
 }
-.list {
-  overflow-y: scroll;
-}
-.list li:hover {
+.searchlist li:hover {
   background-color: rgba(255, 255, 255, 0.356);
   cursor: pointer;
   font-size: 20px;
@@ -637,11 +639,12 @@ left: 93.5%; */
   color: #ffc400;
 }
 
-.list li {
+.searchlist li {
   cursor: pointer;
   font-size: 19px;
   color: white;
 }
-.searchlist{
+.searchlist {
   height: 40vh;
+  overflow-y: scroll;
 }

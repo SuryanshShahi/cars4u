@@ -548,7 +548,7 @@ function Navbar() {
               onChange={changeHeading}
             />
           </div>
-          <div className="list w-75 container searchlist rounded mt-3 pl-4 bg-transparent">
+          <div className="w-75 container searchlist rounded mt-3 pl-4 bg-transparent">
             {items
               .filter((elem) => {
                 if (searchTerm == "") {
@@ -688,7 +688,7 @@ function Navbar() {
                                   data-dismiss="modal"
                                 >
                                   <div
-                                    className="btn border-danger shadow-none px-auto py-auto"
+                                    className="btn view border-danger shadow-none px-auto py-auto"
                                     onClick={(e) => filterImg1(e.target.id)}
                                   >
                                     View Latest Offer
