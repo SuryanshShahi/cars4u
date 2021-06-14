@@ -661,3 +661,8 @@ ul {
 .emailInput::placeholder {
   color: black;
 }
+.form-control:focus{
+border-color: #e43c5c;
+box-shadow: none;
+outline: none;
+}

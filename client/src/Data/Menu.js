@@ -43,14 +43,15 @@ const Menu = [
         system, and dynamic stability control.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Land-Rover/Land-Rover-Range-Rover/Exterior.html",
-    // exterior:
-    //                     <img
-    //                             className="d-block w-100 img-fluid imgH"
-    //                             src="https://stimg.cardekho.com/images/carinteriorimages/930x620/Land-Rover/Range-Rover/7880/1592551483705/steering-wheel-54.jpg"
-    //                             alt="menupic"
-    //                           />,
+
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/1.gif"}
+        alt="menupic"
+      />
+    ),
+
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Land-Rover/Range-Rover/7880/1592551483705/steering-wheel-54.jpg",
     interior2:
@@ -204,6 +205,230 @@ const Menu = [
     ],
   },
   {
+    id: 15,
+    rate: "4.5",
+    image:
+      "https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Seltos/6226/1619864569028/front-left-side-47.jpg?tr=w-456",
+    name: "Kia Seltos",
+    category: "suv",
+    price: "₹9.95 - 17.65 Lakh*",
+    description: (
+      <p>
+        The Kia Seltos has 1 Diesel Engine and 3 Petrol Engine on offer. The
+        Diesel engine is 1493 cc while the Petrol engine is 1497 cc and 1498 cc
+        and 1353 cc . It is available with the Manual & Automatic transmission.
+        Depending upon the variant and fuel type the Seltos has a mileage of
+        16.1 to 20.8 kmpl. The Seltos is a 5 seater and has length of 4315mm,
+        width of 1800mm and a wheelbase of 2610mm.<br></br>Latest Update: Kia
+        has launched the updated Seltos.
+        <br></br>
+        <b>Kia Seltos Price:</b> The 2021 Seltos is priced between Rs 9.95 lakh
+        and Rs 17.85 lakh (ex-showroom).
+        <br></br>
+        <b>Kia Seltos Variants:</b> It is offered in two trims: Tech (HT) Line
+        and GT Line. While the former has five variants (HTE, HTK, HTK+, HTX,
+        and HTX+), the latter has only two [GTX(O) and GTX+].
+        <br></br>
+        <b>Kia Seltos Seating Capacity:</b> The Seltos can seat up to five
+        people.
+        <br></br>
+        <b>Kia Seltos Powertrains:</b> It comes with three engine options:
+        1.5-litre petrol (115PS/144Nm), 1.4-litre turbocharged petrol
+        (140PS/242Nm), and 1.5-litre diesel (115PS/250Nm). A 6-speed manual
+        gearbox is offered as standard with all three engines. It also gets
+        optional automatic transmissions: a 7-speed DCT (1.4-litre
+        turbo-petrol), a CVT (1.5-litre petrol), and a 6-speed torque converter
+        unit (1.5-litre diesel). The 1.5-litre petrol engine also gets a 6-speed
+        iMT (clutchless manual) gearbox.
+        <br></br>
+        Kia claims a fuel efficiency of 16.5kmpl for the petrol-manual and
+        16.8kmpl for the petrol-CVT variants. The diesel-manual’s claimed fuel
+        efficiency figure stands at 21kmpl, while the 6-speed AT’s stands at
+        18kmpl. The 1.4-litre turbo-petrol, paired with the DCT, offers a
+        claimed mileage of 16.5kmpl, while the manual returns 16.1kmpl.
+        <br></br>
+        <b>Kia Seltos Features:</b> The Seltos packs a 10.25-inch touchscreen
+        infotainment system along with Kia's UVO connected car technology, an
+        air purifier, ambient lighting, and an 8-inch head-up display. It also
+        gets ventilated front seats, a power-adjustable driver’s seat, a 7-inch
+        multi-information display, an 8-speaker Bose sound system, and a
+        sunroof. It comes with smartwatch connectivity, smart-key remote engine
+        start, and a 'Hello Kia' wake up command as well.
+        <br></br>
+        <b>Kia Seltos Safety:</b> It gets up to six airbags, ABS with EBD, brake
+        assist, emergency stop signal, vehicle stability management (VSM),
+        electronic stability control (ESC), and hill assist control (HAC).
+      </p>
+    ),
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/15.gif"}
+        alt="menupic"
+      />
+    ),
+    interior:
+    <img
+    className="d-block w-100 img-fluid imgH"
+    src={process.env.PUBLIC_URL + "/15.1.gif"}
+    alt="menupic"
+  />,
+    interior1:
+      "https://stimg.cardekho.com/images/carinteriorimages/930x620/Kia/Seltos/6226/1619864686803/steering-wheel-54.jpg",
+    interior2:
+      "https://stimg.cardekho.com/images/carinteriorimages/930x620/Kia/Seltos/6226/1619864686803/ac-controls-151.jpg",
+    interior3:
+      "https://stimg.cardekho.com/images/carinteriorimages/930x620/Kia/Seltos/6226/1619864686803/infotainment-system-main-menu-183.jpg",
+    interior4:
+      "https://stimg.cardekho.com/images/carinteriorimages/930x620/Kia/Seltos/6226/1619864686803/front-air-vents-144.jpg",
+    color1:
+      "https://stimg.cardekho.com/images/car-images/930x620/Kia/Seltos/6226/1595843473689/232_intense-red-aurora-black-pearl_b51829.jpg",
+    color2:
+      "https://stimg.cardekho.com/images/car-images/930x620/Kia/Seltos/6226/1595843473689/231_steel-Silve-punchy-Orange_949395.jpg",
+    color3:
+      "https://stimg.cardekho.com/images/car-images/930x620/Kia/Seltos/6226/1595843473689/226_Aurora-Black-Pearl_343638.jpg",
+    Engine: "1353cc-1498cc",
+    seat: "5",
+    BHP: "113.4-138.08 Bhp",
+    specification: [
+      <div className="row">
+        <div>
+          ARAI Mileage<h6 className="float-right ">17.8 kmpl</h6>
+        </div>
+        <hr className="text-success mt-2"></hr>
+        <div>
+          Engine Displacement (cc)<h6 className="float-right ">1493</h6>
+        </div>
+        <hr className="text-success mt-2"></hr>
+        <div>
+          Max Torque (nm@rpm)
+          <h6 className="float-right ">250nm@1500-2750rpm</h6>
+        </div>
+        <hr className="text-success mt-2"></hr>
+        <div>
+          TransmissionType<h6 className="float-right ">Automatic</h6>
+        </div>
+        <hr className="text-success mt-2"></hr>
+        <div>
+          Fuel Tank Capacity<h6 className="float-right ">50.0</h6>
+        </div>
+        <hr className="text-success mt-2"></hr>
+        <div>
+          Service Cost (Avg. of 5 years)<h6 className="float-right ">₹4,628</h6>
+        </div>
+        <hr className="text-success mt-2"></hr>
+      </div>,
+    ],
+    specification2: [
+      <div className="row">
+        <div>
+          Fuel Type<h6 className="float-right ">Diesel</h6>
+        </div>
+        <hr className="text-success mt-2"></hr>
+        <div>
+          Max Power (bhp@rpm)<h6 className="float-right ">113.4bhp@4000rpm</h6>
+        </div>
+        <hr className="text-success mt-2"></hr>
+        <div>
+          Seating Capacity<h6 className="float-right ">5</h6>
+        </div>
+        <hr className="text-success mt-2"></hr>
+        <div>
+          Boot Space (Litres)<h6 className="float-right ">433</h6>
+        </div>
+        <hr className="text-success mt-2"></hr>
+        <div>
+          Body Type<h6 className="float-right ">SUV</h6>
+        </div>
+        <hr className="text-success mt-2"></hr>
+      </div>,
+    ],
+
+    feature: [
+      <div className="row">
+        <h6 className="">
+          Power Steering
+          <div className="fa fa-check text-success float-right "></div>
+        </h6>
+        <hr className="text-success mt-2"></hr>
+        <h6 className="">
+          Anti Lock Braking System
+          <div className="fa fa-check text-success float-right "></div>
+        </h6>
+        <hr className="text-success mt-2"></hr>
+        <h6 className="">
+          Driver Airbag
+          <div className="fa fa-check text-success float-right "></div>
+        </h6>
+        <hr className="text-success mt-2"></hr>
+        <h6 className="">
+          Fog Lights - Front
+          <div className="fa fa-check text-success float-right "></div>
+        </h6>
+        <hr className="text-success mt-2"></hr>
+        <h6 className="">
+          Automatic Climate Control
+          <div className="fa fa-check text-success float-right "></div>
+        </h6>
+        <hr className="text-success mt-2"></hr>
+      </div>,
+    ],
+
+    feature2: [
+      <div className="row">
+        <h6 className="">
+          Power Windows Front
+          <div className="fa fa-check text-success float-right "></div>
+        </h6>
+        <hr className="text-success mt-2"></hr>
+        <h6 className="">
+          Air Conditioner
+          <div className="fa fa-check text-success float-right "></div>
+        </h6>
+        <hr className="text-success mt-2"></hr>
+        <h6 className="">
+          Passenger Airbag
+          <div className="fa fa-check text-success float-right "></div>
+        </h6>
+        <hr className="text-success mt-2"></hr>
+        <h6 className="">
+          Alloy Wheels
+          <div className="fa fa-check text-success float-right "></div>
+        </h6>
+        <hr className="text-success mt-2"></hr>
+      </div>,
+    ],
+
+    topFeatures: [
+      <div className="row">
+        <div className="fa fa-check text-success col-6 py-3 pl-4">
+          &nbsp;&nbsp;
+          <h7 className="text-dark font-weight-bold">Power Windows Front</h7>
+        </div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">
+          &nbsp;&nbsp;
+          <h7 className="text-dark font-weight-bold">Air Conditioner</h7>
+        </div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">
+          &nbsp;&nbsp;
+          <h7 className="text-dark font-weight-bold">Power Steering</h7>
+        </div>
+        <div className="fa fa-check text-success col-6 py-3 pl-4">
+          &nbsp;&nbsp;
+          <h7 className="text-dark font-weight-bold">
+            Anti Lock Braking System
+          </h7>
+        </div>
+        <a
+          href="#more"
+          className="col-12 py-3 text-center text-decoration-none"
+        >
+          <b>+6 more</b>
+        </a>
+      </div>,
+    ],
+  },
+  {
     id: 2,
     rate: "4.5",
     image:
@@ -241,8 +466,13 @@ const Menu = [
         control.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Audi/Audi-A6/1605173981/Exterior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/2.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Audi/A6/6426/1571909558901/dashboard-59.jpg",
     interior2:
@@ -431,8 +661,13 @@ const Menu = [
         Mercedes-Benz GLE Coupe and the BMW X6.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Land-Rover/Land-Rover-Range-Rover-Velar/Exterior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/3.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Land-Rover/Land-Rover-Range-Rover-Velar/6879/1558440255164/dashboard-59.jpg",
     interior2:
@@ -625,10 +860,20 @@ const Menu = [
         infotainment system with a Bower and Wilkins sound system.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Volvo/Volvo-XC-90/Exterior.html?hotSpotNonApp=yes",
-    interior:
-      "https://img.gaadicdn.com/images/feelthecar360view/Interior/Volvo/Volvo-XC-90/Interior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/4.gif"}
+        alt="menupic"
+      />
+    ),
+    interior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/4.1.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Volvo/XC90/7537/1581480088191/dashboard-59.jpg",
     interior2:
@@ -823,8 +1068,13 @@ const Menu = [
         front and rear heated seats and a panoramic sunroof.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Volvo/Volvo-XC40/Exterior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/5.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Volvo/XC40/7535/1596176173415/interior-image-217.jpg",
     interior2:
@@ -1007,8 +1257,13 @@ const Menu = [
         sensors.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Toyota/Toyota-Vellfire/Exterior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/6.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Toyota/Toyota-Vellfire/7024/1563446575319/seats-(aerial-view)-53.jpg",
     interior2:
@@ -1197,10 +1452,20 @@ const Menu = [
         airbags, ABS with EBD, and rear parking sensors.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Honda/Honda-City/1578041652/Exterior.html?hotSpotNonApp=yes",
-    interior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Interior/Honda/Honda-City/Interior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/7.gif"}
+        alt="menupic"
+      />
+    ),
+    interior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/7.1.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Honda/City-2017-2020/7259/1618395648811/dashboard-59.jpg",
     interior2:
@@ -1394,8 +1659,13 @@ const Menu = [
         in the higher-spec variants.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Maruti/Maruti-Swift-Dzire/1597904089/Exterior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/8.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Maruti/Dzire/7664/1584706082668/seats-(aerial-view)-53.jpg",
     interior2:
@@ -1590,8 +1860,13 @@ const Menu = [
         EBD, rear parking sensors, and speed alert.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Hyundai/Hyundai-Verna/123654789/Exterior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/9.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/Verna/7729/1616055246929/dashboard-59.jpg",
     interior2:
@@ -1792,10 +2067,20 @@ const Menu = [
         seat anchors.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Honda/Honda-City/1602412080/Exterior.html?hotSpotNonApp=yes",
-    interior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Interior/Honda/Honda-City/Interior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/10.gif"}
+        alt="menupic"
+      />
+    ),
+    interior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/10.1.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Honda/City/7905/1594805677103/airbags-94.jpg",
     interior2:
@@ -1994,8 +2279,13 @@ const Menu = [
         airbags, ISOFIX child seat anchorages, and rear parking sensors.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Hyundai/Hyundai-Aura/1605852500/Exterior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/11.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/Aura/7234/1579611023683/ac-controls-151.jpg",
     interior2:
@@ -2194,10 +2484,20 @@ const Menu = [
         airbags, ABS with EBD, and rear parking sensors.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Honda/Honda-Amaze/1611058920/Exterior.html?hotSpotNonApp=yes",
-    interior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Interior/Honda/Honda-Amaze/1544534125/Interior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/12.gif"}
+        alt="menupic"
+      />
+    ),
+    interior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/12.1.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Honda/Amaze/7439/1580301943275/dashboard-59.jpg",
     interior2:
@@ -2393,10 +2693,20 @@ const Menu = [
         with EBD, rear parking sensors, and front seatbelt reminder as standard.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Mahindra/Mahindra-Thar/1620980352/Exterior.html?hotSpotNonApp=yes",
-    interior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Interior/Mahindra/Mahindra-Thar/1613195743/Interior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/13.gif"}
+        alt="menupic"
+      />
+    ),
+    interior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/13.1.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Mahindra/Thar/8073/1609235771322/dashboard-59.jpg",
     interior2:
@@ -2584,10 +2894,20 @@ const Menu = [
         airbags, ABS with EBD, and electronic stability control (ESC).
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Hyundai/Hyundai-Creta/158955675/Exterior.html?hotSpotNonApp=yes",
-    interior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Interior/Hyundai/Hyundai-Creta/1609561813/Interior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/14.gif"}
+        alt="menupic"
+      />
+    ),
+    interior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/14.1.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/Creta/7695/1594621130613/interior-image-211.jpg",
     interior2:
@@ -2743,221 +3063,7 @@ const Menu = [
       </div>,
     ],
   },
-  {
-    id: 15,
-    rate: "4.5",
-    image:
-      "https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Seltos/6226/1619864569028/front-left-side-47.jpg?tr=w-456",
-    name: "Kia Seltos",
-    category: "suv",
-    price: "₹9.95 - 17.65 Lakh*",
-    description: (
-      <p>
-        The Kia Seltos has 1 Diesel Engine and 3 Petrol Engine on offer. The
-        Diesel engine is 1493 cc while the Petrol engine is 1497 cc and 1498 cc
-        and 1353 cc . It is available with the Manual & Automatic transmission.
-        Depending upon the variant and fuel type the Seltos has a mileage of
-        16.1 to 20.8 kmpl. The Seltos is a 5 seater and has length of 4315mm,
-        width of 1800mm and a wheelbase of 2610mm.<br></br>Latest Update: Kia
-        has launched the updated Seltos.
-        <br></br>
-        <b>Kia Seltos Price:</b> The 2021 Seltos is priced between Rs 9.95 lakh
-        and Rs 17.85 lakh (ex-showroom).
-        <br></br>
-        <b>Kia Seltos Variants:</b> It is offered in two trims: Tech (HT) Line
-        and GT Line. While the former has five variants (HTE, HTK, HTK+, HTX,
-        and HTX+), the latter has only two [GTX(O) and GTX+].
-        <br></br>
-        <b>Kia Seltos Seating Capacity:</b> The Seltos can seat up to five
-        people.
-        <br></br>
-        <b>Kia Seltos Powertrains:</b> It comes with three engine options:
-        1.5-litre petrol (115PS/144Nm), 1.4-litre turbocharged petrol
-        (140PS/242Nm), and 1.5-litre diesel (115PS/250Nm). A 6-speed manual
-        gearbox is offered as standard with all three engines. It also gets
-        optional automatic transmissions: a 7-speed DCT (1.4-litre
-        turbo-petrol), a CVT (1.5-litre petrol), and a 6-speed torque converter
-        unit (1.5-litre diesel). The 1.5-litre petrol engine also gets a 6-speed
-        iMT (clutchless manual) gearbox.
-        <br></br>
-        Kia claims a fuel efficiency of 16.5kmpl for the petrol-manual and
-        16.8kmpl for the petrol-CVT variants. The diesel-manual’s claimed fuel
-        efficiency figure stands at 21kmpl, while the 6-speed AT’s stands at
-        18kmpl. The 1.4-litre turbo-petrol, paired with the DCT, offers a
-        claimed mileage of 16.5kmpl, while the manual returns 16.1kmpl.
-        <br></br>
-        <b>Kia Seltos Features:</b> The Seltos packs a 10.25-inch touchscreen
-        infotainment system along with Kia's UVO connected car technology, an
-        air purifier, ambient lighting, and an 8-inch head-up display. It also
-        gets ventilated front seats, a power-adjustable driver’s seat, a 7-inch
-        multi-information display, an 8-speaker Bose sound system, and a
-        sunroof. It comes with smartwatch connectivity, smart-key remote engine
-        start, and a 'Hello Kia' wake up command as well.
-        <br></br>
-        <b>Kia Seltos Safety:</b> It gets up to six airbags, ABS with EBD, brake
-        assist, emergency stop signal, vehicle stability management (VSM),
-        electronic stability control (ESC), and hill assist control (HAC).
-      </p>
-    ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Kia/Kia-Seltos/1563185539/Exterior.html?hotSpotNonApp=yes",
-    interior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Interior/Kia/Kia-Seltos/1581665713/Interior.html?hotSpotNonApp=yes",
-    interior1:
-      "https://stimg.cardekho.com/images/carinteriorimages/930x620/Kia/Seltos/6226/1619864686803/steering-wheel-54.jpg",
-    interior2:
-      "https://stimg.cardekho.com/images/carinteriorimages/930x620/Kia/Seltos/6226/1619864686803/ac-controls-151.jpg",
-    interior3:
-      "https://stimg.cardekho.com/images/carinteriorimages/930x620/Kia/Seltos/6226/1619864686803/infotainment-system-main-menu-183.jpg",
-    interior4:
-      "https://stimg.cardekho.com/images/carinteriorimages/930x620/Kia/Seltos/6226/1619864686803/front-air-vents-144.jpg",
-    color1:
-      "https://stimg.cardekho.com/images/car-images/930x620/Kia/Seltos/6226/1595843473689/232_intense-red-aurora-black-pearl_b51829.jpg",
-    color2:
-      "https://stimg.cardekho.com/images/car-images/930x620/Kia/Seltos/6226/1595843473689/231_steel-Silve-punchy-Orange_949395.jpg",
-    color3:
-      "https://stimg.cardekho.com/images/car-images/930x620/Kia/Seltos/6226/1595843473689/226_Aurora-Black-Pearl_343638.jpg",
-    Engine: "1353cc-1498cc",
-    seat: "5",
-    BHP: "113.4-138.08 Bhp",
-    specification: [
-      <div className="row">
-        <div>
-          ARAI Mileage<h6 className="float-right ">17.8 kmpl</h6>
-        </div>
-        <hr className="text-success mt-2"></hr>
-        <div>
-          Engine Displacement (cc)<h6 className="float-right ">1493</h6>
-        </div>
-        <hr className="text-success mt-2"></hr>
-        <div>
-          Max Torque (nm@rpm)
-          <h6 className="float-right ">250nm@1500-2750rpm</h6>
-        </div>
-        <hr className="text-success mt-2"></hr>
-        <div>
-          TransmissionType<h6 className="float-right ">Automatic</h6>
-        </div>
-        <hr className="text-success mt-2"></hr>
-        <div>
-          Fuel Tank Capacity<h6 className="float-right ">50.0</h6>
-        </div>
-        <hr className="text-success mt-2"></hr>
-        <div>
-          Service Cost (Avg. of 5 years)<h6 className="float-right ">₹4,628</h6>
-        </div>
-        <hr className="text-success mt-2"></hr>
-      </div>,
-    ],
-    specification2: [
-      <div className="row">
-        <div>
-          Fuel Type<h6 className="float-right ">Diesel</h6>
-        </div>
-        <hr className="text-success mt-2"></hr>
-        <div>
-          Max Power (bhp@rpm)<h6 className="float-right ">113.4bhp@4000rpm</h6>
-        </div>
-        <hr className="text-success mt-2"></hr>
-        <div>
-          Seating Capacity<h6 className="float-right ">5</h6>
-        </div>
-        <hr className="text-success mt-2"></hr>
-        <div>
-          Boot Space (Litres)<h6 className="float-right ">433</h6>
-        </div>
-        <hr className="text-success mt-2"></hr>
-        <div>
-          Body Type<h6 className="float-right ">SUV</h6>
-        </div>
-        <hr className="text-success mt-2"></hr>
-      </div>,
-    ],
-
-    feature: [
-      <div className="row">
-        <h6 className="">
-          Power Steering
-          <div className="fa fa-check text-success float-right "></div>
-        </h6>
-        <hr className="text-success mt-2"></hr>
-        <h6 className="">
-          Anti Lock Braking System
-          <div className="fa fa-check text-success float-right "></div>
-        </h6>
-        <hr className="text-success mt-2"></hr>
-        <h6 className="">
-          Driver Airbag
-          <div className="fa fa-check text-success float-right "></div>
-        </h6>
-        <hr className="text-success mt-2"></hr>
-        <h6 className="">
-          Fog Lights - Front
-          <div className="fa fa-check text-success float-right "></div>
-        </h6>
-        <hr className="text-success mt-2"></hr>
-        <h6 className="">
-          Automatic Climate Control
-          <div className="fa fa-check text-success float-right "></div>
-        </h6>
-        <hr className="text-success mt-2"></hr>
-      </div>,
-    ],
-
-    feature2: [
-      <div className="row">
-        <h6 className="">
-          Power Windows Front
-          <div className="fa fa-check text-success float-right "></div>
-        </h6>
-        <hr className="text-success mt-2"></hr>
-        <h6 className="">
-          Air Conditioner
-          <div className="fa fa-check text-success float-right "></div>
-        </h6>
-        <hr className="text-success mt-2"></hr>
-        <h6 className="">
-          Passenger Airbag
-          <div className="fa fa-check text-success float-right "></div>
-        </h6>
-        <hr className="text-success mt-2"></hr>
-        <h6 className="">
-          Alloy Wheels
-          <div className="fa fa-check text-success float-right "></div>
-        </h6>
-        <hr className="text-success mt-2"></hr>
-      </div>,
-    ],
-
-    topFeatures: [
-      <div className="row">
-        <div className="fa fa-check text-success col-6 py-3 pl-4">
-          &nbsp;&nbsp;
-          <h7 className="text-dark font-weight-bold">Power Windows Front</h7>
-        </div>
-        <div className="fa fa-check text-success col-6 py-3 pl-4">
-          &nbsp;&nbsp;
-          <h7 className="text-dark font-weight-bold">Air Conditioner</h7>
-        </div>
-        <div className="fa fa-check text-success col-6 py-3 pl-4">
-          &nbsp;&nbsp;
-          <h7 className="text-dark font-weight-bold">Power Steering</h7>
-        </div>
-        <div className="fa fa-check text-success col-6 py-3 pl-4">
-          &nbsp;&nbsp;
-          <h7 className="text-dark font-weight-bold">
-            Anti Lock Braking System
-          </h7>
-        </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
-      </div>,
-    ],
-  },
+ 
   {
     id: 16,
     rate: "4.5",
@@ -2999,10 +3105,20 @@ const Menu = [
         include dual front airbags, rear parking sensors, ABS, and speed alert.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Mahindra/Mahindra-Scorpio/1578114150/Exterior.html?hotSpotNonApp=yes",
-    interior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Interior/Mahindra/Mahindra-Scorpio/Interior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/16.gif"}
+        alt="menupic"
+      />
+    ),
+    interior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/16.1.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Mahindra/Scorpio/7766/1592546398727/seats-(aerial-view)-53.jpg",
     interior2:
@@ -3193,8 +3309,13 @@ const Menu = [
       </p>
     ),
     exterior: "https://media2.giphy.com/media/cmBPTHsRAoEOmVUQGD/giphy.gif",
-    interior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Interior/Mahindra/Mahindra-Bolero/Interior.html?hotSpotNonApp=yes",
+    interior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/17.1.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg2.cardekho.com/images/roadTestimages/930x620/20210419_182039/721/mahindra0.jpg",
     interior2:
@@ -3392,10 +3513,20 @@ const Menu = [
         seven airbags, vehicle stability control, hill assist, and ABS with EBD.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Toyota/Toyota-Fortuner/1616818166/Exterior.html?hotSpotNonApp=yes",
-    interior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Toyota/Toyota-Fortuner/1616818166/Exterior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/18.gif"}
+        alt="menupic"
+      />
+    ),
+    interior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/18.1.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Toyota/Fortuner/7763/Toyota-Fortuner-Legender/1609921296174/dashboard-59.jpg",
     interior2:
@@ -3593,10 +3724,20 @@ const Menu = [
         are limited to the automatic variant.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Maruti/Maruti-Ertiga/1578117162/Exterior.html?hotSpotNonApp=yes",
-    interior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Interior/Maruti/Maruti-Ertiga/1543296957/Interior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/19.gif"}
+        alt="menupic"
+      />
+    ),
+    interior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/19.1.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Maruti/Ertiga/7048/1611730299781/interior-image-207.jpg",
     interior2:
@@ -3789,8 +3930,20 @@ const Menu = [
         parking sensors, up to seven airbags, and vehicle stability control.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Toyota/Toyota-Innova-Crysta/1612930649/Exterior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/20.gif"}
+        alt="menupic"
+      />
+    ),
+    interior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/20.1.gif"}
+        alt="menupic"
+      />
+    ),
 
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Toyota/Innova-Crysta/8105/1606215327927/airbags-94.jpg",
@@ -3982,8 +4135,13 @@ const Menu = [
         with EBD, and rear parking sensors as standard across all variants.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Renault/Renault-Triber/1582264267/Exterior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/21.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Renault/Triber/7418/1580114094343/dashboard-59.jpg",
     interior2:
@@ -4172,10 +4330,20 @@ const Menu = [
         ABS with EBD, and rear parking sensors.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Maruti/Maruti-XL6/1598014104/Exterior.html?hotSpotNonApp=yes",
-    interior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Interior/Maruti/Maruti-XL6/Interior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/22.gif"}
+        alt="menupic"
+      />
+    ),
+    interior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/22.1.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Maruti/XL6/7030/1579078345742/dashboard-59.jpg",
     interior2:
@@ -4369,10 +4537,20 @@ const Menu = [
         seatbelt reminder, speed alert, and rear parking sensors as standard.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Maruti/Maruti-Eeco/Exterior.html?hotSpotNonApp=yes",
-    interior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Interior/Maruti/Maruti-Eeco/Interior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/23.gif"}
+        alt="menupic"
+      />
+    ),
+    interior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/23.1.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Maruti/Eeco/7344/1596172992097/third-row-seat-belts-197.jpg",
     interior2:
@@ -4565,8 +4743,13 @@ const Menu = [
         been carried forward from the pre-facelift model.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Maruti/Maruti-Swift/Exterior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/24.gif"}
+        alt="menupic"
+      />
+    ),
 
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Maruti/Swift/8378/1614747505777/dashboard-59.jpg",
@@ -4761,8 +4944,13 @@ const Menu = [
         parking sensors, and electronic stability control.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Hyundai/Hyundai-i20/160587400/Exterior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/25.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/steering-position-adjustments-141.jpg",
     interior2:
@@ -4962,10 +5150,20 @@ const Menu = [
         across all variants.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Maruti/Maruti-Baleno/1578049168 /Exterior.html?hotSpotNonApp=yes",
-    interior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Interior/Maruti/Maruti-Baleno/1549979029/Interior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/26.gif"}
+        alt="menupic"
+      />
+    ),
+    interior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/26.1.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Maruti/Baleno/6778/1615985207322/dashboard-59.jpg",
     interior2:
@@ -5166,10 +5364,20 @@ const Menu = [
         ISOFIX child seat anchors, and rear parking sensors.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Tata/Tata-Altroz/1578048156/Exterior.html?hotSpotNonApp=yes",
-    interior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Interior/Tata/Tata-Altroz/Interior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/27.gif"}
+        alt="menupic"
+      />
+    ),
+    interior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/27.1.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Tata/Altroz/7247/1578643864942/airbags-94.jpg",
     interior2:
@@ -5373,10 +5581,20 @@ const Menu = [
         ABS with EBD, and rear parking sensors.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Maruti/Maruti-Wagon-R/1548306480/Exterior.html?hotSpotNonApp=yes",
-    interior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Interior/Maruti/Maruti-Wagon-R/1550043622/Interior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/28.gif"}
+        alt="menupic"
+      />
+    ),
+    interior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/28.1.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Maruti/Maruti-Wagon-R/6741/1548249233387/airbags-94.jpg",
     interior2:
@@ -5570,10 +5788,20 @@ const Menu = [
         control.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Tata/Tata-Tiago/1592630330/Exterior.html?hotSpotNonApp=yes",
-    interior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Interior/Tata/Tata-Tiago/1609827007/Interior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/29.gif"}
+        alt="menupic"
+      />
+    ),
+    interior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/29.1.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Tata/Tiago/7381/1617960338205/dashboard-59.jpg",
     interior2:
@@ -5740,9 +5968,53 @@ const Menu = [
     category: "luxury",
     price: "₹42.10-57.28 Lakh*",
     rate: "4.5",
-    description: "baad me likhenge",
-    exterior:
-      "https://i.pinimg.com/originals/ca/8f/64/ca8f6482ced21a6ed13ac5b78743bc15.gif",
+    description: (
+      <p>
+        <br></br>Latest Update: Mercedes-Benz has launched the second-gen GLA in
+        India.
+        <br></br>
+        Mercedes-Benz GLA Price: The compact luxury SUV is priced from Rs 42.10
+        lakh to Rs 57.30 lakh (ex-showroom).
+        <br></br>
+        Mercedes-Benz GLA Variants: It is available in four trims: GLA 200, GLA
+        220d, GLA 220d 4MATIC, and GLA 35 AMG 4MATIC.
+        <br></br>
+        Mercedes-Benz GLA Powertrains: Mercedes-Benz has provided the
+        entry-level SUV with three engines: a 1.3-litre turbo-petrol mild-hybrid
+        (165PS/250Nm), a 2.0-litre diesel (192PS/400Nm), and a 2.0-litre
+        turbo-petrol (306PS/400Nm). The 2.0-litre turbo-petrol unit is reserved
+        for the GLA 35 AMG 4MATIC variant. The engine-wise gearbox options are:
+        <ul>
+          <li>1.3-litre turbo-petrol: 7-speed DCT (dual-clutch automatic)</li>
+
+          <li>2.0-litre diesel: 8-speed AT</li>
+
+          <li>2.0-litre turbo-petrol: 7-speed DCT</li>
+        </ul>
+        The three powertrains get the following drivetrains:
+        <ul>
+          <li>GLA 200: Front-wheel drive</li>
+
+          <li>GLA 220d: Front-wheel drive and all-wheel drive</li>
+
+          <li>GLA 35 AMG: All-wheel drive</li>
+        </ul>
+        Mercedes-Benz GLA Features: The GLA gets connected car tech, 64-colour
+        ambient lighting, wireless charging, a 10.25-inch touchscreen system
+        with Android Auto and Apple CarPlay, a panoramic sunroof, and dual-zone
+        climate control.
+        <br></br>
+        Mercedes-Benz GLA Safety: Safety features include seven airbags,
+        electronic stability programme (ESP), and active brake assist.
+      </p>
+    ),
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/30.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Mercedes-Benz/GLA/7269/1621945759500/rear-seats-52.jpg",
     interior2:
@@ -5940,21 +6212,27 @@ const Menu = [
         assist, and rear parking sensors.
       </p>
     ),
-    exterior: "https://i.makeagif.com/media/9-18-2015/uSRw-q.gif",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/31.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
-      "https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/steering-position-adjustments-141.jpg",
+      "https://stimg.cardekho.com/images/carinteriorimages/930x620/Isuzu/D-Max/7208/Isuzu-D-Max-Hi-Lander/1620647680748/airbags-94.jpg",
     interior2:
-      "https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/door-view-of-driver-seat-51.jpg",
+      "https://stimg.cardekho.com/images/carinteriorimages/930x620/Isuzu/D-Max/8430/1620647604892/dashboard-59.jpg",
     interior3:
-      "https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/ignition-start-stop-button-142.jpg",
+      "https://stimg.cardekho.com/images/carinteriorimages/930x620/Isuzu/D-Max/8430/1620647604892/gear-shifter-87.jpg",
     interior4:
-      "https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/airbags-94.jpg",
+      "https://stimg.cardekho.com/images/carinteriorimages/930x620/Isuzu/D-Max/8430/1620647604892/interior-image-208.jpg",
     color1:
-      "https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/226_fiery-red-black-roof_ba0104.jpg",
+      "https://stimg.cardekho.com/images/car-images/930x620/Isuzu/D-Max/8430/1620720756986/225_galena-gray_7c8185.jpg",
     color2:
-      "https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/224_polar-white-black-roof_babdc5.jpg",
+      "https://stimg.cardekho.com/images/car-images/930x620/Isuzu/D-Max/8430/1620720756986/222_nautilus-blue_2c5483.jpg",
     color3:
-      "https://stimg.cardekho.com/images/car-images/930x620/Hyundai/i20/6986/1604570627314/223_starry-night_192237.jpg",
+      "https://stimg.cardekho.com/images/car-images/930x620/Isuzu/D-Max/8430/1620720756986/222_nautilus-blue_2c5483.jpg",
     Engine: "1898cc",
     seat: "5",
     BHP: "160.92 Bhp",
@@ -6145,10 +6423,20 @@ const Menu = [
         management.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Kia/Kia-Sonet/1605858896/Exterior.html?hotSpotNonApp=yes",
-    interior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Interior/Kia/Kia-Sonet/Interior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/32.gif"}
+        alt="menupic"
+      />
+    ),
+    interior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/32.1.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Kia/Sonet/7256/1619865709443/dashboard-59.jpg",
     interior2:
@@ -6339,8 +6627,13 @@ const Menu = [
         control, traction control, and electronic stability control.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/carexteriorimages/930x620/Isuzu/Isuzu-MUX-2018/6492/rear-right-side-48.jpg",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://cdn.autoportal.com/img/new-cars-gallery/isuzu/mu-x/photo34/isuzu-mu-x-5762fb8a.jpg"
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Isuzu/MU-X/6487/1620728809619/dashboard-59.jpg",
     interior2:
@@ -6532,8 +6825,13 @@ const Menu = [
         control.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/BMW/BMW-6-Series/Exterior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/34.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/BMW/6-Series/8419/1617876028622/passenger-view-56.jpg",
     interior2:
@@ -6724,8 +7022,13 @@ const Menu = [
         stability and blind spot monitoring.{" "}
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Citroen/Citroen-C5-Aircross/Exterior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/35.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Citroen/C5-Aircross/6590/1612238638025/rear-seats-52.jpg",
     interior2:
@@ -6924,8 +7227,13 @@ const Menu = [
         rear parking camera.
       </p>
     ),
-    exterior:
-      "https://i.pinimg.com/originals/15/b8/78/15b87815577f93a72fcf559dfefef247.gif",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/36.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Mercedes-Benz/A-Class-Limousine/8414/1616659824292/rear-seats-52.jpg",
     interior2:
@@ -7096,10 +7404,20 @@ const Menu = [
         seat anchors, and rear parking sensors are available as standard.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Toyota/Toyota-Glanza/1609931835/Exterior.html?hotSpotNonApp=yes",
-    interior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Interior/Toyota/Toyota-Glanza/1560670743/Interior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/37.gif"}
+        alt="menupic"
+      />
+    ),
+    interior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/37.1.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Toyota/Toyota-Glanza/6902/1559809733985/airbags-94.jpg",
     interior2:
@@ -7257,6 +7575,8 @@ const Menu = [
   {
     id: 38,
     name: "Nissan Magnite",
+    image:
+      "https://stimg.cardekho.com/images/carexteriorimages/930x620/Nissan/Magnite/8127/1608191740345/front-left-side-47.jpg",
     category: "suv",
     price: "₹5.59-10.00 Lakh*",
     rate: "4.5",
@@ -7295,8 +7615,13 @@ const Menu = [
         control.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Nissan/Nissan-Magnite/1604574842/Exterior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/38.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Nissan/Magnite/7425/1603276532088/airbags-94.jpg",
     interior2:
@@ -7490,8 +7815,13 @@ const Menu = [
         ABS with EBD, and rear parking sensors.
       </p>
     ),
-    exterior:
-      "https://www.emanualonline.com/blog/wp-content/uploads/2021/01/2021-Renault-KIGER-10.gif",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/39.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Renault/Kiger/8350/1613711475022/dashboard-59.jpg",
     interior2:
@@ -7679,10 +8009,20 @@ const Menu = [
         parking sensors, dual front airbags, and ABS with EBD.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Hyundai/Hyundai-Grand-i10-Nios/1605854945/Exterior.html?hotSpotNonApp=yes",
-    interior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Interior/Hyundai/Hyundai-Grand-i10-Nios/1568613463/Interior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/40.gif"}
+        alt="menupic"
+      />
+    ),
+    interior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/40.1.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/Hyundai-Grand-i10-Nios/7089/1566296541670/dashboard-59.jpg",
     interior2:
@@ -7885,8 +8225,13 @@ const Menu = [
         with EBD, and rear parking sensors as standard across all variants.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Renault/Renault-Triber/1582264267/Exterior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/21.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Renault/Triber/7418/1580114094343/dashboard-59.jpg",
     interior2:
@@ -8081,10 +8426,20 @@ const Menu = [
         across all variants.
       </p>
     ),
-    exterior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Exterior/Maruti/Maruti-Baleno/1578049168 /Exterior.html?hotSpotNonApp=yes",
-    interior:
-      "https://stimg.cardekho.com/images/feelthecar360view/Interior/Maruti/Maruti-Baleno/1549979029/Interior.html?hotSpotNonApp=yes",
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/26.gif"}
+        alt="menupic"
+      />
+    ),
+    interior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src={process.env.PUBLIC_URL + "/26.1.gif"}
+        alt="menupic"
+      />
+    ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Maruti/Baleno/6778/1615985207322/dashboard-59.jpg",
     interior2:

@@ -13,6 +13,7 @@ import web3 from "./images/thumb.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import StarsRating from "stars-rating";
+// import dsd from "{https://drive.google.com/file/d/1FjTIdyrBAa4WIq1vZBS7VhmlAh5wJoUq/view?usp=sharing}";
 import Upcoming from "./Data/Upcoming";
 
 function Home() {
@@ -381,10 +382,10 @@ function Home() {
                           </h7>
 
                           <div className="exterior">
-                          <video autoPlay loop muted>
-                            <source src={exterior} />
-                            <source src={interior} />
-                          </video>
+                      
+                   {exterior}
+                   {interior}
+            
                         </div>
                           <h7 className="px-2 py-2">
                             <strong>Interior</strong>
