@@ -47,7 +47,7 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/1.gif"}
+        src={process.env.PUBLIC_URL + "/cars/1.gif"}
         alt="menupic"
       />
     ),
@@ -263,14 +263,14 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/15.gif"}
+        src={process.env.PUBLIC_URL + "/cars/15.gif"}
         alt="menupic"
       />
     ),
     interior:
     <img
     className="d-block w-100 img-fluid imgH"
-    src={process.env.PUBLIC_URL + "/15.1.gif"}
+    src={process.env.PUBLIC_URL + "/cars/15.1.gif"}
     alt="menupic"
   />,
     interior1:
@@ -469,7 +469,7 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/2.gif"}
+        src={process.env.PUBLIC_URL + "/cars/2.gif"}
         alt="menupic"
       />
     ),
@@ -664,7 +664,7 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/3.gif"}
+        src={process.env.PUBLIC_URL + "/cars/3.gif"}
         alt="menupic"
       />
     ),
@@ -863,14 +863,14 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/4.gif"}
+        src={process.env.PUBLIC_URL + "/cars/4.gif"}
         alt="menupic"
       />
     ),
     interior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/4.1.gif"}
+        src={process.env.PUBLIC_URL + "/cars/4.1.gif"}
         alt="menupic"
       />
     ),
@@ -1071,7 +1071,7 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/5.gif"}
+        src={process.env.PUBLIC_URL + "/cars/5.gif"}
         alt="menupic"
       />
     ),
@@ -1260,7 +1260,7 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/6.gif"}
+        src={process.env.PUBLIC_URL + "/cars/6.gif"}
         alt="menupic"
       />
     ),
@@ -1455,14 +1455,14 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/7.gif"}
+        src={process.env.PUBLIC_URL + "/cars/7.gif"}
         alt="menupic"
       />
     ),
     interior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/7.1.gif"}
+        src={process.env.PUBLIC_URL + "/cars/7.1.gif"}
         alt="menupic"
       />
     ),
@@ -1662,7 +1662,7 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/8.gif"}
+        src={process.env.PUBLIC_URL + "/cars/8.gif"}
         alt="menupic"
       />
     ),
@@ -1863,7 +1863,7 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/9.gif"}
+        src={process.env.PUBLIC_URL + "/cars/9.gif"}
         alt="menupic"
       />
     ),
@@ -2070,14 +2070,14 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/10.gif"}
+        src={process.env.PUBLIC_URL + "/cars/10.gif"}
         alt="menupic"
       />
     ),
     interior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/10.1.gif"}
+        src={process.env.PUBLIC_URL + "/cars/10.1.gif"}
         alt="menupic"
       />
     ),
@@ -2282,7 +2282,7 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/11.gif"}
+        src={process.env.PUBLIC_URL + "/cars/11.gif"}
         alt="menupic"
       />
     ),
@@ -2487,14 +2487,14 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/12.gif"}
+        src={process.env.PUBLIC_URL + "/cars/12.gif"}
         alt="menupic"
       />
     ),
     interior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/12.1.gif"}
+        src={process.env.PUBLIC_URL + "/cars/12.1.gif"}
         alt="menupic"
       />
     ),
@@ -2696,14 +2696,14 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/13.gif"}
+        src={process.env.PUBLIC_URL + "/cars/13.gif"}
         alt="menupic"
       />
     ),
     interior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/13.1.gif"}
+        src={process.env.PUBLIC_URL + "/cars/13.1.gif"}
         alt="menupic"
       />
     ),
@@ -2897,14 +2897,14 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/14.gif"}
+        src={process.env.PUBLIC_URL + "/cars/14.gif"}
         alt="menupic"
       />
     ),
     interior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/14.1.gif"}
+        src={process.env.PUBLIC_URL + "/cars/14.1.gif"}
         alt="menupic"
       />
     ),
@@ -3063,7 +3063,6 @@ const searchMenu = [
       </div>,
     ],
   },
- 
   {
     id: 16,
     rate: "4.5",
@@ -3108,14 +3107,14 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/16.gif"}
+        src={process.env.PUBLIC_URL + "/cars/16.gif"}
         alt="menupic"
       />
     ),
     interior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/16.1.gif"}
+        src={process.env.PUBLIC_URL + "/cars/16.1.gif"}
         alt="menupic"
       />
     ),
@@ -3312,7 +3311,7 @@ const searchMenu = [
     interior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/17.1.gif"}
+        src={process.env.PUBLIC_URL + "/cars/17.1.gif"}
         alt="menupic"
       />
     ),
@@ -3516,14 +3515,14 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/18.gif"}
+        src={process.env.PUBLIC_URL + "/cars/18.gif"}
         alt="menupic"
       />
     ),
     interior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/18.1.gif"}
+        src={process.env.PUBLIC_URL + "/cars/18.1.gif"}
         alt="menupic"
       />
     ),
@@ -3727,14 +3726,14 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/19.gif"}
+        src={process.env.PUBLIC_URL + "/cars/19.gif"}
         alt="menupic"
       />
     ),
     interior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/19.1.gif"}
+        src={process.env.PUBLIC_URL + "/cars/19.1.gif"}
         alt="menupic"
       />
     ),
@@ -3933,14 +3932,14 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/20.gif"}
+        src={process.env.PUBLIC_URL + "/cars/20.gif"}
         alt="menupic"
       />
     ),
     interior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/20.1.gif"}
+        src={process.env.PUBLIC_URL + "/cars/20.1.gif"}
         alt="menupic"
       />
     ),
@@ -4138,7 +4137,7 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/21.gif"}
+        src={process.env.PUBLIC_URL + "/cars/21.gif"}
         alt="menupic"
       />
     ),
@@ -4333,14 +4332,14 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/22.gif"}
+        src={process.env.PUBLIC_URL + "/cars/22.gif"}
         alt="menupic"
       />
     ),
     interior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/22.1.gif"}
+        src={process.env.PUBLIC_URL + "/cars/22.1.gif"}
         alt="menupic"
       />
     ),
@@ -4540,14 +4539,14 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/23.gif"}
+        src={process.env.PUBLIC_URL + "/cars/23.gif"}
         alt="menupic"
       />
     ),
     interior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/23.1.gif"}
+        src={process.env.PUBLIC_URL + "/cars/23.1.gif"}
         alt="menupic"
       />
     ),
@@ -4746,7 +4745,7 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/24.gif"}
+        src={process.env.PUBLIC_URL + "/cars/24.gif"}
         alt="menupic"
       />
     ),
@@ -4947,7 +4946,7 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/25.gif"}
+        src={process.env.PUBLIC_URL + "/cars/25.gif"}
         alt="menupic"
       />
     ),
@@ -5153,14 +5152,14 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/26.gif"}
+        src={process.env.PUBLIC_URL + "/cars/26.gif"}
         alt="menupic"
       />
     ),
     interior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/26.1.gif"}
+        src={process.env.PUBLIC_URL + "/cars/26.1.gif"}
         alt="menupic"
       />
     ),
@@ -5367,14 +5366,14 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/27.gif"}
+        src={process.env.PUBLIC_URL + "/cars/27.gif"}
         alt="menupic"
       />
     ),
     interior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/27.1.gif"}
+        src={process.env.PUBLIC_URL + "/cars/27.1.gif"}
         alt="menupic"
       />
     ),
@@ -5584,14 +5583,14 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/28.gif"}
+        src={process.env.PUBLIC_URL + "/cars/28.gif"}
         alt="menupic"
       />
     ),
     interior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/28.1.gif"}
+        src={process.env.PUBLIC_URL + "/cars/28.1.gif"}
         alt="menupic"
       />
     ),
@@ -5791,14 +5790,14 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/29.gif"}
+        src={process.env.PUBLIC_URL + "/cars/29.gif"}
         alt="menupic"
       />
     ),
     interior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/29.1.gif"}
+        src={process.env.PUBLIC_URL + "/cars/29.1.gif"}
         alt="menupic"
       />
     ),
@@ -6011,7 +6010,7 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/30.gif"}
+        src={process.env.PUBLIC_URL + "/cars/30.gif"}
         alt="menupic"
       />
     ),
@@ -6215,7 +6214,7 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/31.gif"}
+        src={process.env.PUBLIC_URL + "/cars/31.gif"}
         alt="menupic"
       />
     ),
@@ -6426,14 +6425,14 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/32.gif"}
+        src={process.env.PUBLIC_URL + "/cars/32.gif"}
         alt="menupic"
       />
     ),
     interior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/32.1.gif"}
+        src={process.env.PUBLIC_URL + "/cars/32.1.gif"}
         alt="menupic"
       />
     ),
@@ -6828,7 +6827,7 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/34.gif"}
+        src={process.env.PUBLIC_URL + "/cars/34.gif"}
         alt="menupic"
       />
     ),
@@ -7025,7 +7024,7 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/35.gif"}
+        src={process.env.PUBLIC_URL + "/cars/35.gif"}
         alt="menupic"
       />
     ),
@@ -7230,7 +7229,7 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/36.gif"}
+        src={process.env.PUBLIC_URL + "/cars/36.gif"}
         alt="menupic"
       />
     ),
@@ -7407,14 +7406,14 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/37.gif"}
+        src={process.env.PUBLIC_URL + "/cars/37.gif"}
         alt="menupic"
       />
     ),
     interior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/37.1.gif"}
+        src={process.env.PUBLIC_URL + "/cars/37.1.gif"}
         alt="menupic"
       />
     ),
@@ -7618,7 +7617,7 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/38.gif"}
+        src={process.env.PUBLIC_URL + "/cars/38.gif"}
         alt="menupic"
       />
     ),
@@ -7818,7 +7817,7 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/39.gif"}
+        src={process.env.PUBLIC_URL + "/cars/39.gif"}
         alt="menupic"
       />
     ),
@@ -8012,14 +8011,14 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/40.gif"}
+        src={process.env.PUBLIC_URL + "/cars/40.gif"}
         alt="menupic"
       />
     ),
     interior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/40.1.gif"}
+        src={process.env.PUBLIC_URL + "/cars/40.1.gif"}
         alt="menupic"
       />
     ),
@@ -8228,7 +8227,7 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/21.gif"}
+        src={process.env.PUBLIC_URL + "/cars/21.gif"}
         alt="menupic"
       />
     ),
@@ -8429,14 +8428,14 @@ const searchMenu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/26.gif"}
+        src={process.env.PUBLIC_URL + "/cars/26.gif"}
         alt="menupic"
       />
     ),
     interior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src={process.env.PUBLIC_URL + "/26.1.gif"}
+        src={process.env.PUBLIC_URL + "/cars/26.1.gif"}
         alt="menupic"
       />
     ),
