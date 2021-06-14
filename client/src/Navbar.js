@@ -282,7 +282,7 @@ function Navbar() {
                 </li>
                 <li>
                   <div
-                    className="fa fa-search btn text-warning text-decoration-none fa-lg mt-2 "
+                    className="fa fa-search btn text-warning text-decoration-none justify-content-md-center d-flex pb-md-3 fa-lg mt-2 "
                     onClick={display}
                   ></div>
                 </li>

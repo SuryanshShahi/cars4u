@@ -152,7 +152,7 @@ function CompareCars() {
                             <br></br>
                             <NavLink
                               to="/"
-                              className="btn view border-danger shadow-none"
+                              className="btn view border-danger py-2 shadow-none"
                               data-target="#mymodal3"
                               data-toggle="modal"
                               data-dismiss="modal"
@@ -164,7 +164,7 @@ function CompareCars() {
                       </div>
                     </div>
                   </div>
-                  <div className="container-fluid py-5">
+                  <div className="container-fluid pt-5">
                     <div className="row">
                       <div className="col-lg-7 col-md-12 col-12 pb-4">
                         <div className="card border-0 shadow py-4">
@@ -482,6 +482,18 @@ function CompareCars() {
                       </div>
                     </div>
                   </div>
+                  <div className="text-center py-3">
+                  <div
+                    className="btn btn-danger w-75"
+                    data-dismiss="modal"
+                    data-target="#mymodal4"
+                    data-toggle="modal"
+                  >
+                    <div className="justify-content-center align-content-center d-flex py-2 fa fa-sign-out fa-md">
+                      &nbsp;Go Back
+                    </div>
+                  </div>
+                </div>
                 </div>
               );
             })}

@@ -66,10 +66,7 @@ input[type="email"] {
   border-radius: 50px;
   height: 45px;
 }
-.A {
-  margin-left: -105px;
-  font-weight: 800;
-}
+
 .signin {
   background: transparent;
   height: 45px;
@@ -84,15 +81,6 @@ input[type="email"] {
 .btn {
   border-radius: 50px;
 }
-.subscribe.btn {
-  border-radius: 50px;
-  height: 45px;
-  padding-top: 10px;
-  box-shadow: 1px 1px 1px 1px #c0bebe;
-  text-decoration: none;
-  font-size: 17px;
-  background-color: #e43c5c;
-}
 .forbtn.btn {
   border-radius: 50px;
   height: 45px;
@@ -102,10 +90,7 @@ input[type="email"] {
   font-size: 17px;
   background-color: #e43c5c;
 }
-.subscribe.btn:hover {
-  background-color: #e61e43;
-  color: white;
-}
+
 .btn.view:hover {
   background-color: #e61e43;
   color: white;
@@ -133,6 +118,7 @@ input[type="email"] {
   z-index: -1;
   height: 100vh;
 }
+
 .all {
   background: rgba(0, 0, 0, 0.6);
 }
@@ -209,18 +195,18 @@ input[type="email"] {
   text-decoration: underline;
 }
 .fshadow li {
-  /* color: #333333; */
-  color: black;
+  color: white;
 }
 .fshadow li:hover {
   cursor: pointer;
-  color: #e61e43;
+  /* color: #e61e43; */
+  color: #ffc400;
 }
 .hey {
   min-width: 400px;
 }
 .down {
-  background-color: #dfdede;
+  background-color: #dfdede2d;
   padding-bottom: 65px;
   /* height: 10vh; */
   height: auto;
@@ -235,12 +221,24 @@ input[type="email"] {
   font-size: 17px;
 }
 .fshadow {
-  /* box-shadow: 0px 0px 5px 5px gainsboro; */
   box-shadow: 0px 2px 14px 2px gray;
+  position: relative;
+  z-index: 1;
+}
+.zxx{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.footer {
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  height: 100%;
 }
 .close {
   cursor: pointer;
 }
+
 
 .C {
   --bs-gutter-x: 0rem;
@@ -537,7 +535,7 @@ ul {
 .backtotop {
   position: fixed;
   float: right;
-  z-index: 1;
+  z-index: 999;
   top: 92%;
 }
 .back.active {
@@ -595,6 +593,7 @@ ul {
   box-shadow: none;
   transition: all 0.5s linear;
 }
+
 .closesearch {
   display: block;
   font-size: 48px;
@@ -633,4 +632,32 @@ ul {
 
 .searchbox:hover > .search.form-control {
   width: 150vh;
+}
+
+
+
+.emailInput{
+  outline: none;
+  display: block;
+  border-radius: 70px;
+  padding: 11px;
+  background-color: rgba(156, 152, 152, 0.815);
+  /* background-color: rgba(156, 152, 152, 0.6); */
+  box-shadow: none;
+  border: none;
+  transition: all 0.5s linear;
+}
+.subscribe {
+  border-radius: 50px;
+  background-color: #e43c5bc9;
+  padding: 11px 17.5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.subscribe:hover {
+  background-color: #e61e43;
+  color: white;
+}
+.emailInput::placeholder {
+  color: black;
 }
