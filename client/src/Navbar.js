@@ -4,7 +4,7 @@ import { NavLink, useHistory } from "react-router-dom";
 import web4 from "./images/img1.gif";
 import car from "./images/car.mp4";
 import swal from "sweetalert";
-import Menu from "./Data/Menu";
+import Search from "./Data/searchMenu";
 import web from "./images/seat.png";
 import web1 from "./images/bhp.png";
 import web2 from "./images/engine.png";
@@ -132,17 +132,17 @@ function Navbar() {
     }
   };
 
-  const [items, setItems] = useState(Menu);
+  const [items, setItems] = useState(Search);
   const filterImg = (id) => {
-    const updatedImg = Menu.filter((curElem) => {
-      if (curElem.id == id) {
+    const updatedImg = Search.filter((curElem) => {
+      if (curElem.id === id) {
         return curElem.id;
       }
     });
     setItems(updatedImg);
   };
   const filterImg1 = (id) => {
-    const updatedImg = Menu.filter((curElem) => {
+    const updatedImg = Search.filter((curElem) => {
       return curElem.id;
     });
     setItems(updatedImg);
@@ -212,6 +212,7 @@ function Navbar() {
                     className="nav-link active"
                     aria-current="page"
                     to="/"
+                    href="#cars4u"
                   >
                     Home
                   </NavLink>
@@ -280,10 +281,10 @@ function Navbar() {
                   </NavLink>
                 </li>
                 <li>
-                  <a
+                  <div
                     className="fa fa-search btn text-warning text-decoration-none fa-lg mt-2 "
                     onClick={display}
-                  ></a>
+                  ></div>
                 </li>
               </ul>
             </div>
@@ -296,7 +297,7 @@ function Navbar() {
           <div className="modal-content">
             <div className="row C">
               <div className="col-lg-6 col-md-6 col-sm-6 col-6">
-                <img src={web4} className="img-fluid E alt"></img>
+                <img src={web4} className="img-fluid E" alt="menupic"></img>
               </div>
               <div className="col-lg-6 col-sm-6 col-md-6 col-6">
                 <div className="modal-header">
@@ -373,12 +374,12 @@ function Navbar() {
         </div>
       </div>
 
-      <div className="modal fade " id="mymodal2">
+      <div className="modal fade" id="mymodal2">
         <div className="modal-dialog modal-xl">
           <div className="modal-content">
             <div className="row C">
               <div className="col-lg-6 col-md-6 col-sm-6 col-6">
-                <img src={web4} className="img-fluid D alt"></img>
+                <img src={web4} className="img-fluid D" alt="menupic"></img>
               </div>
               <div className="col-lg-6 col-sm-6 col-md-6 col-6">
                 <div className="modal-header">
@@ -564,7 +565,7 @@ function Navbar() {
             >
               {items
                 .filter((elem) => {
-                  if (searchTerm == "") {
+                  if (searchTerm === "") {
                     return elem;
                   } else if (
                     elem.name.toLowerCase().includes(searchTerm.toLowerCase())
@@ -594,13 +595,12 @@ function Navbar() {
               <div className="modal-content modalcompare">
                 {items.map((elem) => {
                   const {
-                    id,
                     name,
                     image,
-                    heading,
+
                     description,
                     price,
-                    link,
+
                     exterior,
                     interior,
                     interior1,
@@ -684,7 +684,7 @@ function Navbar() {
                                   </div>
                                   <div className="col-lg-9 col-md-12 col-sm-12 col-12 pt-2">
                                     <a
-                                      href="#rate"
+                                      href="#rate1"
                                       className="px-1 text-decoration-none ratethiscar "
                                     >
                                       <b>Rate This Car</b>
@@ -698,15 +698,11 @@ function Navbar() {
                                 <br></br>
                                 <NavLink
                                   to="/"
-                                  className=""
+                                  className="btn view border-danger shadow-none px-auto py-auto"
                                   data-dismiss="modal"
+                                  onClick={(e) => filterImg1(e.target.id)}
                                 >
-                                  <div
-                                    className="btn view border-danger shadow-none px-auto py-auto"
-                                    onClick={(e) => filterImg1(e.target.id)}
-                                  >
-                                    View Latest Offer
-                                  </div>
+                                  View Latest Offer
                                 </NavLink>
                               </div>
                             </div>
@@ -903,6 +899,7 @@ function Navbar() {
                                       <div className="col-5">
                                         <img
                                           src={web2}
+                                          alt="menupic"
                                           className="img-fluid"
                                         ></img>
                                       </div>
@@ -921,6 +918,7 @@ function Navbar() {
                                       <div className="col-4 py-2 pl-3">
                                         <img
                                           src={web1}
+                                          alt="menupic"
                                           className="img-fluid"
                                         ></img>
                                       </div>
@@ -939,6 +937,7 @@ function Navbar() {
                                       <div className="col-5">
                                         <img
                                           src={web}
+                                          alt="menupic"
                                           className="img-fluid"
                                         ></img>
                                       </div>
@@ -958,6 +957,7 @@ function Navbar() {
                                         <img
                                           src={web3}
                                           className="img-fluid px-2 py-2"
+                                          alt="menupic"
                                         ></img>
                                       </div>
                                       <div className="col-10 py-4">
@@ -995,7 +995,7 @@ function Navbar() {
                               </div>
                             </div>
                           </div>
-                          <div className="container-fluid py-5" id="more">
+                          <div className="container-fluid py-5" id="more1">
                             <h4>
                               <strong>Key Features of {name}</strong>
                             </h4>
@@ -1019,7 +1019,7 @@ function Navbar() {
                               Rate This Car
                             </h4>
                             <div className="rating justify-content-center d-flex">
-                              <div id="rate" className="star">
+                              <div id="rate1" className="star">
                                 <StarsRating
                                   count={5}
                                   onChange={ratingChanged}
@@ -1061,7 +1061,9 @@ function Navbar() {
               ? "back active fa fa-arrow-up position-absolute text-decoration-none hello text-white text-center"
               : "back fa fa-arrow-up position-absolute text-decoration-none hello text-white text-center d-none"
           }
-        ></a>
+        >
+          {" "}
+        </a>
       </div>
     </section>
   );

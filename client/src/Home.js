@@ -15,7 +15,6 @@ import "slick-carousel/slick/slick-theme.css";
 import StarsRating from "stars-rating";
 import Upcoming from "./Data/Upcoming";
 
-
 function Home() {
   const [items, setItems] = useState(Menu);
   const [slide] = useState(Slide);
@@ -31,7 +30,7 @@ function Home() {
   };
   const filterImg = (id) => {
     const updatedImg = Menu.filter((curElem) => {
-      if (curElem.id == id) {
+      if (curElem.id === id) {
         return curElem.id;
       }
     });
@@ -73,7 +72,7 @@ function Home() {
           <div className="container bg-white">
             <Slider {...settings}>
               {slide.map((elem) => {
-                const { id, name, image, description, price, rate } = elem;
+                const { id, name, image, price, rate } = elem;
                 return (
                   <NavLink
                     to="/"
@@ -201,7 +200,7 @@ function Home() {
 
               <div className="row menu-items1">
                 {items.map((elem) => {
-                  const { id, name, image, description, price, rate } = elem;
+                  const { id, name, image, price, rate } = elem;
                   return (
                     <div className="col-lg-4 col-md-4 col-sm-6 col-12">
                       <NavLink
@@ -246,6 +245,7 @@ function Home() {
                   <img
                     src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Arrows_down_animated.gif"
                     className="px-1 py-2 animatedarrow img-fluid"
+                    alt="menupic"
                   ></img>
                 </div>
               </div>
@@ -259,13 +259,13 @@ function Home() {
           <div className="modal-content modalcompare">
             {img.map((elem) => {
               const {
-                id,
+        
                 name,
                 image,
-                heading,
+          
                 description,
                 price,
-                link,
+ 
                 exterior,
                 interior,
                 interior1,
@@ -345,7 +345,7 @@ function Home() {
                               <div className="col-lg-9 col-md-12 col-sm-12 col-12 pt-2">
                                 <a
                                   href="#rate"
-                                  className="px-1 text-decoration-none ratethiscar "
+                                  className="px-1 text-decoration-none ratethiscar"
                                 >
                                   <b>Rate This Car</b>
                                 </a>
@@ -363,7 +363,7 @@ function Home() {
                               data-toggle="modal"
                               data-dismiss="modal"
                             >
-                              <div className="btn border-danger shadow-none px-auto py-auto">
+                              <div className="btn view border-danger shadow-none px-auto py-auto">
                                 View Latest Offer
                               </div>
                             </NavLink>
@@ -380,17 +380,12 @@ function Home() {
                             <strong>Exterior</strong>
                           </h7>
 
-                          <div className="exterior w-100">
-                            <video autoPlay loop muted>
-                              <source src={exterior} type="video/mp4"/>
-                              <source src={interior} />
-                              
-                            </video>
-                            
-                           
-
-                         
-                          </div>
+                          <div className="exterior">
+                          <video autoPlay loop muted>
+                            <source src={exterior} />
+                            <source src={interior} />
+                          </video>
+                        </div>
                           <h7 className="px-2 py-2">
                             <strong>Interior</strong>
                           </h7>
@@ -563,7 +558,7 @@ function Home() {
                               <div className="col-4 py-4 pl-4">
                                 <div className="row">
                                   <div className="col-5">
-                                    <img src={web2} className="img-fluid"></img>
+                                    <img src={web2} className="img-fluid" alt="menupic"></img>
                                   </div>
                                   <div className="col-7">
                                     <h6>
@@ -578,7 +573,7 @@ function Home() {
                               <div className="col-4 py-4 pl-4">
                                 <div className="row">
                                   <div className="col-4 py-2 pl-3">
-                                    <img src={web1} className="img-fluid"></img>
+                                    <img src={web1} className="img-fluid" alt="menupic"></img>
                                   </div>
                                   <div className="col-8">
                                     <h7>
@@ -593,7 +588,7 @@ function Home() {
                               <div className="col-4 py-4 pl-4">
                                 <div className="row">
                                   <div className="col-5">
-                                    <img src={web} className="img-fluid"></img>
+                                    <img src={web} className="img-fluid" alt="menupic"></img>
                                   </div>
                                   <div className="col-7">
                                     <h6>
@@ -611,6 +606,7 @@ function Home() {
                                     <img
                                       src={web3}
                                       className="img-fluid px-2 py-2"
+                                      alt="menupic"
                                     ></img>
                                   </div>
                                   <div className="col-10 py-4">
@@ -673,8 +669,6 @@ function Home() {
                               count={5}
                               onChange={ratingChanged}
                               size={50}
-                              // value={rate}
-                              // edit={false}
                               color2={"#ffa236"}
                             />
                           </div>
@@ -682,11 +676,11 @@ function Home() {
                       </div>
                     </div>
                     <div className="text-center py-3">
-                    <div className="btn btn-danger w-75"
-                      data-dismiss="modal"
-                    >
-                      <div className="justify-content-center align-content-center d-flex py-2 fa fa-sign-out fa-md">&nbsp;Go Back</div>
-                    </div>
+                      <div className="btn btn-danger w-75" data-dismiss="modal">
+                        <div className="justify-content-center align-content-center d-flex py-2 fa fa-sign-out fa-md">
+                          &nbsp;Go Back
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -731,7 +725,7 @@ function Home() {
           <div className="container bg-white">
             <Slider {...settings}>
               {latestcars.map((elem) => {
-                const { id, name, image, description, price, rate } = elem;
+                const { id, name, image, price, rate } = elem;
                 return (
                   <NavLink
                     to="/"
@@ -785,7 +779,7 @@ function Home() {
           <div className="container bg-white">
             <Slider {...settings}>
               {upcoming.map((elem) => {
-                const { id, name, image, description, price, rate } = elem;
+                const { id, name, image, price, rate } = elem;
                 return (
                   <NavLink
                     to="/"

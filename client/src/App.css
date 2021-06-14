@@ -11,6 +11,9 @@
   scroll-behavior: smooth;
   /* transition: 0.5s; */
 }
+.fixed-top {
+  z-index: 1;
+}
 
 #cars4u {
   background-color: #eee;
@@ -28,7 +31,8 @@
   background-color: #eee;
 }
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
+  height: 0px;
 }
 .searchlist::-webkit-scrollbar {
   width: 6px;
@@ -37,7 +41,7 @@
   width: 7px;
 }
 .modal::-webkit-scrollbar {
-  width: 0px;
+  width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -117,22 +121,13 @@ input[type="email"] {
 }
 .navbar {
   height: 80px;
-  /* position: sticky;
-  display: flex;
-  top: 0;
-  z-index: 999; */
 }
 .navbar.active {
   background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
 }
-/* .fixed-top{
-  transition: 0.5s;
-  z-index: 999;
-} */
+
 #hero {
-  /* background-image: url("./images/car.gif"); */
   background-repeat: no-repeat;
-  /* background-size: cover; */
   position: relative;
   width: 100%;
   z-index: -1;
@@ -140,13 +135,11 @@ input[type="email"] {
 }
 .all {
   background: rgba(0, 0, 0, 0.6);
-  /* z-index: -999; */
 }
 .back {
   height: 100vh;
   object-fit: cover;
   position: fixed;
-  /* z-index: -999; */
 }
 #hero:before {
   content: "";
@@ -164,11 +157,6 @@ input[type="email"] {
   transition: none;
 }
 
-/* @media (min-width: 100px) {
-  #hero{
-background-attachment: fixed;
-  }
-} */
 .navbar-brand {
   font-size: 40px;
   font-family: "Nunito", sans-serif;
@@ -277,15 +265,7 @@ background-attachment: fixed;
 }
 
 .cardhover {
-  /* padding: 60px 30px; */
-  /* position: relative;
-  overflow: hidden;
-  background: #fff;
-  transition: all 0.3s ease-in-out;
-  text-align: center; */
-  z-index: 1;
-  /* box-shadow: 2px 0 35px 0 rgb(68 88 144 / 12%); */
-
+  z-index: 0;
   border-radius: 8px;
   border: none;
 }
@@ -444,12 +424,6 @@ ul {
 .modal-fullscreen {
   height: fit-content;
 }
-/* .interior{
-  height: 550px;
-}
-.color{
-  height: 550px;
-} */
 .imgH {
   height: 600px;
 }
@@ -538,11 +512,6 @@ ul {
   color: black;
   border-bottom: 2.5px solid #e43c5c;
 }
-/* .hometab.active{
-  color: black;
-  background-color: #e43c5c;
-  background-size: cover;
-} */
 
 .hometab {
   cursor: pointer;
@@ -561,6 +530,8 @@ ul {
 }
 .modal {
   overflow-y: overlay;
+  position: fixed;
+  overflow-x: hidden;
 }
 
 .backtotop {
@@ -568,8 +539,6 @@ ul {
   float: right;
   z-index: 1;
   top: 92%;
-  /* bottom: 0%;
-left: 93.5%; */
 }
 .back.active {
   display: block;
@@ -577,8 +546,6 @@ left: 93.5%; */
 .menu-items1 {
   max-width: 1300px;
   max-height: 70vh;
-  /* height: fit-content;
-  width: fit-content; */
   overflow: auto;
 }
 .nav-tabs {
@@ -596,9 +563,7 @@ left: 93.5%; */
 .animatedarrow {
   width: 60px;
   position: absolute;
-  /* left: 50%; */
   top: 90%;
-  /* z-index: 1; */
   border-radius: 100px;
   background-color: rgba(0, 0, 0, 0.733);
 }
@@ -623,7 +588,7 @@ left: 93.5%; */
   display: block;
   border-radius: 70px;
   padding: 13.2px;
-  border-color:#e43c5c;
+  border-color: #e43c5c;
   background-color: rgba(156, 152, 152, 0.6);
   border-width: 7px;
   /* box-shadow: 0px 0px 7px 1px rgb(94, 92, 92); */
@@ -654,9 +619,9 @@ left: 93.5%; */
   height: 40vh;
   overflow-y: scroll;
   display: none;
-  transition: 0.5s ease-in-out
+  transition: 0.5s ease-in-out;
 }
-.searchbtn{
+.searchbtn {
   /* background: linear-gradient(to bottom, #c207e7 0%, #ff0458 100%); */
   border-radius: 50px;
   background-color: #e43c5b71;
@@ -666,7 +631,6 @@ left: 93.5%; */
   cursor: pointer;
 }
 
-.searchbox:hover>.search.form-control{
+.searchbox:hover > .search.form-control {
   width: 150vh;
 }
-

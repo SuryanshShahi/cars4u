@@ -13,11 +13,11 @@ function CompareCars() {
   window.onload = Compare;
 
   const [img, setImage] = useState(Menu);
-  const [items, setItems] = useState(Menu);
+  // const [items, setItems] = useState(Menu);
   const [Compares, setCompare] = useState(Compare);
   const filterImg = (id) => {
     const updatedImg = Compare.filter((curElem) => {
-      if (curElem.id == id) {
+      if (curElem.id === id) {
         return curElem.id;
       }
     });
@@ -26,7 +26,7 @@ function CompareCars() {
 
   const filterImg1 = (id) => {
     const updatedImg = Menu.filter((curElem) => {
-      if (curElem.id == id) {
+      if (curElem.id === id) {
         return curElem.id;
       }
     });
@@ -34,7 +34,7 @@ function CompareCars() {
   };
   const filterImg2 = (id1) => {
     const updatedImg = Menu.filter((curElem) => {
-      if (curElem.id == id1) {
+      if (curElem.id === id1) {
         return curElem.id;
       }
     });
@@ -52,13 +52,12 @@ function CompareCars() {
           <div className="modal-content modalcompare">
             {img.map((elem) => {
               const {
-                id,
                 name,
                 image,
-                heading,
+
                 description,
                 price,
-                link,
+
                 exterior,
                 interior,
                 interior1,
@@ -153,7 +152,7 @@ function CompareCars() {
                             <br></br>
                             <NavLink
                               to="/"
-                              className="btn border-danger shadow-none"
+                              className="btn view border-danger shadow-none"
                               data-target="#mymodal3"
                               data-toggle="modal"
                               data-dismiss="modal"
@@ -351,7 +350,11 @@ function CompareCars() {
                               <div className="col-4 py-4 pl-4">
                                 <div className="row">
                                   <div className="col-5">
-                                    <img src={web2} className="img-fluid"></img>
+                                    <img
+                                      src={web2}
+                                      className="img-fluid"
+                                      alt="menupic"
+                                    ></img>
                                   </div>
                                   <div className="col-7">
                                     <h6>
@@ -366,7 +369,11 @@ function CompareCars() {
                               <div className="col-4 py-4 pl-4">
                                 <div className="row">
                                   <div className="col-4 py-2 pl-3">
-                                    <img src={web1} className="img-fluid"></img>
+                                    <img
+                                      src={web1}
+                                      className="img-fluid"
+                                      alt="menupic"
+                                    ></img>
                                   </div>
                                   <div className="col-8">
                                     <h7>
@@ -381,7 +388,11 @@ function CompareCars() {
                               <div className="col-4 py-4 pl-4">
                                 <div className="row">
                                   <div className="col-5">
-                                    <img src={web} className="img-fluid"></img>
+                                    <img
+                                      src={web}
+                                      className="img-fluid"
+                                      alt="menupic"
+                                    ></img>
                                   </div>
                                   <div className="col-7">
                                     <h6>
@@ -399,6 +410,7 @@ function CompareCars() {
                                     <img
                                       src={web3}
                                       className="img-fluid px-2 py-2"
+                                      alt="menupic"
                                     ></img>
                                   </div>
                                   <div className="col-10 py-4">
@@ -500,14 +512,13 @@ function CompareCars() {
               {Compare.map((elem) => {
                 const {
                   id,
-                  id1,
                   name,
                   name1,
                   price,
                   price1,
                   image,
                   image1,
-                  description,
+
                   rate,
                 } = elem;
                 return (
@@ -767,8 +778,6 @@ function CompareCars() {
                     <div className="row">
                       <div className="col-lg-12 col-md-12 col-12">
                         <div className="card border-0 shadow-sm py-4 px-4">
-                          <h4 className="font-weight-bold"></h4>
-
                           <div className="container-fluid">
                             <div className="row">
                               <div className="col-4">
@@ -907,12 +916,12 @@ function CompareCars() {
                       </div>
                     </div>
                   </div>
-                     <div className="text-center py-4">
-                  <div className="btn btn-danger w-75"
-                    data-dismiss="modal"
-                  >
-                    <div className="justify-content-center align-content-center d-flex py-2 fa fa-sign-out fa-md">&nbsp;Go Back</div>
-                  </div>
+                  <div className="text-center py-4">
+                    <div className="btn btn-danger w-75" data-dismiss="modal">
+                      <div className="justify-content-center align-content-center d-flex py-2 fa fa-sign-out fa-md">
+                        &nbsp;Go Back
+                      </div>
+                    </div>
                   </div>
                 </div>
               );
