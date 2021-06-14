@@ -6638,7 +6638,7 @@ const Menu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src="https://drive.google.com/uc?export=view&id="
+        src="https://cdn.autoportal.com/img/new-cars-gallery/isuzu/mu-x/photo34/isuzu-mu-x-5762fb8a.jpg"
         alt="menupic"
       />
     ),
@@ -8236,7 +8236,7 @@ const Menu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src="https://drive.google.com/uc?export=view&id="
+        src="https://drive.google.com/uc?export=view&id=18D8cL2ahlK7WUva2vUSu97JtjywmlHZl"
         alt="menupic"
       />
     ),
@@ -8437,14 +8437,14 @@ const Menu = [
     exterior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src="https://drive.google.com/uc?export=view&id="
+        src="https://drive.google.com/uc?export=view&id=1TQjuLadsvXDSGvezjzVFtl5zRA-5JD7e"
         alt="menupic"
       />
     ),
     interior: (
       <img
         className="d-block w-100 img-fluid imgH"
-        src="https://drive.google.com/uc?export=view&id="
+        src="https://drive.google.com/uc?export=view&id=1Q31NTt4WYlnIHLUMWuE2DSqXdrZtNhmM"
         alt="menupic"
       />
     ),
