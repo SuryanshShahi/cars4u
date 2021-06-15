@@ -173,10 +173,9 @@ function CompareCars() {
                           </h7>
 
                           <div className="exterior">
-                            <video autoPlay loop muted>
-                              <source src={exterior} />
-                              <source src={interior} />
-                            </video>
+
+                            {exterior}
+                            {interior}
                           </div>
                           <h7 className="px-2 py-2">
                             <strong>Interior</strong>

@@ -62,14 +62,7 @@ const CompareCars=[
             <h6 className="float-right">₹3,165</h6>
             </div>
             </div>
-            // <div className="row"> 
-            // <hr className="text-success mt-2"></hr>
-            // <h6 className="text-center">₹8,71,686*</h6><hr className="text-success mt-2"></hr>
-            // <h6 className="text-center">1 Offer</h6><NavLink to="/compare" data-dismiss="modal" className="text-decoration-none text-center" >View now</NavLink><hr className="text-success mt-2"></hr>
-            // <h6 className="text-center">₹16,595</h6><NavLink to="/compare" data-dismiss="modal" className="text-decoration-none text-center" >Check Now</NavLink><hr className="text-success mt-2"></hr>
-            // <h6 className="text-center">₹34,946</h6><NavLink to="/compare" data-dismiss="modal" className="text-decoration-none text-center" >Triber Insurance</NavLink><hr className="text-success mt-2"></hr>
-            // <h6 className="text-center">₹2,034</h6><hr className="text-success mt-2"></hr>
-            // </div>
+    
             ],
    
         Engine:  [
