@@ -44,10 +44,14 @@ const Menu = [
       </p>
     ),
 
+    // exterior: (
+    //   <video autoPlay loop muted className="w-100">
+    //   <source src={process.env.PUBLIC_URL+"/carsWebm/1.webm"}/>
+    // </video>
+    // ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1ROvtDZvk3EU1dqzWcz3RLnK7ay6CrmD7" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/1.webm"} />
       </video>
     ),
 
@@ -260,13 +264,13 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="Video w-75">
-        <source src="https://drive.google.com/uc?export=view&id=15OGnTPnWqPPgSdPl2-unn402lGI1ht5j" />
+      <video autoPlay loop muted className="w-100">
+        <source src={process.env.PUBLIC_URL + "/carsWebm/15.webm"} />
       </video>
     ),
     interior: (
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1TBKkJRpxZSIK9eN_zp06Z821cJRsCruY" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/15.1.webm"} />
       </video>
     ),
     interior1:
@@ -463,9 +467,8 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1b4yVfPkOxfcDqoLxHxhAY2guTcWxJ6sq" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/2.webm"} />
       </video>
     ),
     interior1:
@@ -657,9 +660,8 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1QxrSdN-1fEEs3CO5hyIGlF2dS1uunGXd" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/3.webm"} />
       </video>
     ),
     interior1:
@@ -855,15 +857,13 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1-aGjFNY5F_lZFGd8O8JDIRvI0C19xwwi" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/4.webm"} />
       </video>
     ),
     interior: (
-       // />
-      <video autoPlay loop muted className="Video">
-        <source src="https://drive.google.com/uc?export=view&id=1aXECukZfIjVSb89nEo4lsu7vwc5fYNTt" />
+      <video autoPlay loop muted className="w-100">
+        <source src={process.env.PUBLIC_URL + "/carsWebm/4.1.webm"} />
       </video>
     ),
     interior1:
@@ -1061,10 +1061,11 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
-      <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1zWpsj4guRqq-k7G0yiZJR08bP22aK0rs" />
-      </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1m62aSscqbH0Rz2TvXbo5yWmR0phS6U60"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Volvo/XC40/7535/1596176173415/interior-image-217.jpg",
@@ -1249,9 +1250,8 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1wG7dRnr2mTN7oFQqgI2jp53hfyMK-XUL" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/6.webm"} />
       </video>
     ),
     interior1:
@@ -1443,15 +1443,13 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1IZ6lEGhm4gh8IWgKSa92lLx9fv8qJ2zE" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/7.webm"} />
       </video>
     ),
     interior: (
-       // />.
-      <video autoPlay loop muted className="Video">
-        <source src="https://drive.google.com/uc?export=view&id=1NUwOUt_Nnkf2kXEUQwgHa5ECK6Q_IW2W" />
+      <video autoPlay loop muted className="w-100">
+        <source src={process.env.PUBLIC_URL + "/carsWebm/7.1.webm"} />
       </video>
     ),
     interior1:
@@ -1648,9 +1646,8 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1ntgC9BNsaKfJcSQFCEfB1Rix-G6cher2" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/8.webm"} />
       </video>
     ),
     interior1:
@@ -1848,9 +1845,8 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1HFjP76G63BV83HryPidtbk7caf0W5uN0" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/9.webm"} />
       </video>
     ),
     interior1:
@@ -2054,15 +2050,13 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1GhUgXQVoZGQFbyuJYP7dlsRt-K11wE5M" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/10.webm"} />
       </video>
     ),
     interior: (
-       // />
-      <video autoPlay loop muted className="Video">
-        <source src="https://drive.google.com/uc?export=view&id=1NUwOUt_Nnkf2kXEUQwgHa5ECK6Q_IW2W" />
+      <video autoPlay loop muted className="w-100">
+        <source src={process.env.PUBLIC_URL + "/carsWebm/10.1.webm"} />
       </video>
     ),
     interior1:
@@ -2264,9 +2258,8 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1Zp7IPWIAh8n5c3s5ZYIVNCD8C-le485B" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/11.webm"} />
       </video>
     ),
     interior1:
@@ -2468,15 +2461,13 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=11ykXCEx7pBOWOSKZYxEE4On5hjoNTM4H" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/12.webm"} />
       </video>
     ),
     interior: (
-       // />
-      <video autoPlay loop muted className="Video">
-        <source src="https://drive.google.com/uc?export=view&id=1DBModjdyTpWgJ6BpuWo7mrWBsuH3UGOE" />
+      <video autoPlay loop muted className="w-100">
+        <source src={process.env.PUBLIC_URL + "/carsWebm/12.1.webm"} />
       </video>
     ),
     interior1:
@@ -2675,15 +2666,13 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=10W0TH-xAFRdD2YVtykx-fTUiO1q5BGgL" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/13.webm"} />
       </video>
     ),
     interior: (
-       // />
-      <video autoPlay loop muted className="Video">
-        <source src="https://drive.google.com/uc?export=view&id=10RN2yglz-zcOm_W3Mx6-Bkt8x3hj2oCw" />
+      <video autoPlay loop muted className="w-100">
+        <source src={process.env.PUBLIC_URL + "/carsWebm/13.1.webm"} />
       </video>
     ),
     interior1:
@@ -2875,12 +2864,12 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1sWzNazqtdShZ8mZPol2gBLqJ2gpnCRsR" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/14.webm"} />
       </video>
     ),
     interior: (
-      <video autoPlay loop muted className="Video">
-        <source src="https://drive.google.com/uc?export=view&id=16Qf3ryq3bBjiEkUbwABBMdK2qTtVuWD_" />
+      <video autoPlay loop muted className="w-100">
+        <source src={process.env.PUBLIC_URL + "/carsWebm/14.1.webm"} />
       </video>
     ),
     interior1:
@@ -3038,7 +3027,6 @@ const Menu = [
       </div>,
     ],
   },
-
   {
     id: 16,
     rate: "4.5",
@@ -3081,15 +3069,13 @@ const Menu = [
       </p>
     ),
     exterior: (
-   
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=16TzUt8HrtyWV-N9Ca0Dmk_p-XjTZNlhU" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/16.webm"} />
       </video>
     ),
     interior: (
-
-      <video autoPlay loop muted className="Video">
-        <source src="https://drive.google.com/uc?export=view&id=1DcNB9MD0KcZbdsTrdmRds-tAOSkWJsYV" />
+      <video autoPlay loop muted className="w-100">
+        <source src={process.env.PUBLIC_URL + "/carsWebm/16.1.webm"} />
       </video>
     ),
     interior1:
@@ -3282,16 +3268,15 @@ const Menu = [
       </p>
     ),
     exterior: (
-    
-      <video autoPlay loop muted className="w-100">
-        <source src="https://media2.giphy.com/media/cmBPTHsRAoEOmVUQGD/giphy.gif" />
-      </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://media2.giphy.com/media/cmBPTHsRAoEOmVUQGD/giphy.gif"
+        alt="menupic"
+      />
     ),
-
     interior: (
-      
-      <video autoPlay loop muted className="Video">
-        <source src="https://drive.google.com/uc?export=view&id=1cPpkhtnWuadFMUdPA726qW8oj0mdN34r" />
+      <video autoPlay loop muted className="w-100">
+        <source src={process.env.PUBLIC_URL + "/carsWebm/17.1.webm"} />
       </video>
     ),
     interior1:
@@ -3492,15 +3477,13 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1yYLIsBNfL11l1p35G76gSPiS-SzjWu0h" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/18.webm"} />
       </video>
     ),
     interior: (
-       // />
-      <video autoPlay loop muted className="Video">
-        <source src="https://drive.google.com/uc?export=view&id=1gPfLu0avwoE6vgOma8LV7bCAQEgUE4KU" />
+      <video autoPlay loop muted className="w-100">
+        <source src={process.env.PUBLIC_URL + "/carsWebm/18.1.webm"} />
       </video>
     ),
     interior1:
@@ -3701,15 +3684,13 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=19VnC7cmr9bVVtYVexBWQhC-mjN5FoCDE" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/19.webm"} />
       </video>
     ),
     interior: (
-       // />
-      <video autoPlay loop muted className="Video">
-        <source src="https://drive.google.com/uc?export=view&id=10ZXk5hhGSh7zVATyu6AvYN-b-5xQnP3X" />
+      <video autoPlay loop muted className="w-100">
+        <source src={process.env.PUBLIC_URL + "/carsWebm/19.1.webm"} />
       </video>
     ),
     interior1:
@@ -3905,15 +3886,13 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1atROcwHd92JJu1sKVFKbU0Lui9ZrOLR0" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/20.webm"} />
       </video>
     ),
     interior: (
-       // />
-      <video autoPlay loop muted className="Video">
-        <source src="https://drive.google.com/uc?export=view&id=1MLM-7Iwukqm2-GD9NhE7Vq9otVoM2V4Y" />
+      <video autoPlay loop muted className="w-100">
+        <source src={process.env.PUBLIC_URL + "/carsWebm/20.1.webm"} />
       </video>
     ),
 
@@ -4108,9 +4087,8 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1ns_SKCvB_muDqbtNl_qxnJ0rBSjZKcBW" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/21.webm"} />
       </video>
     ),
     interior1:
@@ -4302,19 +4280,13 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1vPwj3l98B8lIVGC8fgJn3nQN2zehIlc5" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/22.webm"} />
       </video>
     ),
     interior: (
-      //   <img
-      //     className="w-100 imgH"
-      //     src="https://drive.google.com/uc?export=view&id=1TZ8BiwuU-LRNXkM4p5-po6rZWXDwvMc6"
-      //     alt="menupic"
-      //   />
-      <video autoPlay loop muted className="Video">
-        <source src="https://drive.google.com/uc?export=view&id=1Yn0-dKAYiqpPbk0blSn2Sx7DECdl_fuV" />
+      <video autoPlay loop muted className="w-100">
+        <source src={process.env.PUBLIC_URL + "/carsWebm/22.1.webm"} />
       </video>
     ),
     interior1:
@@ -4511,15 +4483,13 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1hCTRSq1e_PNshvKuqWtmAxA1x2IIv8pg" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/23.webm"} />
       </video>
     ),
     interior: (
-       // />
-      <video autoPlay loop muted className="Video">
-        <source src="https://drive.google.com/uc?export=view&id=1fywasxKmkuFFb_iJCjFvmbGOLFzWTnN6" />
+      <video autoPlay loop muted className="w-100">
+        <source src={process.env.PUBLIC_URL + "/carsWebm/23.1.webm"} />
       </video>
     ),
     interior1:
@@ -4715,9 +4685,8 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1SSopPvUiteT4bTpOXR09ZrbUDXtIJy4b" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/24.webm"} />
       </video>
     ),
 
@@ -4915,9 +4884,8 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1oAPmyKoyJRqU9x-UyTpd6sqB6kmG4X3T" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/25.webm"} />
       </video>
     ),
     interior1:
@@ -5120,15 +5088,13 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=16Hi5ciG8FGRwYaUxnn4jvlREs6qL1rZ1" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/26.webm"} />
       </video>
     ),
     interior: (
-       // />
-      <video autoPlay loop muted className="Video">
-        <source src="https://drive.google.com/uc?export=view&id=1rZ1tWh40Z5INF8MNVMSr6RY-y2HQtW5j" />
+      <video autoPlay loop muted className="w-100">
+        <source src={process.env.PUBLIC_URL + "/carsWebm/26.1.webm"} />
       </video>
     ),
     interior1:
@@ -5332,15 +5298,13 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1n3g25ApHLLTh4hSyMRGa0YFfyDX2rGS8" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/27.webm"} />
       </video>
     ),
     interior: (
-       // />
-      <video autoPlay loop muted className="Video">
-        <source src="https://drive.google.com/uc?export=view&id=1rH8UikDg-m7COb9YX8kpcrBKzkWNb16h" />
+      <video autoPlay loop muted className="w-100">
+        <source src={process.env.PUBLIC_URL + "/carsWebm/27.1.webm"} />
       </video>
     ),
     interior1:
@@ -5547,15 +5511,13 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1SqvkuvoLKf5Rw0DhvxR1rzt0_uKPkofC" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/28.webm"} />
       </video>
     ),
     interior: (
-       // />
-      <video autoPlay loop muted className="Video">
-        <source src="https://drive.google.com/uc?export=view&id=1DqE0J9Ltf2lGMCaptF9j5VU2Iv-zcgh7" />
+      <video autoPlay loop muted className="w-100">
+        <source src={process.env.PUBLIC_URL + "/carsWebm/28.1.webm"} />
       </video>
     ),
     interior1:
@@ -5752,15 +5714,13 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1oE_qAqwWiFhx7yaQoQVjRB-kzeejpfaE" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/29.webm"} />
       </video>
     ),
     interior: (
-       // />
-      <video autoPlay loop muted className="Video">
-        <source src="https://drive.google.com/uc?export=view&id=1-2OwxpA4fOkVo2qalgbGNKfUh4ASlg4U" />
+      <video autoPlay loop muted className="w-100">
+        <source src={process.env.PUBLIC_URL + "/carsWebm/29.1.webm"} />
       </video>
     ),
     interior1:
@@ -5970,10 +5930,11 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
-      <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1dlLJb3xyAet3UQnLHoT465KG88t2kjvq" />
-      </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1bhFVVwzyhjaXfMPd4dNKCZyTjqKAtC8l"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Mercedes-Benz/GLA/7269/1621945759500/rear-seats-52.jpg",
@@ -6173,10 +6134,11 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
-      <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1fp1aKaT1j9AU3yVPV-iGLYXX9ujdV-lg" />
-      </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1wL4YDLsSzi7SVOCsTR3ntYjzlPJQWkAm"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Isuzu/D-Max/7208/Isuzu-D-Max-Hi-Lander/1620647680748/airbags-94.jpg",
@@ -6383,15 +6345,13 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1j-s_PmDwi5kLym3LDV-jYb4xBkZ8MBWm" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/32.webm"} />
       </video>
     ),
     interior: (
-       // />
-      <video autoPlay loop muted className="Video">
-        <source src="https://drive.google.com/uc?export=view&id=1r8z--TfqLsxzTxSCGgphN0m4s_oPpFPU" />
+      <video autoPlay loop muted className="w-100">
+        <source src={process.env.PUBLIC_URL + "/carsWebm/32.1.webm"} />
       </video>
     ),
     interior1:
@@ -6586,7 +6546,7 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="Video"
+        className="d-block w-100 img-fluid imgH"
         src="https://cdn.autoportal.com/img/new-cars-gallery/isuzu/mu-x/photo34/isuzu-mu-x-5762fb8a.jpg"
         alt="menupic"
       />
@@ -6783,9 +6743,8 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1I-NQ9g8wDyWFaf-9P2s7Syi6ttW5vrTt" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/34.webm"} />
       </video>
     ),
     interior1:
@@ -6979,9 +6938,8 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1RNRZ_rLV-YNgNTZtWUFmvYSOdcJ4yI1h" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/35.webm"} />
       </video>
     ),
     interior1:
@@ -7183,10 +7141,11 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
-      <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1M0CaPvNtSOIoh7PSCpE8C9KyezsRQnZB" />
-      </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1Ho7yJycJRX3Uc6Vb35CPsJt_YabzIerC"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Mercedes-Benz/A-Class-Limousine/8414/1616659824292/rear-seats-52.jpg",
@@ -7342,10 +7301,8 @@ const Menu = [
         Toyota Glanza Powertrain: Toyota has provided the hatchback with a
         1.2-litre DualJet mild-hybrid engine (90PS/113Nm) mated to a 5-speed MT
         and a 1.2-litre petrol engine (83PS/113Nm) paired with a 5-speed MT or
-        CVT. 
-        <br></br>
-        Here are the fuel economy figures of the Toyota Glanza:
-        <ul className="pl-5">
+        CVT. Here are the fuel economy figures of the Toyota Glanza:
+        <ul>
           <li>1.2-litre petrol MT- 21.01kmpl</li>
 
           <li>1.2-litre petrol mild hybrid MT- 23.87kmpl</li>
@@ -7361,15 +7318,13 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1dL_4VcGjegWlDkXMUMDBJ75cxBqoT0dN" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/37.webm"} />
       </video>
     ),
     interior: (
-       // />
-      <video autoPlay loop muted className="Video">
-        <source src="https://drive.google.com/uc?export=view&id=1th0HNqUkw9Ld7qv4v3YyGuKk8_FjVoSD" />
+      <video autoPlay loop muted className="w-100">
+        <source src={process.env.PUBLIC_URL + "/carsWebm/37.1.webm"} />
       </video>
     ),
     interior1:
@@ -7570,9 +7525,8 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1OOdzCT0wc7Rqj2ehWLpoz_Ai0C19tA8W" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/38.webm"} />
       </video>
     ),
     interior1:
@@ -7769,10 +7723,11 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
-      <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1t4IeHBC20mgT-pocyWv2_-eQ9lsr49Nr" />
-      </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1eyBEFVx_uPA6ZPxZZBhoxQqbZtvDP8vr"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Renault/Kiger/8350/1613711475022/dashboard-59.jpg",
@@ -7962,15 +7917,13 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1NqVm231ihuTT1lXtFQEPy3qROkdonaeC" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/40.webm"} />
       </video>
     ),
     interior: (
-       // />
-      <video autoPlay loop muted className="Video">
-        <source src="https://drive.google.com/uc?export=view&id=1y0MIrSuB3AVb-Mf-uWjigSMIDQ6lBG8C" />
+      <video autoPlay loop muted className="w-100">
+        <source src={process.env.PUBLIC_URL + "/carsWebm/40.1.webm"} />
       </video>
     ),
     interior1:
@@ -8176,9 +8129,8 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1ns_SKCvB_muDqbtNl_qxnJ0rBSjZKcBW" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/21.webm"} />
       </video>
     ),
     interior1:
@@ -8376,14 +8328,13 @@ const Menu = [
       </p>
     ),
     exterior: (
-       // />
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=16Hi5ciG8FGRwYaUxnn4jvlREs6qL1rZ1" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/26.webm"} />
       </video>
     ),
     interior: (
       <video autoPlay loop muted className="w-100">
-        <source src="https://drive.google.com/uc?export=view&id=1rZ1tWh40Z5INF8MNVMSr6RY-y2HQtW5j" />
+        <source src={process.env.PUBLIC_URL + "/carsWebm/26.1.webm"} />
       </video>
     ),
     interior1:

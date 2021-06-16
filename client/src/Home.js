@@ -13,6 +13,7 @@ import web3 from "./images/thumb.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import StarsRating from "stars-rating";
+// import dsd from "{https://drive.google.com/file/d/1FjTIdyrBAa4WIq1vZBS7VhmlAh5wJoUq/view?usp=sharing}";
 import Upcoming from "./Data/Upcoming";
 
 function Home() {
@@ -34,23 +35,8 @@ function Home() {
         return curElem.id;
       }
     });
-    setItems(updatedImg);
+    setImage(updatedImg);
   };
-  // const filterImg1 = (id) => {
-  //   const updatedImg = Menu.filter((curElem) => {
-  //     return curElem.id;
-  //   });
-  //   setItems(updatedImg);
-  // };
-
-  // const filterImg = (id) => {
-  //   const updatedImg = Menu.filter((curElem) => {
-  //     if (curElem.id === id) {
-  //       return curElem.id;
-  //     }
-  //   });
-  //   setImage(updatedImg);
-  // };
 
   const ratingChanged = (newRating) => {
     console.log(newRating);
@@ -272,9 +258,8 @@ function Home() {
       <div className="modal fade " id="mymodal3">
         <div className="modal-dialog modal-fullscreen">
           <div className="modal-content modalcompare">
-            {items.map((elem) => {
+            {img.map((elem) => {
               const {
-                id,
                 name,
                 image,
 
@@ -311,7 +296,6 @@ function Home() {
                     <div
                       className="close pr-lg-2 mr-lg-1 pr-md-4 pr-sm-4 pr-4 pt-4 "
                       data-dismiss="modal"
-                      onClick={() => setItems(Menu)}
                     >
                       &times;
                     </div>
@@ -375,10 +359,9 @@ function Home() {
                             <NavLink
                               to="/"
                               className="btn view border-danger shadow-none py-2"
-                              // data-target="#mymodal3"
-                              // data-toggle="modal"
+                              data-target="#mymodal3"
+                              data-toggle="modal"
                               data-dismiss="modal"
-                              onClick={() => setItems(Menu)}
                             >
                               View Latest Offer
                             </NavLink>
@@ -395,13 +378,11 @@ function Home() {
                             <strong>Exterior</strong>
                           </h7>
 
-                          <div className="" key={id}>
-                            <div className="justify-content-center py-4 w-100 videoBG d-flex">
-                              {exterior}
-                            </div>
-                            <div className="justify-content-center d-flex">
-                              {interior}
-                            </div>
+                          <div className="justify-content-center py-4 w-100 videoBG d-flex">
+                            {exterior}
+                          </div>
+                          <div className="justify-content-center d-flex">
+                            {interior}
                           </div>
                           <h7 className="px-2 py-2">
                             <strong>Interior</strong>
@@ -705,11 +686,7 @@ function Home() {
                       </div>
                     </div>
                     <div className="text-center py-3">
-                      <div
-                        className="btn btn-danger w-75"
-                        data-dismiss="modal"
-                        onClick={() => setItems(Menu)}
-                      >
+                      <div className="btn btn-danger w-75" data-dismiss="modal">
                         <div className="justify-content-center align-content-center d-flex py-2 fa fa-sign-out fa-md">
                           &nbsp;Go Back
                         </div>
