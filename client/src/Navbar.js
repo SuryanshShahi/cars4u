@@ -1,4 +1,3 @@
-// import src from "*.avif";
 import React, { useState } from "react";
 import { NavLink, useHistory } from "react-router-dom";
 import web4 from "./images/img1.gif";
@@ -532,6 +531,8 @@ function Navbar() {
           </NavLink>
         </div>
 
+
+
         <div id="myOverlay" className="overlay">
           <div
             className="closesearch text-white justify-content-end d-flex pr-5"
@@ -1049,7 +1050,8 @@ function Navbar() {
             </div>
           </div>
         </div>
-      </div>
+ 
+        </div>
 
       <div className="backtotop container-fluid justify-content-end d-flex">
         <a
@@ -1068,5 +1070,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
-// <h1 className="text-white">Ask before you borrow it.</h1>

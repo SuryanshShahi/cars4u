@@ -44,9 +44,14 @@ const Menu = [
       </p>
     ),
 
+    // exterior: (      
+    //   <video autoPlay loop muted className="w-100">
+    //   <source src={process.env.PUBLIC_URL+"/cars/1.mp4"}/>
+    // </video>
+    // ),
     exterior: (      
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1q-Vja6C8mhGKIBsRTzB7Et3IjS2uQ9Wc" className="hero" />
+      <source src={process.env.PUBLIC_URL+"/cars/1.mp4"}/>
     </video>
     ),
 
@@ -260,12 +265,12 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1-sDeckP3557QInOd0yffN2Qf2jxvGXRP" className="hero" />
+      <source src={process.env.PUBLIC_URL+"/cars/15.mp4"}/>
     </video>
     ),
     interior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1Fkls8BoUCxsZDam3i7QP3vxSCzbmG738" className="hero" />
+      <source src={process.env.PUBLIC_URL+"/cars/15.1.mp4"}/>
     </video>
     ),
     interior1:
@@ -463,7 +468,7 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1zG0MyNftd1L70lLeHxD-QlvCnGG2N6d6" className="hero" />
+      <source src={process.env.PUBLIC_URL+"/cars/2.mp4"}/>
     </video>
     ),
     interior1:
@@ -656,7 +661,7 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1nFgcHT11SiDnJSgqO43yLGB9B-mWloxq" className="hero" />
+      <source src={process.env.PUBLIC_URL+"/cars/3.mp4"}/>
     </video>
     ),
     interior1:
@@ -853,12 +858,12 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=108BpmtmrNLJNZx0Ks9HSFHTbBDVXVRcF" className="hero" />
+      <source src={process.env.PUBLIC_URL+"/cars/4.mp4"}/>
     </video>
     ),
     interior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=19TjfjaWpTL3xQPrQCG2x1GsvlqhqXicj" className="hero" />
+      <source src={process.env.PUBLIC_URL+"/cars/4.1.mp4"}/>
     </video>
     ),
     interior1:
@@ -1246,7 +1251,7 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1RL2Bd_7zzk3RI3dPEA-lUvtAR3y75g1_" className="hero" />
+      <source src={process.env.PUBLIC_URL+"/cars/6.mp4"}/>
     </video>
     ),
     interior1:
@@ -1439,12 +1444,12 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1eGTIXXIEC9IENyETIrcpzKUoVvpNxaYK" className="hero" />
+      <source src={process.env.PUBLIC_URL+"/cars/7.mp4"}/>
     </video>
     ),
     interior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1QcgGsapUQMHpcHO_Gypcl4BKHAPKetLb" className="hero" />
+      <source src={process.env.PUBLIC_URL+"/cars/7.1.mp4"}/>
     </video>
     ),
     interior1:
@@ -1642,7 +1647,7 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1Xey6IimyUMfcjSZ3UrRouYfhWFpAJxp7" className="hero" />
+      <source src={process.env.PUBLIC_URL+"/cars/8.mp4"}/>
     </video>
     ),
     interior1:
@@ -1841,7 +1846,7 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1abnxEv6x2tsdAIe7QLnU-MaagHiWMCB0" className="hero" />
+      <source src={process.env.PUBLIC_URL+"/cars/9.mp4"}/>
     </video>
     ),
     interior1:
@@ -2046,12 +2051,12 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1w8QfBr5nsOZ88xvhlRQmvgjsbumi5wjj" className="hero" />
+      <source src={process.env.PUBLIC_URL+"/cars/10.mp4"}/>
     </video>
     ),
     interior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1hCDBVn69WmJ35eamSQ-MUFncBpr5qBAX" className="hero" />
+      <source src={process.env.PUBLIC_URL+"/cars/10.1.mp4"}/>
     </video>
     ),
     interior1:
@@ -2254,7 +2259,7 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1PlgtxX8InoUp8DOkZL5zCB4Z73fKCbLF"/>
+      <source src={process.env.PUBLIC_URL+"/cars/11.mp4"}/>
     </video>
     ),
     interior1:
@@ -2457,12 +2462,12 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1JtpMhDtYutiTcUYil0S96FeL_8-pZbwE" />
+      <source src={process.env.PUBLIC_URL+"/cars/12.mp4"}/>
     </video>
     ),
     interior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1BiCejbL3UYqS9cO6253BB-qbSsIXZEzW" />
+      <source src={process.env.PUBLIC_URL+"/cars/12.1.mp4"}/>
     </video>
     ),
     interior1:
@@ -2662,12 +2667,12 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1Kxx7azlG_DyHleWnVZEAWwS53SVHr_DL" />
+      <source src={process.env.PUBLIC_URL+"/cars/13.mp4"}/>
     </video>
     ),
     interior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1cXyKMjjmdz_lyT4ye_URz4C4qK3yjkjQ" />
+      <source src={process.env.PUBLIC_URL+"/cars/13.1.mp4"}/>
     </video>
     ),
     interior1:
@@ -2859,12 +2864,12 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1N8rZWgBJvZ3OyxVCc61s6G77ljqNXot3" />
+      <source src={process.env.PUBLIC_URL+"/cars/14.mp4"}/>
     </video>
     ),
     interior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1foOCPP9xwAOrNLvELduMYe1MX9qiz2yo" />
+      <source src={process.env.PUBLIC_URL+"/cars/14.1.mp4"}/>
     </video>
     ),
     interior1:
@@ -3065,12 +3070,12 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1tYKLQc3GvwYRsuGsViqKYAfbV3pOyCs7" />
+      <source src={process.env.PUBLIC_URL+"/cars/16.mp4"}/>
     </video>
     ),
     interior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=14UGGksNw5jrKlF2qRREWiy7u_scsQFB9" />
+      <source src={process.env.PUBLIC_URL+"/cars/16.1.mp4"}/>
     </video>
     ),
     interior1:
@@ -3269,10 +3274,9 @@ const Menu = [
         alt="menupic"
       />
     ),
-
     interior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1aX_DVkU701cuVeJnV_aR12NpzUBPnr-D" />
+      <source src={process.env.PUBLIC_URL+"/cars/17.1.mp4"}/>
     </video>
     ),
     interior1:
@@ -3474,12 +3478,12 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1psYfc8aj43K2ZuxCcaKrlGQ5TQAvDZ4i" />
+      <source src={process.env.PUBLIC_URL+"/cars/18.mp4"}/>
     </video>
     ),
     interior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1dUQGmonInHyof80vfE3HjeWBrWWidQxC" />
+      <source src={process.env.PUBLIC_URL+"/cars/18.1.mp4"}/>
     </video>
     ),
     interior1:
@@ -3681,12 +3685,12 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=12xsC2B78M1TIC-byMuuDf2i1b0vUeA6F" />
+      <source src={process.env.PUBLIC_URL+"/cars/19.mp4"}/>
     </video>
     ),
     interior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1PrV8ZL-zLN6ifo_AtizUtcZzePw85rG_" />
+      <source src={process.env.PUBLIC_URL+"/cars/19.1.mp4"}/>
     </video>
     ),
     interior1:
@@ -3883,12 +3887,12 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1xHZkBGD9xLayr9CBCmZX5WSzxq4yJ9B4" />
+      <source src={process.env.PUBLIC_URL+"/cars/20.mp4"}/>
     </video>
     ),
     interior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=18NM9c5gP1fnq62F5U4ixQZfiuCeqZxlv" />
+      <source src={process.env.PUBLIC_URL+"/cars/20.1.mp4"}/>
     </video>
     ),
 
@@ -4084,7 +4088,7 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1CE7WZeX4NNkyKo4tiq9ruNZtdDzxbUkF" />
+      <source src={process.env.PUBLIC_URL+"/cars/21.mp4"}/>
     </video>
     ),
     interior1:
@@ -4277,12 +4281,12 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=14yTi9yJqlfbRyZJrv1SHM3old07kJCcv" />
+      <source src={process.env.PUBLIC_URL+"/cars/22.mp4"}/>
     </video>
     ),
     interior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=19MM8il43ouX_FZWHVXv90fFs_WnZ3ujM" />
+      <source src={process.env.PUBLIC_URL+"/cars/22.1.mp4"}/>
     </video>
     ),
     interior1:
@@ -4480,12 +4484,12 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1DtuJKUPIRhFjHdHPbNv1bG2xZcoERyXT" />
+      <source src={process.env.PUBLIC_URL+"/cars/23.mp4"}/>
     </video>
     ),
     interior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1zG0MyNftd1L70lLeHxD-QlvCnGG2N6d6" className="hero" />
+      <source src={process.env.PUBLIC_URL+"/cars/23.1.mp4"}/>
     </video>
     ),
     interior1:
@@ -4682,7 +4686,7 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1imnxmpf-Q0Z__xSciEAVdrkNbHfSeM0J" />
+      <source src={process.env.PUBLIC_URL+"/cars/24.mp4"}/>
     </video>
     ),
 
@@ -4881,7 +4885,7 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1UhX9IdeOHgSggXt4EZNjPCKKcUXDky1j" />
+      <source src={process.env.PUBLIC_URL+"/cars/25.mp4"}/>
     </video>
     ),
     interior1:
@@ -5085,12 +5089,12 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1UTWBdYsLQtXU-B230xJdIPJQFvbrhFNS" />
+      <source src={process.env.PUBLIC_URL+"/cars/26.mp4"}/>
     </video>
     ),
     interior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1wl-g3YPr-kq-i9UT34Y1Zg8nQrWoll0I" />
+      <source src={process.env.PUBLIC_URL+"/cars/26.1.mp4"}/>
     </video>
     ),
     interior1:
@@ -5295,12 +5299,12 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=15hr5Kufacnhac526gupgUSsALpOy-f7s" />
+      <source src={process.env.PUBLIC_URL+"/cars/27.mp4"}/>
     </video>
     ),
     interior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1Ps6ldnBO_pB3i3qR8miHDDDOFOrEP4f7" />
+      <source src={process.env.PUBLIC_URL+"/cars/27.1.mp4"}/>
     </video>
     ),
     interior1:
@@ -5508,12 +5512,12 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1cMgHGr94spT5-vvzRyvSmSyKeL-_LVYo" />
+      <source src={process.env.PUBLIC_URL+"/cars/28.mp4"}/>
     </video>
     ),
     interior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1He-Lhv6ilM3Rl1WNDX3nA6WW4CBxWhH7" />
+      <source src={process.env.PUBLIC_URL+"/cars/28.1.mp4"}/>
     </video>
     ),
     interior1:
@@ -5711,12 +5715,12 @@ const Menu = [
     ),
     exterior: (
    <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1Y_tQcyWyHG5FoyJsCcYk6wq9ydtnKKY6" />
+   <source src={process.env.PUBLIC_URL+"/cars/29.mp4"}/>
     </video>
     ),
     interior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1_vqHOxedEN0sMzHTlsNxdIpBaSu46b0s" />
+      <source src={process.env.PUBLIC_URL+"/cars/29.1.mp4"}/>
     </video>
     ),
     interior1:
@@ -6342,12 +6346,12 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1i8_fiiEJ2P0ozy1hYPoKx99_fE-GMA3X" />
+      <source src={process.env.PUBLIC_URL+"/cars/32.mp4"}/>
     </video>
     ),
     interior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1uWLObVJGEBEou0sroe_FghtrcPnzM1NL" />
+      <source src={process.env.PUBLIC_URL+"/cars/32.1.mp4"}/>
     </video>
     ),
     interior1:
@@ -6740,7 +6744,7 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1iEWmuS7TU-S4oNPMswgzAwV1noOPZupX" />
+      <source src={process.env.PUBLIC_URL+"/cars/34.mp4"}/>
     </video>
     ),
     interior1:
@@ -6935,7 +6939,7 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1aQCdabxCGewvn9oeAfV--KikJBEAVqwB" />
+      <source src={process.env.PUBLIC_URL+"/cars/35.mp4"}/>
     </video>
     ),
     interior1:
@@ -7317,12 +7321,12 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1NqyKq6LCBmjNLxGC_Pk2BnLBgv5BgQqk" />
+      <source src={process.env.PUBLIC_URL+"/cars/37.mp4"}/>
     </video>
     ),
     interior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1dpiHy2DGPAbpqNPCd-5LmnFox018thqv" />
+      <source src={process.env.PUBLIC_URL+"/cars/37.1.mp4"}/>
     </video>
     ),
     interior1:
@@ -7524,7 +7528,7 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=182xYFNk1mrFeeUtWg2PsNG-9voS_3_8J" />
+      <source src={process.env.PUBLIC_URL+"/cars/38.mp4"}/>
     </video>
     ),
     interior1:
@@ -7918,12 +7922,12 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1nd_u3hQEunEoGso3ztw4ftrSsy7KG7XN" />
+      <source src={process.env.PUBLIC_URL+"/cars/40.mp4"}/>
     </video>
     ),
     interior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1d2vKAtfwTg2svbxkRbhsUtE73l2AoO8w" />
+      <source src={process.env.PUBLIC_URL+"/cars/40.1.mp4"}/>
     </video>
     ),
     interior1:
@@ -8130,7 +8134,7 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1CE7WZeX4NNkyKo4tiq9ruNZtdDzxbUkF" />
+      <source src={process.env.PUBLIC_URL+"/cars/21.mp4"}/>
     </video>
     ),
     interior1:
@@ -8329,12 +8333,12 @@ const Menu = [
     ),
     exterior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1UTWBdYsLQtXU-B230xJdIPJQFvbrhFNS" />
+      <source src={process.env.PUBLIC_URL+"/cars/26.mp4"}/>
     </video>
     ),
     interior: (
       <video autoPlay loop muted className="w-100">
-      <source src="https://drive.google.com/uc?export=view&id=1wl-g3YPr-kq-i9UT34Y1Zg8nQrWoll0I" />
+      <source src={process.env.PUBLIC_URL+"/cars/26.1.mp4"}/>
     </video>
     ),
     interior1:
