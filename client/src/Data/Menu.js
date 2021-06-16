@@ -2074,7 +2074,7 @@ const Menu = [
     interior: (
       <img
         className="w-100 imgH"
-        src="https://drive.google.com/uc?export=view&id=13UHDbeGbGnYkM7wapFXQpSUAwMvp_CaX"
+        src="https://drive.google.com/uc?export=view&id=1UWM-ZPsMxht3d5gJc8qvEdid1jcq-VjO"
         alt="menupic"
       />
     ),
