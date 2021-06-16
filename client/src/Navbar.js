@@ -597,7 +597,7 @@ function Navbar() {
                   const {
                     name,
                     image,
-
+                    id,
                     description,
                     price,
 
@@ -717,11 +717,13 @@ function Navbar() {
                                 <strong>Exterior</strong>
                               </h7>
 
+                                <div className="" key={id}>
                               <div className="justify-content-center w-100 videoBG d-flex">
                             {exterior}
                           </div>
                           <div className="justify-content-center d-flex">
                             {interior}
+                          </div>
                           </div>
                               <h7 className="px-2 py-2">
                                 <strong>Interior</strong>
