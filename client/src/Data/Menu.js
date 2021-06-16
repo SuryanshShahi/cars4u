@@ -44,15 +44,12 @@ const Menu = [
       </p>
     ),
 
-    // exterior: (      
-    //   <video autoPlay loop muted className="w-100">
-    //   <source src={process.env.PUBLIC_URL+"/cars/1.mp4"}/>
-    // </video>
-    // ),
-    exterior: (      
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/1.mp4"}/>
-    </video>
+    exterior: (
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=11nXqc5e0z1I6_lRg3L37SuIobzTYulvF"
+        alt="menupic"
+      />
     ),
 
     interior1:
@@ -263,14 +260,14 @@ const Menu = [
         electronic stability control (ESC), and hill assist control (HAC).
       </p>
     ),
-    exterior: (
+    exterior: (      
       <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/15.mp4"}/>
+      <source src={process.env.PUBLIC_URL+"/15.mp4"}/>
     </video>
     ),
-    interior: (
+    interior: (      
       <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/15.1.mp4"}/>
+      <source src={process.env.PUBLIC_URL+"/15.1.mp4"}/>
     </video>
     ),
     interior1:
@@ -467,9 +464,11 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/2.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1aOvjrP_1gZjjhvxcfatPnJgDkdFQAaRX"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Audi/A6/6426/1571909558901/dashboard-59.jpg",
@@ -660,9 +659,11 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/3.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1Li_SiB0GojjzVV59WFionqO4obruvmD5"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Land-Rover/Land-Rover-Range-Rover-Velar/6879/1558440255164/dashboard-59.jpg",
@@ -857,14 +858,18 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/4.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1pbAoyqNCOlWBbQevkRrX6sQ6mdxsAtru"
+        alt="menupic"
+      />
     ),
     interior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/4.1.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1BVZo9_mgaGZhUxC3mYANsRzyTt-qpdC8"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Volvo/XC90/7537/1581480088191/dashboard-59.jpg",
@@ -1062,10 +1067,10 @@ const Menu = [
     ),
     exterior: (
       <img
-      className="d-block w-100 img-fluid imgH"
-      src="https://drive.google.com/uc?export=view&id=1m62aSscqbH0Rz2TvXbo5yWmR0phS6U60"
-      alt="menupic"
-    />
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1m62aSscqbH0Rz2TvXbo5yWmR0phS6U60"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Volvo/XC40/7535/1596176173415/interior-image-217.jpg",
@@ -1250,9 +1255,11 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/6.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1k57kScI_ZHml04AjtvKs97BgRHf0hp_L"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Toyota/Toyota-Vellfire/7024/1563446575319/seats-(aerial-view)-53.jpg",
@@ -1443,14 +1450,18 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/7.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=193ncQKRGzncgL_KiC-qWvcymUXr647jK"
+        alt="menupic"
+      />
     ),
     interior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/7.1.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1UWM-ZPsMxht3d5gJc8qvEdid1jcq-VjO"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Honda/City-2017-2020/7259/1618395648811/dashboard-59.jpg",
@@ -1646,9 +1657,11 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/8.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1WfGq2dtuBFy8Qv4jdDCZ3pJPcj5eDnyR"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Maruti/Dzire/7664/1584706082668/seats-(aerial-view)-53.jpg",
@@ -1845,9 +1858,11 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/9.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1jjw7zgRKOTrSmXWPwmUXskpZefPnKbtB"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/Verna/7729/1616055246929/dashboard-59.jpg",
@@ -2050,14 +2065,18 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/10.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=122roc2FcRyQ4r0CSCu1xM3Hgyjml1GNn"
+        alt="menupic"
+      />
     ),
     interior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/10.1.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=13UHDbeGbGnYkM7wapFXQpSUAwMvp_CaX"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Honda/City/7905/1594805677103/airbags-94.jpg",
@@ -2258,9 +2277,11 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/11.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1wQaQCln_SvlpQD01UTTa0dRQ1R1uQ_5X"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/Aura/7234/1579611023683/ac-controls-151.jpg",
@@ -2461,14 +2482,18 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/12.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1H5aOJjQ-_ckkanlWUNOaG1InGNduzXdO"
+        alt="menupic"
+      />
     ),
     interior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/12.1.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1kQeUQr34ZUPoFB_Z7G5ExCLuI401dKyO"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Honda/Amaze/7439/1580301943275/dashboard-59.jpg",
@@ -2666,14 +2691,18 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/13.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1ulPm7mha_jMc1oPxOdAFC_OWyNSnZ22z"
+        alt="menupic"
+      />
     ),
     interior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/13.1.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1CK4UBiP01btvKYfW7HU8ofhgHjSiisNz"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Mahindra/Thar/8073/1609235771322/dashboard-59.jpg",
@@ -2863,14 +2892,18 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/14.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1PNyzWK9PDgxvBlGfgWvWp8ZAmE-MxzG_"
+        alt="menupic"
+      />
     ),
     interior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/14.1.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1eUWJhfKqACAf7ryha9QPlFQF0V-sQEDS"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/Creta/7695/1594621130613/interior-image-211.jpg",
@@ -3027,6 +3060,7 @@ const Menu = [
       </div>,
     ],
   },
+
   {
     id: 16,
     rate: "4.5",
@@ -3069,14 +3103,18 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/16.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1wA6POT0xer_3TgUK2KPRx9rtk6BFrYca"
+        alt="menupic"
+      />
     ),
     interior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/16.1.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1oNSrz6BwLGNf9BFkB9lT7kMkV-Z4XG_D"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Mahindra/Scorpio/7766/1592546398727/seats-(aerial-view)-53.jpg",
@@ -3274,10 +3312,13 @@ const Menu = [
         alt="menupic"
       />
     ),
+
     interior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/17.1.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1K4068T0vZ4Jqn91b9cI3Zhpq1s43CfvN"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg2.cardekho.com/images/roadTestimages/930x620/20210419_182039/721/mahindra0.jpg",
@@ -3477,14 +3518,18 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/18.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=162GWR4Fbz3BBF8tWW8HGkLfUB4MSbQ1s"
+        alt="menupic"
+      />
     ),
     interior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/18.1.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1OOYv82EgofI9h9d2CwTSH2TwYQAcMZRI"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Toyota/Fortuner/7763/Toyota-Fortuner-Legender/1609921296174/dashboard-59.jpg",
@@ -3684,14 +3729,18 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/19.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1TnKnpskEJOEsb4Kvi9HM3TB3b6hMlbps"
+        alt="menupic"
+      />
     ),
     interior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/19.1.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1cWWe-3vKOgN3panBulghTeiaEiaYm329"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Maruti/Ertiga/7048/1611730299781/interior-image-207.jpg",
@@ -3886,14 +3935,18 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/20.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1ZJvNx9PJjqDvxtd3AIA4M1L-wYwK_Wv5"
+        alt="menupic"
+      />
     ),
     interior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/20.1.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1hwCCdBQs-Ly-sOJDrVVRi4377xVjFBUh"
+        alt="menupic"
+      />
     ),
 
     interior1:
@@ -4087,9 +4140,11 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/21.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=18D8cL2ahlK7WUva2vUSu97JtjywmlHZl"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Renault/Triber/7418/1580114094343/dashboard-59.jpg",
@@ -4280,14 +4335,18 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/22.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1oN0P4Krtj6JqHmIVFid8sJrJTMBAjgJV"
+        alt="menupic"
+      />
     ),
     interior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/22.1.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1TZ8BiwuU-LRNXkM4p5-po6rZWXDwvMc6"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Maruti/XL6/7030/1579078345742/dashboard-59.jpg",
@@ -4483,14 +4542,18 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/23.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1ncVnFm2lMMvdgV4oTJNR1hCM5GJAAbcv"
+        alt="menupic"
+      />
     ),
     interior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/23.1.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1hpMLwxew5Ex9lyw6ZwGWByJgyTmfjxBA"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Maruti/Eeco/7344/1596172992097/third-row-seat-belts-197.jpg",
@@ -4685,9 +4748,11 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/24.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=15gNszVFkvpzGl6Z-nqvUAlc6HvnIYdI5"
+        alt="menupic"
+      />
     ),
 
     interior1:
@@ -4884,9 +4949,11 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/25.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1a48ghC0ZzpV4fqpUMYD3cJLqLVZaTJcj"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/i20/8175/Hyundai-i20-Asta-Opt-Diesel-DT/1604908053734/steering-position-adjustments-141.jpg",
@@ -5088,14 +5155,18 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/26.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1TQjuLadsvXDSGvezjzVFtl5zRA-5JD7e"
+        alt="menupic"
+      />
     ),
     interior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/26.1.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1Q31NTt4WYlnIHLUMWuE2DSqXdrZtNhmM"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Maruti/Baleno/6778/1615985207322/dashboard-59.jpg",
@@ -5298,14 +5369,18 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/27.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=13O5WyKvggND-E1XHZOh_8yYkztJV8oaC"
+        alt="menupic"
+      />
     ),
     interior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/27.1.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1VEXpcfnuZN4KNN8r5pvJVEb-nSmzePGW"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Tata/Altroz/7247/1578643864942/airbags-94.jpg",
@@ -5511,14 +5586,18 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/28.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1aXK4DMoQNpHxSK98cDRF7qJH37FYna-G"
+        alt="menupic"
+      />
     ),
     interior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/28.1.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1_rGgT_D5pSTR2qMmnxL8T8gpdyo7gFNW"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Maruti/Maruti-Wagon-R/6741/1548249233387/airbags-94.jpg",
@@ -5714,14 +5793,18 @@ const Menu = [
       </p>
     ),
     exterior: (
-   <video autoPlay loop muted className="w-100">
-   <source src={process.env.PUBLIC_URL+"/cars/29.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1qUBtIs6lTI4Aq5mvnVcFoEI054HJ7QjD"
+        alt="menupic"
+      />
     ),
     interior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/29.1.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1LQh3Sk8dgX4yJJ9xTBJsWjQfWWXQ4xUi"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Tata/Tiago/7381/1617960338205/dashboard-59.jpg",
@@ -5931,10 +6014,10 @@ const Menu = [
     ),
     exterior: (
       <img
-      className="d-block w-100 img-fluid imgH"
-      src="https://drive.google.com/uc?export=view&id=1bhFVVwzyhjaXfMPd4dNKCZyTjqKAtC8l"
-      alt="menupic"
-    />
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1bhFVVwzyhjaXfMPd4dNKCZyTjqKAtC8l"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Mercedes-Benz/GLA/7269/1621945759500/rear-seats-52.jpg",
@@ -6345,14 +6428,18 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/32.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1IBn9BXAgCmeNf6WPThk31ZP2qgmoMPNm"
+        alt="menupic"
+      />
     ),
     interior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/32.1.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1qKxxhIfATRWO7aT6gg1rpmI6YrMvmEZP"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Kia/Sonet/7256/1619865709443/dashboard-59.jpg",
@@ -6546,10 +6633,10 @@ const Menu = [
     ),
     exterior: (
       <img
-      className="d-block w-100 img-fluid imgH"
-      src="https://cdn.autoportal.com/img/new-cars-gallery/isuzu/mu-x/photo34/isuzu-mu-x-5762fb8a.jpg"
-      alt="menupic"
-    />
+        className="d-block w-100 img-fluid imgH"
+        src="https://cdn.autoportal.com/img/new-cars-gallery/isuzu/mu-x/photo34/isuzu-mu-x-5762fb8a.jpg"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Isuzu/MU-X/6487/1620728809619/dashboard-59.jpg",
@@ -6743,9 +6830,11 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/34.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1NdSFKLq7VL9zBneiFjYud5PlAJXthfqo"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/BMW/6-Series/8419/1617876028622/passenger-view-56.jpg",
@@ -6938,9 +7027,11 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/35.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1f4yHOkG78iCvABEi2wgtzbuOEFJ0Hf8o"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Citroen/C5-Aircross/6590/1612238638025/rear-seats-52.jpg",
@@ -7142,12 +7233,10 @@ const Menu = [
     ),
     exterior: (
       <img
-      className="d-block w-100 img-fluid imgH"
-      src="https://drive.google.com/uc?export=view&id=1Ho7yJycJRX3Uc6Vb35CPsJt_YabzIerC"
-      alt="menupic"
-    />
-    
-    
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1Ho7yJycJRX3Uc6Vb35CPsJt_YabzIerC"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Mercedes-Benz/A-Class-Limousine/8414/1616659824292/rear-seats-52.jpg",
@@ -7320,14 +7409,18 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/37.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1yhmVkiptYDUdwEi8SibQUTGbPqMMF5T6"
+        alt="menupic"
+      />
     ),
     interior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/37.1.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1QnAWbx37hRphuUSQsgpEehtAV3fKxGpa"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Toyota/Toyota-Glanza/6902/1559809733985/airbags-94.jpg",
@@ -7527,9 +7620,11 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/38.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=192pNjzHFJG15mOdkg0JSldGo8l8fvmPx"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Nissan/Magnite/7425/1603276532088/airbags-94.jpg",
@@ -7726,12 +7821,10 @@ const Menu = [
     ),
     exterior: (
       <img
-      className="d-block w-100 img-fluid imgH"
-      src="https://drive.google.com/uc?export=view&id=1eyBEFVx_uPA6ZPxZZBhoxQqbZtvDP8vr"
-      alt="menupic"
-    />
-
-    
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1eyBEFVx_uPA6ZPxZZBhoxQqbZtvDP8vr"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Renault/Kiger/8350/1613711475022/dashboard-59.jpg",
@@ -7921,14 +8014,18 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/40.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1MXpvGoNcKiVhwdpwbqcyEBzlopHCNC9t"
+        alt="menupic"
+      />
     ),
     interior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/40.1.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1OgLCwy5HYtAv6y1D85er_pLmNwWBthXp"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Hyundai/Hyundai-Grand-i10-Nios/7089/1566296541670/dashboard-59.jpg",
@@ -8133,9 +8230,11 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/21.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=18D8cL2ahlK7WUva2vUSu97JtjywmlHZl"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Renault/Triber/7418/1580114094343/dashboard-59.jpg",
@@ -8332,14 +8431,18 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/26.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1TQjuLadsvXDSGvezjzVFtl5zRA-5JD7e"
+        alt="menupic"
+      />
     ),
     interior: (
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/cars/26.1.mp4"}/>
-    </video>
+      <img
+        className="d-block w-100 img-fluid imgH"
+        src="https://drive.google.com/uc?export=view&id=1Q31NTt4WYlnIHLUMWuE2DSqXdrZtNhmM"
+        alt="menupic"
+      />
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Maruti/Baleno/6778/1615985207322/dashboard-59.jpg",

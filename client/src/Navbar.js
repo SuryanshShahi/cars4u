@@ -1,14 +1,16 @@
+// import src from "*.avif";
 import React, { useState } from "react";
 import { NavLink, useHistory } from "react-router-dom";
 import web4 from "./images/img1.gif";
 import car from "./images/car.mp4";
 import swal from "sweetalert";
-import Search from "./Data/searchMenu";
+// import Search from "./Data/searchMenu";
 import web from "./images/seat.png";
 import web1 from "./images/bhp.png";
 import web2 from "./images/engine.png";
 import web3 from "./images/thumb.png";
 import StarsRating from "stars-rating";
+import Menu from "./Data/Menu";
 
 function Navbar() {
   const down = () => {
@@ -131,9 +133,11 @@ function Navbar() {
     }
   };
 
-  const [items, setItems] = useState(Search);
+  // const [items, setItems] = useState(Search);
+  const [items, setItems] = useState(Menu);
   const filterImg = (id) => {
-    const updatedImg = Search.filter((curElem) => {
+    // const updatedImg = Search.filter((curElem) => {
+    const updatedImg = Menu.filter((curElem) => {
       if (curElem.id === id) {
         return curElem.id;
       }
@@ -141,7 +145,8 @@ function Navbar() {
     setItems(updatedImg);
   };
   const filterImg1 = (id) => {
-    const updatedImg = Search.filter((curElem) => {
+    // const updatedImg = Search.filter((curElem) => {
+    const updatedImg = Menu.filter((curElem) => {
       return curElem.id;
     });
     setItems(updatedImg);
@@ -531,8 +536,6 @@ function Navbar() {
           </NavLink>
         </div>
 
-
-
         <div id="myOverlay" className="overlay">
           <div
             className="closesearch text-white justify-content-end d-flex pr-5"
@@ -685,7 +688,7 @@ function Navbar() {
                                   </div>
                                   <div className="col-lg-9 col-md-12 col-sm-12 col-12 pt-2">
                                     <a
-                                      href="#rate1"
+                                      href="#rate"
                                       className="px-1 text-decoration-none ratethiscar "
                                     >
                                       <b>Rate This Car</b>
@@ -1018,7 +1021,7 @@ function Navbar() {
                               Rate This Car
                             </h4>
                             <div className="rating justify-content-center d-flex">
-                              <div id="rate1" className="star">
+                              <div id="rate" className="star">
                                 <StarsRating
                                   count={5}
                                   onChange={ratingChanged}
@@ -1050,8 +1053,7 @@ function Navbar() {
             </div>
           </div>
         </div>
- 
-        </div>
+      </div>
 
       <div className="backtotop container-fluid justify-content-end d-flex">
         <a
@@ -1070,3 +1072,5 @@ function Navbar() {
 }
 
 export default Navbar;
+
+// <h1 className="text-white">Ask before you borrow it.</h1>
