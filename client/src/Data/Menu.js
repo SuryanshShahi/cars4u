@@ -46,7 +46,7 @@ const Menu = [
 
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=11nXqc5e0z1I6_lRg3L37SuIobzTYulvF"
         alt="menupic"
       />
@@ -260,15 +260,15 @@ const Menu = [
         electronic stability control (ESC), and hill assist control (HAC).
       </p>
     ),
-    exterior: (      
-      <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/15.mp4"}/>
-    </video>
+    exterior: (
+      <video autoPlay loop muted className="Video w-75">
+        <source src={process.env.PUBLIC_URL + "/15.mp4"} />
+      </video>
     ),
-    interior: (      
+    interior: (
       <video autoPlay loop muted className="w-100">
-      <source src={process.env.PUBLIC_URL+"/15.1.mp4"}/>
-    </video>
+        <source src={process.env.PUBLIC_URL + "/15.1.mp4"} />
+      </video>
     ),
     interior1:
       "https://stimg.cardekho.com/images/carinteriorimages/930x620/Kia/Seltos/6226/1619864686803/steering-wheel-54.jpg",
@@ -465,7 +465,7 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1aOvjrP_1gZjjhvxcfatPnJgDkdFQAaRX"
         alt="menupic"
       />
@@ -660,7 +660,7 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1Li_SiB0GojjzVV59WFionqO4obruvmD5"
         alt="menupic"
       />
@@ -859,14 +859,14 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1pbAoyqNCOlWBbQevkRrX6sQ6mdxsAtru"
         alt="menupic"
       />
     ),
     interior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-100 imgH"
         src="https://drive.google.com/uc?export=view&id=1BVZo9_mgaGZhUxC3mYANsRzyTt-qpdC8"
         alt="menupic"
       />
@@ -1067,7 +1067,7 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="Video"
         src="https://drive.google.com/uc?export=view&id=1m62aSscqbH0Rz2TvXbo5yWmR0phS6U60"
         alt="menupic"
       />
@@ -1256,7 +1256,7 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1k57kScI_ZHml04AjtvKs97BgRHf0hp_L"
         alt="menupic"
       />
@@ -1451,14 +1451,14 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=193ncQKRGzncgL_KiC-qWvcymUXr647jK"
         alt="menupic"
       />
     ),
     interior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-100 imgH"
         src="https://drive.google.com/uc?export=view&id=1UWM-ZPsMxht3d5gJc8qvEdid1jcq-VjO"
         alt="menupic"
       />
@@ -1658,7 +1658,7 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1WfGq2dtuBFy8Qv4jdDCZ3pJPcj5eDnyR"
         alt="menupic"
       />
@@ -1859,7 +1859,7 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1jjw7zgRKOTrSmXWPwmUXskpZefPnKbtB"
         alt="menupic"
       />
@@ -2066,14 +2066,14 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=122roc2FcRyQ4r0CSCu1xM3Hgyjml1GNn"
         alt="menupic"
       />
     ),
     interior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-100 imgH"
         src="https://drive.google.com/uc?export=view&id=13UHDbeGbGnYkM7wapFXQpSUAwMvp_CaX"
         alt="menupic"
       />
@@ -2278,7 +2278,7 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1wQaQCln_SvlpQD01UTTa0dRQ1R1uQ_5X"
         alt="menupic"
       />
@@ -2483,14 +2483,14 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1H5aOJjQ-_ckkanlWUNOaG1InGNduzXdO"
         alt="menupic"
       />
     ),
     interior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-100 imgH"
         src="https://drive.google.com/uc?export=view&id=1kQeUQr34ZUPoFB_Z7G5ExCLuI401dKyO"
         alt="menupic"
       />
@@ -2692,14 +2692,14 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1ulPm7mha_jMc1oPxOdAFC_OWyNSnZ22z"
         alt="menupic"
       />
     ),
     interior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-100 imgH"
         src="https://drive.google.com/uc?export=view&id=1CK4UBiP01btvKYfW7HU8ofhgHjSiisNz"
         alt="menupic"
       />
@@ -2893,14 +2893,14 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1PNyzWK9PDgxvBlGfgWvWp8ZAmE-MxzG_"
         alt="menupic"
       />
     ),
     interior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-100 imgH"
         src="https://drive.google.com/uc?export=view&id=1eUWJhfKqACAf7ryha9QPlFQF0V-sQEDS"
         alt="menupic"
       />
@@ -3104,14 +3104,14 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1wA6POT0xer_3TgUK2KPRx9rtk6BFrYca"
         alt="menupic"
       />
     ),
     interior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-100 imgH"
         src="https://drive.google.com/uc?export=view&id=1oNSrz6BwLGNf9BFkB9lT7kMkV-Z4XG_D"
         alt="menupic"
       />
@@ -3307,7 +3307,7 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://media2.giphy.com/media/cmBPTHsRAoEOmVUQGD/giphy.gif"
         alt="menupic"
       />
@@ -3315,7 +3315,7 @@ const Menu = [
 
     interior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-100 imgH"
         src="https://drive.google.com/uc?export=view&id=1K4068T0vZ4Jqn91b9cI3Zhpq1s43CfvN"
         alt="menupic"
       />
@@ -3519,14 +3519,14 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=162GWR4Fbz3BBF8tWW8HGkLfUB4MSbQ1s"
         alt="menupic"
       />
     ),
     interior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-100 imgH"
         src="https://drive.google.com/uc?export=view&id=1OOYv82EgofI9h9d2CwTSH2TwYQAcMZRI"
         alt="menupic"
       />
@@ -3730,14 +3730,14 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1TnKnpskEJOEsb4Kvi9HM3TB3b6hMlbps"
         alt="menupic"
       />
     ),
     interior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-100 imgH"
         src="https://drive.google.com/uc?export=view&id=1cWWe-3vKOgN3panBulghTeiaEiaYm329"
         alt="menupic"
       />
@@ -3936,14 +3936,14 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1ZJvNx9PJjqDvxtd3AIA4M1L-wYwK_Wv5"
         alt="menupic"
       />
     ),
     interior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-100 imgH"
         src="https://drive.google.com/uc?export=view&id=1hwCCdBQs-Ly-sOJDrVVRi4377xVjFBUh"
         alt="menupic"
       />
@@ -4141,7 +4141,7 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=18D8cL2ahlK7WUva2vUSu97JtjywmlHZl"
         alt="menupic"
       />
@@ -4336,14 +4336,14 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1oN0P4Krtj6JqHmIVFid8sJrJTMBAjgJV"
         alt="menupic"
       />
     ),
     interior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-100 imgH"
         src="https://drive.google.com/uc?export=view&id=1TZ8BiwuU-LRNXkM4p5-po6rZWXDwvMc6"
         alt="menupic"
       />
@@ -4543,14 +4543,14 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1ncVnFm2lMMvdgV4oTJNR1hCM5GJAAbcv"
         alt="menupic"
       />
     ),
     interior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-100 imgH"
         src="https://drive.google.com/uc?export=view&id=1hpMLwxew5Ex9lyw6ZwGWByJgyTmfjxBA"
         alt="menupic"
       />
@@ -4749,7 +4749,7 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=15gNszVFkvpzGl6Z-nqvUAlc6HvnIYdI5"
         alt="menupic"
       />
@@ -4950,7 +4950,7 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1a48ghC0ZzpV4fqpUMYD3cJLqLVZaTJcj"
         alt="menupic"
       />
@@ -5156,14 +5156,14 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1TQjuLadsvXDSGvezjzVFtl5zRA-5JD7e"
         alt="menupic"
       />
     ),
     interior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-100 imgH"
         src="https://drive.google.com/uc?export=view&id=1Q31NTt4WYlnIHLUMWuE2DSqXdrZtNhmM"
         alt="menupic"
       />
@@ -5370,14 +5370,14 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=13O5WyKvggND-E1XHZOh_8yYkztJV8oaC"
         alt="menupic"
       />
     ),
     interior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-100 imgH"
         src="https://drive.google.com/uc?export=view&id=1VEXpcfnuZN4KNN8r5pvJVEb-nSmzePGW"
         alt="menupic"
       />
@@ -5587,14 +5587,14 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1aXK4DMoQNpHxSK98cDRF7qJH37FYna-G"
         alt="menupic"
       />
     ),
     interior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-100 imgH"
         src="https://drive.google.com/uc?export=view&id=1_rGgT_D5pSTR2qMmnxL8T8gpdyo7gFNW"
         alt="menupic"
       />
@@ -5794,14 +5794,14 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1qUBtIs6lTI4Aq5mvnVcFoEI054HJ7QjD"
         alt="menupic"
       />
     ),
     interior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-100 imgH"
         src="https://drive.google.com/uc?export=view&id=1LQh3Sk8dgX4yJJ9xTBJsWjQfWWXQ4xUi"
         alt="menupic"
       />
@@ -6014,7 +6014,7 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1bhFVVwzyhjaXfMPd4dNKCZyTjqKAtC8l"
         alt="menupic"
       />
@@ -6218,7 +6218,7 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="Video"
         src="https://drive.google.com/uc?export=view&id=1wL4YDLsSzi7SVOCsTR3ntYjzlPJQWkAm"
         alt="menupic"
       />
@@ -6429,14 +6429,14 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1IBn9BXAgCmeNf6WPThk31ZP2qgmoMPNm"
         alt="menupic"
       />
     ),
     interior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-100 imgH"
         src="https://drive.google.com/uc?export=view&id=1qKxxhIfATRWO7aT6gg1rpmI6YrMvmEZP"
         alt="menupic"
       />
@@ -6633,7 +6633,7 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="Video"
         src="https://cdn.autoportal.com/img/new-cars-gallery/isuzu/mu-x/photo34/isuzu-mu-x-5762fb8a.jpg"
         alt="menupic"
       />
@@ -6831,7 +6831,7 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1NdSFKLq7VL9zBneiFjYud5PlAJXthfqo"
         alt="menupic"
       />
@@ -7028,7 +7028,7 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1f4yHOkG78iCvABEi2wgtzbuOEFJ0Hf8o"
         alt="menupic"
       />
@@ -7233,7 +7233,7 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="Video"
         src="https://drive.google.com/uc?export=view&id=1Ho7yJycJRX3Uc6Vb35CPsJt_YabzIerC"
         alt="menupic"
       />
@@ -7410,14 +7410,14 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1yhmVkiptYDUdwEi8SibQUTGbPqMMF5T6"
         alt="menupic"
       />
     ),
     interior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-100 imgH"
         src="https://drive.google.com/uc?export=view&id=1QnAWbx37hRphuUSQsgpEehtAV3fKxGpa"
         alt="menupic"
       />
@@ -7621,7 +7621,7 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=192pNjzHFJG15mOdkg0JSldGo8l8fvmPx"
         alt="menupic"
       />
@@ -7821,7 +7821,7 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1eyBEFVx_uPA6ZPxZZBhoxQqbZtvDP8vr"
         alt="menupic"
       />
@@ -8015,14 +8015,14 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1MXpvGoNcKiVhwdpwbqcyEBzlopHCNC9t"
         alt="menupic"
       />
     ),
     interior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-100 imgH"
         src="https://drive.google.com/uc?export=view&id=1OgLCwy5HYtAv6y1D85er_pLmNwWBthXp"
         alt="menupic"
       />
@@ -8231,7 +8231,7 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=18D8cL2ahlK7WUva2vUSu97JtjywmlHZl"
         alt="menupic"
       />
@@ -8432,14 +8432,14 @@ const Menu = [
     ),
     exterior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-75 Video"
         src="https://drive.google.com/uc?export=view&id=1TQjuLadsvXDSGvezjzVFtl5zRA-5JD7e"
         alt="menupic"
       />
     ),
     interior: (
       <img
-        className="d-block w-100 img-fluid imgH"
+        className="w-100 imgH"
         src="https://drive.google.com/uc?export=view&id=1Q31NTt4WYlnIHLUMWuE2DSqXdrZtNhmM"
         alt="menupic"
       />

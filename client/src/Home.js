@@ -260,13 +260,12 @@ function Home() {
           <div className="modal-content modalcompare">
             {img.map((elem) => {
               const {
-        
                 name,
                 image,
-          
+
                 description,
                 price,
- 
+
                 exterior,
                 interior,
                 interior1,
@@ -364,9 +363,7 @@ function Home() {
                               data-toggle="modal"
                               data-dismiss="modal"
                             >
-              
-                                View Latest Offer
-             
+                              View Latest Offer
                             </NavLink>
                           </div>
                         </div>
@@ -381,12 +378,12 @@ function Home() {
                             <strong>Exterior</strong>
                           </h7>
 
-                          <div className="exterior">
-                      
-                   {exterior}
-                   {interior}
-            
-                        </div>
+                          <div className="justify-content-center py-4 w-100 videoBG d-flex">
+                            {exterior}
+                          </div>
+                          <div className="justify-content-center d-flex">
+                            {interior}
+                          </div>
                           <h7 className="px-2 py-2">
                             <strong>Interior</strong>
                           </h7>
@@ -559,7 +556,11 @@ function Home() {
                               <div className="col-4 py-4 pl-4">
                                 <div className="row">
                                   <div className="col-5">
-                                    <img src={web2} className="img-fluid" alt="menupic"></img>
+                                    <img
+                                      src={web2}
+                                      className="img-fluid"
+                                      alt="menupic"
+                                    ></img>
                                   </div>
                                   <div className="col-7">
                                     <h6>
@@ -574,7 +575,11 @@ function Home() {
                               <div className="col-4 py-4 pl-4">
                                 <div className="row">
                                   <div className="col-4 py-2 pl-3">
-                                    <img src={web1} className="img-fluid" alt="menupic"></img>
+                                    <img
+                                      src={web1}
+                                      className="img-fluid"
+                                      alt="menupic"
+                                    ></img>
                                   </div>
                                   <div className="col-8">
                                     <h7>
@@ -589,7 +594,11 @@ function Home() {
                               <div className="col-4 py-4 pl-4">
                                 <div className="row">
                                   <div className="col-5">
-                                    <img src={web} className="img-fluid" alt="menupic"></img>
+                                    <img
+                                      src={web}
+                                      className="img-fluid"
+                                      alt="menupic"
+                                    ></img>
                                   </div>
                                   <div className="col-7">
                                     <h6>

@@ -666,3 +666,11 @@ border-color: #e43c5c;
 box-shadow: none;
 outline: none;
 }
+
+.Video{
+  height: 450px;
+}
+/* .videoBG{
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+} */

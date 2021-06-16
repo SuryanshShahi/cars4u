@@ -18,7 +18,7 @@ const Latest=[
       rate:"4.5"
     },
     {
-      id: 32,
+      id: 15,
       image:
         "https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Seltos/6226/1619864569028/front-left-side-47.jpg?imwidth=420&impolicy=resize",
       name: "Kia Seltos HTK Plus iMT",
@@ -27,7 +27,7 @@ const Latest=[
       rate:"4.5"
     },
     {
-      id: 33,
+      id: 32,
       image:
         "https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Sonet/7256/1619865764843/front-left-side-47.jpg?imwidth=420&impolicy=resize",
       name: "Kia Sonet 1.5 HTX Diesel AT",
@@ -36,7 +36,7 @@ const Latest=[
       rate:"4.5"
     },
     {
-      id: 34,
+      id: 33,
       image:
         "https://stimg.cardekho.com/images/carexteriorimages/630x420/Isuzu/MU-X/6487/1620640668142/front-left-side-47.jpg?tr=w-456",
       name: "Isuzu MU-X",
@@ -45,7 +45,7 @@ const Latest=[
       rate:"4.5"
     },
     {
-      id: 35,
+      id: 34,
       image:
         "https://stimg.cardekho.com/images/carexteriorimages/630x420/BMW/6-Series/8419/1617875919382/front-left-side-47.jpg?tr=w-456",
       name: "BMW 6 Series",
@@ -54,7 +54,7 @@ const Latest=[
       rate:"4.5"
     },
     {
-      id: 36,
+      id: 35,
       image:
         "https://stimg.cardekho.com/images/carexteriorimages/630x420/Citroen/C5-Aircross/6590/1612261173404/front-left-side-47.jpg?tr=w-456",
       name: "Citroen C5 Aircross",
@@ -63,7 +63,7 @@ const Latest=[
       rate:"4.5"
     },
     {
-      id: 37,
+      id: 36,
       image:
         "https://stimg.cardekho.com/images/carexteriorimages/630x420/Mercedes-Benz/A-Class-Limousine/8414/1616659716551/front-left-side-47.jpg?tr=w-456",
       name: "Mercedes-Benz A-Class Limousine",

@@ -1,10 +1,8 @@
-// import src from "*.avif";
 import React, { useState } from "react";
 import { NavLink, useHistory } from "react-router-dom";
 import web4 from "./images/img1.gif";
 import car from "./images/car.mp4";
 import swal from "sweetalert";
-// import Search from "./Data/searchMenu";
 import web from "./images/seat.png";
 import web1 from "./images/bhp.png";
 import web2 from "./images/engine.png";
@@ -136,7 +134,6 @@ function Navbar() {
   // const [items, setItems] = useState(Search);
   const [items, setItems] = useState(Menu);
   const filterImg = (id) => {
-    // const updatedImg = Search.filter((curElem) => {
     const updatedImg = Menu.filter((curElem) => {
       if (curElem.id === id) {
         return curElem.id;
@@ -145,7 +142,6 @@ function Navbar() {
     setItems(updatedImg);
   };
   const filterImg1 = (id) => {
-    // const updatedImg = Search.filter((curElem) => {
     const updatedImg = Menu.filter((curElem) => {
       return curElem.id;
     });
@@ -721,10 +717,12 @@ function Navbar() {
                                 <strong>Exterior</strong>
                               </h7>
 
-                              <div className="exterior">
-                               {exterior}
-                               {interior}
-                              </div>
+                              <div className="justify-content-center w-100 videoBG d-flex">
+                            {exterior}
+                          </div>
+                          <div className="justify-content-center d-flex">
+                            {interior}
+                          </div>
                               <h7 className="px-2 py-2">
                                 <strong>Interior</strong>
                               </h7>
