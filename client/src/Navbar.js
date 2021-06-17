@@ -721,7 +721,7 @@ function Navbar() {
                                 <div className="justify-content-center w-100 pb-4 videoBG d-flex">
                                   {exterior}
                                 </div>
-                                <h7 className="px-2 py-2">
+                                <h7 className="px-2 pt-2">
                                 <strong>Interior</strong>
                               </h7>
                                 <div className="justify-content-center pb-4 pt-1 d-flex">

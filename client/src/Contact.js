@@ -56,58 +56,76 @@ function Contact() {
 
               <div className="col-lg-8 col-md-8 col-sm-8">
                 <div className="mx-auto py-5 w-auto px-5">
-                  <div className="row">
-                    <div className="col-lg-6 col-md-4">
-                      <div class="mb-3">
-                        <label for="input1" class="form-label font-weight-bold">
-                          Full Name:
-                        </label>
-                        <input
-                          type="email"
-                          class="form-control"
-                          id="input1"
-                          placeholder="Enter Full Name"
-                        />
+                  <form>
+                    <div className="row">
+                      <div className="col-lg-6 col-md-4">
+                        <div class="mb-3">
+                          <label
+                            for="input"
+                            class="form-label font-weight-bold"
+                          >
+                            Full Name:
+                          </label>
+                          <input
+                            type="name"
+                            class="form-control"
+                            id="input"
+                            placeholder="Enter Full Name"
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div className="col-lg-6 col-md-4">
+                        <div class="mb-3">
+                          <label
+                            for="input1"
+                            class="form-label font-weight-bold"
+                          >
+                            Phone:
+                          </label>
+                          <input
+                            type="number"
+                            class="form-control"
+                            id="input1"
+                            placeholder="Enter Phone No."
+                            required
+                          />
+                        </div>
                       </div>
                     </div>
-                    <div className="col-lg-6 col-md-4">
-                      <div class="mb-3">
-                        <label for="input1" class="form-label font-weight-bold">
-                          Phone:
-                        </label>
-                        <input
-                          type="email"
-                          class="form-control"
-                          id="input1"
-                          placeholder="Enter Phone No."
-                        />
-                      </div>
+                    <div class="mb-3">
+                      <label for="input2" class="form-label font-weight-bold">
+                        Email:
+                      </label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="input2"
+                        placeholder="Enter Email"
+                        required
+                      />
                     </div>
-                  </div>
-                  <div class="mb-3">
-                    <label for="input1" class="form-label font-weight-bold">
-                      Email:
-                    </label>
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="input1"
-                      placeholder="Enter Email"
-                    />
-                  </div>
-                  <div class="mb-3">
-                    <label for="textarea1" class="form-label font-weight-bold">
-                      Message:
-                    </label>
-                    <textarea
-                      class="form-control"
-                      id="textarea1"
-                      rows="3"
-                    ></textarea>
-                  </div>
-                  <NavLink className="btn px-4 py-2 text-white" to="/">
-                    Send Message
-                  </NavLink>
+                    <div class="mb-3">
+                      <label
+                        for="textarea1"
+                        class="form-label font-weight-bold"
+                      >
+                        Message:
+                      </label>
+                      <textarea
+                        class="form-control"
+                        id="textarea1"
+                        rows="3"
+                      ></textarea>
+                    </div>
+                    <button
+                      type="submit"
+                      className="btn forbtn px-4 py-2 text-white"
+                      to="/"
+                    >
+                      Send Message
+                    </button>
+                  </form>
                 </div>
               </div>
             </div>

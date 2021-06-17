@@ -59,10 +59,8 @@
 h1 {
   font-weight: bolder;
 }
-/* .font-weight-bold{
-    font-family: 'Nunito', sans-serif;
-  } */
-input[type="email"] {
+
+input[type="email"],input[type="name"],input[type="number"] {
   border-radius: 50px;
   height: 45px;
 }
@@ -85,7 +83,7 @@ input[type="email"] {
   border-radius: 50px;
   height: 45px;
   padding-top: 10px;
-  box-shadow: 1px 1px 1px 1px #c0bebe;
+  box-shadow: 0px 0px 1px 1px #c0bebe;
   text-decoration: none;
   font-size: 17px;
   background-color: #e43c5c;
@@ -252,15 +250,7 @@ input[type="email"] {
   margin-top: 62px;
   padding-left: 15px;
 }
-.smallcard {
-  /* box-shadow: 2px 0 35px 0 rgb(68 88 144 / 12%);
-  border: none;
-  border-radius: none; */
-  font-size: 15px;
-}
-.smallcard:hover {
-  color: #e61e43;
-}
+
 
 .cardhover {
   z-index: 0;
@@ -345,7 +335,7 @@ input[type="email"] {
   left: 2%;
   right: 2%;
   top: 2%;
-  bottom: 0;
+  bottom: -9%;
   transition: all ease-in-out 0.3s;
   background: rgba(0, 0, 0, 0.6);
 }
@@ -647,14 +637,14 @@ ul {
   border: none;
   transition: all 0.5s linear;
 }
-.subscribe {
+.subscribe.btn {
   border-radius: 50px;
   background-color: #e43c5bc9;
-  padding: 11px 17.5px;
+  padding: 10px 17.5px;
   cursor: pointer;
   transition: 0.5s;
 }
-.subscribe:hover {
+.subscribe.btn:hover {
   background-color: #e61e43;
   color: white;
 }
@@ -666,11 +656,32 @@ border-color: #e43c5c;
 box-shadow: none;
 outline: none;
 }
-
-.Video{
-  height: 450px;
-}
-/* .videoBG{
+.logobg{
   background-color: rgba(0, 0, 0, 0.6);
-  z-index: 1;
-} */
+  z-index: 999;
+}
+.logocard{
+  min-height: 155px;
+}
+.latestcard{
+  min-height:396px
+}
+.upcomingcard{
+  min-height:286px
+}
+.recommendedcard{
+  min-height: 302px;
+}
+
+
+.smallcard {
+  position: relative;
+  top: 0;
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  cursor: pointer;
+  font-size: 15px;
+}
+.smallcard:hover {
+  color: #e61e43;
+  top: -10px;
+}

@@ -56,13 +56,13 @@ function Footer() {
 
                 <div className="justify-content-center searchbox align-content-center d-flex">
                   <input
-                    type="text"
+                    type="email"
                     placeholder="Enter Email"
                     className="emailInput form-control px-4 position-relative"
                   />
                   <div className="justify-content-end d-flex pr-4 pr-lg-0">
                     <div
-                      className="subscribe text-white font-weight-light  position-absolute"
+                      className="subscribe btn text-white font-weight-light  position-absolute"
                       onClick={() =>
                         swal("", "Email Registered", "success", {
                           button: false,

@@ -1,9 +1,11 @@
 import React from "react";
-// import web from "./images/sold.png";
+import Logo from "./Data/Logo";
 
 function Service() {
   window.scroll(0, 770);
   window.onload = Service;
+
+
   return (
     <section id="service">
       <div className=" pt-5">
@@ -41,7 +43,6 @@ function Service() {
                 <h6>Stay Updated pay less</h6>
               </div>
             </div>
-
             <div className="col-lg-3 col-sm-6 col-12 pb-4">
               <div className="card cardhover shadow text-center py-4">
                 <div className="two justify-content-center d-flex pt-1 pb-4">
@@ -52,92 +53,35 @@ function Service() {
                 <h6>Decode the right car</h6>
               </div>
             </div>
+            </div>
+  
+            <div className="row py-5">
+            <h2 className="text-center font-weight-bold pb-5">
+            Popular Brands
+          </h2>
+            {Logo.map((elem) => {
+              const { image2, logoname } = elem;
+              return (
+            <div className="col-lg-3 col-sm-6 col-12 pb-4">
+              <div className="card smallcard shadow border-0 rounded-0 text-center pb-1 pt-3">
+                <div className="text-center">
+                  <img
+                    src={image2}
+                    alt="menupic"
+                    className="img-fluid"
+                  />
+                </div>
 
-            <div className="col-lg-3 col-sm-6 col-12 pb-4 pt-5">
-              <div className="card smallcard shadow border-0 rounded-0 text-center pb-1 pt-3">
-                <div className="card-title">
-                  <h7 className="font-weight-bolder">Hello</h7>
+                <h6 className="text-center pt-3 font-weight-bold">
+                  {logoname}
+                </h6>
                 </div>
-              </div>
             </div>
-            <div className="col-lg-3 col-sm-6 col-12 pb-4 pt-5">
-              <div className="card smallcard shadow border-0 rounded-0 text-center pb-1 pt-3">
-                <div className="card-title">
-                  <h7 className="font-weight-bolder">Hello</h7>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6 col-12 pb-4 pt-5">
-              <div className="card smallcard shadow border-0 rounded-0 text-center pb-1 pt-3">
-                <div className="card-title">
-                  <h7 className="font-weight-bolder">Hello</h7>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6 col-12 pb-4 pt-5">
-              <div className="card smallcard shadow border-0 rounded-0 text-center pb-1 pt-3">
-                <div className="card-title">
-                  <h7 className="font-weight-bolder">Hello</h7>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6 col-12 pb-4">
-              <div className="card smallcard shadow border-0 rounded-0 text-center pb-1 pt-3">
-                <div className="card-title">
-                  <h7 className="font-weight-bolder">Hello</h7>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6 col-12 pb-4">
-              <div className="card smallcard shadow border-0 rounded-0 text-center pb-1 pt-3">
-                <div className="card-title">
-                  <h7 className="font-weight-bolder">Hello</h7>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6 col-12 pb-4">
-              <div className="card smallcard shadow border-0 rounded-0 text-center pb-1 pt-3">
-                <div className="card-title">
-                  <h7 className="font-weight-bolder">Hello</h7>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6 col-12 pb-4">
-              <div className="card smallcard shadow border-0 rounded-0 text-center pb-1 pt-3">
-                <div className="card-title">
-                  <h7 className="font-weight-bolder">Hello</h7>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6 col-12 pb-4">
-              <div className="card smallcard shadow border-0 rounded-0 text-center pb-1 pt-3">
-                <div className="card-title">
-                  <h7 className="font-weight-bolder">Hello</h7>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6 col-12 pb-4">
-              <div className="card smallcard shadow border-0 rounded-0 text-center pb-1 pt-3">
-                <div className="card-title">
-                  <h7 className="font-weight-bolder">Hello</h7>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6 col-12 pb-4">
-              <div className="card smallcard shadow border-0 rounded-0 text-center pb-1 pt-3">
-                <div className="card-title">
-                  <h7 className="font-weight-bolder">Hello</h7>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6 col-12 pb-4">
-              <div className="card smallcard shadow border-0 rounded-0 text-center pb-1 pt-3">
-                <div className="card-title">
-                  <h7 className="font-weight-bolder">Hello</h7>
-                </div>
-              </div>
-            </div>
-          </div>
+                );
+              })}
+              
+          
+        </div>
         </div>
       </div>
     </section>

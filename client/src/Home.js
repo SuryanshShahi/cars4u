@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Menu from "./Data/Menu";
+import swal from "sweetalert";
 import Slide from "./Data/SliderCars";
 import Logo from "./Data/Logo";
 import Latest from "./Data/LatestCars";
@@ -13,15 +14,10 @@ import web3 from "./images/thumb.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import StarsRating from "stars-rating";
-// import dsd from "{https://drive.google.com/file/d/1FjTIdyrBAa4WIq1vZBS7VhmlAh5wJoUq/view?usp=sharing}";
 import Upcoming from "./Data/Upcoming";
 
 function Home() {
   const [items, setItems] = useState(Menu);
-  const [slide] = useState(Slide);
-  const [logo] = useState(Logo);
-  const [latestcars] = useState(Latest);
-  const [upcoming] = useState(Upcoming);
   const [img, setImage] = useState(Menu);
   const filterItem = (categItem) => {
     const updatedItems = Menu.filter((curElem) => {
@@ -52,7 +48,7 @@ function Home() {
     autoplaySpeed: 1800,
   };
   var setting = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 1000,
     slidesToShow: 6,
@@ -70,9 +66,9 @@ function Home() {
           Recommended Cars For You
         </h2>
         <div className="container bg-secondary card shadow border-0">
-          <div className="container bg-white">
+          <div className="bg-white px-3">
             <Slider {...settings}>
-              {slide.map((elem) => {
+              {Slide.map((elem) => {
                 const { id, name, image, price, rate } = elem;
                 return (
                   <NavLink
@@ -82,7 +78,7 @@ function Home() {
                     data-toggle="modal"
                     onClick={() => filterImg(id)}
                   >
-                    <div className="card px-2 py-2 border-0 shadow rounded-0 effects">
+                    <div className="card recommendedcard px-2 py-2 border-0 shadow rounded-0 effects">
                       <img src={image} alt="menupic1" className="img-fluid" />
                       <div className="arrow2 py-5 justify-content-center d-flex">
                         <div className="fa fa-arrow-circle-right text-white py-5"></div>
@@ -116,9 +112,9 @@ function Home() {
               })}
             </Slider>
           </div>
+          </div>
         </div>
-      </div>
-
+     
       <div id="carsection" className="carsection">
         <div class="container pt-5">
           <h2 className="text-center font-weight-bold pb-2">
@@ -711,15 +707,15 @@ function Home() {
       </div>
 
       <div className="container py-5 ">
-        <h2 className="text-center font-weight-bold py-4">Popular Brands</h2>
+        <h2 className="text-center font-weight-bold pt-5 py-4">Popular Brands</h2>
         <div className="container card border-0 shadow bg-secondary">
           <div className="container bg-white">
             <Slider {...setting}>
-              {logo.map((elem) => {
+              {Logo.map((elem) => {
                 const { image2, logoname } = elem;
                 return (
                   // <div className="card px-1 py-2  ">
-                  <div className="col-2 py-4 card border-0 shadow-sm rounded-0">
+                  <div className="col-2 py-4 card border-0 logocard shadow-sm rounded-0">
                     <div className="text-center">
                       <img
                         src={image2}
@@ -741,10 +737,10 @@ function Home() {
 
       <div className="Latest">
         <h2 className="text-center font-weight-bold pt-5 pb-4">Latest Cars</h2>
-        <div className="container bg-secondary card shadow border-0">
-          <div className="container bg-white">
+        <div className="container bg-secondary  card shadow border-0">
+        <div className="bg-white px-3">
             <Slider {...settings}>
-              {latestcars.map((elem) => {
+              {Latest.map((elem) => {
                 const { id, name, image, price, rate } = elem;
                 return (
                   <NavLink
@@ -754,7 +750,7 @@ function Home() {
                     data-toggle="modal"
                     onClick={() => filterImg(id)}
                   >
-                    <div className="card px-2 py-2 border-0 shadow rounded-0 effects d-flex">
+                    <div className="card latestcard px-2 py-2 border-0 shadow rounded-0 effects d-flex">
                       <img src={image} alt="menupic1" className="img-fluid " />
                       <div className="arrow2 py-5 justify-content-center align-items-center d-flex">
                         <div className="fa fa-arrow-circle-right text-white py-5"></div>
@@ -787,7 +783,8 @@ function Home() {
                 );
               })}
             </Slider>
-          </div>
+        
+        </div>
         </div>
       </div>
 
@@ -796,19 +793,17 @@ function Home() {
           Upcoming Cars
         </h2>
         <div className="container bg-secondary card shadow border-0">
-          <div className="container bg-white">
+        <div className="bg-white px-3">
             <Slider {...settings}>
-              {upcoming.map((elem) => {
+              {Upcoming.map((elem) => {
                 const { id, name, image, price, rate } = elem;
                 return (
                   <NavLink
                     to="/"
                     className="text-decoration-none text-dark"
-                    data-target="#mymodal3"
-                    data-toggle="modal"
-                    onClick={() => filterImg(id)}
+                    onClick={()=>swal("", "Available Soon","info",{buttons:false,timer:2000})}
                   >
-                    <div className="card px-2 py-2 border-0 shadow rounded-0 effects d-flex">
+                    <div className="card px-2 py-2 upcomingcard border-0 shadow rounded-0 effects d-flex">
                       <img src={image} alt="menupic1" className="img-fluid " />
                       <div className="arrow2 py-5 justify-content-center d-flex">
                         <div className="fa fa-arrow-circle-right text-white py-5"></div>
@@ -842,8 +837,9 @@ function Home() {
               })}
             </Slider>
           </div>
+          </div>
         </div>
-      </div>
+
     </section>
   );
 }
