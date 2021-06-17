@@ -5,7 +5,6 @@ function Service() {
   window.scroll(0, 770);
   window.onload = Service;
 
-
   return (
     <section id="service">
       <div className=" pt-5">
@@ -53,35 +52,33 @@ function Service() {
                 <h6>Decode the right car</h6>
               </div>
             </div>
-            </div>
-  
-            <div className="row py-5">
+          </div>
+
+          <div className="row py-5">
             <h2 className="text-center font-weight-bold pb-5">
-            Popular Brands
-          </h2>
+              Popular Brands
+            </h2>
             {Logo.map((elem) => {
               const { image2, logoname } = elem;
               return (
-            <div className="col-lg-3 col-sm-6 col-12 pb-4">
-              <div className="card smallcard shadow border-0 rounded-0 text-center pb-1 pt-3">
-                <div className="text-center">
-                  <img
-                    src={image2}
-                    alt="menupic"
-                    className="img-fluid"
-                  />
-                </div>
+                <div className="col-lg-3 col-sm-6 col-12 pb-4">
+                  <div
+                    className="card smallcard shadow border-0 rounded-0 text-center pb-1 pt-3"
+                    data-bs-toggle="tooltip"
+                    title={logoname}
+                  >
+                    <div className="text-center">
+                      <img src={image2} alt="menupic" className="img-fluid" />
+                    </div>
 
-                <h6 className="text-center pt-3 font-weight-bold">
-                  {logoname}
-                </h6>
+                    <h6 className="text-center pt-3 font-weight-bold">
+                      {logoname}
+                    </h6>
+                  </div>
                 </div>
-            </div>
-                );
-              })}
-              
-          
-        </div>
+              );
+            })}
+          </div>
         </div>
       </div>
     </section>

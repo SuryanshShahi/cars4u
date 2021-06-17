@@ -321,6 +321,7 @@ function Navbar() {
                     <label>Phone or Email:</label>
                     <input
                       value={email}
+                      type="text"
                       name="email"
                       // value={login.email}
                       // onChange={handleInputs2}
@@ -549,7 +550,7 @@ function Navbar() {
           <div className="mr-4">
             <div className="justify-content-center searchbox align-content-center d-flex">
               <input
-                type="text"
+                type="search"
                 placeholder="Search.."
                 className=" search ml-5 form-control px-4 text-white position-relative"
                 onClick={show}
@@ -652,6 +653,7 @@ function Navbar() {
                                 src={image}
                                 alt="menupic"
                                 className="img-fluid popup"
+                                data-bs-toggle="tooltip" title={name}
                               />
                             </div>
 
@@ -722,13 +724,13 @@ function Navbar() {
                                   {exterior}
                                 </div>
                                 <h7 className="px-2 pt-2">
-                                <strong>Interior</strong>
-                              </h7>
+                                  <strong>Interior</strong>
+                                </h7>
                                 <div className="justify-content-center pb-4 pt-1 d-flex">
                                   {interior}
                                 </div>
                               </div>
-                          
+
                               <div className="interior">
                                 <div
                                   id="carouselExampleIndicators"
@@ -970,7 +972,6 @@ function Navbar() {
                                       </div>
                                     </div>
                                     <div className="row">
-                                      
                                       <h6>{topFeatures}</h6>
                                       <a
                                         href="#more"
@@ -1081,4 +1082,4 @@ function Navbar() {
 
 export default Navbar;
 
-// <h1 className="text-white">Ask before you borrow it.</h1>
+

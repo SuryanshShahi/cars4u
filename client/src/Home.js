@@ -78,7 +78,7 @@ function Home() {
                     data-toggle="modal"
                     onClick={() => filterImg(id)}
                   >
-                    <div className="card recommendedcard px-2 py-2 border-0 shadow rounded-0 effects">
+                    <div className="card recommendedcard px-2 py-2 border-0 shadow rounded-0 effects"  data-bs-toggle="tooltip" title={name}>
                       <img src={image} alt="menupic1" className="img-fluid" />
                       <div className="arrow2 py-5 justify-content-center d-flex">
                         <div className="fa fa-arrow-circle-right text-white py-5"></div>
@@ -112,9 +112,9 @@ function Home() {
               })}
             </Slider>
           </div>
-          </div>
         </div>
-     
+      </div>
+
       <div id="carsection" className="carsection">
         <div class="container pt-5">
           <h2 className="text-center font-weight-bold pb-2">
@@ -205,6 +205,7 @@ function Home() {
                         className="card text-center carscard text-decoration-none"
                         data-target="#mymodal3"
                         data-toggle="modal"
+                        data-bs-toggle="tooltip" title={name}
                         onClick={() => filterImg(id)}
                       >
                         <img src={image} alt="menuPic" className="img-fluid" />
@@ -309,6 +310,7 @@ function Home() {
                             src={image}
                             alt="menupic"
                             className="img-fluid popup"
+                            data-bs-toggle="tooltip" title={name}
                           />
                         </div>
 
@@ -380,13 +382,13 @@ function Home() {
                               {exterior}
                             </div>
                             <h7 className="px-2 py-2">
-                            <strong>Interior</strong>
-                          </h7>
+                              <strong>Interior</strong>
+                            </h7>
                             <div className="justify-content-center pb-4 pt-1 d-flex">
                               {interior}
                             </div>
                           </div>
-                         
+
                           <div className="interior">
                             <div
                               id="carouselExampleIndicators"
@@ -707,15 +709,16 @@ function Home() {
       </div>
 
       <div className="container py-5 ">
-        <h2 className="text-center font-weight-bold pt-5 py-4">Popular Brands</h2>
+        <h2 className="text-center font-weight-bold pt-5 py-4">
+          Popular Brands
+        </h2>
         <div className="container card border-0 shadow bg-secondary">
           <div className="container bg-white">
             <Slider {...setting}>
               {Logo.map((elem) => {
                 const { image2, logoname } = elem;
                 return (
-                  // <div className="card px-1 py-2  ">
-                  <div className="col-2 py-4 card border-0 logocard shadow-sm rounded-0">
+                  <div className="col-2 py-4 card border-0 logocard shadow-sm rounded-0"  data-bs-toggle="tooltip" title={logoname}>
                     <div className="text-center">
                       <img
                         src={image2}
@@ -738,7 +741,7 @@ function Home() {
       <div className="Latest">
         <h2 className="text-center font-weight-bold pt-5 pb-4">Latest Cars</h2>
         <div className="container bg-secondary  card shadow border-0">
-        <div className="bg-white px-3">
+          <div className="bg-white px-3">
             <Slider {...settings}>
               {Latest.map((elem) => {
                 const { id, name, image, price, rate } = elem;
@@ -750,7 +753,7 @@ function Home() {
                     data-toggle="modal"
                     onClick={() => filterImg(id)}
                   >
-                    <div className="card latestcard px-2 py-2 border-0 shadow rounded-0 effects d-flex">
+                    <div className="card latestcard px-2 py-2 border-0 shadow rounded-0 effects d-flex" data-bs-toggle="tooltip" title={name}>
                       <img src={image} alt="menupic1" className="img-fluid " />
                       <div className="arrow2 py-5 justify-content-center align-items-center d-flex">
                         <div className="fa fa-arrow-circle-right text-white py-5"></div>
@@ -783,8 +786,7 @@ function Home() {
                 );
               })}
             </Slider>
-        
-        </div>
+          </div>
         </div>
       </div>
 
@@ -793,7 +795,7 @@ function Home() {
           Upcoming Cars
         </h2>
         <div className="container bg-secondary card shadow border-0">
-        <div className="bg-white px-3">
+          <div className="bg-white px-3">
             <Slider {...settings}>
               {Upcoming.map((elem) => {
                 const { id, name, image, price, rate } = elem;
@@ -801,9 +803,14 @@ function Home() {
                   <NavLink
                     to="/"
                     className="text-decoration-none text-dark"
-                    onClick={()=>swal("", "Available Soon","info",{buttons:false,timer:2000})}
+                    onClick={() =>
+                      swal("", "Available Soon", "info", {
+                        buttons: false,
+                        timer: 2000,
+                      })
+                    }
                   >
-                    <div className="card px-2 py-2 upcomingcard border-0 shadow rounded-0 effects d-flex">
+                    <div className="card px-2 py-2 upcomingcard border-0 shadow rounded-0 effects d-flex" data-bs-toggle="tooltip" title={name}>
                       <img src={image} alt="menupic1" className="img-fluid " />
                       <div className="arrow2 py-5 justify-content-center d-flex">
                         <div className="fa fa-arrow-circle-right text-white py-5"></div>
@@ -837,9 +844,8 @@ function Home() {
               })}
             </Slider>
           </div>
-          </div>
         </div>
-
+      </div>
     </section>
   );
 }

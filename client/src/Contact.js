@@ -67,7 +67,7 @@ function Contact() {
                             Full Name:
                           </label>
                           <input
-                            type="name"
+                            type="text"
                             class="form-control"
                             id="input"
                             placeholder="Enter Full Name"

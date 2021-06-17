@@ -60,7 +60,10 @@ h1 {
   font-weight: bolder;
 }
 
-input[type="email"],input[type="name"],input[type="number"] {
+input[type="email"],
+input[type="text"],
+input[type="number"],
+input[type="password"] {
   border-radius: 50px;
   height: 45px;
 }
@@ -223,7 +226,7 @@ input[type="email"],input[type="name"],input[type="number"] {
   position: relative;
   z-index: 1;
 }
-.zxx{
+.zxx {
   background-color: rgba(0, 0, 0, 0.6);
 }
 .footer {
@@ -237,7 +240,6 @@ input[type="email"],input[type="name"],input[type="number"] {
   cursor: pointer;
 }
 
-
 .C {
   --bs-gutter-x: 0rem;
   border-radius: 2px;
@@ -250,7 +252,6 @@ input[type="email"],input[type="name"],input[type="number"] {
   margin-top: 62px;
   padding-left: 15px;
 }
-
 
 .cardhover {
   z-index: 0;
@@ -520,6 +521,7 @@ ul {
   overflow-y: overlay;
   position: fixed;
   overflow-x: hidden;
+  z-index: 999;
 }
 
 .backtotop {
@@ -624,9 +626,7 @@ ul {
   width: 150vh;
 }
 
-
-
-.emailInput{
+.emailInput {
   outline: none;
   display: block;
   border-radius: 70px;
@@ -651,34 +651,32 @@ ul {
 .emailInput::placeholder {
   color: black;
 }
-.form-control:focus{
-border-color: #e43c5c;
-box-shadow: none;
-outline: none;
+.form-control:focus {
+  border-color: #e43c5c;
+  box-shadow: none;
+  outline: none;
 }
-.logobg{
+.logobg {
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 999;
 }
-.logocard{
+.logocard {
   min-height: 155px;
 }
-.latestcard{
-  min-height:396px
+.latestcard {
+  min-height: 396px;
 }
-.upcomingcard{
-  min-height:286px
+.upcomingcard {
+  min-height: 286px;
 }
-.recommendedcard{
+.recommendedcard {
   min-height: 302px;
 }
-
 
 .smallcard {
   position: relative;
   top: 0;
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  cursor: pointer;
   font-size: 15px;
 }
 .smallcard:hover {

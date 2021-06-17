@@ -2,7 +2,6 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import swal from "sweetalert";
 import "./App.css";
-import web from "./images/footer.jpg";
 
 function Footer() {
   return (
@@ -84,7 +83,6 @@ function Footer() {
             <br></br>
             <div className="float-lg-left float-sm-left px-lg-5 d-flex justify-content-center align-content-center">
               © Copyright. All Rights Reserved<br></br>
-             
             </div>
             <div className="float-lg-right float-sm-right px-lg-5 px-md-5 px-sm-5 d-flex justify-content-center pt-3 pt-lg-0 pt-md-0 pt-sm-0">
               <a
