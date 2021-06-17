@@ -44,11 +44,6 @@ const Menu = [
       </p>
     ),
 
-    // exterior: (
-    //   <video autoPlay loop muted className="w-100">
-    //   <source src={process.env.PUBLIC_URL+"/carsWebm/1.webm"}/>
-    // </video>
-    // ),
     exterior: (
       <video autoPlay loop muted className="w-100">
         <source src={process.env.PUBLIC_URL + "/carsWebm/1.webm"} />
@@ -198,12 +193,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -419,12 +408,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -614,12 +597,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -803,12 +780,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -1007,12 +978,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -1204,12 +1169,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -1393,12 +1352,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -1597,12 +1550,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -1795,12 +1742,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -1995,12 +1936,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -2209,12 +2144,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -2408,12 +2337,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -2615,12 +2538,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -2810,12 +2727,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -3018,12 +2929,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -3220,12 +3125,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -3422,12 +3321,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -3629,12 +3522,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -3838,12 +3725,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -4034,12 +3915,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -4236,12 +4111,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -4434,12 +4303,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -4637,12 +4500,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -4835,12 +4692,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -5038,12 +4889,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -5247,12 +5092,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -5457,12 +5296,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -5666,12 +5499,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -5872,12 +5699,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -6086,12 +5907,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -6276,12 +6091,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -6501,12 +6310,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -6689,12 +6492,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -6887,12 +6684,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -7087,12 +6878,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -7267,12 +7052,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -7472,12 +7251,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -7672,12 +7445,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -7867,12 +7634,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -8076,12 +7837,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -8278,12 +8033,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },
@@ -8487,12 +8236,6 @@ const Menu = [
             Anti Lock Braking System
           </h7>
         </div>
-        <a
-          href="#more"
-          className="col-12 py-3 text-center text-decoration-none"
-        >
-          <b>+6 more</b>
-        </a>
       </div>,
     ],
   },

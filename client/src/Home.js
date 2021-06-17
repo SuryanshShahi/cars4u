@@ -262,6 +262,7 @@ function Home() {
               const {
                 name,
                 image,
+                id,
 
                 description,
                 price,
@@ -344,7 +345,7 @@ function Home() {
                               </div>
                               <div className="col-lg-9 col-md-12 col-sm-12 col-12 pt-2">
                                 <a
-                                  href="#rate"
+                                  href="#rate1"
                                   className="px-1 text-decoration-none ratethiscar"
                                 >
                                   <b>Rate This Car</b>
@@ -378,11 +379,13 @@ function Home() {
                             <strong>Exterior</strong>
                           </h7>
 
-                          <div className="justify-content-center py-4 w-100 videoBG d-flex">
-                            {exterior}
-                          </div>
-                          <div className="justify-content-center d-flex">
-                            {interior}
+                          <div className="" key={id}>
+                            <div className="justify-content-center w-100 videoBG d-flex">
+                              {exterior}
+                            </div>
+                            <div className="justify-content-center d-flex">
+                              {interior}
+                            </div>
                           </div>
                           <h7 className="px-2 py-2">
                             <strong>Interior</strong>
@@ -627,6 +630,12 @@ function Home() {
                                 </div>
                                 <div className="row">
                                   <h6>{topFeatures}</h6>
+                                  <a
+                                    href="#more1"
+                                    className="col-12 py-3 text-center text-decoration-none"
+                                  >
+                                    <b>+6 more</b>
+                                  </a>
                                 </div>
                               </div>
                             </div>
@@ -654,7 +663,7 @@ function Home() {
                           </div>
                         </div>
                       </div>
-                      <div className="container-fluid py-5" id="more">
+                      <div className="container-fluid py-5" id="more1">
                         <h4>
                           <strong>Key Features of {name}</strong>
                         </h4>
@@ -674,7 +683,7 @@ function Home() {
                           Rate This Car
                         </h4>
                         <div className="rating justify-content-center d-flex">
-                          <div id="rate" className="star">
+                          <div id="rate1" className="star">
                             <StarsRating
                               count={5}
                               onChange={ratingChanged}
