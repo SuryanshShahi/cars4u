@@ -150,10 +150,10 @@ function Navbar() {
   const hello = () => {
     setTimeout(() => {
       showLogin();
-    }, 1000);
+    }, 3000);
     setTimeout(() => {
       swal("", "Logged out", "info", { buttons: false, timer: 1500 });
-    }, 2000);
+    }, 1000);
   };
 
   const [items, setItems] = useState(Menu);
@@ -550,6 +550,7 @@ function Navbar() {
           </div>
         </div>
       </div>
+
       <div className="all">
         <div id="hero">
           <video autoPlay loop muted className="w-100 back">

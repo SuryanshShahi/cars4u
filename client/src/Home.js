@@ -117,7 +117,7 @@ function Home() {
 
       <div id="carsection" className="carsection">
         <div class="container pt-5">
-          <h2 className="text-center font-weight-bold pb-2">
+          <h2 className="text-center font-weight-bold py-4">
             The Most Searched Cars
           </h2>
           <div className="container-fluid">

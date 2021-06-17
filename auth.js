@@ -42,12 +42,15 @@ router.post("/SignUp", async (req, res) => {
       var mailOptions = {
         from: process.env.EMAIL,
         to: email,
-        subject: "Thank You",
-        text: `Your donation of ₹520 has been recieved`,
+        subject: "Registraion Successfull",
+        text: `Welcome To CARS4U`,
+        html:`
+        <iframe src="https://drive.google.com/file/d/16lXMCIQ3bteZ5FrAZPq_ITE9gBJRdHH4/preview" width="640" height="480" allow="autoplay"></iframe>
+        `,
         attachments: [
           {
-            filename: "new.txt",
-            path: "./client/src/new",
+            filename: "mail.html",
+            path: "../server/client/src/images/mail.html",
           },
         ],
       };
