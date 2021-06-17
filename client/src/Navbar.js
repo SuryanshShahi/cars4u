@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink, useHistory } from "react-router-dom";
 import web4 from "./images/img1.gif";
-import car from "./images/car.mp4";
+import car from "./images/car.webm";
 import swal from "sweetalert";
 import web from "./images/seat.png";
 import web1 from "./images/bhp.png";
