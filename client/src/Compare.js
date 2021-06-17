@@ -54,7 +54,7 @@ function CompareCars() {
               const {
                 name,
                 image,
-
+                id,
                 description,
                 price,
 
@@ -138,7 +138,7 @@ function CompareCars() {
                               </div>
                               <div className="col-lg-9 col-md-12 col-sm-12 col-12 pt-2">
                                 <a
-                                  href="#rate"
+                                  href="#rate3"
                                   className="px-1 text-decoration-none ratethiscar "
                                 >
                                   <b>Rate This Car</b>
@@ -172,14 +172,18 @@ function CompareCars() {
                             <strong>Exterior</strong>
                           </h7>
 
-                          <div className="exterior">
-
+                          <div className="" key={id}>
+                          <div className="justify-content-center w-100 pb-4 videoBG d-flex">
                             {exterior}
-                            {interior}
                           </div>
                           <h7 className="px-2 py-2">
-                            <strong>Interior</strong>
-                          </h7>
+                          <strong>Interior</strong>
+                        </h7>
+                          <div className="justify-content-center pb-4 pt-1 d-flex">
+                            {interior}
+                          </div>
+                        </div>
+                         
                           <div className="interior">
                             <div
                               id="carouselExampleIndicators"
@@ -420,6 +424,12 @@ function CompareCars() {
                                 </div>
                                 <div className="row">
                                   <h6>{topFeatures}</h6>
+                                  <a
+                                    href="#more2"
+                                    className="col-12 py-3 text-center text-decoration-none"
+                                  >
+                                    <b>+6 more</b>
+                                  </a>
                                 </div>
                               </div>
                             </div>
@@ -447,7 +457,7 @@ function CompareCars() {
                           </div>
                         </div>
                       </div>
-                      <div className="container-fluid py-5" id="more">
+                      <div className="container-fluid py-5" id="more2">
                         <h4>
                           <strong>Key Features of {name}</strong>
                         </h4>
@@ -467,7 +477,7 @@ function CompareCars() {
                           Rate This Car
                         </h4>
                         <div className="rating justify-content-center d-flex">
-                          <div id="rate" className="star">
+                          <div id="rate3" className="star">
                             <StarsRating
                               count={5}
                               onChange={ratingChanged}

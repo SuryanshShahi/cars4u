@@ -3167,11 +3167,9 @@ const Menu = [
       </p>
     ),
     exterior: (
-      <img
-        className="d-block w-100 img-fluid imgH"
-        src="https://media2.giphy.com/media/cmBPTHsRAoEOmVUQGD/giphy.gif"
-        alt="menupic"
-      />
+      <video autoPlay loop muted className="w-100">
+      <source src={process.env.PUBLIC_URL + "/carsWebm/17.webm"} />
+    </video>
     ),
     interior: (
       <video autoPlay loop muted className="w-100">

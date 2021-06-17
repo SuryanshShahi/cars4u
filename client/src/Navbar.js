@@ -718,16 +718,17 @@ function Navbar() {
                               </h7>
 
                               <div className="" key={id}>
-                                <div className="justify-content-center w-100 videoBG d-flex">
+                                <div className="justify-content-center w-100 pb-4 videoBG d-flex">
                                   {exterior}
                                 </div>
-                                <div className="justify-content-center d-flex">
+                                <h7 className="px-2 py-2">
+                                <strong>Interior</strong>
+                              </h7>
+                                <div className="justify-content-center pb-4 pt-1 d-flex">
                                   {interior}
                                 </div>
                               </div>
-                              <h7 className="px-2 py-2">
-                                <strong>Interior</strong>
-                              </h7>
+                          
                               <div className="interior">
                                 <div
                                   id="carouselExampleIndicators"
