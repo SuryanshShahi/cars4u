@@ -408,7 +408,7 @@ ul {
 
 /* -----------card-open------------- */
 .popup {
-  height: 300px;
+  max-height: 400px;
 }
 .modal-fullscreen {
   height: fit-content;
@@ -682,4 +682,13 @@ ul {
 .smallcard:hover {
   color: #e61e43;
   top: -10px;
+}
+#logout{
+  display: none;
+}
+#signin{
+  display: block;
+}
+#signup{
+  display: block;
 }

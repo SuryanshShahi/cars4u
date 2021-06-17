@@ -995,7 +995,7 @@ const Menu = [
         cc . It is available with the Automatic transmission. Depending upon the
         variant and fuel type the XC40 has a mileage of . The XC40 is a 5 seater
         and has length of 4425mm, width of 2034mm and a wheelbase of 2702mm.'
-        <br></br>Latest News: The Volvo XC40 has breezed through Euro-NCAP tests
+        <br></br><b>Latest News:</b> The Volvo XC40 has breezed through Euro-NCAP tests
         with a five-star rating. You can read more about it here. Vovlo sold off
         the first lot of 200 units earmarked for the country within two weeks of
         launching it. Prices of the next lot of R-Design units have subsequently

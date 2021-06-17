@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { NavLink, useHistory } from "react-router-dom";
 import web4 from "./images/img1.gif";
-import car from "./images/car.mp4";
-// import car from "./images/car.webm";
+import car from "./images/car.webm";
 import swal from "sweetalert";
 import web from "./images/seat.png";
 import web1 from "./images/bhp.png";
@@ -94,6 +93,8 @@ function Navbar() {
     } else if (res.status === 201) {
       swal("", "SignUp Successful", "success", { timer: 2200, buttons: false });
       console.log("SignUp Successful");
+      Logout();
+      Signin();
     } else {
       swal("", "Invalid Credentials!", "error", {
         timer: 2200,
@@ -123,6 +124,9 @@ function Navbar() {
       swal("", "Signin Successful", "success", { timer: 2200, buttons: false });
       console.log("Signin Successful");
       history.push("/home");
+      window.scroll(0, 770);
+      Logout();
+      Signin();
     } else {
       swal("", "Invalid Credentials!", "error", {
         timer: 2200,
@@ -131,8 +135,27 @@ function Navbar() {
       console.log("Invalid Credentials");
     }
   };
+  const Logout = () => {
+    document.getElementById("logout").style.display = "block";
+  };
+  const Signin = () => {
+    document.getElementById("signin").style.display = "none";
+    document.getElementById("signup").style.display = "none";
+  };
+  const showLogin = () => {
+    document.getElementById("signin").style.display = "block";
+    document.getElementById("signup").style.display = "block";
+    document.getElementById("logout").style.display = "none";
+  };
+  const hello = () => {
+    setTimeout(() => {
+      showLogin();
+    }, 1000);
+    setTimeout(() => {
+      swal("", "Logged out", "info", { buttons: false, timer: 1500 });
+    }, 2000);
+  };
 
-  // const [items, setItems] = useState(Search);
   const [items, setItems] = useState(Menu);
   const filterImg = (id) => {
     const updatedImg = Menu.filter((curElem) => {
@@ -258,6 +281,7 @@ function Navbar() {
                 <li className="text-center py-1">
                   <NavLink
                     to="/"
+                    id="signin"
                     className={
                       signin
                         ? "signin active text-decoration-none mx-lg-3 mx-md-3 mx-3 fa-lg btn rounded shadow-none pt-3 border-warning"
@@ -268,8 +292,11 @@ function Navbar() {
                   >
                     LogIn
                   </NavLink>
+                </li>
+                <li className="text-center py-1">
                   <NavLink
                     to="/"
+                    id="signup"
                     className={
                       signin
                         ? "signin active text-decoration-none mx-lg-3 mx-md-3 mx-3 fa-lg btn rounded shadow-none pt-3 border-warning"
@@ -279,6 +306,21 @@ function Navbar() {
                     data-toggle="modal"
                   >
                     SignUp
+                  </NavLink>
+                </li>
+                <li className="text-center py-1">
+                  <NavLink
+                    to="/"
+                    id="logout"
+                    onClick={hello}
+                    // onClick={showLogin}
+                    className={
+                      signin
+                        ? "signin active text-decoration-none mx-lg-3 mx-md-3 mx-3 fa-lg btn rounded shadow-none pt-3 border-warning"
+                        : "signin text-decoration-none mx-lg-3 mx-md-3 mx-3 fa-lg text-white btn btn-w rounded shadow-none bg-transparent pt-3"
+                    }
+                  >
+                    Logout
                   </NavLink>
                 </li>
                 <li>
@@ -511,7 +553,7 @@ function Navbar() {
       <div className="all">
         <div id="hero">
           <video autoPlay loop muted className="w-100 back">
-            <source src={car} className="hero" />
+            <source src={car} />
           </video>
         </div>
         <div className="tagline" id="tagline">
@@ -646,7 +688,7 @@ function Navbar() {
                           CARS4U
                         </span>
                       </h4>
-                      <div className="container-fluid popup">
+                      <div className="container-fluid">
                         <div className="card border-0 shadow ">
                           <div className="row ">
                             <div className="col-lg-6 col-md-6 col-6 d-flex justify-content-center">
@@ -654,7 +696,8 @@ function Navbar() {
                                 src={image}
                                 alt="menupic"
                                 className="img-fluid popup"
-                                data-bs-toggle="tooltip" title={name}
+                                data-bs-toggle="tooltip"
+                                title={name}
                               />
                             </div>
 
@@ -701,7 +744,7 @@ function Navbar() {
                                 <br></br>
                                 <NavLink
                                   to="/"
-                                  className="btn view border-danger shadow-none px-auto py-auto"
+                                  className="btn view border-danger shadow-none py-2"
                                   data-dismiss="modal"
                                   onClick={(e) => filterImg1(e.target.id)}
                                 >
@@ -1082,5 +1125,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
-
