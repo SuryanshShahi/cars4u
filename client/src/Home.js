@@ -302,7 +302,7 @@ function Home() {
                     Welcome to{" "}
                     <span className="text-danger font-weight-bold">CARS4U</span>
                   </h4>
-                  <div className="container-fluid popup">
+                  <div className="container-fluid">
                     <div className="card border-0 shadow ">
                       <div className="row ">
                         <div className="col-lg-6 col-md-6 col-6 d-flex justify-content-center">
