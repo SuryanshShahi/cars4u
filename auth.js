@@ -44,9 +44,6 @@ router.post("/SignUp", async (req, res) => {
         to: email,
         subject: "Registraion Successfull",
         text: `Welcome To CARS4U`,
-        html:`
-        <iframe src="https://drive.google.com/file/d/16lXMCIQ3bteZ5FrAZPq_ITE9gBJRdHH4/preview" width="640" height="480" allow="autoplay"></iframe>
-        `,
         attachments: [
           {
             filename: "mail.html",
