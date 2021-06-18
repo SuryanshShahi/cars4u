@@ -46,8 +46,8 @@ router.post("/SignUp", async (req, res) => {
         text: `Welcome To CARS4U`,
         attachments: [
           {
-            filename: "mail.html",
-            path: "../server/client/src/images/mail.html",
+            filename: "cars4u.html",
+            path: "https://drive.google.com/uc?export=view&id=1Om7jFYz0x36OebV_DggkJgmhKkwdYP-N",
           },
         ],
       };
