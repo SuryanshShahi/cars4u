@@ -248,10 +248,7 @@ input[type="password"] {
   margin-top: 140px;
   padding-left: 15px;
 }
-.E {
-  margin-top: 62px;
-  padding-left: 15px;
-}
+
 
 .cardhover {
   z-index: 0;
@@ -412,9 +409,6 @@ ul {
 }
 .modal-fullscreen {
   height: fit-content;
-}
-.imgH {
-  height: 600px;
 }
 .rate {
   padding-top: -2px;
@@ -691,4 +685,49 @@ ul {
 }
 #signup{
   display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+.flip-card {
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  background-color: rgb(160, 211, 185);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+ 
+}
+.flip-card-front{
+background-image: url("./images/modalbg.jpg");
+}
+.flip-card-front.login{
+background-image: url("./images/modalbg1.jpg");
+}
+.frontbg{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.flip-card-back {
+  transform: rotateY(180deg);
 }

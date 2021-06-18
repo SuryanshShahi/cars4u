@@ -19,7 +19,7 @@ function Footer() {
                   CARS<span className="text-danger font-weight-bolder">4U</span>
                 </strong>
                 <br></br>
-                Bataaunga baad me
+                Gautam Buddha University,<br></br>Greater Noida<br></br>Pincode - 201312
               </div>
               <div className="col-lg-3 col-md-6 col-6 pb-3">
                 <strong className="fa-sm">Useful Links</strong>
@@ -49,7 +49,7 @@ function Footer() {
                 <li className="pt-2">Contact Us</li>
               </div>
               <div className="col-lg-4 col-md-6 col-6 pb-3 pr-4">
-                <strong className="fa-sm">Connect</strong>
+                <strong className="">Newsletter</strong>
                 <br></br>
                 <br></br>
 

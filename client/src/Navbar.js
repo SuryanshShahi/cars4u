@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink, useHistory } from "react-router-dom";
-import web4 from "./images/img1.gif";
+import web4 from "./images/modalbg.jpg";
+// import web4 from "./images/img1.gif";
 import car from "./images/car.webm";
 import swal from "sweetalert";
 import web from "./images/seat.png";
@@ -339,20 +340,29 @@ function Navbar() {
         <div className="modal-dialog modal-xl">
           <div className="modal-content">
             <div className="row C">
-              <div className="col-lg-6 col-md-6 col-sm-6 col-6">
-                <img src={web4} className="img-fluid E" alt="menupic"></img>
-              </div>
-              <div className="col-lg-6 col-sm-6 col-md-6 col-6">
-                <div className="modal-header">
-                  <h1>
-                    CARS
-                    <span className="text-danger font-weight-bolder">4U</span>
-                  </h1>
-                  <div className="close" data-dismiss="modal">
-                    &times;
-                  </div>
+             
+              <div className="col-lg-6 col-md-12 col-sm-12 col-12 align-content-center justify-content-center d-flex">
+              <div class="flip-card w-100 h-100">
+              <div className="flip-card-inner w-100 h-100">
+                <div className="flip-card-front login w-100 h-100 justify-content-center d-flex align-content-center">
+                  <div className="container-fluid hsdsd frontbg text-white"></div>
                 </div>
-
+                <div className="flip-card-back">
+           
+                </div>
+              </div>
+            </div>
+              </div>
+              <div className="col-lg-6 col-sm-12 col-md-12 col-12">
+              <div className="modal-header">
+              <h1>
+                CARS
+                <span className="text-danger font-weight-bolder">4U</span>
+              </h1>
+              <div className="close pt-4" data-dismiss="modal">
+                &times;
+              </div>
+            </div>
                 <h4 className="text-center my-4 font-weight-lighter">
                   Welcome to{" "}
                   <span className="text-danger font-weight-lighter">
@@ -361,13 +371,12 @@ function Navbar() {
                 </h4>
                 <div className="modal-body">
                   <form method="POST" className="form container">
-                    <label>Phone or Email:</label>
+                    <label>Email:</label>
                     <input
                       value={email}
                       type="text"
                       name="email"
-                      // value={login.email}
-                      // onChange={handleInputs2}
+                      placeholder="Enter Email"
                       onChange={(e) => setEmail(e.target.value)}
                       className="form-control mt-1 mb-4"
                     ></input>
@@ -385,14 +394,13 @@ function Navbar() {
                       name="password"
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
-                      // value={login.password}
-                      // onChange={handleInputs2}
+                      placeholder="Enter Password"
                     ></input>
                     <div className=" text-center">
                       <NavLink
                         to="/"
                         onClick={loginUser}
-                        className="forbtn btn text-white w-50 mt-2"
+                        className="forbtn btn text-white w-50 mt-2 shadow-lg"
                         data-dismiss="modal"
                       >
                         Sign in
@@ -422,25 +430,33 @@ function Navbar() {
         <div className="modal-dialog modal-xl">
           <div className="modal-content">
             <div className="row C">
-              <div className="col-lg-6 col-md-6 col-sm-6 col-6">
-                <img src={web4} className="img-fluid D" alt="menupic"></img>
+              <div className="col-lg-6 col-md-12 col-sm-12 col-12 align-content-center justify-content-center d-flex">
+                <div class="flip-card w-100 h-100">
+                  <div className="flip-card-inner w-100 h-100">
+                    <div className="flip-card-front w-100 h-100 justify-content-center d-flex align-content-center">
+                      <div className="container-fluid hsdsd frontbg text-white"></div>
+                    </div>
+                    <div className="flip-card-back">
+                      <h1>John Doe</h1>
+                      <p>Architect & Engineer</p>
+                      <p>We love that guy</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className="col-lg-6 col-sm-6 col-md-6 col-6">
+              <div className="col-lg-6 col-sm-12 col-md-12 col-12">
                 <div className="modal-header">
                   <h1>
                     CARS
                     <span className="text-danger font-weight-bolder">4U</span>
                   </h1>
-                  <div className="close" data-dismiss="modal">
+                  <div className="close pt-4" data-dismiss="modal">
                     &times;
                   </div>
                 </div>
-
-                <h4 className="text-center my-4 font-weight-lighter">
+                <h4 className="text-center my-4">
                   Welcome to{" "}
-                  <span className="text-danger font-weight-lighter">
-                    CARS4U
-                  </span>
+                  <span className="text-danger font-weight-bold">CARS4U</span>
                 </h4>
                 <div className="modal-body">
                   <form method="POST" className="form container">
@@ -450,6 +466,7 @@ function Navbar() {
                         <input
                           type="text"
                           name="fname"
+                          placeholder="First Name"
                           className="form-control mt-1 mb-4"
                           value={user.name}
                           onChange={handleInputs}
@@ -460,6 +477,7 @@ function Navbar() {
                         <input
                           type="text"
                           name="lname"
+                          placeholder="Last Name"
                           className="form-control mt-1 mb-4"
                           value={user.name}
                           onChange={handleInputs}
@@ -470,6 +488,7 @@ function Navbar() {
                     <input
                       type="email"
                       name="email"
+                      placeholder="Enter Email"
                       value={user.email}
                       onChange={handleInputs}
                       className="form-control mt-1 mb-4"
@@ -479,6 +498,7 @@ function Navbar() {
                     <input
                       type="number"
                       name="phone"
+                      placeholder="Enter Phone No."
                       value={user.phone}
                       onChange={handleInputs}
                       className="form-control mt-1 mb-4"
@@ -489,6 +509,7 @@ function Navbar() {
                         <input
                           className="form-control mt-1 mb-4"
                           type="password"
+                          placeholder="Enter Password"
                           name="password"
                           value={user.password}
                           onChange={handleInputs}
@@ -499,6 +520,7 @@ function Navbar() {
                         <input
                           className="form-control mt-1 mb-4"
                           type="password"
+                          placeholder="Re-enter Password"
                           name="cpassword"
                           value={user.cpassword}
                           onChange={handleInputs}
@@ -508,7 +530,7 @@ function Navbar() {
                     <div className="text-center">
                       <NavLink
                         to="/"
-                        className="forbtn btn text-white w-50 mt-2"
+                        className="forbtn btn text-white w-50 mt-2 shadow-lg"
                         data-dismiss="modal"
                         onClick={PostData}
                       >
