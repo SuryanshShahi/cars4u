@@ -439,6 +439,14 @@ ul {
   font-size: 50px;
 }
 
+@keyframes slideIn {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .tagline {
   position: absolute;
   bottom: 0;
@@ -451,7 +459,12 @@ ul {
   flex-direction: column;
   text-align: center;
   padding: 0 15px;
+  animation: 1.8s ease-out 0s 1 slideIn;
 }
+.animation{
+  animation: 1.5s ease-out 0s 1 slideIn;
+}
+  
 .tagline h1 {
   font-size: 48px;
 }
@@ -712,22 +725,49 @@ ul {
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
-
 .flip-card-front, .flip-card-back {
   position: absolute;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
- 
 }
 .flip-card-front{
-background-image: url("./images/modalbg.jpg");
+background: url("./images/signup.gif");
+background-repeat: no-repeat;
 }
 .flip-card-front.login{
-background-image: url("./images/modalbg1.jpg");
+  background: url("./images/signin.gif");
 }
 .frontbg{
   background-color: rgba(0, 0, 0, 0.6);
 }
 .flip-card-back {
   transform: rotateY(180deg);
+}
+.flip-card-back.card {
+  background-color: rgb(160, 211, 185);
+  border: none;
+}
+.newsmargin{
+  margin-top: 155px;
+}
+.justify{
+text-align: justify;
+font-size: 20px;
+}
+.newsletter.btn{
+  border-width: 2px;
+  background-color: transparent;
+  border-color: white;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 8px 30px 9px 30px;
+  transition: 0.9s;
+}
+.newsletter.btn:hover{
+  background-color: #e43c5c;
+  border-color: #e43c5c;
+  color: white;
+}
+.justifycenter{
+  text-align: center;
 }

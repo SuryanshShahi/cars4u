@@ -17,7 +17,7 @@ function Contact() {
           </h1>
           <hr className="w-50 mx-auto text-success"></hr>
         </div>
-        <div className="card shadow-sm container my-5 pt-3">
+        <div className="card shadow-sm container my-5 pt-3 animation">
           <iframe
             className="w-100 map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.894827890027!2d77.52285456477757!3d28.422430182501124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cc0562d35c6eb%3A0xf28d7eccac27450f!2sGautam%20Buddha%20University%20BOYS%20HOSTEL&#39;s!5e0!3m2!1sen!2sbg!4v1621609175189!5m2!1sen!2sbg"

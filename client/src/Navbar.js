@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import { NavLink, useHistory } from "react-router-dom";
-import web4 from "./images/modalbg.jpg";
-// import web4 from "./images/img1.gif";
 import car from "./images/car.webm";
 import swal from "sweetalert";
 import web from "./images/seat.png";
 import web1 from "./images/bhp.png";
 import web2 from "./images/engine.png";
 import web3 from "./images/thumb.png";
+import web4 from "./images/right.png";
 import StarsRating from "stars-rating";
 import Menu from "./Data/Menu";
 
@@ -324,7 +323,7 @@ function Navbar() {
                     Logout
                   </NavLink>
                 </li>
-                <li>
+                <li className="justify-content-center d-flex">
                   <div
                     className="fa fa-search btn text-warning text-decoration-none justify-content-md-center d-flex pb-md-3 fa-lg mt-2 "
                     onClick={display}
@@ -340,85 +339,134 @@ function Navbar() {
         <div className="modal-dialog modal-xl">
           <div className="modal-content">
             <div className="row C">
-             
-              <div className="col-lg-6 col-md-12 col-sm-12 col-12 align-content-center justify-content-center d-flex">
-              <div class="flip-card w-100 h-100">
-              <div className="flip-card-inner w-100 h-100">
-                <div className="flip-card-front login w-100 h-100 justify-content-center d-flex align-content-center">
-                  <div className="container-fluid hsdsd frontbg text-white"></div>
-                </div>
-                <div className="flip-card-back">
-           
-                </div>
-              </div>
-            </div>
-              </div>
-              <div className="col-lg-6 col-sm-12 col-md-12 col-12">
-              <div className="modal-header">
-              <h1>
-                CARS
-                <span className="text-danger font-weight-bolder">4U</span>
-              </h1>
-              <div className="close pt-4" data-dismiss="modal">
-                &times;
-              </div>
-            </div>
-                <h4 className="text-center my-4 font-weight-lighter">
-                  Welcome to{" "}
-                  <span className="text-danger font-weight-lighter">
-                    CARS4U
-                  </span>
-                </h4>
-                <div className="modal-body">
-                  <form method="POST" className="form container">
-                    <label>Email:</label>
-                    <input
-                      value={email}
-                      type="text"
-                      name="email"
-                      placeholder="Enter Email"
-                      onChange={(e) => setEmail(e.target.value)}
-                      className="form-control mt-1 mb-4"
-                    ></input>
+              <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="flip-card w-100 h-100">
+                  <div className="flip-card-inner w-100 h-100">
+                    <div className="flip-card-front login w-100 h-100">
+                      <div className="container-fluid frontbg h-100 text-white">
+                        <div className="container cardfront py-4 animation">
+                          <h2 className="text-center font-weight-bold">NEWSLETTER</h2>
+                          <h4 className="py-4 justifycenter">Subscribe our newsletter to receive the latest news
+                          exclusive offers every week.<br></br>
+                          <img src={web4} className="pt-2"/></h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flip-card-back py-4 card">
+                      <h2 className="font-weight-bolder text-center">
+                        Why
+                        <span className="text-danger font-weight-bold">
+                          {" "}
+                          Us
+                        </span>
+                      </h2> 
+                      <div className="container px-5">
+                        <ul className="font-weight-bold justify mx-5 py-4">
+                          <li>
+                            Full vehicle detail pages with photos and videos
+                            that explain features and specs
+                          </li>
+                          <li>Accurate pricing information</li>
+                          <li>
+                            Comparison guides that explain the differences
+                            between similar models
+                          </li>
+                          <li>
+                            Trade-in values and information so consumers can get
+                            an idea of their budget
+                          </li>
+                        </ul>
+                        <h4 className="text-center font-weight-bold pb-2">
+                          NEWSLETTER
+                        </h4>
 
-                    <label>Password:</label>
-                    <NavLink
-                      to="/"
-                      className="float-right text-decoration-none"
-                    >
-                      Forget Password?
-                    </NavLink>
-                    <input
-                      className="form-control mt-1 mb-4"
-                      type="password"
-                      name="password"
-                      value={password}
-                      onChange={(e) => setPassword(e.target.value)}
-                      placeholder="Enter Password"
-                    ></input>
-                    <div className=" text-center">
+                        <div className="conatiner px-5">
+                          <form>
+                            <input
+                              type="email"
+                              className="form-control border-0 w-100"
+                              required
+                              placeholder="Enter Email"
+                            />
+                            <button className="newsletter btn w-100 mt-2">
+                              Subscribe
+                            </button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-6 col-sm-12 col-md-12 col-12">
+                <div className="card border-0">
+                  <div className="modal-header">
+                    <h1>
+                      CARS
+                      <span className="text-danger font-weight-bolder">4U</span>
+                    </h1>
+                    <div className="close pt-4" data-dismiss="modal">
+                      &times;
+                    </div>
+                  </div>
+                  <h4 className="text-center my-4 font-weight-lighter">
+                    Welcome to{" "}
+                    <span className="text-danger font-weight-lighter">
+                      CARS4U
+                    </span>
+                  </h4>
+                  <div className="modal-body">
+                    <form method="POST" className="form container">
+                      <label>Email:</label>
+                      <input
+                        value={email}
+                        type="text"
+                        name="email"
+                        placeholder="Enter Email"
+                        onChange={(e) => setEmail(e.target.value)}
+                        className="form-control mt-1 mb-4"
+                      ></input>
+
+                      <label>Password:</label>
                       <NavLink
                         to="/"
-                        onClick={loginUser}
-                        className="forbtn btn text-white w-50 mt-2 shadow-lg"
-                        data-dismiss="modal"
+                        className="float-right text-decoration-none"
                       >
-                        Sign in
+                        Forget Password?
                       </NavLink>
-                    </div>
-                    <div className="modal-footer justify-content-center mt-5">
-                      <h7>Don't have account?</h7>
-                      <NavLink
-                        to="/"
-                        className=""
-                        data-target="#mymodal2"
-                        data-toggle="modal"
-                        data-dismiss="modal"
-                      >
-                        Sign up
-                      </NavLink>
-                    </div>
-                  </form>
+                      <input
+                        className="form-control mt-1 mb-4"
+                        type="password"
+                        name="password"
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                        placeholder="Enter Password"
+                      ></input>
+                      <div className=" text-center">
+                        <NavLink
+                          to="/"
+                          onClick={loginUser}
+                          className="forbtn btn text-white w-50 mt-2 shadow-lg"
+                          data-dismiss="modal"
+                        >
+                          Sign in
+                        </NavLink>
+                      </div>
+                      <div className="modal-footer justify-content-center mt-5">
+                        <h7>Don't have account?</h7>
+                        <NavLink
+                          to="/"
+                          className=""
+                          data-target="#mymodal2"
+                          data-toggle="modal"
+                          data-dismiss="modal"
+                        >
+                          Sign up
+                        </NavLink>
+                      </div>
+                    </form>
+                  </div>
                 </div>
               </div>
             </div>
@@ -430,21 +478,67 @@ function Navbar() {
         <div className="modal-dialog modal-xl">
           <div className="modal-content">
             <div className="row C">
-              <div className="col-lg-6 col-md-12 col-sm-12 col-12 align-content-center justify-content-center d-flex">
-                <div class="flip-card w-100 h-100">
-                  <div className="flip-card-inner w-100 h-100">
-                    <div className="flip-card-front w-100 h-100 justify-content-center d-flex align-content-center">
-                      <div className="container-fluid hsdsd frontbg text-white"></div>
+            <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+            <div class="flip-card w-100 h-100">
+              <div className="flip-card-inner w-100 h-100">
+                <div className="flip-card-front w-100 h-100">
+                  <div className="container-fluid frontbg h-100 text-white">
+                    <div className="container cardfront py-4 animation">
+                      <h2 className="text-center font-weight-bold">NEWSLETTER</h2>
+                      <h4 className="py-4 justifycenter">Subscribe our newsletter to receive the latest news
+                      exclusive offers every week.<br></br>
+                      <img src={web4} className="pt-2"/></h4>
                     </div>
-                    <div className="flip-card-back">
-                      <h1>John Doe</h1>
-                      <p>Architect & Engineer</p>
-                      <p>We love that guy</p>
+                  </div>
+                </div>
+                <div className="flip-card-back card py-4">
+                  <h2 className="font-weight-bolder text-center">
+                    Why
+                    <span className="text-danger font-weight-bold">
+                      {" "}
+                      Us
+                    </span>
+                  </h2>
+                  <div className="container px-5">
+                    <ul className="font-weight-bold justify mx-5 py-4">
+                      <li>
+                        Full vehicle detail pages with photos and videos
+                        that explain features and specs
+                      </li>
+                      <li>Accurate pricing information</li>
+                      <li>
+                        Comparison guides that explain the differences
+                        between similar models
+                      </li>
+                      <li>
+                        Trade-in values and information so consumers can get
+                        an idea of their budget
+                      </li>
+                    </ul>
+                    <h4 className="text-center newsmargin font-weight-bold pb-2">
+                      NEWSLETTER
+                    </h4>
+
+                    <div className="conatiner px-5">
+                      <form>
+                        <input
+                          type="email"
+                          className="form-control border-0 w-100"
+                          required
+                          placeholder="Enter Email"
+                        />
+                        <button className="newsletter btn w-100 mt-2">
+                          Subscribe
+                        </button>
+                      </form>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 col-sm-12 col-md-12 col-12">
+            </div>
+          </div>
+
+            <div className="col-lg-6 col-sm-12 col-md-12 col-12">
                 <div className="modal-header">
                   <h1>
                     CARS
@@ -454,9 +548,11 @@ function Navbar() {
                     &times;
                   </div>
                 </div>
-                <h4 className="text-center my-4">
+                <h4 className="text-center my-4 font-weight-lighter">
                   Welcome to{" "}
-                  <span className="text-danger font-weight-bold">CARS4U</span>
+                  <span className="text-danger font-weight-lighter">
+                    CARS4U
+                  </span>
                 </h4>
                 <div className="modal-body">
                   <form method="POST" className="form container">

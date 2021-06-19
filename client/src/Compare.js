@@ -511,7 +511,7 @@ function CompareCars() {
       </div>
 
       <div className=" py-5">
-        <div className="container ">
+        <div className="container">
           <h1 className="text-center">
             <strong className="tag px-4 py-1">COMPARE CARS</strong>
             <br></br>
@@ -524,6 +524,7 @@ function CompareCars() {
           </h1>
 
           <hr className="w-50 mx-auto text-success mb-5"></hr>
+          <div className="animation">
           <h2 className="text-center font-weight-bold">
             Some Popular Cars Camparsion
           </h2>
@@ -632,6 +633,7 @@ function CompareCars() {
               })}
             </div>
           </div>
+        </div>
         </div>
       </div>
 

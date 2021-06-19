@@ -63,7 +63,7 @@ function Footer() {
                     <div
                       className="subscribe btn text-white font-weight-light  position-absolute"
                       onClick={() =>
-                        swal("", "Email Registered", "success", {
+                        swal("", "Subscribed", "success", {
                           button: false,
                           timer: 2000,
                         })

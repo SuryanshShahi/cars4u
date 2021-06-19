@@ -19,7 +19,7 @@ function Service() {
           <hr className="w-50 mx-auto text-success"></hr>
         </div>
 
-        <div className="container">
+        <div className="container animation">
           <div className="row py-5 ">
             <div className="col-lg-3 col-sm-6 col-12 pb-4">
               <div className="card cardhover shadow text-center py-4">

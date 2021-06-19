@@ -65,7 +65,7 @@ function Home() {
         <h2 className="text-center font-weight-bold py-4">
           Recommended Cars For You
         </h2>
-        <div className="container bg-secondary card shadow border-0">
+        <div className="container bg-secondary card shadow border-0 animation">
           <div className="bg-white px-3">
             <Slider {...settings}>
               {Slide.map((elem) => {
@@ -115,7 +115,7 @@ function Home() {
         </div>
       </div>
 
-      <div id="carsection" className="carsection">
+      <div id="carsection" className="carsection animation">
         <div class="container pt-5">
           <h2 className="text-center font-weight-bold py-4">
             The Most Searched Cars
@@ -708,7 +708,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="container py-5 ">
+      <div className="container py-5 animation">
         <h2 className="text-center font-weight-bold pt-5 py-4">
           Popular Brands
         </h2>
