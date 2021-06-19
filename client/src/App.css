@@ -771,3 +771,36 @@ font-size: 20px;
 .justifycenter{
   text-align: center;
 }
+.chatbot{
+  position: fixed;
+  top: 18%;
+  transition: 0.8s;
+  z-index: 1;
+  right: 7%;
+}
+.chatbtn{
+  position: fixed;
+  bottom: 10%;
+  cursor: pointer;
+  background-color: #e43c5c;
+  border-radius: 10px;
+  z-index: 1;
+  right: 1%;
+  color: white;
+  transition: 0.8s;
+}
+.chatbtn:hover{
+  background-color: white;
+  color:#e43c5c;
+}
+.cut{
+  top: 5%;
+  z-index: 1;
+  cursor: pointer;
+  right: 0%;
+  color: white;
+  position: absolute;
+}
+#chat{
+ display: none;
+}
