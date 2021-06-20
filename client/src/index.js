@@ -296,10 +296,10 @@ ReactDOM.render(
   <div>
   <BrowserRouter>
     <App />
-    </BrowserRouter>
+   
 
 
-            <section>
+        <section>
         <div className="chatbot" id="chat">
         <div className="cut fa-2x">
         <div className="" onClick={close}>&times;</div>
@@ -310,6 +310,7 @@ ReactDOM.render(
         </div>
         <div className="chatbtn fa fa-comment fa-3x px-3 py-2" onClick={chatbot}></div>
         </section>
+        </BrowserRouter>
     </div>,
   document.getElementById('root')
 );
