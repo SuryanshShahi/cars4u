@@ -43,6 +43,9 @@
 .modal::-webkit-scrollbar {
   width: 5px;
 }
+.rsc::-webkit-scrollbar {
+  width: 5px;
+}
 
 ::-webkit-scrollbar-track {
   background: rgb(131, 131, 131);
@@ -771,27 +774,40 @@ font-size: 20px;
 .justifycenter{
   text-align: center;
 }
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 .chatbot{
   position: fixed;
-  top: 18%;
+  top: 19%;
   transition: 0.8s;
   z-index: 1;
-  right: 7%;
+  right: 5.5%;
 }
 .chatbtn{
   position: fixed;
   bottom: 10%;
   cursor: pointer;
-  background-color: #e43c5c;
+  background-image: url("https://tars-file-upload.s3.amazonaws.com/HJGsEj/5daaa9c011ab7047c64d8ee2bf6a8ae4--ezgif.com-resize1.gif");
   border-radius: 10px;
   z-index: 1;
   right: 1%;
-  color: white;
-  transition: 0.8s;
+  height: 70px;
+  width: 70px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.chatbtn:hover{
-  background-color: white;
-  color:#e43c5c;
+#popbtn{
+  display: block;
+  animation: 1.8s ease-out 0s 1 slideInLeft;
+}
+#popbtn1{
+  display: none;
 }
 .cut{
   top: 5%;
@@ -803,4 +819,5 @@ font-size: 20px;
 }
 #chat{
  display: none;
+ transition: 0.8s;
 }
