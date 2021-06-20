@@ -4511,7 +4511,7 @@ const Menu = [
     price: "₹5.73 - 8.41 Lakh*",
     description: (
       <p>
-        <br></br>Maruti Swift Price: The Swift is priced from Rs 5.73 lakh to Rs
+        Maruti Swift Price: The Swift is priced from Rs 5.73 lakh to Rs
         8.41 lakh (ex-showroom Delhi).
         <br></br>
         <b>Maruti Swift Variants:</b> Maruti offers the hatchback in four trims:
@@ -5326,7 +5326,7 @@ const Menu = [
         (60PS/78Nm), paired to a 5-speed MT.
         <br></br>
         Claimed fuel efficiency figures are as follows:
-        <ul>
+        <ul className="pl-5">
           <li>1.0-litre MT/AMT- 21.79kmpl</li>
 
           <li>1.0-litre CNG- 32.52km/kg</li>

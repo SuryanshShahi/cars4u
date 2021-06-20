@@ -47,7 +47,7 @@ function CompareCars() {
 
   return (
     <section id="compare">
-      <div className="modal fade " id="mymodal3">
+      <div className="modal fade" id="mymodal3">
         <div className="modal-dialog modal-fullscreen">
           <div className="modal-content modalcompare">
             {img.map((elem) => {
@@ -79,7 +79,7 @@ function CompareCars() {
               } = elem;
 
               return (
-                <div className="">
+                <div className=" px-3">
                   <div className="modal-header">
                     <h1>
                       CARS
@@ -339,7 +339,7 @@ function CompareCars() {
 
                       <div className="col-lg-5 col-md-12 col-12">
                         <div className="card border-0 shadow">
-                          <div className="container py-4">
+                          <div className="container py-4 justifymodal">
                             <h4>
                               <strong>{name} Specs, Features and Price</strong>
                             </h4>
@@ -794,7 +794,7 @@ function CompareCars() {
                       <h2 className="font-weight-bold">
                         {name} Vs {name1}
                       </h2>
-                      <h5>{description}</h5>
+                      <h4 className="justifymodaldes">{description}</h4>
                     </div>
                   </div>
                   <div className="container">

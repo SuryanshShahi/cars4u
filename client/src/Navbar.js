@@ -785,7 +785,7 @@ function Navbar() {
                   } = elem;
 
                   return (
-                    <div className="">
+                    <div className="px-3">
                       <div className="modal-header">
                         <h1>
                           CARS
@@ -1049,7 +1049,7 @@ function Navbar() {
 
                           <div className="col-lg-5 col-md-12 col-12">
                             <div className="card border-0 shadow">
-                              <div className="container py-4">
+                              <div className="container py-4 justifymodal">
                                 <h4>
                                   <strong>
                                     {name} Specs, Features and Price

@@ -330,6 +330,9 @@ input[type="password"] {
   bottom: 0;
   position: absolute;
 }
+.imgH{
+  max-height: 600px;
+}
 .arrow2 {
   opacity: 0;
   position: absolute;
@@ -419,6 +422,7 @@ ul {
 .ratethiscar {
   background-color: rgb(202, 198, 198);
   color: black;
+  font-size: 15px;
 }
 .slick-prev:before,
 .slick-next:before {
@@ -531,7 +535,7 @@ ul {
   overflow-y: overlay;
   position: fixed;
   overflow-x: hidden;
-  z-index: 999;
+  z-index: 999 !important;
 }
 
 .backtotop {
@@ -754,6 +758,14 @@ background-repeat: no-repeat;
   margin-top: 155px;
 }
 .justify{
+text-align: justify;
+font-size: 20px;
+}
+.justifymodal{
+text-align: justify;
+font-size: 17px;
+}
+.justifymodaldes{
 text-align: justify;
 font-size: 20px;
 }
