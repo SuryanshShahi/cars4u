@@ -285,12 +285,12 @@
 
 
 // function Chatbot() {
-//     const chatbot=()=>{
-//         document.getElementById("chat").style.display = "block";
-//       }
-//     const close=()=>{
-//         document.getElementById("chat").style.display = "none";
-//       }
+    // const chatbot=()=>{
+    //     document.getElementById("chat").style.display = "block";
+    //   }
+    // const close=()=>{
+    //     document.getElementById("chat").style.display = "none";
+    //   }
 //     return (
 //         <section>
 //         <div className="chatbot" id="chat">
