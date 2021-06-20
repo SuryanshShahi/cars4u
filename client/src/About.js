@@ -18,7 +18,7 @@ function About() {
 
           <hr className="w-50 mx-auto text-success"></hr>
 
-          <div className="container py-5 px-5">
+          <div className="container py-5 px-5 animation">
             <div className="card border-0 shadow-sm mx-5 px-5 pt-4 mb-4">
               <p className="justifymodaldes pb-5">
                 This website is developed only as a part of my project work in

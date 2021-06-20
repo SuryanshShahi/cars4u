@@ -10,8 +10,14 @@ import Navbar from "./Navbar";
 import { Switch, Route, Redirect } from "react-router-dom";
 import "./App.css";
 import Footer from "./Footer";
-import ClipLoader from "react-spinners/ClipLoader";
+import PropagateLoader from "react-spinners/PropagateLoader";
 import Compare from "./Compare";
+import { css } from "@emotion/react";
+const override = css`
+  display: flex;
+  justify-content:center;
+  margin: 50px auto;
+`;
 
 const App = () => {
   const [loading, setLoading] = useState(false);
@@ -20,17 +26,16 @@ const App = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, 2000);
   }, []);
   return (
     <section>
       <div className="app">
         {loading ? (
-          <ClipLoader size={100} color={"#4A90E2"} loading={loading} />
+          <PropagateLoader size={20} color={"#e43c5c"} loading={loading} css={override}/>
         ) : (
           <div>
             <Navbar />
-
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/about" component={About} />
