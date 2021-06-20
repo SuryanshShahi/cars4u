@@ -455,6 +455,7 @@ const steps = [
 ];
 
 const theme = {
+  background: 'rgb(59, 55, 55)',
   headerBgColor: '#e43c5c',
   headerFontColor: '#fff',
   headerFontSize: '15px',
@@ -488,8 +489,8 @@ ReactDOM.render(
         <ChatBot steps={steps} className="position-relative" style={{ background: `url("${Bg}")`, }}/>
         </ThemeProvider>
         </div>
-        <div className="chatbtn" id="popbtn" onClick={chatbot}></div>
-        <div className="chatbtn" id="popbtn1" onClick={close}></div>
+        <div className="chatbtn shadow-lg" id="popbtn" onClick={chatbot}></div>
+        <div className="chatbtn shadow-lg" id="popbtn1" onClick={close}></div>
         </section>
         </BrowserRouter>
     </div>,
