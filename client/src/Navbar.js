@@ -785,7 +785,7 @@ function Navbar() {
                   } = elem;
 
                   return (
-                    <div className="px-3">
+                    <div className="px-lg-3">
                       <div className="modal-header">
                         <h1>
                           CARS
