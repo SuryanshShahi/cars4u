@@ -12,7 +12,7 @@ import "./App.css";
 import Footer from "./Footer";
 import ClipLoader from "react-spinners/ClipLoader";
 import Compare from "./Compare";
-import Chatbot from "./Chatbot";
+// import Chatbot from "./Chatbot";
 
 
 const App = () => {
@@ -43,7 +43,7 @@ const App = () => {
               <Redirect to="/" />
             </Switch>
             <Footer />
-            <Chatbot />
+            
           </div>
         )}
       </div>
