@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import {BrowserRouter} from 'react-router-dom';
 import ChatBot from 'react-simple-chatbot';
-// import { ThemeProvider } from 'styled-components';
+import { ThemeProvider } from 'styled-components';
 import Bg from "./images/chatbot.jpg";
 
 const steps = [
@@ -273,17 +273,17 @@ const steps = [
   },
 ];
 
-// const theme = {
+const theme = {
     
-//   fontFamily: 'Helvetica Neue',
-//   headerBgColor: '#EF6C00',
-//   headerFontColor: '#fff',
-//   headerFontSize: '15px',
-//   botBubbleColor: '#EF6C00',
-//   botFontColor: '#fff',
-//   userBubbleColor: '#fff',
-//   userFontColor: '#4a4a4a',
-// };
+  fontFamily: 'Helvetica Neue',
+  headerBgColor: '#EF6C00',
+  headerFontColor: '#fff',
+  headerFontSize: '15px',
+  botBubbleColor: '#EF6C00',
+  botFontColor: '#fff',
+  userBubbleColor: '#fff',
+  userFontColor: '#4a4a4a',
+};
 
 const chatbot=()=>{
   document.getElementById("chat").style.display = "block";
@@ -296,17 +296,14 @@ ReactDOM.render(
   <div>
   <BrowserRouter>
     <App />
-   
-
-
         <section>
         <div className="chatbot" id="chat">
         <div className="cut fa-2x">
         <div className="" onClick={close}>&times;</div>
         </div>
-
+        <ThemeProvider theme={theme}>
         <ChatBot steps={steps} className="position-relative" style={{ background: `url("${Bg}")`, }}/>
-
+        </ThemeProvider>
         </div>
         <div className="chatbtn fa fa-comment fa-3x px-3 py-2" onClick={chatbot}></div>
         </section>
@@ -315,6 +312,3 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// <ThemeProvider theme={theme}>
-// <ChatBot steps={steps} className="position-relative" style={{ background: `url("${Bg}")`, }}/>
-// </ThemeProvider>
