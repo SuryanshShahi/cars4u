@@ -20,7 +20,8 @@ function Footer() {
                   CARS<span className="text-danger font-weight-bolder">4U</span>
                 </strong>
                 <br></br>
-                Gautam Buddha University,<br></br>Greater Noida<br></br>Pincode - 201312
+                Gautam Buddha University,<br></br>Greater Noida<br></br>Pincode
+                - 201312
               </div>
               <div className="col-lg-3 col-md-4 col-6 pb-3">
                 <strong className="fa-sm">Useful Links</strong>
@@ -47,13 +48,11 @@ function Footer() {
                 <li className="pt-2">Samples</li>
                 <li className="pt-2">All features</li>
                 <li className="pt-2">New releases</li>
-              
-            
-              
               </div>
               <div className="col-lg-4 col-md-12 col-6 pb-3 pr-4">
-                <strong className="justify-content-md-center justify-content-sm-start justify-content-lg-start d-flex pt-lg-0 pt-md-4 pb-3">Newsletter</strong>
-            
+                <strong className="justify-content-md-center justify-content-sm-start justify-content-lg-start d-flex pt-lg-0 pt-md-4 pb-3">
+                  Newsletter
+                </strong>
 
                 <div className="justify-content-center searchbox align-content-center d-flex">
                   <input

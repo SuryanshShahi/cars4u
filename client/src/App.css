@@ -140,7 +140,7 @@ input[type="password"] {
   right: 0;
 }
 .B.active {
-  background: rgba(0, 0, 0, 0.6); 
+  background: rgba(0, 0, 0, 0.6);
 }
 .navbar-brand {
   font-size: 40px;
@@ -240,7 +240,6 @@ input[type="password"] {
   padding-left: 15px;
 }
 
-
 .cardhover {
   z-index: 0;
   border-radius: 8px;
@@ -316,7 +315,7 @@ input[type="password"] {
   bottom: 0;
   position: absolute;
 }
-.imgH{
+.imgH {
   max-height: 600px;
 }
 .arrow2 {
@@ -452,10 +451,10 @@ ul {
   padding: 0 15px;
   animation: 1.8s ease-out 0s 1 slideIn;
 }
-.animation{
+.animation {
   animation: 1.5s ease-out 0s 1 slideIn;
 }
-  
+
 .tagline h1 {
   font-size: 48px;
 }
@@ -611,7 +610,6 @@ ul {
   transition: 0.5s ease-in-out;
 }
 .searchbtn {
-
   border-radius: 50px;
   background-color: #e43c5b71;
   font-size: 30px;
@@ -681,25 +679,15 @@ ul {
   color: #e61e43;
   top: -10px;
 }
-#logout{
+#logout {
   display: none;
 }
-#signin{
+#signin {
   display: block;
 }
-#signup{
+#signup {
   display: block;
 }
-
-
-
-
-
-
-
-
-
-
 
 .flip-card {
   perspective: 1000px;
@@ -710,25 +698,26 @@ ul {
   transition: transform 0.6s;
   transform-style: preserve-3d;
   background-color: rgb(160, 211, 185);
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-.flip-card-front{
-background: url("./images/signup.gif");
-background-repeat: no-repeat;
+.flip-card-front {
+  background: url("./images/signup.gif");
+  background-repeat: no-repeat;
 }
-.flip-card-front.login{
+.flip-card-front.login {
   background: url("./images/signin.gif");
 }
-.frontbg{
+.frontbg {
   background-color: rgba(0, 0, 0, 0.6);
 }
 .flip-card-back {
@@ -738,22 +727,22 @@ background-repeat: no-repeat;
   background-color: rgb(160, 211, 185);
   border: none;
 }
-.newsmargin{
+.newsmargin {
   margin-top: 155px;
 }
-.justify{
-text-align: justify;
-font-size: 20px;
+.justify {
+  text-align: justify;
+  font-size: 20px;
 }
-.justifymodal{
-text-align: justify;
-font-size: 17px;
+.justifymodal {
+  text-align: justify;
+  font-size: 17px;
 }
-.justifymodaldes{
-text-align: justify;
-font-size: 20px;
+.justifymodaldes {
+  text-align: justify;
+  font-size: 20px;
 }
-.newsletter.btn{
+.newsletter.btn {
   border-width: 2px;
   background-color: transparent;
   border-color: white;
@@ -762,12 +751,12 @@ font-size: 20px;
   padding: 8px 30px 9px 30px;
   transition: 0.9s;
 }
-.newsletter.btn:hover{
+.newsletter.btn:hover {
   background-color: #e43c5c;
   border-color: #e43c5c;
   color: white;
 }
-.justifycenter{
+.justifycenter {
   text-align: center;
 }
 @keyframes slideInLeft {
@@ -778,14 +767,14 @@ font-size: 20px;
     transform: translateX(0);
   }
 }
-.chatbot{
+.chatbot {
   position: fixed;
   top: 18%;
   transition: 0.8s;
   z-index: 1;
   right: 5.5%;
 }
-.chatbtn{
+.chatbtn {
   position: fixed;
   bottom: 11%;
   cursor: pointer;
@@ -798,14 +787,14 @@ font-size: 20px;
   background-repeat: no-repeat;
   background-size: cover;
 }
-#popbtn{
+#popbtn {
   display: block;
   animation: 1.5s ease-out 0s 1 slideInLeft;
 }
-#popbtn1{
+#popbtn1 {
   display: none;
 }
-.cut{
+.cut {
   top: 5%;
   z-index: 1;
   cursor: pointer;
@@ -813,7 +802,7 @@ font-size: 20px;
   color: white;
   position: absolute;
 }
-#chat{
- display: none;
- transition: 0.8s;
+#chat {
+  display: none;
+  transition: 0.8s;
 }

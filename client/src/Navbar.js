@@ -345,10 +345,14 @@ function Navbar() {
                     <div className="flip-card-front login w-100 h-100">
                       <div className="container-fluid frontbg h-100 text-white">
                         <div className="container cardfront py-4 animation">
-                          <h2 className="text-center font-weight-bold">NEWSLETTER</h2>
-                          <h4 className="py-4 justifycenter">Subscribe our newsletter to receive the latest news
-                          exclusive offers every week.<br></br>
-                          <img src={web4} className="pt-2" alt="menupic"/></h4>
+                          <h2 className="text-center font-weight-bold">
+                            NEWSLETTER
+                          </h2>
+                          <h4 className="py-4 justifycenter">
+                            Subscribe our newsletter to receive the latest news
+                            exclusive offers every week.<br></br>
+                            <img src={web4} className="pt-2" alt="menupic" />
+                          </h4>
                         </div>
                       </div>
                     </div>
@@ -359,7 +363,7 @@ function Navbar() {
                           {" "}
                           Us
                         </span>
-                      </h2> 
+                      </h2>
                       <div className="container px-5">
                         <ul className="font-weight-bold justify mx-5 py-4">
                           <li>
@@ -478,67 +482,71 @@ function Navbar() {
         <div className="modal-dialog modal-xl">
           <div className="modal-content">
             <div className="row C">
-            <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-            <div class="flip-card w-100 h-100">
-              <div className="flip-card-inner w-100 h-100">
-                <div className="flip-card-front w-100 h-100">
-                  <div className="container-fluid frontbg h-100 text-white">
-                    <div className="container cardfront py-4 animation">
-                      <h2 className="text-center font-weight-bold">NEWSLETTER</h2>
-                      <h4 className="py-4 justifycenter">Subscribe our newsletter to receive the latest news
-                      exclusive offers every week.<br></br>
-                      <img src={web4} className="pt-2" alt="menupic"/></h4>
+              <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="flip-card w-100 h-100">
+                  <div className="flip-card-inner w-100 h-100">
+                    <div className="flip-card-front w-100 h-100">
+                      <div className="container-fluid frontbg h-100 text-white">
+                        <div className="container cardfront py-4 animation">
+                          <h2 className="text-center font-weight-bold">
+                            NEWSLETTER
+                          </h2>
+                          <h4 className="py-4 justifycenter">
+                            Subscribe our newsletter to receive the latest news
+                            exclusive offers every week.<br></br>
+                            <img src={web4} className="pt-2" alt="menupic" />
+                          </h4>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-                <div className="flip-card-back card py-4">
-                  <h2 className="font-weight-bolder text-center">
-                    Why
-                    <span className="text-danger font-weight-bold">
-                      {" "}
-                      Us
-                    </span>
-                  </h2>
-                  <div className="container px-5">
-                    <ul className="font-weight-bold justify mx-5 py-4">
-                      <li>
-                        Full vehicle detail pages with photos and videos
-                        that explain features and specs
-                      </li>
-                      <li>Accurate pricing information</li>
-                      <li>
-                        Comparison guides that explain the differences
-                        between similar models
-                      </li>
-                      <li>
-                        Trade-in values and information so consumers can get
-                        an idea of their budget
-                      </li>
-                    </ul>
-                    <h4 className="text-center newsmargin font-weight-bold pb-2">
-                      NEWSLETTER
-                    </h4>
+                    <div className="flip-card-back card py-4">
+                      <h2 className="font-weight-bolder text-center">
+                        Why
+                        <span className="text-danger font-weight-bold">
+                          {" "}
+                          Us
+                        </span>
+                      </h2>
+                      <div className="container px-5">
+                        <ul className="font-weight-bold justify mx-5 py-4">
+                          <li>
+                            Full vehicle detail pages with photos and videos
+                            that explain features and specs
+                          </li>
+                          <li>Accurate pricing information</li>
+                          <li>
+                            Comparison guides that explain the differences
+                            between similar models
+                          </li>
+                          <li>
+                            Trade-in values and information so consumers can get
+                            an idea of their budget
+                          </li>
+                        </ul>
+                        <h4 className="text-center newsmargin font-weight-bold pb-2">
+                          NEWSLETTER
+                        </h4>
 
-                    <div className="conatiner px-5">
-                      <form>
-                        <input
-                          type="email"
-                          className="form-control border-0 w-100"
-                          required
-                          placeholder="Enter Email"
-                        />
-                        <button className="newsletter btn w-100 mt-2">
-                          Subscribe
-                        </button>
-                      </form>
+                        <div className="conatiner px-5">
+                          <form>
+                            <input
+                              type="email"
+                              className="form-control border-0 w-100"
+                              required
+                              placeholder="Enter Email"
+                            />
+                            <button className="newsletter btn w-100 mt-2">
+                              Subscribe
+                            </button>
+                          </form>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
 
-            <div className="col-lg-6 col-sm-12 col-md-12 col-12">
+              <div className="col-lg-6 col-sm-12 col-md-12 col-12">
                 <div className="modal-header">
                   <h1>
                     CARS

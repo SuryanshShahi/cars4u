@@ -78,7 +78,11 @@ function Home() {
                     data-toggle="modal"
                     onClick={() => filterImg(id)}
                   >
-                    <div className="card recommendedcard px-2 py-2 border-0 shadow rounded-0 effects"  data-bs-toggle="tooltip" title={name}>
+                    <div
+                      className="card recommendedcard px-2 py-2 border-0 shadow rounded-0 effects"
+                      data-bs-toggle="tooltip"
+                      title={name}
+                    >
                       <img src={image} alt="menupic1" className="img-fluid" />
                       <div className="arrow2 py-5 justify-content-center d-flex">
                         <div className="fa fa-arrow-circle-right text-white py-5"></div>
@@ -205,7 +209,8 @@ function Home() {
                         className="card text-center carscard text-decoration-none"
                         data-target="#mymodal3"
                         data-toggle="modal"
-                        data-bs-toggle="tooltip" title={name}
+                        data-bs-toggle="tooltip"
+                        title={name}
                         onClick={() => filterImg(id)}
                       >
                         <img src={image} alt="menuPic" className="img-fluid" />
@@ -310,7 +315,8 @@ function Home() {
                             src={image}
                             alt="menupic"
                             className="img-fluid popup"
-                            data-bs-toggle="tooltip" title={name}
+                            data-bs-toggle="tooltip"
+                            title={name}
                           />
                         </div>
 
@@ -548,9 +554,9 @@ function Home() {
                             <h4>
                               <strong>{name} Specs, Features and Price</strong>
                             </h4>
-                         
+
                             {description}
-                     
+
                             <div className="row py-4">
                               <h4>
                                 <strong>Key Specs of {name}</strong>
@@ -719,7 +725,11 @@ function Home() {
               {Logo.map((elem) => {
                 const { image2, logoname } = elem;
                 return (
-                  <div className="col-2 py-4 card border-0 logocard shadow-sm rounded-0"  data-bs-toggle="tooltip" title={logoname}>
+                  <div
+                    className="col-2 py-4 card border-0 logocard shadow-sm rounded-0"
+                    data-bs-toggle="tooltip"
+                    title={logoname}
+                  >
                     <div className="text-center">
                       <img
                         src={image2}
@@ -754,7 +764,11 @@ function Home() {
                     data-toggle="modal"
                     onClick={() => filterImg(id)}
                   >
-                    <div className="card latestcard px-2 py-2 border-0 shadow rounded-0 effects d-flex" data-bs-toggle="tooltip" title={name}>
+                    <div
+                      className="card latestcard px-2 py-2 border-0 shadow rounded-0 effects d-flex"
+                      data-bs-toggle="tooltip"
+                      title={name}
+                    >
                       <img src={image} alt="menupic1" className="img-fluid " />
                       <div className="arrow2 py-5 justify-content-center align-items-center d-flex">
                         <div className="fa fa-arrow-circle-right text-white py-5"></div>
@@ -811,7 +825,12 @@ function Home() {
                       })
                     }
                   >
-                    <div className="card px-2 py-2 upcomingcard border-0 shadow rounded-0 effects d-flex" data-bs-toggle="tooltip" key={id} title={name}>
+                    <div
+                      className="card px-2 py-2 upcomingcard border-0 shadow rounded-0 effects d-flex"
+                      data-bs-toggle="tooltip"
+                      key={id}
+                      title={name}
+                    >
                       <img src={image} alt="menupic1" className="img-fluid " />
                       <div className="arrow2 py-5 justify-content-center d-flex">
                         <div className="fa fa-arrow-circle-right text-white py-5"></div>

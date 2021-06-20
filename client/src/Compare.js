@@ -173,17 +173,17 @@ function CompareCars() {
                           </h7>
 
                           <div className="" key={id}>
-                          <div className="justify-content-center w-100 pb-4 videoBG d-flex">
-                            {exterior}
+                            <div className="justify-content-center w-100 pb-4 videoBG d-flex">
+                              {exterior}
+                            </div>
+                            <h7 className="px-2 py-2">
+                              <strong>Interior</strong>
+                            </h7>
+                            <div className="justify-content-center pb-4 pt-1 d-flex">
+                              {interior}
+                            </div>
                           </div>
-                          <h7 className="px-2 py-2">
-                          <strong>Interior</strong>
-                        </h7>
-                          <div className="justify-content-center pb-4 pt-1 d-flex">
-                            {interior}
-                          </div>
-                        </div>
-                         
+
                           <div className="interior">
                             <div
                               id="carouselExampleIndicators"
@@ -492,17 +492,17 @@ function CompareCars() {
                     </div>
                   </div>
                   <div className="text-center py-3">
-                  <div
-                    className="btn btn-danger w-75"
-                    data-dismiss="modal"
-                    data-target="#mymodal4"
-                    data-toggle="modal"
-                  >
-                    <div className="justify-content-center align-content-center d-flex py-2 fa fa-sign-out fa-md">
-                      &nbsp;Go Back
+                    <div
+                      className="btn btn-danger w-75"
+                      data-dismiss="modal"
+                      data-target="#mymodal4"
+                      data-toggle="modal"
+                    >
+                      <div className="justify-content-center align-content-center d-flex py-2 fa fa-sign-out fa-md">
+                        &nbsp;Go Back
+                      </div>
                     </div>
                   </div>
-                </div>
                 </div>
               );
             })}
@@ -525,115 +525,115 @@ function CompareCars() {
 
           <hr className="w-50 mx-auto text-success mb-5"></hr>
           <div className="animation">
-          <h2 className="text-center font-weight-bold">
-            Some Popular Cars Camparsion
-          </h2>
+            <h2 className="text-center font-weight-bold">
+              Some Popular Cars Camparsion
+            </h2>
 
-          <div className="menu-items card border-0 shadow px-4 py-4 mt-4">
-            <div className="row">
-              {Compare.map((elem) => {
-                const {
-                  id,
-                  name,
-                  name1,
-                  price,
-                  price1,
-                  image,
-                  image1,
+            <div className="menu-items card border-0 shadow px-4 py-4 mt-4">
+              <div className="row">
+                {Compare.map((elem) => {
+                  const {
+                    id,
+                    name,
+                    name1,
+                    price,
+                    price1,
+                    image,
+                    image1,
 
-                  rate,
-                } = elem;
-                return (
-                  <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-                    <NavLink
-                      to="/"
-                      className="card comparecard mx-4 my-4 border-0 shadow"
-                      data-target="#mymodal4"
-                      data-toggle="modal"
-                      onClick={() => filterImg(id)}
-                    >
-                      <div className="row rowspace gx-1">
-                        <div className="col-lg-6 col-md-6 col-sm-6 col-6 ">
-                          <div className="card cardH text-center border-0 text-decoration-none ">
-                            <img
-                              src={image}
-                              alt="menuPic"
-                              className="img-fluid position-relative"
-                            />
+                    rate,
+                  } = elem;
+                  return (
+                    <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                      <NavLink
+                        to="/"
+                        className="card comparecard mx-4 my-4 border-0 shadow"
+                        data-target="#mymodal4"
+                        data-toggle="modal"
+                        onClick={() => filterImg(id)}
+                      >
+                        <div className="row rowspace gx-1">
+                          <div className="col-lg-6 col-md-6 col-sm-6 col-6 ">
+                            <div className="card cardH text-center border-0 text-decoration-none ">
+                              <img
+                                src={image}
+                                alt="menuPic"
+                                className="img-fluid position-relative"
+                              />
 
-                            <div className="row rateback gx-0">
-                              <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-                                <div className="card-body text-dark float-lg-left font-weight-bold justify-content-sm-center d-flex">
-                                  {name}
-                                  <br></br>
-                                  {price}
+                              <div className="row rateback gx-0">
+                                <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                                  <div className="card-body text-dark float-lg-left font-weight-bold justify-content-sm-center d-flex">
+                                    {name}
+                                    <br></br>
+                                    {price}
+                                  </div>
                                 </div>
-                              </div>
-                              <div className="col-lg-6 col-md-12 col-sm-12 col-12 ">
-                                <h6 className="font-weight-bold text-dark justify-content-center d-flex mt-lg-3">
-                                  Rating:
-                                </h6>
-                                <StarsRating
-                                  className="float-lg-right pr-3 sliderRate justify-content-center d-flex"
-                                  count={5}
-                                  // onChange={ratingChanged}
-                                  size={26}
-                                  value={rate}
-                                  edit={false}
-                                  color2={"#ffd700"}
-                                />
+                                <div className="col-lg-6 col-md-12 col-sm-12 col-12 ">
+                                  <h6 className="font-weight-bold text-dark justify-content-center d-flex mt-lg-3">
+                                    Rating:
+                                  </h6>
+                                  <StarsRating
+                                    className="float-lg-right pr-3 sliderRate justify-content-center d-flex"
+                                    count={5}
+                                    // onChange={ratingChanged}
+                                    size={26}
+                                    value={rate}
+                                    edit={false}
+                                    color2={"#ffd700"}
+                                  />
+                                </div>
                               </div>
                             </div>
                           </div>
-                        </div>
 
-                        <div className="col-lg-6 col-md-6 col-sm-6 col-6 ">
-                          <div className="card cardH text-center border-0 text-decoration-none">
-                            <img
-                              src={image1}
-                              alt="menuPic"
-                              className="img-fluid"
-                            />
+                          <div className="col-lg-6 col-md-6 col-sm-6 col-6 ">
+                            <div className="card cardH text-center border-0 text-decoration-none">
+                              <img
+                                src={image1}
+                                alt="menuPic"
+                                className="img-fluid"
+                              />
 
-                            <div className="row rateback gx-0">
-                              <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-                                <div className="card-body float-lg-left text-dark font-weight-bold justify-content-sm-center d-flex">
-                                  {name1}
-                                  <br></br>
-                                  {price1}
+                              <div className="row rateback gx-0">
+                                <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                                  <div className="card-body float-lg-left text-dark font-weight-bold justify-content-sm-center d-flex">
+                                    {name1}
+                                    <br></br>
+                                    {price1}
+                                  </div>
                                 </div>
-                              </div>
-                              <div className="col-lg-6 col-md-12 col-sm-12 col-12 rateback">
-                                <h6 className="font-weight-bold justify-content-center text-dark d-flex mt-lg-3">
-                                  Rating:
-                                </h6>
-                                <StarsRating
-                                  className="float-lg-right pr-3 sliderRate justify-content-center d-flex"
-                                  count={5}
-                                  // onChange={ratingChanged}
-                                  size={26}
-                                  value={rate}
-                                  edit={false}
-                                  color2={"#ffd700"}
-                                />
+                                <div className="col-lg-6 col-md-12 col-sm-12 col-12 rateback">
+                                  <h6 className="font-weight-bold justify-content-center text-dark d-flex mt-lg-3">
+                                    Rating:
+                                  </h6>
+                                  <StarsRating
+                                    className="float-lg-right pr-3 sliderRate justify-content-center d-flex"
+                                    count={5}
+                                    // onChange={ratingChanged}
+                                    size={26}
+                                    value={rate}
+                                    edit={false}
+                                    color2={"#ffd700"}
+                                  />
+                                </div>
                               </div>
                             </div>
                           </div>
+                          <div className=" vsicon justify-content-center d-flex align-items-center">
+                            <h1 className="text-white vs px-2 py-2">Vs</h1>
+                          </div>
+                          <div className="arrow3 ">
+                            <div className="fa fa-arrow-circle-right text-white text-center comparearrow"></div>
+                          </div>
                         </div>
-                        <div className=" vsicon justify-content-center d-flex align-items-center">
-                          <h1 className="text-white vs px-2 py-2">Vs</h1>
-                        </div>
-                        <div className="arrow3 ">
-                          <div className="fa fa-arrow-circle-right text-white text-center comparearrow"></div>
-                        </div>
-                      </div>
-                    </NavLink>
-                  </div>
-                );
-              })}
+                      </NavLink>
+                    </div>
+                  );
+                })}
+              </div>
             </div>
           </div>
-        </div>
         </div>
       </div>
 

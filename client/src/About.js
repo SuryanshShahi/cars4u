@@ -17,21 +17,27 @@ function About() {
           </h1>
 
           <hr className="w-50 mx-auto text-success"></hr>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
+
+          <div className="container py-5 px-5">
+            <div className="card border-0 shadow-sm mx-5 px-5 pt-4 mb-4">
+              <p className="justifymodaldes pb-5">
+                This website is developed only as a part of my project work in
+                which i had tried to implement maximum features to enhance the
+                user interaction. I have developed this website with a goal of
+                implementing & showcasing my skills in an innovative way.
+              </p>
+              <div className="lower justify-content-center d-flex">
+                <strong className="text-danger">
+                  <h5 className="font-weight-bold py-5">
+                    {" "}
+                    This website is not published for any business purpose, it
+                    is just a demo project.
+                  </h5>
+                </strong>
+              </div>
+             
+            </div>
+          </div>
         </div>
       </div>
     </section>
