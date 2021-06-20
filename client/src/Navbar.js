@@ -348,7 +348,7 @@ function Navbar() {
                           <h2 className="text-center font-weight-bold">NEWSLETTER</h2>
                           <h4 className="py-4 justifycenter">Subscribe our newsletter to receive the latest news
                           exclusive offers every week.<br></br>
-                          <img src={web4} className="pt-2"/></h4>
+                          <img src={web4} className="pt-2" alt="menupic"/></h4>
                         </div>
                       </div>
                     </div>
@@ -487,7 +487,7 @@ function Navbar() {
                       <h2 className="text-center font-weight-bold">NEWSLETTER</h2>
                       <h4 className="py-4 justifycenter">Subscribe our newsletter to receive the latest news
                       exclusive offers every week.<br></br>
-                      <img src={web4} className="pt-2"/></h4>
+                      <img src={web4} className="pt-2" alt="menupic"/></h4>
                     </div>
                   </div>
                 </div>
@@ -1062,9 +1062,9 @@ function Navbar() {
                                     <strong>Key Specs of {name}</strong>
                                   </h4>
 
-                                  <div className="col-4 py-4 pl-4">
+                                  <div className="col-lg-4 col-md-4 col-sm-12 py-lg-4 py-md-4 py-4 pl-4">
                                     <div className="row">
-                                      <div className="col-5">
+                                      <div className="col-5 justify-content-md-center d-flex">
                                         <img
                                           src={web2}
                                           alt="menupic"
@@ -1081,7 +1081,7 @@ function Navbar() {
                                       </div>
                                     </div>
                                   </div>
-                                  <div className="col-4 py-4 pl-4">
+                                  <div className="col-lg-4 col-md-4 col-sm-12 py-lg-4 py-md-4 py-4 pl-4">
                                     <div className="row">
                                       <div className="col-4 py-2 pl-3">
                                         <img
@@ -1090,7 +1090,7 @@ function Navbar() {
                                           className="img-fluid"
                                         ></img>
                                       </div>
-                                      <div className="col-8">
+                                      <div className="col-8 pl-5 pl-lg-0 pl-md-0">
                                         <h7>
                                           <strong>
                                             BHP<br></br>
@@ -1100,7 +1100,7 @@ function Navbar() {
                                       </div>
                                     </div>
                                   </div>
-                                  <div className="col-4 py-4 pl-4">
+                                  <div className="col-lg-4 col-md-4 col-sm-12 py-lg-4 py-md-4 py-4 pl-4">
                                     <div className="row">
                                       <div className="col-5">
                                         <img

@@ -556,7 +556,7 @@ function Home() {
                                 <strong>Key Specs of {name}</strong>
                               </h4>
 
-                              <div className="col-4 py-4 pl-4">
+                              <div className="col-lg-4 col-md-4 col-sm-12 py-lg-4 py-md-4 py-3 pl-4">
                                 <div className="row">
                                   <div className="col-5">
                                     <img
@@ -575,7 +575,7 @@ function Home() {
                                   </div>
                                 </div>
                               </div>
-                              <div className="col-4 py-4 pl-4">
+                              <div className="col-lg-4 col-md-4 col-sm-12 py-lg-4 py-md-4 py-3 pl-4">
                                 <div className="row">
                                   <div className="col-4 py-2 pl-3">
                                     <img
@@ -584,7 +584,7 @@ function Home() {
                                       alt="menupic"
                                     ></img>
                                   </div>
-                                  <div className="col-8">
+                                  <div className="col-8 pl-5 pl-lg-0 pl-md-0">
                                     <h7>
                                       <strong>
                                         BHP<br></br>
@@ -594,7 +594,7 @@ function Home() {
                                   </div>
                                 </div>
                               </div>
-                              <div className="col-4 py-4 pl-4">
+                              <div className="col-lg-4 col-md-4 col-sm-12 py-lg-4 py-md-4 py-3 pl-4">
                                 <div className="row">
                                   <div className="col-5">
                                     <img
@@ -811,7 +811,7 @@ function Home() {
                       })
                     }
                   >
-                    <div className="card px-2 py-2 upcomingcard border-0 shadow rounded-0 effects d-flex" data-bs-toggle="tooltip" title={name}>
+                    <div className="card px-2 py-2 upcomingcard border-0 shadow rounded-0 effects d-flex" data-bs-toggle="tooltip" key={id} title={name}>
                       <img src={image} alt="menupic1" className="img-fluid " />
                       <div className="arrow2 py-5 justify-content-center d-flex">
                         <div className="fa fa-arrow-circle-right text-white py-5"></div>

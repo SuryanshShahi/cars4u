@@ -10,18 +10,19 @@ function Footer() {
         <img
           src="https://st2.depositphotos.com/1000423/9299/i/600/depositphotos_92992756-stock-photo-car-light-symbol.jpg"
           className="footer"
+          alt="menupic"
         />
         <div className="zxx pt-5">
-          <div className="container-fluid justify-content-center px-lg-5 text-white">
+          <div className="container-fluid justify-content-center px-lg-5 pb-5 text-white">
             <div className="row list-unstyled px-lg-5">
-              <div className="col-lg-3 col-md-6 col-6 pb-5">
+              <div className="col-lg-3 col-md-4 col-6 pb-5">
                 <strong className="fa-2x">
                   CARS<span className="text-danger font-weight-bolder">4U</span>
                 </strong>
                 <br></br>
                 Gautam Buddha University,<br></br>Greater Noida<br></br>Pincode - 201312
               </div>
-              <div className="col-lg-3 col-md-6 col-6 pb-3">
+              <div className="col-lg-3 col-md-4 col-6 pb-3">
                 <strong className="fa-sm">Useful Links</strong>
                 <br></br>
                 <NavLink to="/about" className="text-decoration-none">
@@ -40,18 +41,19 @@ function Footer() {
                   <li className="pt-2">Terms of service</li>
                 </NavLink>
               </div>
-              <div className="col-lg-2 col-md-6 col-6 pb-3">
-                <strong className="fa-sm">Policy</strong>
-                <li className="pt-2">Contact Us</li>
-                <li className="pt-2">Contact Us</li>
-                <li className="pt-2">Contact Us</li>
-                <li className="pt-2">Contact Us</li>
-                <li className="pt-2">Contact Us</li>
+              <div className="col-lg-2 col-md-4 col-6 pb-3">
+                <strong className="fa-sm">Resource</strong>
+                <li className="pt-2">Blog</li>
+                <li className="pt-2">Samples</li>
+                <li className="pt-2">All features</li>
+                <li className="pt-2">New releases</li>
+              
+            
+              
               </div>
-              <div className="col-lg-4 col-md-6 col-6 pb-3 pr-4">
-                <strong className="">Newsletter</strong>
-                <br></br>
-                <br></br>
+              <div className="col-lg-4 col-md-12 col-6 pb-3 pr-4">
+                <strong className="justify-content-md-center justify-content-sm-start justify-content-lg-start d-flex pt-lg-0 pt-md-4 pb-3">Newsletter</strong>
+            
 
                 <div className="justify-content-center searchbox align-content-center d-flex">
                   <input
@@ -59,9 +61,9 @@ function Footer() {
                     placeholder="Enter Email"
                     className="emailInput form-control px-4 position-relative"
                   />
-                  <div className="justify-content-end d-flex pr-4 pr-lg-0">
+                  <div className="justify-content-end d-flex pr-lg-0">
                     <div
-                      className="subscribe btn text-white font-weight-light  position-absolute"
+                      className="subscribe btn text-white font-weight-light position-absolute"
                       onClick={() =>
                         swal("", "Subscribed", "success", {
                           button: false,

@@ -19,7 +19,7 @@ const steps = [
   },
   {
     id: '2',
-    component: <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Seltos/6226/1619864569028/front-left-side-47.jpg?tr=w-456" className="bg-transparent" height="200" width="300"/>,
+    component: <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Seltos/6226/1619864569028/front-left-side-47.jpg?tr=w-456" alt="menupic" className="bg-transparent" height="200" width="300"/>,
     trigger: '3',
   },
   {

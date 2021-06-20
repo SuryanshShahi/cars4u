@@ -9,7 +9,6 @@
   font-family: "Nunito", sans-serif;
   font-weight: 400;
   scroll-behavior: smooth;
-  /* transition: 0.5s; */
 }
 .fixed-top {
   z-index: 1;
@@ -141,12 +140,8 @@ input[type="password"] {
   right: 0;
 }
 .B.active {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.6); 
 }
-.B {
-  transition: none;
-}
-
 .navbar-brand {
   font-size: 40px;
   font-family: "Nunito", sans-serif;
@@ -186,13 +181,8 @@ input[type="password"] {
   color: white;
 }
 
-/* .menu_active1{
-  background: #e43c5c;
-  color: #e43c5c;
-} */
 .nav-link:hover {
   border-bottom: 2px solid #e61e43;
-  /* transition: all 0.2s ease-in-out 0s; */
 }
 .text-warning:hover {
   cursor: pointer;
@@ -203,7 +193,6 @@ input[type="password"] {
 }
 .fshadow li:hover {
   cursor: pointer;
-  /* color: #e61e43; */
   color: #ffc400;
 }
 .hey {
@@ -212,7 +201,6 @@ input[type="password"] {
 .down {
   background-color: #dfdede2d;
   padding-bottom: 65px;
-  /* height: 10vh; */
   height: auto;
 }
 .tag {
@@ -309,7 +297,6 @@ input[type="password"] {
   top: 0;
   transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
   cursor: pointer;
-  /* background-color: #58c6bb; */
 }
 
 .comparecard:hover {
@@ -322,7 +309,6 @@ input[type="password"] {
 }
 .comparearrow {
   font-size: 60px;
-  /* margin-left: 200px; */
   font-weight: 400;
   left: 0;
   right: 0;
@@ -394,7 +380,6 @@ input[type="password"] {
   left: 0;
   right: 0;
   bottom: -50px;
-  /* z-index: 3; */
   transition: all ease-in-out 0.3s;
   background: #e43c5c;
   padding: 12px 20px;
@@ -409,7 +394,6 @@ ul {
   padding-left: 0px;
 }
 
-/* -----------card-open------------- */
 .popup {
   max-height: 400px;
 }
@@ -429,7 +413,7 @@ ul {
   background-color: black;
   padding-top: 4px;
   padding-bottom: -1px;
-  /* padding-left: 0px; */
+
   padding-right: 1px;
   border-radius: 50px;
 }
@@ -484,7 +468,7 @@ ul {
 }
 .tagline a {
   border-width: 2px;
-  /* line-height: 1; */
+
   background-color: transparent;
   border-color: white;
   font-size: 17px;
@@ -595,7 +579,7 @@ ul {
   border-color: #e43c5c;
   background-color: rgba(156, 152, 152, 0.6);
   border-width: 7px;
-  /* box-shadow: 0px 0px 7px 1px rgb(94, 92, 92); */
+
   box-shadow: none;
   transition: all 0.5s linear;
 }
@@ -627,7 +611,7 @@ ul {
   transition: 0.5s ease-in-out;
 }
 .searchbtn {
-  /* background: linear-gradient(to bottom, #c207e7 0%, #ff0458 100%); */
+
   border-radius: 50px;
   background-color: #e43c5b71;
   font-size: 30px;
@@ -646,8 +630,8 @@ ul {
   border-radius: 70px;
   padding: 11px;
   background-color: rgba(156, 152, 152, 0.815);
-  /* background-color: rgba(156, 152, 152, 0.6); */
   box-shadow: none;
+  max-width: 500px;
   border: none;
   transition: all 0.5s linear;
 }
@@ -796,14 +780,14 @@ font-size: 20px;
 }
 .chatbot{
   position: fixed;
-  top: 19%;
+  top: 18%;
   transition: 0.8s;
   z-index: 1;
   right: 5.5%;
 }
 .chatbtn{
   position: fixed;
-  bottom: 10%;
+  bottom: 11%;
   cursor: pointer;
   background-image: url("https://tars-file-upload.s3.amazonaws.com/HJGsEj/5daaa9c011ab7047c64d8ee2bf6a8ae4--ezgif.com-resize1.gif");
   border-radius: 10px;

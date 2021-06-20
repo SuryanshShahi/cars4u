@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import "./App.css";
 function Contact() {
   window.scroll(0, 770);
