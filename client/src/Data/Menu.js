@@ -5326,7 +5326,7 @@ const Menu = [
         (60PS/78Nm), paired to a 5-speed MT.
         <br></br>
         Claimed fuel efficiency figures are as follows:
-        <ul className="pl-5">
+        <ul className="pl-5 pt-2">
           <li>1.0-litre MT/AMT- 21.79kmpl</li>
 
           <li>1.0-litre CNG- 32.52km/kg</li>
@@ -5724,7 +5724,7 @@ const Menu = [
         (165PS/250Nm), a 2.0-litre diesel (192PS/400Nm), and a 2.0-litre
         turbo-petrol (306PS/400Nm). The 2.0-litre turbo-petrol unit is reserved
         for the GLA 35 AMG 4MATIC variant. The engine-wise gearbox options are:
-        <ul>
+        <ul className="pl-5 pt-2">
           <li>1.3-litre turbo-petrol: 7-speed DCT (dual-clutch automatic)</li>
 
           <li>2.0-litre diesel: 8-speed AT</li>
@@ -5732,7 +5732,7 @@ const Menu = [
           <li>2.0-litre turbo-petrol: 7-speed DCT</li>
         </ul>
         The three powertrains get the following drivetrains:
-        <ul>
+        <ul className="pl-5 pt-2">
           <li>GLA 200: Front-wheel drive</li>
 
           <li>GLA 220d: Front-wheel drive and all-wheel drive</li>
@@ -6117,7 +6117,7 @@ const Menu = [
         Kia Sonet Seating Capacity: The Kia Sonet can seat five.
         <br></br>
         Kia Sonet Powertrains: It shares its engines with the Hyundai Venue:
-        <ul>
+        <ul className="pl-5 pt-2">
           <li>1.0-litre turbo-petrol producing 120PS and 172Nm</li>
 
           <li>1.2-litre petrol producing 83PS and 115Nm</li>
@@ -6131,7 +6131,7 @@ const Menu = [
         and a 7-speed DCT with the 1.0-litre turbo-petrol, a 5-speed MT with the
         1.2-litre petrol, and a 6-speed MT or AT with the 1.5-litre diesel
         engine. The Sonet’s claimed fuel efficiency figures are as follows:
-        <ul>
+        <ul className="pl-5 pt-2">
           <li>1.2-litre petrol MT- 18.4kmpl</li>
 
           <li>1.0-litre turbo-petrol iMT- 18.2kmpl</li>
@@ -7079,7 +7079,7 @@ const Menu = [
         1.2-litre DualJet mild-hybrid engine (90PS/113Nm) mated to a 5-speed MT
         and a 1.2-litre petrol engine (83PS/113Nm) paired with a 5-speed MT or
         CVT. Here are the fuel economy figures of the Toyota Glanza:
-        <ul>
+        <ul className="pl-5 pt-2">
           <li>1.2-litre petrol MT- 21.01kmpl</li>
 
           <li>1.2-litre petrol mild hybrid MT- 23.87kmpl</li>
