@@ -28,14 +28,19 @@ function About() {
               </p>
               <div className="justify-content-center d-flex">
                 <strong className="text-danger">
-                  <h5 className="font-weight-bold py-5 lower">
+                  <h5 className="font-weight-bold pb-4 lower">
                     {" "}
                     This website is not published for any business purpose, it
                     is just a demo project.
                   </h5>
                 </strong>
               </div>
-             
+              <div className="font-weight-light">&nbsp;
+              <ul className="list-unstyled">
+              <li>Suryansh Shahi</li>
+              <li className="mydetails">suryansh5476@gmail.com</li>
+              <li className="mydetails">7376190196</li></ul>
+              </div>
             </div>
           </div>
         </div>

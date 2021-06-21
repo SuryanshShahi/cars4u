@@ -83,7 +83,7 @@ function Footer() {
           <div className="container-fluid down px-lg-5 text-white">
             <br></br>
             <div className="float-lg-left float-sm-left px-lg-5 d-flex justify-content-center align-content-center">
-              © Copyright. All Rights Reserved<br></br>
+              © Copyright. All Rights Reserved<br></br>Designed by "Suryansh Shahi"
             </div>
             <div className="float-lg-right float-sm-right px-lg-5 px-md-5 px-sm-5 d-flex justify-content-center pt-3 pt-lg-0 pt-md-0 pt-sm-0">
               <a

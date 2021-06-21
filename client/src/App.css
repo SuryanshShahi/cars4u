@@ -809,3 +809,6 @@ ul {
   display: none;
   transition: 0.8s;
 }
+.mydetails{
+  font-size: 14px;
+}
