@@ -742,6 +742,9 @@ ul {
   text-align: justify;
   font-size: 20px;
 }
+.lower {
+  text-align: justify;
+}
 .newsletter.btn {
   border-width: 2px;
   background-color: transparent;
