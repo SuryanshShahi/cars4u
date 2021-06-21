@@ -219,7 +219,7 @@ const steps = [
         <li className="ml-4">Optional&nbsp;&nbsp;&nbsp;Rs.48,419</li>
         <hr></hr>
         <li className="ml-4">
-          On-Road Price in Ahmedabad&nbsp;&nbsp;Rs.11,64,891**
+          On-Road Price&nbsp;&nbsp;Rs.11,64,891**
         </li>
       </ul>
     ),
@@ -238,7 +238,7 @@ const steps = [
         <li className="ml-4">Optional&nbsp;&nbsp;&nbsp;Rs.47,785</li>
         <hr></hr>
         <li className="ml-4">
-          On-Road Price in Ahmedabad&nbsp;&nbsp;Rs.13,14,064**
+          On-Road Price&nbsp;&nbsp;Rs.13,14,064**
         </li>
       </ul>
     ),
@@ -257,7 +257,7 @@ const steps = [
         <li className="ml-4">Optional&nbsp;&nbsp;&nbsp;Rs.47,785</li>
         <hr></hr>
         <li className="ml-4">
-          On-Road Price in Ahmedabad&nbsp;&nbsp;Rs.14,46,039**
+          On-Road Price&nbsp;&nbsp;Rs.14,46,039**
         </li>
       </ul>
     ),
@@ -276,7 +276,7 @@ const steps = [
         <li className="ml-4">Optional&nbsp;&nbsp;&nbsp;Rs.47,785</li>
         <hr></hr>
         <li className="ml-4">
-          On-Road Price in Ahmedabad&nbsp;&nbsp;Rs.15,51,618**
+          On-Road Price&nbsp;&nbsp;Rs.15,51,618**
         </li>
       </ul>
     ),
@@ -295,7 +295,7 @@ const steps = [
         <li className="ml-4">Optional&nbsp;&nbsp;&nbsp;Rs.44,385</li>
         <hr></hr>
         <li className="ml-4">
-          On-Road Price in Ahmedabad&nbsp;&nbsp;Rs.16,39,601**
+          On-Road Price&nbsp;&nbsp;Rs.16,39,601**
         </li>
       </ul>
     ),
@@ -314,7 +314,7 @@ const steps = [
         <li className="ml-4">Optional&nbsp;&nbsp;&nbsp;Rs.44,385</li>
         <hr></hr>
         <li className="ml-4">
-          On-Road Price in Ahmedabad&nbsp;&nbsp;Rs.17,53,980**
+          On-Road Price&nbsp;&nbsp;Rs.17,53,980**
         </li>
       </ul>
     ),
@@ -333,7 +333,7 @@ const steps = [
         <li className="ml-4">Optional&nbsp;&nbsp;&nbsp;Rs.44,385</li>
         <hr></hr>
         <li className="ml-4">
-          On-Road Price in Ahmedabad&nbsp;&nbsp;Rs.19,58,539**
+          On-Road Price&nbsp;&nbsp;Rs.19,58,539**
         </li>
       </ul>
     ),
@@ -396,7 +396,7 @@ const steps = [
         <li className="ml-4">Optional&nbsp;&nbsp;&nbsp;Rs.45,764</li>
         <hr></hr>
         <li className="ml-4">
-          On-Road Price in Ahmedabad&nbsp;&nbsp;Rs.11,00,037**
+          On-Road Price&nbsp;&nbsp;Rs.11,00,037**
         </li>
       </ul>
     ),
@@ -415,7 +415,7 @@ const steps = [
         <li className="ml-4">Optional&nbsp;&nbsp;&nbsp;Rs.45,130</li>
         <hr></hr>
         <li className="ml-4">
-          On-Road Price in Ahmedabad&nbsp;&nbsp;Rs.11,96,734**
+          On-Road Price&nbsp;&nbsp;Rs.11,96,734**
         </li>
       </ul>
     ),
@@ -434,7 +434,7 @@ const steps = [
         <li className="ml-4">Optional&nbsp;&nbsp;&nbsp;Rs.45,130</li>
         <hr></hr>
         <li className="ml-4">
-          On-Road Price in Ahmedabad&nbsp;&nbsp;Rs.13,14,064**
+          On-Road Price&nbsp;&nbsp;Rs.13,14,064**
         </li>
       </ul>
     ),
@@ -453,7 +453,7 @@ const steps = [
         <li className="ml-4">Optional&nbsp;&nbsp;&nbsp;Rs.45,130</li>
         <hr></hr>
         <li className="ml-4">
-          On-Road Price in Ahmedabad&nbsp;&nbsp;Rs.13,58,055**
+          On-Road Price&nbsp;&nbsp;Rs.13,58,055**
         </li>
       </ul>
     ),
@@ -472,7 +472,7 @@ const steps = [
         <li className="ml-4">Optional&nbsp;&nbsp;&nbsp;Rs.41,730</li>
         <hr></hr>
         <li className="ml-4">
-          On-Road Price in Ahmedabad&nbsp;&nbsp;Rs.15,18,625**
+          On-Road Price&nbsp;&nbsp;Rs.15,18,625**
         </li>
       </ul>
     ),
@@ -491,7 +491,7 @@ const steps = [
         <li className="ml-4">Optional&nbsp;&nbsp;&nbsp;Rs.41,730</li>
         <hr></hr>
         <li className="ml-4">
-          On-Road Price in Ahmedabad&nbsp;&nbsp;Rs.16,28,603**
+          On-Road Price&nbsp;&nbsp;Rs.16,28,603**
         </li>
       </ul>
     ),
@@ -510,7 +510,7 @@ const steps = [
         <li className="ml-4">Optional&nbsp;&nbsp;&nbsp;Rs.41,730</li>
         <hr></hr>
         <li className="ml-4">
-          On-Road Price in Ahmedabad&nbsp;&nbsp;Rs.17,05,588**
+          On-Road Price&nbsp;&nbsp;Rs.17,05,588**
         </li>
       </ul>
     ),
@@ -529,7 +529,7 @@ const steps = [
         <li className="ml-4">Optional&nbsp;&nbsp;&nbsp;Rs.41,730</li>
         <hr></hr>
         <li className="ml-4">
-          On-Road Price in Ahmedabad&nbsp;&nbsp;Rs.18,48,730**
+          On-Road Price&nbsp;&nbsp;Rs.18,48,730**
         </li>
       </ul>
     ),
@@ -548,7 +548,7 @@ const steps = [
         <li className="ml-4">Optional&nbsp;&nbsp;&nbsp;Rs.41,730</li>
         <hr></hr>
         <li className="ml-4">
-          On-Road Price in Ahmedabad&nbsp;&nbsp;Rs.19,35,444**
+          On-Road Price&nbsp;&nbsp;Rs.19,35,444**
         </li>
       </ul>
     ),
